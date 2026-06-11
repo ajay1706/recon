@@ -17,9 +17,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-go@v5
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
           go-version: stable
 
@@ -31,11 +33,13 @@ jobs:
           echo "$HOME/go/bin" >> $GITHUB_PATH
 
       - name: Update nuclei templates
-        run: nuclei -update-templates
+        run: |
+          nuclei -update-templates
 
       - name: Prepare target chunk
         run: |
           mkdir -p targets
+
           echo "${{ github.event.inputs.websites }}" \
             | tr ', ' '\n' \
             | sed '/^$/d' \
@@ -60,15 +64,33 @@ jobs:
             subfinder -silent -d "$domain"
           done < targets/current.txt | sort -u | tee "$SUBS"
 
-          echo "[+] Running httpx..."
-          httpx -silent -l "$SUBS" -o "$HTTPX"
+          echo "[+] Running httpx with useful recon fields..."
+          httpx -silent \
+            -l "$SUBS" \
+            -status-code \
+            -title \
+            -tech-detect \
+            -content-length \
+            -web-server \
+            -ip \
+            -cdn \
+            -follow-redirects \
+            -response-time \
+            -o "$HTTPX"
 
-          echo "[+] Running nuclei..."
-          nuclei -silent -l "$HTTPX" -o "$NUCLEI"
+          echo "[+] Running nuclei for critical, high, medium, low..."
+          nuclei -silent \
+            -l "$HTTPX" \
+            -severity critical,high,medium,low \
+            -es info,unknown \
+            -o "$NUCLEI"
 
-          echo "RESULT_DIR=$OUT_DIR" >> "$GITHUB_ENV"
+          echo "[+] Done."
+          echo "Subdomains: $SUBS"
+          echo "HTTPX:      $HTTPX"
+          echo "Nuclei:     $NUCLEI"
 
-      - name: Upload downloadable result
+      - name: Upload downloadable results
         uses: actions/upload-artifact@v4
         with:
           name: recon-results
@@ -79,6 +101,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
           git add results targets/current.txt
-          git commit -m "Recon results $(date +%F-%H%M)" || echo "No changes"
+          git commit -m "Recon results $(date +%F-%H%M)" || echo "No changes to commit"
           git push

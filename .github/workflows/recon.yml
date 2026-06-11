@@ -1,0 +1,84 @@
+name: Recon Auto
+
+on:
+  workflow_dispatch:
+    inputs:
+      websites:
+        description: "Paste domains separated by space or comma. Example: tesla.com, google.com, uber.com"
+        required: true
+        type: string
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install ProjectDiscovery tools
+        run: |
+          go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+          go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
+
+      - name: Update nuclei templates
+        run: nuclei -update-templates
+
+      - name: Prepare target chunk
+        run: |
+          mkdir -p targets
+          echo "${{ github.event.inputs.websites }}" \
+            | tr ', ' '\n' \
+            | sed '/^$/d' \
+            | sed 's#https://##g; s#http://##g; s#/.*##g' \
+            | sort -u > targets/current.txt
+
+          echo "Targets:"
+          cat targets/current.txt
+
+      - name: Run subfinder, httpx, nuclei
+        run: |
+          DATE="$(date +%F-%H%M)"
+          OUT_DIR="results/$DATE"
+          mkdir -p "$OUT_DIR"
+
+          SUBS="$OUT_DIR/subfinder.txt"
+          HTTPX="$OUT_DIR/httpx.txt"
+          NUCLEI="$OUT_DIR/nuclei.txt"
+
+          echo "[+] Running subfinder..."
+          while read -r domain; do
+            subfinder -silent -d "$domain"
+          done < targets/current.txt | sort -u | tee "$SUBS"
+
+          echo "[+] Running httpx..."
+          httpx -silent -l "$SUBS" -o "$HTTPX"
+
+          echo "[+] Running nuclei..."
+          nuclei -silent -l "$HTTPX" -o "$NUCLEI"
+
+          echo "RESULT_DIR=$OUT_DIR" >> "$GITHUB_ENV"
+
+      - name: Upload downloadable result
+        uses: actions/upload-artifact@v4
+        with:
+          name: recon-results
+          path: results/
+          retention-days: 30
+
+      - name: Save results to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add results targets/current.txt
+          git commit -m "Recon results $(date +%F-%H%M)" || echo "No changes"
+          git push

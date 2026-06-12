@@ -8,9 +8,14 @@ on:
         required: true
         type: string
       batch_size:
-        description: "Domains per batch. Use 5 or 10"
+        description: "Domains per batch. Use 2, 3, or 5"
         required: true
-        default: "10"
+        default: "3"
+        type: string
+      nuclei_minutes:
+        description: "Max minutes for nuclei per batch"
+        required: true
+        default: "45"
         type: string
 
 jobs:
@@ -33,14 +38,10 @@ jobs:
             | sort -u > targets/current.txt
 
           BATCH_SIZE="${{ github.event.inputs.batch_size }}"
-
           split -l "$BATCH_SIZE" -d -a 2 targets/current.txt batches/batch-
 
           BATCHES=$(ls batches | jq -R -s -c 'split("\n")[:-1]')
           echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
-
-          echo "Created batches:"
-          ls -la batches
 
       - name: Upload prepared targets
         uses: actions/upload-artifact@v4
@@ -53,10 +54,12 @@ jobs:
   recon:
     needs: prepare
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 350
+    continue-on-error: true
 
     strategy:
       fail-fast: false
+      max-parallel: 5
       matrix:
         batch: ${{ fromJson(needs.prepare.outputs.batches) }}
 
@@ -81,10 +84,12 @@ jobs:
 
       - name: Update nuclei templates
         run: |
-          nuclei -update-templates
+          nuclei -update-templates || true
 
       - name: Run recon for batch
         run: |
+          set +e
+
           RUN_DIR="results/run-${{ github.run_id }}"
           OUT_DIR="$RUN_DIR/${{ matrix.batch }}"
           mkdir -p "$OUT_DIR"
@@ -93,21 +98,27 @@ jobs:
           SUBS="$OUT_DIR/subfinder.txt"
           HTTPX="$OUT_DIR/httpx.txt"
           HTTPX_URLS="$OUT_DIR/httpx-urls.txt"
-          HTTPX_404="$OUT_DIR/httpx-404.txt"
-          HTTPX_302="$OUT_DIR/httpx-302.txt"
-          HTTPX_HIGHLIGHT="$OUT_DIR/httpx-highlight.md"
           NUCLEI="$OUT_DIR/nuclei.txt"
+          LOG="$OUT_DIR/run-log.txt"
 
-          echo "[+] Targets in this batch:"
-          cat "$TARGETS"
+          echo "[+] Batch started: $(date)" | tee -a "$LOG"
+          echo "[+] Batch targets:" | tee -a "$LOG"
+          cat "$TARGETS" | tee -a "$LOG"
 
-          echo "[+] Running subfinder..."
+          echo "[+] Running subfinder..." | tee -a "$LOG"
           while read -r domain; do
-            subfinder -silent -d "$domain"
+            subfinder -silent -d "$domain" || true
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
-          echo "[+] Running httpx..."
-          httpx -silent \
+          echo "[+] Subfinder finished: $(date)" | tee -a "$LOG"
+
+          if [ ! -s "$SUBS" ]; then
+            echo "No subdomains found." | tee -a "$HTTPX" "$NUCLEI" "$LOG"
+            exit 0
+          fi
+
+          echo "[+] Running httpx..." | tee -a "$LOG"
+          timeout 60m httpx -silent \
             -l "$SUBS" \
             -status-code \
             -title \
@@ -118,48 +129,84 @@ jobs:
             -cdn \
             -location \
             -response-time \
-            -o "$HTTPX"
+            -o "$HTTPX" || true
 
-          awk '{print $1}' "$HTTPX" | sort -u > "$HTTPX_URLS"
+          echo "[+] httpx finished or timed out: $(date)" | tee -a "$LOG"
 
-          grep '\[404\]' "$HTTPX" > "$HTTPX_404" || true
-          grep '\[302\]' "$HTTPX" > "$HTTPX_302" || true
+          awk '{print $1}' "$HTTPX" | grep '^http' | sort -u > "$HTTPX_URLS" || true
+
+          echo "[+] Creating status-code files..." | tee -a "$LOG"
+
+          grep '\[200\]' "$HTTPX" > "$OUT_DIR/httpx-200.txt" || true
+          grep '\[301\]' "$HTTPX" > "$OUT_DIR/httpx-301.txt" || true
+          grep '\[302\]' "$HTTPX" > "$OUT_DIR/httpx-302.txt" || true
+          grep '\[307\]' "$HTTPX" > "$OUT_DIR/httpx-307.txt" || true
+          grep '\[308\]' "$HTTPX" > "$OUT_DIR/httpx-308.txt" || true
+          grep '\[403\]' "$HTTPX" > "$OUT_DIR/httpx-403.txt" || true
+          grep '\[404\]' "$HTTPX" > "$OUT_DIR/httpx-404.txt" || true
+          grep '\[500\]' "$HTTPX" > "$OUT_DIR/httpx-500.txt" || true
+          grep '\[502\]' "$HTTPX" > "$OUT_DIR/httpx-502.txt" || true
+          grep '\[503\]' "$HTTPX" > "$OUT_DIR/httpx-503.txt" || true
 
           {
-            echo "# HTTPX Highlight Report"
+            echo "# HTTPX Status Report"
             echo ""
-            echo "## 🔴 404 Subdomains"
+            echo "Generated at: $(date)"
             echo ""
-            if [ -s "$HTTPX_404" ]; then
-              sed 's/^/- 🔴 `/' "$HTTPX_404" | sed 's/$/`/'
-            else
-              echo "No 404 results."
-            fi
+            echo "## 🟢 200 OK"
+            cat "$OUT_DIR/httpx-200.txt" || true
             echo ""
-            echo "## 🟡 302 Redirect Subdomains"
+            echo "## 🟡 301 Redirect"
+            cat "$OUT_DIR/httpx-301.txt" || true
             echo ""
-            if [ -s "$HTTPX_302" ]; then
-              sed 's/^/- 🟡 `/' "$HTTPX_302" | sed 's/$/`/'
-            else
-              echo "No 302 results."
-            fi
-          } > "$HTTPX_HIGHLIGHT"
+            echo "## 🟡 302 Redirect"
+            cat "$OUT_DIR/httpx-302.txt" || true
+            echo ""
+            echo "## 🟠 307 Redirect"
+            cat "$OUT_DIR/httpx-307.txt" || true
+            echo ""
+            echo "## 🔴 403 Forbidden"
+            cat "$OUT_DIR/httpx-403.txt" || true
+            echo ""
+            echo "## 🔴 404 Not Found"
+            cat "$OUT_DIR/httpx-404.txt" || true
+            echo ""
+            echo "## 🔥 5xx Server Errors"
+            cat "$OUT_DIR/httpx-500.txt" || true
+            cat "$OUT_DIR/httpx-502.txt" || true
+            cat "$OUT_DIR/httpx-503.txt" || true
+          } > "$OUT_DIR/httpx-status-report.md"
 
-          echo "[+] Running nuclei..."
-          nuclei -silent \
+          if [ ! -s "$HTTPX_URLS" ]; then
+            echo "No live URLs for nuclei." | tee -a "$NUCLEI" "$LOG"
+            exit 0
+          fi
+
+          echo "[+] Running nuclei..." | tee -a "$LOG"
+          timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei -silent \
             -l "$HTTPX_URLS" \
             -severity critical,high,medium,low \
             -es info,unknown \
-            -o "$NUCLEI"
+            -rl 50 \
+            -c 25 \
+            -o "$NUCLEI" || echo "Nuclei stopped after time limit or no findings." | tee -a "$NUCLEI" "$LOG"
+
+          echo "[+] Nuclei finished or timed out: $(date)" | tee -a "$LOG"
+          echo "[+] Batch completed: $(date)" | tee -a "$LOG"
+
+          exit 0
 
       - name: Upload batch results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: batch-results-${{ matrix.batch }}
           path: results/
+          retention-days: 30
 
   save:
     needs: recon
+    if: always()
     runs-on: ubuntu-latest
 
     permissions:
@@ -179,11 +226,16 @@ jobs:
       - name: Save results into repo
         run: |
           mkdir -p results
-          cp -R downloaded-results/results/* results/
+
+          if [ -d "downloaded-results/results" ]; then
+            cp -R downloaded-results/results/* results/ || true
+          else
+            echo "No downloaded results found."
+          fi
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add results
           git commit -m "Recon results run-${{ github.run_id }}" || echo "No changes to commit"
-          git push
+          git push || true

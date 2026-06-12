@@ -1,0 +1,3 @@
+https://eigen.eigenlayer.xyz [301] [https://github.com/Layr-Labs/whitepaper/blob/master/EIGEN_Token_Whitepaper.pdf] [167] [301 Moved Permanently] [cloudflare] [104.18.26.194] [cloudflare] [211.707714ms] [Cloudflare]
+https://research.eigenlayer.xyz [301] [https://forum.eigenlayer.xyz/c/protocol-research/] [167] [301 Moved Permanently] [cloudflare] [104.18.27.194] [cloudflare] [155.294423ms] [Cloudflare]
+https://support.eigenlayer.xyz [301] [https://docs.eigenlayer.xyz/eigenlayer/overview/support] [167] [301 Moved Permanently] [cloudflare] [104.18.27.194] [cloudflare] [356.450236ms] [Cloudflare]

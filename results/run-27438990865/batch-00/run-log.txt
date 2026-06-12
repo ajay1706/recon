@@ -1,0 +1,9 @@
+[+] Batch started: Fri Jun 12 19:49:23 UTC 2026
+[+] Batch targets:
+eigenlayer.xyz
+ether.fi
+[+] Running subfinder...
+[+] Running httpx...
+[+] Running nuclei...
+Nuclei stopped after time limit or no findings.
+[+] Batch completed: Fri Jun 12 20:34:44 UTC 2026

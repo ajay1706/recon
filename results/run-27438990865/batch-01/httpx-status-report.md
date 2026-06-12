@@ -1,0 +1,56 @@
+# HTTPX Status Report
+
+Generated at: Fri Jun 12 19:49:53 UTC 2026
+
+## 200 OK
+https://rezvesting.renzoprotocol.com [200] [] [19241] [REZ Vesting | Renzo] [Vercel] [76.76.21.61] [79.953316ms] [HSTS,Vercel]
+https://app.karak.network [200] [] [10497] [Karak | Staking] [Netlify] [13.52.188.95] [120.314206ms] [HSTS,Netlify,Next.js,Node.js,React,Webpack]
+https://v1-backend-indexer.karak.network [200] [] [1882] [Ponder Playground] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [512.535659ms] [Nginx:1.24.0,Ubuntu,Unpkg]
+https://partner.rpc.karak.network [200] [] [0] [] [13.205.216.50] [732.703806ms]
+https://v1-points-backend.karak.network [200] [] [1882] [Ponder Playground] [nginx/1.18.0 (Ubuntu)] [45.250.252.101] [551.649462ms] [Nginx:1.18.0,Ubuntu,Unpkg]
+https://node1.rpc.karak.network [200] [] [0] [] [13.234.133.69] [763.725836ms]
+https://rpc.karak.network [200] [] [0] [] [13.205.216.50] [778.346285ms]
+https://claim.renzoprotocol.com [200] [] [38115] [Renzo] [Vercel] [76.76.21.22] [278.823772ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://infrastructure.renzoprotocol.com [200] [] [57143] [Renzo Infrastructure] [Vercel] [216.150.16.193] [145.800302ms] [HSTS,Vercel]
+https://ezeigen.renzoprotocol.com [200] [] [23184] [Renzo] [Vercel] [66.33.60.194] [708.242615ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://claim-eigen.renzoprotocol.com [200] [] [23184] [Renzo] [Vercel] [76.76.21.98] [767.376828ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://blog.renzoprotocol.com [200] [] [143394] [RenzoAI – Financial intelligence for all markets] [nginx] [192.0.78.25] [125.630974ms] [HSTS,MySQL,Nginx,PHP,WordPress,WordPress Block Editor,WordPress Site Editor,WordPress.com]
+https://explorer.karak.network [200] [] [77042] [K2 Mainnet blockchain explorer - View K2 Mainnet stats | Blockscout] [nginx/1.29.7] [13.205.216.50] [1.017909819s] [Next.js,Nginx:1.29.7,Node.js,React,Webpack]
+https://earn.renzoprotocol.com [200] [] [136237] [Renzo Protocol] [Vercel] [216.150.16.193] [278.750075ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://gov.renzoprotocol.com [200] [] [192749] [Renzo Protocol] [nginx] [216.66.8.75] [292.877641ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://www.renzoprotocol.com [200] [] [136234] [Renzo Protocol] [Vercel] [216.150.1.129] [162.434421ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://v2.karak.network [200] [] [16128] [Karak | Staking] [Netlify] [13.52.188.95] [3.68700749s] [HSTS,Netlify,Next.js,Node.js,React,Webpack]
+https://hyperlane-explorer.karak.network [200] [] [2952] [Netlify] [52.52.192.191] [5.872350828s] [HSTS,Netlify,Next.js,Node.js,React,Webpack]
+
+## 301 Redirect
+http://nft.karak.network [301] [https://nft.karak.network/] [41] [Netlify] [13.52.188.95] [283.905417ms] [Netlify]
+https://www.blog.renzoprotocol.com [301] [https://blog.renzoprotocol.com/] [162] [301 Moved Permanently] [nginx] [192.0.78.24] [261.809267ms] [HSTS,Nginx]
+http://dev-docs.karak.network [301] [https://dev-docs.karak.network/] [46] [Netlify] [52.52.192.191] [9.834449ms] [Netlify]
+http://k2-bridge.karak.network [301] [https://k2-bridge.karak.network/] [47] [Netlify] [13.52.188.95] [10.595049ms] [Netlify]
+
+## 302 Redirect
+
+## 307 Redirect
+https://docs.renzoprotocol.com [307] [https://docs.renzoprotocol.com/docs/] [15] [cloudflare] [172.64.147.209] [cloudflare] [134.43904ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://www.karak.network [307] [https://opengdp.network/] [15] [Vercel] [76.76.21.93] [237.870659ms] [HSTS,Vercel]
+
+## 403 Forbidden
+
+## 404 Not Found
+http://docs.karak.network [404] [] [50] [Netlify] [52.52.192.191] [78.353771ms] [Netlify]
+https://explorer.sepolia.karak.network [404] [] [1046] [404 Not Found] [cloudflare] [104.26.13.27] [cloudflare] [134.189759ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://mcp.renzoprotocol.com [404] [] [7161] [404: This page could not be found.] [Vercel] [216.150.1.193] [73.523996ms] [HSTS,Vercel]
+https://public-node1.rpc.karak.network [404] [] [644] [404 Not Found] [cloudflare] [104.26.4.198] [cloudflare] [163.79561ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://stride.rpc.karak.network [404] [] [644] [404 Not Found] [cloudflare] [104.26.4.198] [cloudflare] [139.18079ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://rpc.sepolia.karak.network [404] [] [1046] [404 Not Found] [cloudflare] [172.67.68.17] [cloudflare] [187.806044ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://mcp.staging.sentry.renzoprotocol.com [404] [] [21] [] [44.216.248.94] [320.627139ms]
+https://mcp.sentry.renzoprotocol.com [404] [] [21] [] [100.52.34.14] [378.288837ms]
+https://v2-backend.karak.network [404] [] [13] [nginx/1.24.0 (Ubuntu)] [207.188.7.69] [203.699264ms] [Nginx:1.24.0,Ubuntu]
+https://wss.rpc.karak.network [404] [] [644] [404 Not Found] [cloudflare] [172.67.75.88] [cloudflare] [212.529157ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://agents.renzoprotocol.com [404] [] [107] [Vercel] [216.150.16.193] [489.803222ms] [HSTS,Vercel]
+https://v1-backend.karak.network [404] [] [1242] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [558.976534ms] [Express,Nginx:1.24.0,Node.js,Ubuntu]
+https://v1-points-cache.karak.network [404] [] [139] [Error] [nginx/1.18.0 (Ubuntu)] [45.250.252.101] [532.734577ms] [HSTS,Nginx:1.18.0,Ubuntu]
+https://restaking-backend.karak.network [404] [] [1242] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [787.938019ms] [Express,Nginx:1.24.0,Node.js,Ubuntu]
+
+## 5xx Server Errors
+https://proxy.rpc.karak.network [502] [] [122] [502 Bad Gateway] [awselb/2.0] [51.112.69.218] [911.784135ms] [Amazon ELB,Amazon Web Services]

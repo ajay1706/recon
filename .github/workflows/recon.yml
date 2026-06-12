@@ -110,8 +110,6 @@ jobs:
             subfinder -silent -d "$domain" || true
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
-          echo "[+] Subfinder finished: $(date)" | tee -a "$LOG"
-
           if [ ! -s "$SUBS" ]; then
             echo "No subdomains found." | tee -a "$HTTPX" "$NUCLEI" "$LOG"
             exit 0
@@ -131,11 +129,7 @@ jobs:
             -response-time \
             -o "$HTTPX" || true
 
-          echo "[+] httpx finished or timed out: $(date)" | tee -a "$LOG"
-
           awk '{print $1}' "$HTTPX" | grep '^http' | sort -u > "$HTTPX_URLS" || true
-
-          echo "[+] Creating status-code files..." | tee -a "$LOG"
 
           grep '\[200\]' "$HTTPX" > "$OUT_DIR/httpx-200.txt" || true
           grep '\[301\]' "$HTTPX" > "$OUT_DIR/httpx-301.txt" || true
@@ -153,25 +147,25 @@ jobs:
             echo ""
             echo "Generated at: $(date)"
             echo ""
-            echo "## 🟢 200 OK"
+            echo "## 200 OK"
             cat "$OUT_DIR/httpx-200.txt" || true
             echo ""
-            echo "## 🟡 301 Redirect"
+            echo "## 301 Redirect"
             cat "$OUT_DIR/httpx-301.txt" || true
             echo ""
-            echo "## 🟡 302 Redirect"
+            echo "## 302 Redirect"
             cat "$OUT_DIR/httpx-302.txt" || true
             echo ""
-            echo "## 🟠 307 Redirect"
+            echo "## 307 Redirect"
             cat "$OUT_DIR/httpx-307.txt" || true
             echo ""
-            echo "## 🔴 403 Forbidden"
+            echo "## 403 Forbidden"
             cat "$OUT_DIR/httpx-403.txt" || true
             echo ""
-            echo "## 🔴 404 Not Found"
+            echo "## 404 Not Found"
             cat "$OUT_DIR/httpx-404.txt" || true
             echo ""
-            echo "## 🔥 5xx Server Errors"
+            echo "## 5xx Server Errors"
             cat "$OUT_DIR/httpx-500.txt" || true
             cat "$OUT_DIR/httpx-502.txt" || true
             cat "$OUT_DIR/httpx-503.txt" || true
@@ -191,9 +185,7 @@ jobs:
             -c 25 \
             -o "$NUCLEI" || echo "Nuclei stopped after time limit or no findings." | tee -a "$NUCLEI" "$LOG"
 
-          echo "[+] Nuclei finished or timed out: $(date)" | tee -a "$LOG"
           echo "[+] Batch completed: $(date)" | tee -a "$LOG"
-
           exit 0
 
       - name: Upload batch results
@@ -227,11 +219,17 @@ jobs:
         run: |
           mkdir -p results
 
-          if [ -d "downloaded-results/results" ]; then
-            cp -R downloaded-results/results/* results/ || true
-          else
-            echo "No downloaded results found."
-          fi
+          echo "Downloaded files:"
+          find downloaded-results -type f || true
+
+          cp -R downloaded-results/* results/ || true
+
+          echo "# Recon Run ${{ github.run_id }}" > results/run-${{ github.run_id }}-summary.md
+          echo "" >> results/run-${{ github.run_id }}-summary.md
+          echo "Saved at: $(date)" >> results/run-${{ github.run_id }}-summary.md
+          echo "" >> results/run-${{ github.run_id }}-summary.md
+          echo "Files saved:" >> results/run-${{ github.run_id }}-summary.md
+          find results -type f | sort >> results/run-${{ github.run_id }}-summary.md
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"

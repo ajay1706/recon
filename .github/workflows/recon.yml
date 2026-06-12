@@ -4,21 +4,68 @@ on:
   workflow_dispatch:
     inputs:
       websites:
-        description: "Paste domains separated by space or comma. Example: tesla.com, google.com, uber.com"
+        description: "Paste domains separated by space or comma"
         required: true
+        type: string
+      batch_size:
+        description: "Domains per batch. Use 5 or 10"
+        required: true
+        default: "10"
         type: string
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+
+    outputs:
+      batches: ${{ steps.make_batches.outputs.batches }}
+
+    steps:
+      - name: Prepare domain batches
+        id: make_batches
+        run: |
+          mkdir -p targets batches
+
+          echo "${{ github.event.inputs.websites }}" \
+            | tr ', ' '\n' \
+            | sed '/^$/d' \
+            | sed 's#https://##g; s#http://##g; s#/.*##g' \
+            | sort -u > targets/current.txt
+
+          BATCH_SIZE="${{ github.event.inputs.batch_size }}"
+
+          split -l "$BATCH_SIZE" -d -a 2 targets/current.txt batches/batch-
+
+          BATCHES=$(ls batches | jq -R -s -c 'split("\n")[:-1]')
+          echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
+
+          echo "Created batches:"
+          ls -la batches
+
+      - name: Upload prepared targets
+        uses: actions/upload-artifact@v4
+        with:
+          name: prepared-targets
+          path: |
+            targets/
+            batches/
+
   recon:
+    needs: prepare
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
-    permissions:
-      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: ${{ fromJson(needs.prepare.outputs.batches) }}
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Download prepared targets
+        uses: actions/download-artifact@v4
+        with:
+          name: prepared-targets
+          path: .
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -36,35 +83,30 @@ jobs:
         run: |
           nuclei -update-templates
 
-      - name: Prepare target chunk
+      - name: Run recon for batch
         run: |
-          mkdir -p targets
-
-          echo "${{ github.event.inputs.websites }}" \
-            | tr ', ' '\n' \
-            | sed '/^$/d' \
-            | sed 's#https://##g; s#http://##g; s#/.*##g' \
-            | sort -u > targets/current.txt
-
-          echo "Targets:"
-          cat targets/current.txt
-
-      - name: Run subfinder, httpx, nuclei
-        run: |
-          DATE="$(date +%F-%H%M)"
-          OUT_DIR="results/$DATE"
+          RUN_DIR="results/run-${{ github.run_id }}"
+          OUT_DIR="$RUN_DIR/${{ matrix.batch }}"
           mkdir -p "$OUT_DIR"
 
+          TARGETS="batches/${{ matrix.batch }}"
           SUBS="$OUT_DIR/subfinder.txt"
           HTTPX="$OUT_DIR/httpx.txt"
+          HTTPX_URLS="$OUT_DIR/httpx-urls.txt"
+          HTTPX_404="$OUT_DIR/httpx-404.txt"
+          HTTPX_302="$OUT_DIR/httpx-302.txt"
+          HTTPX_HIGHLIGHT="$OUT_DIR/httpx-highlight.md"
           NUCLEI="$OUT_DIR/nuclei.txt"
+
+          echo "[+] Targets in this batch:"
+          cat "$TARGETS"
 
           echo "[+] Running subfinder..."
           while read -r domain; do
             subfinder -silent -d "$domain"
-          done < targets/current.txt | sort -u | tee "$SUBS"
+          done < "$TARGETS" | sort -u | tee "$SUBS"
 
-          echo "[+] Running httpx with useful recon fields..."
+          echo "[+] Running httpx..."
           httpx -silent \
             -l "$SUBS" \
             -status-code \
@@ -74,34 +116,74 @@ jobs:
             -web-server \
             -ip \
             -cdn \
-            -follow-redirects \
+            -location \
             -response-time \
             -o "$HTTPX"
 
-          echo "[+] Running nuclei for critical, high, medium, low..."
+          awk '{print $1}' "$HTTPX" | sort -u > "$HTTPX_URLS"
+
+          grep '\[404\]' "$HTTPX" > "$HTTPX_404" || true
+          grep '\[302\]' "$HTTPX" > "$HTTPX_302" || true
+
+          {
+            echo "# HTTPX Highlight Report"
+            echo ""
+            echo "## 🔴 404 Subdomains"
+            echo ""
+            if [ -s "$HTTPX_404" ]; then
+              sed 's/^/- 🔴 `/' "$HTTPX_404" | sed 's/$/`/'
+            else
+              echo "No 404 results."
+            fi
+            echo ""
+            echo "## 🟡 302 Redirect Subdomains"
+            echo ""
+            if [ -s "$HTTPX_302" ]; then
+              sed 's/^/- 🟡 `/' "$HTTPX_302" | sed 's/$/`/'
+            else
+              echo "No 302 results."
+            fi
+          } > "$HTTPX_HIGHLIGHT"
+
+          echo "[+] Running nuclei..."
           nuclei -silent \
-            -l "$HTTPX" \
+            -l "$HTTPX_URLS" \
             -severity critical,high,medium,low \
             -es info,unknown \
             -o "$NUCLEI"
 
-          echo "[+] Done."
-          echo "Subdomains: $SUBS"
-          echo "HTTPX:      $HTTPX"
-          echo "Nuclei:     $NUCLEI"
-
-      - name: Upload downloadable results
+      - name: Upload batch results
         uses: actions/upload-artifact@v4
         with:
-          name: recon-results
+          name: batch-results-${{ matrix.batch }}
           path: results/
-          retention-days: 30
 
-      - name: Save results to repo
+  save:
+    needs: recon
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download all batch results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: batch-results-*
+          path: downloaded-results
+          merge-multiple: true
+
+      - name: Save results into repo
         run: |
+          mkdir -p results
+          cp -R downloaded-results/results/* results/
+
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add results targets/current.txt
-          git commit -m "Recon results $(date +%F-%H%M)" || echo "No changes to commit"
+          git add results
+          git commit -m "Recon results run-${{ github.run_id }}" || echo "No changes to commit"
           git push

@@ -13,9 +13,9 @@ on:
         default: "3"
         type: string
       nuclei_minutes:
-        description: "Max minutes for nuclei per batch"
+        description: "Max minutes for final nuclei scan"
         required: true
-        default: "45"
+        default: "120"
         type: string
 
 jobs:
@@ -54,7 +54,7 @@ jobs:
   recon:
     needs: prepare
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 180
     continue-on-error: true
 
     strategy:
@@ -75,18 +75,13 @@ jobs:
         with:
           go-version: stable
 
-      - name: Install ProjectDiscovery tools
+      - name: Install subfinder and httpx
         run: |
           go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
           go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
           echo "$HOME/go/bin" >> $GITHUB_PATH
 
-      - name: Update nuclei templates
-        run: |
-          nuclei -update-templates || true
-
-      - name: Run recon for batch
+      - name: Run subfinder and httpx for batch
         run: |
           set +e
 
@@ -98,11 +93,9 @@ jobs:
           SUBS="$OUT_DIR/subfinder.txt"
           HTTPX="$OUT_DIR/httpx.txt"
           HTTPX_URLS="$OUT_DIR/httpx-urls.txt"
-          NUCLEI="$OUT_DIR/nuclei.txt"
           LOG="$OUT_DIR/run-log.txt"
 
           echo "[+] Batch started: $(date)" | tee -a "$LOG"
-          echo "[+] Batch targets:" | tee -a "$LOG"
           cat "$TARGETS" | tee -a "$LOG"
 
           echo "[+] Running subfinder..." | tee -a "$LOG"
@@ -111,7 +104,7 @@ jobs:
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
           if [ ! -s "$SUBS" ]; then
-            echo "No subdomains found." | tee -a "$HTTPX" "$NUCLEI" "$LOG"
+            echo "No subdomains found." | tee -a "$HTTPX" "$LOG"
             exit 0
           fi
 
@@ -171,20 +164,6 @@ jobs:
             cat "$OUT_DIR/httpx-503.txt" || true
           } > "$OUT_DIR/httpx-status-report.md"
 
-          if [ ! -s "$HTTPX_URLS" ]; then
-            echo "No live URLs for nuclei." | tee -a "$NUCLEI" "$LOG"
-            exit 0
-          fi
-
-          echo "[+] Running nuclei..." | tee -a "$LOG"
-          timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei -silent \
-            -l "$HTTPX_URLS" \
-            -severity critical,high,medium,low \
-            -es info,unknown \
-            -rl 50 \
-            -c 25 \
-            -o "$NUCLEI" || echo "Nuclei stopped after time limit or no findings." | tee -a "$NUCLEI" "$LOG"
-
           echo "[+] Batch completed: $(date)" | tee -a "$LOG"
           exit 0
 
@@ -196,10 +175,11 @@ jobs:
           path: results/
           retention-days: 30
 
-  save:
+  save-and-nuclei:
     needs: recon
     if: always()
     runs-on: ubuntu-latest
+    timeout-minutes: 350
 
     permissions:
       contents: write
@@ -215,25 +195,104 @@ jobs:
           path: downloaded-results
           merge-multiple: true
 
-      - name: Save results into repo
-        run: |
-          mkdir -p results
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
 
-          echo "Downloaded files:"
+      - name: Install nuclei
+        run: |
+          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
+          nuclei -update-templates || true
+
+      - name: Merge results and run one nuclei scan
+        run: |
+          set +e
+
+          RUN_ID="${{ github.run_id }}"
+          FINAL_DIR="results/run-$RUN_ID"
+          mkdir -p "$FINAL_DIR"
+
+          echo "[+] Downloaded files:"
           find downloaded-results -type f || true
 
-          cp -R downloaded-results/* results/ || true
+          cp -R downloaded-results/run-$RUN_ID/* "$FINAL_DIR/" || true
 
-          echo "# Recon Run ${{ github.run_id }}" > results/run-${{ github.run_id }}-summary.md
-          echo "" >> results/run-${{ github.run_id }}-summary.md
-          echo "Saved at: $(date)" >> results/run-${{ github.run_id }}-summary.md
-          echo "" >> results/run-${{ github.run_id }}-summary.md
-          echo "Files saved:" >> results/run-${{ github.run_id }}-summary.md
-          find results -type f | sort >> results/run-${{ github.run_id }}-summary.md
+          find "$FINAL_DIR" -name "subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
+          find "$FINAL_DIR" -name "httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
+          find "$FINAL_DIR" -name "httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
+
+          grep '\[200\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-200-all.txt" || true
+          grep '\[301\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-301-all.txt" || true
+          grep '\[302\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-302-all.txt" || true
+          grep '\[307\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-307-all.txt" || true
+          grep '\[308\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-308-all.txt" || true
+          grep '\[403\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-403-all.txt" || true
+          grep '\[404\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-404-all.txt" || true
+          grep '\[500\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-500-all.txt" || true
+          grep '\[502\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-502-all.txt" || true
+          grep '\[503\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-503-all.txt" || true
+
+          {
+            echo "# Final HTTPX Status Report"
+            echo ""
+            echo "Generated at: $(date)"
+            echo ""
+            echo "## 200 OK"
+            cat "$FINAL_DIR/httpx-200-all.txt" || true
+            echo ""
+            echo "## 301 Redirect"
+            cat "$FINAL_DIR/httpx-301-all.txt" || true
+            echo ""
+            echo "## 302 Redirect"
+            cat "$FINAL_DIR/httpx-302-all.txt" || true
+            echo ""
+            echo "## 307 Redirect"
+            cat "$FINAL_DIR/httpx-307-all.txt" || true
+            echo ""
+            echo "## 403 Forbidden"
+            cat "$FINAL_DIR/httpx-403-all.txt" || true
+            echo ""
+            echo "## 404 Not Found"
+            cat "$FINAL_DIR/httpx-404-all.txt" || true
+            echo ""
+            echo "## 5xx Server Errors"
+            cat "$FINAL_DIR/httpx-500-all.txt" || true
+            cat "$FINAL_DIR/httpx-502-all.txt" || true
+            cat "$FINAL_DIR/httpx-503-all.txt" || true
+          } > "$FINAL_DIR/httpx-status-report-all.md"
+
+          NUCLEI="$FINAL_DIR/nuclei.txt"
+          NUCLEI_LOG="$FINAL_DIR/nuclei-log.txt"
+
+          if [ -s "$FINAL_DIR/httpx-urls-all.txt" ]; then
+            echo "[+] Running one final nuclei scan..." | tee -a "$NUCLEI_LOG"
+
+            timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei -silent \
+              -l "$FINAL_DIR/httpx-urls-all.txt" \
+              -severity critical,high,medium,low \
+              -es info,unknown \
+              -rl 20 \
+              -c 10 \
+              -o "$NUCLEI" || echo "Nuclei stopped after time limit or no findings." | tee -a "$NUCLEI" "$NUCLEI_LOG"
+          else
+            echo "No live URLs for nuclei." | tee -a "$NUCLEI" "$NUCLEI_LOG"
+          fi
+
+          echo "# Recon Run $RUN_ID" > "$FINAL_DIR/summary.md"
+          echo "" >> "$FINAL_DIR/summary.md"
+          echo "Saved at: $(date)" >> "$FINAL_DIR/summary.md"
+          echo "" >> "$FINAL_DIR/summary.md"
+          echo "Total subdomains: $(wc -l < "$FINAL_DIR/subfinder-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
+          echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
+          echo "" >> "$FINAL_DIR/summary.md"
+          echo "Files:" >> "$FINAL_DIR/summary.md"
+          find "$FINAL_DIR" -type f | sort >> "$FINAL_DIR/summary.md"
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add results
-          git commit -m "Recon results run-${{ github.run_id }}" || echo "No changes to commit"
+          git commit -m "Recon results run-$RUN_ID" || echo "No changes to commit"
           git push || true

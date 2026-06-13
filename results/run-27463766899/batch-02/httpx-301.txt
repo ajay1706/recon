@@ -1,0 +1,3 @@
+https://auth.boomy.com [301] [https://boomy.com/] [33] [] [151.101.65.195] [fastly] [187.887748ms] [Firebase,HTTP/3]
+https://www.boomy.com [301] [https://boomy.com] [314] [Redirecting to https://boomy.com] [Google Frontend] [173.194.208.121] [google] [366.826724ms] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace]
+https://www.shop.bolt.new [301] [https://shop.bolt.new/] [0] [] [34.117.223.165] [google] [395.544588ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3]

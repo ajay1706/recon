@@ -1,0 +1,65 @@
+# HTTPX Status Report
+
+Generated at: Sat Jun 13 10:10:43 UTC 2026
+
+## 200 OK
+https://buildwith.bolt.new [200] [] [462] [Build with Bolt] [cloudflare] [172.67.73.66] [cloudflare] [120.244201ms] [Cloudflare,HSTS]
+https://beta.boomy.com [200] [] [1575] [Boomy - Make Generative Music with Artificial Intelligence] [Google Frontend] [108.177.121.121] [google] [301.950218ms] [Google Analytics,Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,PayPal,Stripe,reCAPTCHA]
+https://clerk.browserbase.com [200] [] [0] [cloudflare] [172.64.153.110] [cloudflare] [474.438553ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://arena.browserbase.com [200] [] [25230] [Arena] [Vercel] [66.33.60.193] [171.059145ms] [HSTS,Vercel]
+https://metrics.boomy.com [200] [] [0] [] [3.33.218.32] [290.106275ms] [HSTS]
+https://cua.browserbase.com [200] [] [22958] [Computer Use Browser] [Vercel] [76.76.21.241] [185.840682ms] [HSTS,Vercel]
+https://mpp.browserbase.com [200] [] [3229] [Browserbase Payment Gateway (x402 + MPP)] [] [18.160.249.97] [cloudfront] [259.800928ms] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://google.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [76.76.21.142] [179.276ms] [HSTS,Vercel]
+https://metrics2.boomy.com [200] [] [2] [] [150.171.109.184] [475.432334ms] [Azure,Azure Front Door]
+https://google-cua.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [216.150.1.1] [199.767215ms] [HSTS,Vercel]
+https://gemini.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [216.150.16.129] [305.082493ms] [HSTS,Vercel]
+https://image.boomy.com [200] [] [1119] [Boomy - Make Instant Music with Artificial Intelligence] [Google Frontend] [74.125.126.121] [google] [764.457116ms] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,PHP,Stripe]
+https://dolby-staging.boomy.com [200] [] [1119] [Boomy - Make Instant Music with Artificial Intelligence] [Google Frontend] [74.125.126.121] [google] [1.110817917s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,Stripe]
+https://operator.browserbase.com [200] [] [17673] [Open Operator] [Vercel] [76.76.21.93] [310.579922ms] [HSTS,Vercel]
+https://trust.browserbase.com [200] [] [3463] [Browserbase Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [355.436271ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://stream.boomy.com [200] [] [26687] [openresty/1.15.8.1] [54.245.128.246] [392.872624ms] [HSTS,Nginx,Node.js,Nuxt.js,OpenResty:1.15.8.1,Vue.js]
+https://trust.bolt.new [200] [] [80905] [Bolt.new Customer Assurance Profile] [Google Frontend] [34.36.127.37] [google] [258.557216ms] [Google Cloud,Google Cloud CDN,Google Cloud Load Balancing,Google Cloud Trace,HSTS,HTTP/3]
+https://x402.browserbase.com [200] [] [3229] [Browserbase Payment Gateway (x402 + MPP)] [] [18.160.249.18] [cloudfront] [384.87779ms] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://careers.boomy.com [200] [] [149776] [Boomy Careers] [ESF] [172.253.155.121] [google] [496.054225ms]
+https://uiv3.boomy.com [200] [] [251] [Google Frontend] [142.250.189.147] [google] [1.167196991s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS]
+https://staging-green.boomy.com [200] [] [9977] [Google Frontend] [74.125.126.121] [google] [1.455729484s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,Node.js,Nuxt.js,Vue.js]
+https://stealth.browserbase.com [200] [] [38744] [Browserbase Stealth Status] [Vercel] [76.76.21.93] [668.812625ms] [HSTS,Vercel]
+https://status.browserbase.com [200] [] [89456] [Browserbase Status] [Vercel] [76.76.21.22] [440.99352ms] [HSTS,Vercel]
+https://status.bolt.new [200] [] [179205] [Bolt.new Status] [Vercel] [66.33.60.129] [616.955877ms] [HSTS,Vercel]
+https://status.boomy.com [200] [] [215661] [Boomy Status] [AtlassianEdge] [54.192.55.37] [cloudfront] [654.468014ms] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,Google Analytics,HSTS,bowser,cdnjs,jQuery:3.5.1,reCAPTCHA]
+https://shop.bolt.new [200] [] [191891] [Bolt Swag] [] [34.117.223.165] [google] [1.451133957s] [Google Cloud,Google Cloud CDN,Google Tag Manager,HSTS,HTTP/3,Stripe,reCAPTCHA]
+https://dev.browserbase.com [200] [] [375574] [Browserbase] [Vercel] [66.33.60.35] [459.66245ms] [HSTS,Vercel]
+https://support.bolt.new [200] [] [321912] [Bolt Help Center - Bolt] [cloudflare] [104.26.7.237] [cloudflare] [305.049739ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://www.browserbase.com [200] [] [375726] [Browserbase] [Vercel] [66.33.60.34] [468.335545ms] [HSTS,Vercel]
+https://staging-red.boomy.com [200] [] [1283] [Boomy - Make Generative Music with Artificial Intelligence] [Google Frontend] [142.250.189.115] [google] [5.274532532s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,PayPal,Stripe,reCAPTCHA]
+https://staging-yellow.boomy.com [200] [] [1283] [Boomy - Make Generative Music with Artificial Intelligence] [Google Frontend] [74.125.126.121] [google] [5.339515556s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,PayPal,Stripe,reCAPTCHA]
+https://staging-blue.boomy.com [200] [] [1283] [Boomy - Make Generative Music with Artificial Intelligence] [Google Frontend] [74.125.126.121] [google] [5.712343756s] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace,HSTS,PayPal,Stripe,reCAPTCHA]
+
+## 301 Redirect
+https://auth.boomy.com [301] [https://boomy.com/] [33] [] [151.101.65.195] [fastly] [187.887748ms] [Firebase,HTTP/3]
+https://www.boomy.com [301] [https://boomy.com] [314] [Redirecting to https://boomy.com] [Google Frontend] [173.194.208.121] [google] [366.826724ms] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace]
+https://www.shop.bolt.new [301] [https://shop.bolt.new/] [0] [] [34.117.223.165] [google] [395.544588ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3]
+
+## 302 Redirect
+https://discord.bolt.new [302] [https://discord.gg/stackblitz] [143] [302 Found] [cloudflare] [104.26.7.237] [cloudflare] [116.933859ms] [Cloudflare,HSTS]
+https://support.boomy.com [302] [https://support.boomy.com/hc] [0] [cloudflare] [216.198.54.6] [348.141564ms] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://www.bolt.new [302] [https://bolt.new/] [143] [302 Found] [cloudflare] [104.26.7.237] [cloudflare] [200.743376ms] [Cloudflare,HSTS]
+
+## 307 Redirect
+
+## 403 Forbidden
+https://blog.boomy.com [403] [] [5618] [Just a moment...] [cloudflare] [162.159.152.4] [cloudflare] [161.06654ms] [Cloudflare,HSTS,HTTP/3]
+https://accounts.browserbase.com [403] [] [9434] [Just a moment...] [cloudflare] [104.18.34.146] [cloudflare] [386.03004ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 404 Not Found
+https://api.browserbase.com [404] [] [72] [] [100.23.54.205] [212.329951ms]
+https://dsassets.bolt.new [404] [] [27150] [Not Found] [cloudflare] [104.26.6.237] [cloudflare] [143.544246ms] [Cloudflare,HSTS]
+https://api.use1.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [100.51.126.136] [287.495231ms] [Amazon ELB,Amazon Web Services]
+https://api.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [44.233.137.205] [322.58319ms] [Amazon ELB,Amazon Web Services]
+https://branding.bolt.new [404] [] [27150] [Not Found] [cloudflare] [104.26.7.237] [cloudflare] [193.045203ms] [Cloudflare,HSTS]
+https://api.euc1.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [18.195.93.140] [574.686807ms] [Amazon ELB,Amazon Web Services]
+https://mcp.browserbase.com [404] [] [0] [awselb/2.0] [184.33.4.104] [410.296796ms] [Amazon ELB,Amazon Web Services]
+https://open-operator.browserbase.com [404] [] [107] [cloudflare] [172.66.42.226] [cloudflare] [360.740625ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+
+## 5xx Server Errors

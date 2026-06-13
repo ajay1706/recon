@@ -1,0 +1,11 @@
+[+] Batch started: Sat Jun 13 10:10:18 UTC 2026
+[+] Batch name: batch-02
+[+] Batch targets:
+bolt.new
+boomy.com
+browserbase.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 10:10:22 UTC 2026
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 10:10:43 UTC 2026
+[+] Batch completed: Sat Jun 13 10:10:43 UTC 2026

@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 13:44:38 UTC 2026
+[+] Run ID: 27468448588
+[+] Batch name: batch-03
+[+] Batch targets:
+apex.exchange
+app.uniswap.org
+arbitrum.io
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 13:45:18 UTC 2026
+[+] HTTPX input count: 170
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 13:45:40 UTC 2026
+[+] httpx line count: 88
+[+] Batch completed: Sat Jun 13 13:45:40 UTC 2026

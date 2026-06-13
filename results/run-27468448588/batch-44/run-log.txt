@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:37:47 UTC 2026
+[+] Run ID: 27468448588
+[+] Batch name: batch-44
+[+] Batch targets:
+velodrome.finance
+venus.io
+vertexprotocol.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:41:02 UTC 2026
+[+] HTTPX input count: 222
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:41:20 UTC 2026
+[+] httpx line count: 206
+[+] Batch completed: Sat Jun 13 14:41:20 UTC 2026

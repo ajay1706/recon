@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:28:16 UTC 2026
+[+] Run ID: 27468448588
+[+] Batch name: batch-36
+[+] Batch targets:
+safe.global
+sanctum.so
+scroll.io
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:29:12 UTC 2026
+[+] HTTPX input count: 358
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:29:47 UTC 2026
+[+] httpx line count: 261
+[+] Batch completed: Sat Jun 13 14:29:47 UTC 2026

@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:18:43 UTC 2026
+[+] Run ID: 27468448588
+[+] Batch name: batch-28
+[+] Batch targets:
+movementlabs.xyz
+nansen.ai
+okx.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:19:02 UTC 2026
+[+] HTTPX input count: 859
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:20:21 UTC 2026
+[+] httpx line count: 508
+[+] Batch completed: Sat Jun 13 14:20:21 UTC 2026

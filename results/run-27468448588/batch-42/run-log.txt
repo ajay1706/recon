@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:37:09 UTC 2026
+[+] Run ID: 27468448588
+[+] Batch name: batch-42
+[+] Batch targets:
+tensor.trade
+thegraph.com
+thirdweb.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:37:24 UTC 2026
+[+] HTTPX input count: 1189
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:39:12 UTC 2026
+[+] httpx line count: 883
+[+] Batch completed: Sat Jun 13 14:39:13 UTC 2026

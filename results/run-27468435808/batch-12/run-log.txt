@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:03:06 UTC 2026
+[+] Run ID: 27468435808
+[+] Batch name: batch-12
+[+] Batch targets:
+factory.ai
+fireflies.ai
+gamma.app
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:03:37 UTC 2026
+[+] HTTPX input count: 460
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:05:03 UTC 2026
+[+] httpx line count: 188
+[+] Batch completed: Sat Jun 13 14:05:03 UTC 2026

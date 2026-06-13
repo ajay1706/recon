@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:09:57 UTC 2026
+[+] Run ID: 27468435808
+[+] Batch name: batch-17
+[+] Batch targets:
+ideogram.ai
+indus.sarvam.ai
+invideo.io
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:11:04 UTC 2026
+[+] HTTPX input count: 160
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:11:31 UTC 2026
+[+] httpx line count: 52
+[+] Batch completed: Sat Jun 13 14:11:31 UTC 2026

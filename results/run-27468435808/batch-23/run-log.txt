@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 13 14:18:29 UTC 2026
+[+] Run ID: 27468435808
+[+] Batch name: batch-23
+[+] Batch targets:
+mistral.ai
+murf.ai
+notebooklm.google.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 13 14:19:04 UTC 2026
+[+] HTTPX input count: 314
+[+] Running httpx...
+[+] httpx completed or timed out: Sat Jun 13 14:19:28 UTC 2026
+[+] httpx line count: 245
+[+] Batch completed: Sat Jun 13 14:19:28 UTC 2026

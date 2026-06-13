@@ -1,0 +1,22 @@
+[+] Nuclei started at: Sat Jun 13 14:04:59 UTC 2026
+[+] URL count: 6395
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.9.0
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current nuclei version: v3.9.0 ([92mlatest[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 6683
+[[34mINF[0m] Executing 6681 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 6395
+[[34mINF[0m] Templates clustered: 460 (Reduced 2526025 Requests)
+[[34mINF[0m] Using Interactsh Server: oast.me
+[[34mINF[0m] Skipped webserver.gcp-us1.r.augmentcode.com:443 from target list as found unresponsive permanently: cause="no address found for host" chain="got err while executing https://webserver.gcp-us1.r.augmentcode.com/guest_auth/guestIsUp.php"
+[[34mINF[0m] Skipped webserver.gcp-us1.r.augmentcode.com:443 from target list as found unresponsive permanently: cause="no address found for host" chain="got err while executing https://webserver.gcp-us1.r.augmentcode.com/webadm/?q=moni_detail.do&action=gragh"
+Nuclei timed out after 120 minutes.

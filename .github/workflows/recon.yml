@@ -29,33 +29,53 @@ jobs:
       - name: Prepare domain batches
         id: make_batches
         run: |
+          set +e
           mkdir -p targets batches
 
           echo "${{ github.event.inputs.websites }}" \
             | tr ', ' '\n' \
             | sed '/^$/d' \
             | sed 's#https://##g; s#http://##g; s#/.*##g' \
+            | sed 's#www\.##g' \
             | sort -u > targets/current.txt
 
           BATCH_SIZE="${{ github.event.inputs.batch_size }}"
+
+          if [ ! -s targets/current.txt ]; then
+            echo "No targets provided."
+            echo 'batches=[]' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           split -l "$BATCH_SIZE" -d -a 2 targets/current.txt batches/batch-
 
           BATCHES=$(ls batches | jq -R -s -c 'split("\n")[:-1]')
           echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
 
+          echo "Targets:"
+          cat targets/current.txt
+
+          echo "Batches:"
+          ls -la batches
+
       - name: Upload prepared targets
         uses: actions/upload-artifact@v4
         with:
-          name: prepared-targets
+          name: prepared-targets-${{ github.run_id }}
           path: |
             targets/
             batches/
+          retention-days: 30
 
   recon:
     needs: prepare
+    if: ${{ needs.prepare.outputs.batches != '[]' }}
     runs-on: ubuntu-latest
     timeout-minutes: 180
     continue-on-error: true
+
+    permissions:
+      contents: write
 
     strategy:
       fail-fast: false
@@ -64,10 +84,13 @@ jobs:
         batch: ${{ fromJson(needs.prepare.outputs.batches) }}
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Download prepared targets
         uses: actions/download-artifact@v4
         with:
-          name: prepared-targets
+          name: prepared-targets-${{ github.run_id }}
           path: .
 
       - name: Setup Go
@@ -85,7 +108,8 @@ jobs:
         run: |
           set +e
 
-          RUN_DIR="results/run-${{ github.run_id }}"
+          RUN_ID="${{ github.run_id }}"
+          RUN_DIR="results/run-$RUN_ID"
           OUT_DIR="$RUN_DIR/${{ matrix.batch }}"
           mkdir -p "$OUT_DIR"
 
@@ -96,19 +120,26 @@ jobs:
           LOG="$OUT_DIR/run-log.txt"
 
           echo "[+] Batch started: $(date)" | tee -a "$LOG"
+          echo "[+] Batch name: ${{ matrix.batch }}" | tee -a "$LOG"
+          echo "[+] Batch targets:" | tee -a "$LOG"
           cat "$TARGETS" | tee -a "$LOG"
 
           echo "[+] Running subfinder..." | tee -a "$LOG"
+
           while read -r domain; do
             subfinder -silent -d "$domain" || true
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
+          echo "[+] Subfinder completed: $(date)" | tee -a "$LOG"
+
           if [ ! -s "$SUBS" ]; then
             echo "No subdomains found." | tee -a "$HTTPX" "$LOG"
+            touch "$HTTPX_URLS"
             exit 0
           fi
 
           echo "[+] Running httpx..." | tee -a "$LOG"
+
           timeout 60m httpx -silent \
             -l "$SUBS" \
             -status-code \
@@ -121,6 +152,8 @@ jobs:
             -location \
             -response-time \
             -o "$HTTPX" || true
+
+          echo "[+] httpx completed or timed out: $(date)" | tee -a "$LOG"
 
           awk '{print $1}' "$HTTPX" | grep '^http' | sort -u > "$HTTPX_URLS" || true
 
@@ -165,13 +198,56 @@ jobs:
           } > "$OUT_DIR/httpx-status-report.md"
 
           echo "[+] Batch completed: $(date)" | tee -a "$LOG"
+
+          echo "# Batch Summary" > "$OUT_DIR/summary.md"
+          echo "" >> "$OUT_DIR/summary.md"
+          echo "Run ID: $RUN_ID" >> "$OUT_DIR/summary.md"
+          echo "Batch: ${{ matrix.batch }}" >> "$OUT_DIR/summary.md"
+          echo "Saved at: $(date)" >> "$OUT_DIR/summary.md"
+          echo "" >> "$OUT_DIR/summary.md"
+          echo "Subdomains: $(wc -l < "$SUBS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
+          echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
+
           exit 0
 
-      - name: Upload batch results
+      - name: Push this batch result immediately
+        if: always()
+        run: |
+          set +e
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add results/run-${{ github.run_id }}/${{ matrix.batch }}
+
+          if git diff --cached --quiet; then
+            echo "No batch changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Recon batch ${{ matrix.batch }} run-${{ github.run_id }}" || true
+
+          for i in 1 2 3 4 5 6 7 8; do
+            echo "Batch push attempt $i..."
+            git pull --rebase origin main || true
+
+            if git push origin main; then
+              echo "Batch push successful"
+              exit 0
+            fi
+
+            echo "Batch push failed, retrying..."
+            sleep 20
+          done
+
+          echo "Batch push failed after retries"
+          exit 0
+
+      - name: Upload batch artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: batch-results-${{ matrix.batch }}
+          name: batch-results-${{ github.run_id }}-${{ matrix.batch }}
           path: results/
           retention-days: 30
 
@@ -185,13 +261,19 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout latest repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Download all batch results
+      - name: Pull latest batch commits
+        run: |
+          git pull --rebase origin main || true
+
+      - name: Download all batch artifacts
         uses: actions/download-artifact@v4
         with:
-          pattern: batch-results-*
+          pattern: batch-results-${{ github.run_id }}-*
           path: downloaded-results
           merge-multiple: true
 
@@ -206,7 +288,7 @@ jobs:
           echo "$HOME/go/bin" >> $GITHUB_PATH
           nuclei -update-templates || true
 
-      - name: Merge results and run one nuclei scan
+      - name: Merge all batch results and run nuclei once
         run: |
           set +e
 
@@ -214,14 +296,18 @@ jobs:
           FINAL_DIR="results/run-$RUN_ID"
           mkdir -p "$FINAL_DIR"
 
-          echo "[+] Downloaded files:"
+          echo "[+] Copying downloaded artifacts..."
           find downloaded-results -type f || true
 
-          cp -R downloaded-results/run-$RUN_ID/* "$FINAL_DIR/" || true
+          if [ -d "downloaded-results/results/run-$RUN_ID" ]; then
+            cp -R downloaded-results/results/run-$RUN_ID/* "$FINAL_DIR/" || true
+          fi
 
-          find "$FINAL_DIR" -name "subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
-          find "$FINAL_DIR" -name "httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
-          find "$FINAL_DIR" -name "httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
+          echo "[+] Merging final files..."
+
+          find "$FINAL_DIR" -path "*/batch-*/subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
+          find "$FINAL_DIR" -path "*/batch-*/httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
+          find "$FINAL_DIR" -path "*/batch-*/httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
 
           grep '\[200\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-200-all.txt" || true
           grep '\[301\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-301-all.txt" || true
@@ -263,21 +349,43 @@ jobs:
             cat "$FINAL_DIR/httpx-503-all.txt" || true
           } > "$FINAL_DIR/httpx-status-report-all.md"
 
-          NUCLEI="$FINAL_DIR/nuclei.txt"
+          NUCLEI_TXT="$FINAL_DIR/nuclei.txt"
+          NUCLEI_JSON="$FINAL_DIR/nuclei-jsonl.txt"
           NUCLEI_LOG="$FINAL_DIR/nuclei-log.txt"
 
-          if [ -s "$FINAL_DIR/httpx-urls-all.txt" ]; then
-            echo "[+] Running one final nuclei scan..." | tee -a "$NUCLEI_LOG"
+          echo "[+] Nuclei started at: $(date)" | tee -a "$NUCLEI_LOG"
+          echo "[+] URL count: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" | tee -a "$NUCLEI_LOG"
 
-            timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei -silent \
+          if [ ! -s "$FINAL_DIR/httpx-urls-all.txt" ]; then
+            echo "No live URLs for nuclei." | tee -a "$NUCLEI_TXT" "$NUCLEI_LOG"
+          else
+            timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei \
               -l "$FINAL_DIR/httpx-urls-all.txt" \
               -severity critical,high,medium,low \
               -es info,unknown \
-              -rl 20 \
+              -rl 10 \
               -c 10 \
-              -o "$NUCLEI" || echo "Nuclei stopped after time limit or no findings." | tee -a "$NUCLEI" "$NUCLEI_LOG"
-          else
-            echo "No live URLs for nuclei." | tee -a "$NUCLEI" "$NUCLEI_LOG"
+              -retries 1 \
+              -o "$NUCLEI_TXT" \
+              -jsonl \
+              -json-export "$NUCLEI_JSON" \
+              2>&1 | tee -a "$NUCLEI_LOG"
+
+            NUCLEI_EXIT=${PIPESTATUS[0]}
+
+            if [ "$NUCLEI_EXIT" = "124" ]; then
+              echo "Nuclei timed out after ${{ github.event.inputs.nuclei_minutes }} minutes." | tee -a "$NUCLEI_LOG"
+            else
+              echo "Nuclei finished with exit code: $NUCLEI_EXIT" | tee -a "$NUCLEI_LOG"
+            fi
+
+            if [ ! -s "$NUCLEI_TXT" ]; then
+              echo "No critical/high/medium/low nuclei findings found." > "$NUCLEI_TXT"
+            fi
+
+            if [ ! -s "$NUCLEI_JSON" ]; then
+              echo "No JSONL nuclei findings found." > "$NUCLEI_JSON"
+            fi
           fi
 
           echo "# Recon Run $RUN_ID" > "$FINAL_DIR/summary.md"
@@ -286,13 +394,44 @@ jobs:
           echo "" >> "$FINAL_DIR/summary.md"
           echo "Total subdomains: $(wc -l < "$FINAL_DIR/subfinder-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
           echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
+          echo "Nuclei findings lines: $(wc -l < "$NUCLEI_TXT" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
           echo "" >> "$FINAL_DIR/summary.md"
-          echo "Files:" >> "$FINAL_DIR/summary.md"
-          find "$FINAL_DIR" -type f | sort >> "$FINAL_DIR/summary.md"
+          echo "Important files:" >> "$FINAL_DIR/summary.md"
+          echo "- subfinder-all.txt" >> "$FINAL_DIR/summary.md"
+          echo "- httpx-all.txt" >> "$FINAL_DIR/summary.md"
+          echo "- httpx-status-report-all.md" >> "$FINAL_DIR/summary.md"
+          echo "- nuclei.txt" >> "$FINAL_DIR/summary.md"
+          echo "- nuclei-log.txt" >> "$FINAL_DIR/summary.md"
+
+      - name: Final push with retry
+        if: always()
+        run: |
+          set +e
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add results
-          git commit -m "Recon results run-$RUN_ID" || echo "No changes to commit"
-          git push || true
+          git add results/run-${{ github.run_id }}
+
+          if git diff --cached --quiet; then
+            echo "No final changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Recon final results run-${{ github.run_id }}" || true
+
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            echo "Final push attempt $i..."
+            git pull --rebase origin main || true
+
+            if git push origin main; then
+              echo "Final push successful"
+              exit 0
+            fi
+
+            echo "Final push failed, retrying..."
+            sleep 30
+          done
+
+          echo "Final push failed after retries"
+          exit 1

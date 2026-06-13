@@ -30,6 +30,8 @@ jobs:
         id: make_batches
         run: |
           set +e
+
+          rm -rf targets batches
           mkdir -p targets batches
 
           echo "${{ github.event.inputs.websites }}" \
@@ -37,9 +39,18 @@ jobs:
             | sed '/^$/d' \
             | sed 's#https://##g; s#http://##g; s#/.*##g' \
             | sed 's#www\.##g' \
+            | tr '[:upper:]' '[:lower:]' \
             | sort -u > targets/current.txt
 
           BATCH_SIZE="${{ github.event.inputs.batch_size }}"
+
+          if ! echo "$BATCH_SIZE" | grep -Eq '^[0-9]+$'; then
+            BATCH_SIZE="3"
+          fi
+
+          if [ "$BATCH_SIZE" -lt 1 ]; then
+            BATCH_SIZE="3"
+          fi
 
           if [ ! -s targets/current.txt ]; then
             echo "No targets provided."
@@ -49,14 +60,14 @@ jobs:
 
           split -l "$BATCH_SIZE" -d -a 2 targets/current.txt batches/batch-
 
-          BATCHES=$(ls batches | jq -R -s -c 'split("\n")[:-1]')
+          BATCHES=$(find batches -maxdepth 1 -type f -name 'batch-*' -printf '%f\n' | sort | jq -R -s -c 'split("\n")[:-1]')
           echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
 
           echo "Targets:"
           cat targets/current.txt
 
           echo "Batches:"
-          ls -la batches
+          find batches -maxdepth 1 -type f -print -exec cat {} \;
 
       - name: Upload prepared targets
         uses: actions/upload-artifact@v4
@@ -86,6 +97,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download prepared targets
         uses: actions/download-artifact@v4
@@ -109,39 +122,51 @@ jobs:
           set +e
 
           RUN_ID="${{ github.run_id }}"
+          BATCH_NAME="${{ matrix.batch }}"
           RUN_DIR="results/run-$RUN_ID"
-          OUT_DIR="$RUN_DIR/${{ matrix.batch }}"
+          OUT_DIR="$RUN_DIR/$BATCH_NAME"
+
+          rm -rf "$OUT_DIR"
           mkdir -p "$OUT_DIR"
 
-          TARGETS="batches/${{ matrix.batch }}"
+          TARGETS="batches/$BATCH_NAME"
           SUBS="$OUT_DIR/subfinder.txt"
+          HTTPX_INPUT="$OUT_DIR/httpx-input.txt"
           HTTPX="$OUT_DIR/httpx.txt"
           HTTPX_URLS="$OUT_DIR/httpx-urls.txt"
           LOG="$OUT_DIR/run-log.txt"
 
+          touch "$SUBS" "$HTTPX_INPUT" "$HTTPX" "$HTTPX_URLS" "$LOG"
+
           echo "[+] Batch started: $(date)" | tee -a "$LOG"
-          echo "[+] Batch name: ${{ matrix.batch }}" | tee -a "$LOG"
+          echo "[+] Run ID: $RUN_ID" | tee -a "$LOG"
+          echo "[+] Batch name: $BATCH_NAME" | tee -a "$LOG"
           echo "[+] Batch targets:" | tee -a "$LOG"
           cat "$TARGETS" | tee -a "$LOG"
 
           echo "[+] Running subfinder..." | tee -a "$LOG"
 
           while read -r domain; do
-            subfinder -silent -d "$domain" || true
+            if [ -n "$domain" ]; then
+              subfinder -silent -d "$domain" || true
+            fi
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
           echo "[+] Subfinder completed: $(date)" | tee -a "$LOG"
 
-          if [ ! -s "$SUBS" ]; then
-            echo "No subdomains found." | tee -a "$HTTPX" "$LOG"
-            touch "$HTTPX_URLS"
+          cat "$TARGETS" "$SUBS" | sed '/^$/d' | sort -u > "$HTTPX_INPUT"
+
+          echo "[+] HTTPX input count: $(wc -l < "$HTTPX_INPUT")" | tee -a "$LOG"
+
+          if [ ! -s "$HTTPX_INPUT" ]; then
+            echo "No httpx input found." | tee -a "$LOG"
             exit 0
           fi
 
           echo "[+] Running httpx..." | tee -a "$LOG"
 
           timeout 60m httpx -silent \
-            -l "$SUBS" \
+            -l "$HTTPX_INPUT" \
             -status-code \
             -title \
             -tech-detect \
@@ -151,9 +176,10 @@ jobs:
             -cdn \
             -location \
             -response-time \
-            -o "$HTTPX" || true
+            | tee "$HTTPX"
 
           echo "[+] httpx completed or timed out: $(date)" | tee -a "$LOG"
+          echo "[+] httpx line count: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)" | tee -a "$LOG"
 
           awk '{print $1}' "$HTTPX" | grep '^http' | sort -u > "$HTTPX_URLS" || true
 
@@ -162,6 +188,7 @@ jobs:
           grep '\[302\]' "$HTTPX" > "$OUT_DIR/httpx-302.txt" || true
           grep '\[307\]' "$HTTPX" > "$OUT_DIR/httpx-307.txt" || true
           grep '\[308\]' "$HTTPX" > "$OUT_DIR/httpx-308.txt" || true
+          grep '\[401\]' "$HTTPX" > "$OUT_DIR/httpx-401.txt" || true
           grep '\[403\]' "$HTTPX" > "$OUT_DIR/httpx-403.txt" || true
           grep '\[404\]' "$HTTPX" > "$OUT_DIR/httpx-404.txt" || true
           grep '\[500\]' "$HTTPX" > "$OUT_DIR/httpx-500.txt" || true
@@ -172,6 +199,8 @@ jobs:
             echo "# HTTPX Status Report"
             echo ""
             echo "Generated at: $(date)"
+            echo ""
+            echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)"
             echo ""
             echo "## 200 OK"
             cat "$OUT_DIR/httpx-200.txt" || true
@@ -185,6 +214,12 @@ jobs:
             echo "## 307 Redirect"
             cat "$OUT_DIR/httpx-307.txt" || true
             echo ""
+            echo "## 308 Redirect"
+            cat "$OUT_DIR/httpx-308.txt" || true
+            echo ""
+            echo "## 401 Unauthorized"
+            cat "$OUT_DIR/httpx-401.txt" || true
+            echo ""
             echo "## 403 Forbidden"
             cat "$OUT_DIR/httpx-403.txt" || true
             echo ""
@@ -197,18 +232,28 @@ jobs:
             cat "$OUT_DIR/httpx-503.txt" || true
           } > "$OUT_DIR/httpx-status-report.md"
 
-          echo "[+] Batch completed: $(date)" | tee -a "$LOG"
-
           echo "# Batch Summary" > "$OUT_DIR/summary.md"
           echo "" >> "$OUT_DIR/summary.md"
           echo "Run ID: $RUN_ID" >> "$OUT_DIR/summary.md"
-          echo "Batch: ${{ matrix.batch }}" >> "$OUT_DIR/summary.md"
+          echo "Batch: $BATCH_NAME" >> "$OUT_DIR/summary.md"
           echo "Saved at: $(date)" >> "$OUT_DIR/summary.md"
           echo "" >> "$OUT_DIR/summary.md"
+          echo "Input domains: $(wc -l < "$TARGETS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
           echo "Subdomains: $(wc -l < "$SUBS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
+          echo "HTTPX lines: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
           echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
 
+          echo "[+] Batch completed: $(date)" | tee -a "$LOG"
+
           exit 0
+
+      - name: Upload batch artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-results-${{ github.run_id }}-${{ matrix.batch }}
+          path: results/run-${{ github.run_id }}/${{ matrix.batch }}/
+          retention-days: 30
 
       - name: Push this batch result immediately
         if: always()
@@ -217,6 +262,8 @@ jobs:
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
+          git pull --rebase origin main || true
 
           git add results/run-${{ github.run_id }}/${{ matrix.batch }}
 
@@ -227,29 +274,21 @@ jobs:
 
           git commit -m "Recon batch ${{ matrix.batch }} run-${{ github.run_id }}" || true
 
-          for i in 1 2 3 4 5 6 7 8; do
+          for i in 1 2 3 4 5 6 7 8 9 10; do
             echo "Batch push attempt $i..."
-            git pull --rebase origin main || true
 
             if git push origin main; then
               echo "Batch push successful"
               exit 0
             fi
 
+            git pull --rebase origin main || true
             echo "Batch push failed, retrying..."
             sleep 20
           done
 
-          echo "Batch push failed after retries"
+          echo "Batch push failed after retries, artifact is still uploaded."
           exit 0
-
-      - name: Upload batch artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: batch-results-${{ github.run_id }}-${{ matrix.batch }}
-          path: results/
-          retention-days: 30
 
   save-and-nuclei:
     needs: recon
@@ -275,7 +314,7 @@ jobs:
         with:
           pattern: batch-results-${{ github.run_id }}-*
           path: downloaded-results
-          merge-multiple: true
+          merge-multiple: false
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -296,24 +335,37 @@ jobs:
           FINAL_DIR="results/run-$RUN_ID"
           mkdir -p "$FINAL_DIR"
 
-          echo "[+] Copying downloaded artifacts..."
+          echo "[+] Existing repo files:"
+          find "$FINAL_DIR" -type f || true
+
+          echo "[+] Downloaded artifact files:"
           find downloaded-results -type f || true
 
-          if [ -d "downloaded-results/results/run-$RUN_ID" ]; then
-            cp -R downloaded-results/results/run-$RUN_ID/* "$FINAL_DIR/" || true
-          fi
+          echo "[+] Copying artifacts into clean batch folders..."
+
+          for artifact_dir in downloaded-results/batch-results-${RUN_ID}-batch-*; do
+            if [ -d "$artifact_dir" ]; then
+              batch_name=$(basename "$artifact_dir" | sed "s/batch-results-${RUN_ID}-//")
+              mkdir -p "$FINAL_DIR/$batch_name"
+              cp -R "$artifact_dir"/. "$FINAL_DIR/$batch_name/" || true
+            fi
+          done
+
+          echo "[+] Final batch files after copy:"
+          find "$FINAL_DIR" -type f || true
 
           echo "[+] Merging final files..."
 
-          find "$FINAL_DIR" -path "*/batch-*/subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
-          find "$FINAL_DIR" -path "*/batch-*/httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
-          find "$FINAL_DIR" -path "*/batch-*/httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
 
           grep '\[200\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-200-all.txt" || true
           grep '\[301\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-301-all.txt" || true
           grep '\[302\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-302-all.txt" || true
           grep '\[307\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-307-all.txt" || true
           grep '\[308\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-308-all.txt" || true
+          grep '\[401\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-401-all.txt" || true
           grep '\[403\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-403-all.txt" || true
           grep '\[404\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-404-all.txt" || true
           grep '\[500\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-500-all.txt" || true
@@ -324,6 +376,9 @@ jobs:
             echo "# Final HTTPX Status Report"
             echo ""
             echo "Generated at: $(date)"
+            echo ""
+            echo "Total HTTPX lines: $(wc -l < "$FINAL_DIR/httpx-all.txt" 2>/dev/null || echo 0)"
+            echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)"
             echo ""
             echo "## 200 OK"
             cat "$FINAL_DIR/httpx-200-all.txt" || true
@@ -336,6 +391,12 @@ jobs:
             echo ""
             echo "## 307 Redirect"
             cat "$FINAL_DIR/httpx-307-all.txt" || true
+            echo ""
+            echo "## 308 Redirect"
+            cat "$FINAL_DIR/httpx-308-all.txt" || true
+            echo ""
+            echo "## 401 Unauthorized"
+            cat "$FINAL_DIR/httpx-401-all.txt" || true
             echo ""
             echo "## 403 Forbidden"
             cat "$FINAL_DIR/httpx-403-all.txt" || true
@@ -350,8 +411,9 @@ jobs:
           } > "$FINAL_DIR/httpx-status-report-all.md"
 
           NUCLEI_TXT="$FINAL_DIR/nuclei.txt"
-          NUCLEI_JSON="$FINAL_DIR/nuclei-jsonl.txt"
           NUCLEI_LOG="$FINAL_DIR/nuclei-log.txt"
+
+          touch "$NUCLEI_TXT" "$NUCLEI_LOG"
 
           echo "[+] Nuclei started at: $(date)" | tee -a "$NUCLEI_LOG"
           echo "[+] URL count: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" | tee -a "$NUCLEI_LOG"
@@ -367,11 +429,9 @@ jobs:
               -c 10 \
               -retries 1 \
               -o "$NUCLEI_TXT" \
-              -jsonl \
-              -json-export "$NUCLEI_JSON" \
-              2>&1 | tee -a "$NUCLEI_LOG"
+              >> "$NUCLEI_LOG" 2>&1
 
-            NUCLEI_EXIT=${PIPESTATUS[0]}
+            NUCLEI_EXIT=$?
 
             if [ "$NUCLEI_EXIT" = "124" ]; then
               echo "Nuclei timed out after ${{ github.event.inputs.nuclei_minutes }} minutes." | tee -a "$NUCLEI_LOG"
@@ -382,10 +442,6 @@ jobs:
             if [ ! -s "$NUCLEI_TXT" ]; then
               echo "No critical/high/medium/low nuclei findings found." > "$NUCLEI_TXT"
             fi
-
-            if [ ! -s "$NUCLEI_JSON" ]; then
-              echo "No JSONL nuclei findings found." > "$NUCLEI_JSON"
-            fi
           fi
 
           echo "# Recon Run $RUN_ID" > "$FINAL_DIR/summary.md"
@@ -393,15 +449,20 @@ jobs:
           echo "Saved at: $(date)" >> "$FINAL_DIR/summary.md"
           echo "" >> "$FINAL_DIR/summary.md"
           echo "Total subdomains: $(wc -l < "$FINAL_DIR/subfinder-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
+          echo "Total HTTPX lines: $(wc -l < "$FINAL_DIR/httpx-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
           echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
           echo "Nuclei findings lines: $(wc -l < "$NUCLEI_TXT" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
           echo "" >> "$FINAL_DIR/summary.md"
           echo "Important files:" >> "$FINAL_DIR/summary.md"
           echo "- subfinder-all.txt" >> "$FINAL_DIR/summary.md"
           echo "- httpx-all.txt" >> "$FINAL_DIR/summary.md"
+          echo "- httpx-urls-all.txt" >> "$FINAL_DIR/summary.md"
           echo "- httpx-status-report-all.md" >> "$FINAL_DIR/summary.md"
           echo "- nuclei.txt" >> "$FINAL_DIR/summary.md"
           echo "- nuclei-log.txt" >> "$FINAL_DIR/summary.md"
+
+          echo "[+] Final summary:"
+          cat "$FINAL_DIR/summary.md"
 
       - name: Final push with retry
         if: always()
@@ -410,6 +471,8 @@ jobs:
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
+          git pull --rebase origin main || true
 
           git add results/run-${{ github.run_id }}
 
@@ -422,13 +485,13 @@ jobs:
 
           for i in 1 2 3 4 5 6 7 8 9 10; do
             echo "Final push attempt $i..."
-            git pull --rebase origin main || true
 
             if git push origin main; then
               echo "Final push successful"
               exit 0
             fi
 
+            git pull --rebase origin main || true
             echo "Final push failed, retrying..."
             sleep 30
           done

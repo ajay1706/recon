@@ -1,0 +1,7 @@
+[+] Batch started: Sat Jun 13 06:07:05 UTC 2026
+aevo.xyz
+apex.exchange
+drift.trade
+[+] Running subfinder...
+[+] Running httpx...
+[+] Batch completed: Sat Jun 13 06:08:37 UTC 2026

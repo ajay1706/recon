@@ -1,0 +1,5 @@
+https://app.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [66.101048ms] [Cloudflare,HSTS,Vercel]
+https://docs.gmx.io [200] [] [301] [cloudflare] [172.66.159.224] [cloudflare] [65.968342ms] [Cloudflare]
+https://docs.dydx.trade [301] [https://docs.dydx.xyz] [665] [301 Moved Permanently] [cloudflare] [172.66.166.30] [cloudflare] [41.823555ms] [Cloudflare,Cloudflare Browser Insights]
+https://www.gains.trade [301] [https://gains.trade/] [167] [301 Moved Permanently] [cloudflare] [104.20.24.67] [cloudflare] [92.222354ms] [Cloudflare,HTTP/3]
+https://www.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [205.032238ms] [Cloudflare,HSTS,Vercel]

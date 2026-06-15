@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 12:22:26 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-40
+[+] Batch targets:
+hyperlane.xyz
+hyperliquid.xyz
+hyperspace.xyz
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 12:23:40 UTC 2026
+[+] HTTPX input count: 111
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 12:24:02 UTC 2026
+[+] httpx line count: 41
+[+] Batch completed: Mon Jun 15 12:24:02 UTC 2026

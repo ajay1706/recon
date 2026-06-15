@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 12:13:03 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-33
+[+] Batch targets:
+francium.io
+friend.tech
+fuel.network
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 12:13:25 UTC 2026
+[+] HTTPX input count: 188
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 12:13:48 UTC 2026
+[+] httpx line count: 107
+[+] Batch completed: Mon Jun 15 12:13:48 UTC 2026

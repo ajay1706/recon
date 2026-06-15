@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 11:33:13 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-03
+[+] Batch targets:
+alchemy.com
+allora.network
+alpaca.finance
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 11:33:57 UTC 2026
+[+] HTTPX input count: 425
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 11:35:02 UTC 2026
+[+] httpx line count: 220
+[+] Batch completed: Mon Jun 15 11:35:02 UTC 2026

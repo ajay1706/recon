@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 12:50:36 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-61
+[+] Batch targets:
+paragraph.xyz
+parallel.life
+paraswap.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 12:51:14 UTC 2026
+[+] HTTPX input count: 984
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 12:51:32 UTC 2026
+[+] httpx line count: 961
+[+] Batch completed: Mon Jun 15 12:51:32 UTC 2026

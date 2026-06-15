@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 13:23:21 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-86
+[+] Batch targets:
+tensor.trade
+thala.fi
+thegraph.com
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 13:24:35 UTC 2026
+[+] HTTPX input count: 248
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 13:24:58 UTC 2026
+[+] httpx line count: 128
+[+] Batch completed: Mon Jun 15 13:24:58 UTC 2026

@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 13:08:08 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-74
+[+] Batch targets:
+sharky.fi
+singulairtynet.io
+singularitydao.ai
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 13:09:11 UTC 2026
+[+] HTTPX input count: 55
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 13:09:31 UTC 2026
+[+] httpx line count: 21
+[+] Batch completed: Mon Jun 15 13:09:31 UTC 2026

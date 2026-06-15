@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 13:17:05 UTC 2026
+[+] Run ID: 27543264426
+[+] Batch name: batch-81
+[+] Batch targets:
+step.finance
+story.foundation
+sui.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 13:17:52 UTC 2026
+[+] HTTPX input count: 257
+[+] Running httpx...
+[+] httpx completed: Mon Jun 15 13:18:24 UTC 2026
+[+] httpx line count: 143
+[+] Batch completed: Mon Jun 15 13:18:24 UTC 2026

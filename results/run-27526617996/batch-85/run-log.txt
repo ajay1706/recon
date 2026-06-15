@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 07:36:31 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-85
+[+] Batch targets:
+tao.app
+tenderly.co
+tensor.foundation
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 07:37:25 UTC 2026
+[+] HTTPX input count: 1410
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 07:39:51 UTC 2026
+[+] httpx line count: 712
+[+] Batch completed: Mon Jun 15 07:39:51 UTC 2026

@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:55:31 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-55
+[+] Batch targets:
+movementlabs.xyz
+myshell.ai
+nansen.ai
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:57:04 UTC 2026
+[+] HTTPX input count: 790
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:59:29 UTC 2026
+[+] httpx line count: 396
+[+] Batch completed: Mon Jun 15 06:59:29 UTC 2026

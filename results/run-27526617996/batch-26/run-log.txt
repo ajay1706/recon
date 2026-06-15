@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:19:08 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-26
+[+] Batch targets:
+dimo.zone
+drift.trade
+dune.com
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:22:10 UTC 2026
+[+] HTTPX input count: 248
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:22:57 UTC 2026
+[+] httpx line count: 86
+[+] Batch completed: Mon Jun 15 06:22:57 UTC 2026

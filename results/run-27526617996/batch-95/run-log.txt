@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 07:48:38 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-95
+[+] Batch targets:
+zeta.markets
+zircuit.com
+zklink.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 07:49:29 UTC 2026
+[+] HTTPX input count: 308
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 07:50:09 UTC 2026
+[+] httpx line count: 94
+[+] Batch completed: Mon Jun 15 07:50:09 UTC 2026

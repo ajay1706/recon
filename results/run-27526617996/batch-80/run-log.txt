@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 07:28:43 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-80
+[+] Batch targets:
+staratlas.com
+stargate.finance
+starknet.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 07:29:48 UTC 2026
+[+] HTTPX input count: 533
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 07:31:56 UTC 2026
+[+] httpx line count: 76
+[+] Batch completed: Mon Jun 15 07:31:56 UTC 2026

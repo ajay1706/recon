@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:25:33 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-31
+[+] Batch targets:
+extra.finance
+famousfoxes.com
+farcaster.xyz
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:26:05 UTC 2026
+[+] HTTPX input count: 87
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:26:26 UTC 2026
+[+] httpx line count: 57
+[+] Batch completed: Mon Jun 15 06:26:26 UTC 2026

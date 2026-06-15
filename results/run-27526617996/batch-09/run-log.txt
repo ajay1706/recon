@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 05:57:15 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-09
+[+] Batch targets:
+balancer.fi
+bankr.bot
+base.org
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 05:58:03 UTC 2026
+[+] HTTPX input count: 173
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 05:58:21 UTC 2026
+[+] httpx line count: 76
+[+] Batch completed: Mon Jun 15 05:58:21 UTC 2026

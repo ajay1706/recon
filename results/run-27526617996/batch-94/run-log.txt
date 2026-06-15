@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 07:47:56 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-94
+[+] Batch targets:
+xverse.app
+zapper.xyz
+zerion.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 07:48:26 UTC 2026
+[+] HTTPX input count: 160
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 07:48:47 UTC 2026
+[+] httpx line count: 113
+[+] Batch completed: Mon Jun 15 07:48:47 UTC 2026

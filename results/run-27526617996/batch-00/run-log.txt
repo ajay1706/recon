@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 05:48:14 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-00
+[+] Batch targets:
+1inch.io
+aave.com
+accessprotocol.co
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 05:49:26 UTC 2026
+[+] HTTPX input count: 1386
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 05:54:30 UTC 2026
+[+] httpx line count: 233
+[+] Batch completed: Mon Jun 15 05:54:30 UTC 2026

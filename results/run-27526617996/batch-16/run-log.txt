@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:06:16 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-16
+[+] Batch targets:
+bonk.com
+bonkbot.io
+bouncebit.io
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:06:39 UTC 2026
+[+] HTTPX input count: 52
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:06:53 UTC 2026
+[+] httpx line count: 28
+[+] Batch completed: Mon Jun 15 06:06:53 UTC 2026

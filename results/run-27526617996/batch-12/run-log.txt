@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:00:06 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-12
+[+] Batch targets:
+birdeye.so
+biswap.org
+bitcoin.org
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:01:08 UTC 2026
+[+] HTTPX input count: 121
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:01:23 UTC 2026
+[+] httpx line count: 71
+[+] Batch completed: Mon Jun 15 06:01:23 UTC 2026

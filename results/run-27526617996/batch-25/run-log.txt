@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:17:05 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-25
+[+] Batch targets:
+dexscreener.com
+dial.to
+dialect.to
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:17:39 UTC 2026
+[+] HTTPX input count: 211
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:18:00 UTC 2026
+[+] httpx line count: 64
+[+] Batch completed: Mon Jun 15 06:18:00 UTC 2026

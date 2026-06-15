@@ -1,0 +1,22 @@
+[+] Nuclei started at: Mon Jun 15 07:57:16 UTC 2026
+[+] URL count: 15460
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.9.0
+
+		projectdiscovery.io
+
+[[34mINF[0m] Current nuclei version: v3.9.0 ([92mlatest[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.4 ([92mlatest[0m)
+[[34mINF[0m] New templates added in latest release: 179
+[[34mINF[0m] Templates loaded for current scan: 6683
+[[34mINF[0m] Executing 6681 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 15460
+[[34mINF[0m] Templates clustered: 460 (Reduced 6106700 Requests)
+[[34mINF[0m] Using Interactsh Server: oast.site
+[[34mINF[0m] Skipped beta1-analysis.solscan.io:443 from target list as found unresponsive permanently: Get "https://beta1-analysis.solscan.io": cause="no address found for host"
+[[34mINF[0m] Skipped beta1-analysis.solscan.io:443 from target list as found unresponsive permanently: cause="no address found for host" chain="got err while executing https://beta1-analysis.solscan.io/webadm/?q=moni_detail.do&action=gragh"
+Nuclei timed out after 120 minutes.

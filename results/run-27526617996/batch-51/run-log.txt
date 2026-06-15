@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 06:50:35 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-51
+[+] Batch targets:
+mendi.finance
+metamask.io
+metaplex.com
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 06:51:28 UTC 2026
+[+] HTTPX input count: 503
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 06:52:36 UTC 2026
+[+] httpx line count: 260
+[+] Batch completed: Mon Jun 15 06:52:36 UTC 2026

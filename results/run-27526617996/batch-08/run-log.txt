@@ -1,0 +1,14 @@
+[+] Batch started: Mon Jun 15 05:54:11 UTC 2026
+[+] Run ID: 27526617996
+[+] Batch name: batch-08
+[+] Batch targets:
+babylonlabs.io
+backpack.app
+backpack.exchange
+[+] Running subfinder...
+[+] Subfinder completed: Mon Jun 15 05:55:18 UTC 2026
+[+] HTTPX input count: 586
+[+] Running httpx...
+[+] httpx completed or timed out: Mon Jun 15 05:56:24 UTC 2026
+[+] httpx line count: 260
+[+] Batch completed: Mon Jun 15 05:56:24 UTC 2026

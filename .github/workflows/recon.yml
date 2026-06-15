@@ -1,4 +1,4 @@
-name: Recon Auto
+name: Recon
 
 on:
   workflow_dispatch:
@@ -8,15 +8,13 @@ on:
         required: true
         type: string
       batch_size:
-        description: "Domains per batch. Use 2, 3, or 5"
+        description: "Domains per batch"
         required: true
         default: "3"
         type: string
-      nuclei_minutes:
-        description: "Max minutes for final nuclei scan"
-        required: true
-        default: "120"
-        type: string
+
+permissions:
+  contents: write
 
 jobs:
   prepare:
@@ -28,6 +26,7 @@ jobs:
     steps:
       - name: Prepare domain batches
         id: make_batches
+        shell: bash
         run: |
           set +e
 
@@ -63,12 +62,6 @@ jobs:
           BATCHES=$(find batches -maxdepth 1 -type f -name 'batch-*' -printf '%f\n' | sort | jq -R -s -c 'split("\n")[:-1]')
           echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
 
-          echo "Targets:"
-          cat targets/current.txt
-
-          echo "Batches:"
-          find batches -maxdepth 1 -type f -print -exec cat {} \;
-
       - name: Upload prepared targets
         uses: actions/upload-artifact@v4
         with:
@@ -82,11 +75,7 @@ jobs:
     needs: prepare
     if: ${{ needs.prepare.outputs.batches != '[]' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 180
     continue-on-error: true
-
-    permissions:
-      contents: write
 
     strategy:
       fail-fast: false
@@ -112,12 +101,14 @@ jobs:
           go-version: stable
 
       - name: Install subfinder and httpx
+        shell: bash
         run: |
           go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
           go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-          echo "$HOME/go/bin" >> $GITHUB_PATH
+          echo "$HOME/go/bin" >> "$GITHUB_PATH"
 
       - name: Run subfinder and httpx for batch
+        shell: bash
         run: |
           set +e
 
@@ -148,7 +139,7 @@ jobs:
 
           while read -r domain; do
             if [ -n "$domain" ]; then
-              subfinder -silent -d "$domain" || true
+              subfinder -silent -d "$domain" 2>>"$LOG" || true
             fi
           done < "$TARGETS" | sort -u | tee "$SUBS"
 
@@ -156,7 +147,7 @@ jobs:
 
           cat "$TARGETS" "$SUBS" | sed '/^$/d' | sort -u > "$HTTPX_INPUT"
 
-          echo "[+] HTTPX input count: $(wc -l < "$HTTPX_INPUT")" | tee -a "$LOG"
+          echo "[+] HTTPX input count: $(wc -l < "$HTTPX_INPUT" 2>/dev/null || echo 0)" | tee -a "$LOG"
 
           if [ ! -s "$HTTPX_INPUT" ]; then
             echo "No httpx input found." | tee -a "$LOG"
@@ -165,7 +156,7 @@ jobs:
 
           echo "[+] Running httpx..." | tee -a "$LOG"
 
-          timeout 60m httpx -silent \
+          httpx -silent \
             -l "$HTTPX_INPUT" \
             -status-code \
             -title \
@@ -176,72 +167,45 @@ jobs:
             -cdn \
             -location \
             -response-time \
+            2> >(tee -a "$LOG" >&2) \
             | tee "$HTTPX"
 
-          echo "[+] httpx completed or timed out: $(date)" | tee -a "$LOG"
+          echo "[+] httpx completed: $(date)" | tee -a "$LOG"
           echo "[+] httpx line count: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)" | tee -a "$LOG"
 
           awk '{print $1}' "$HTTPX" | grep '^http' | sort -u > "$HTTPX_URLS" || true
 
-          grep '\[200\]' "$HTTPX" > "$OUT_DIR/httpx-200.txt" || true
-          grep '\[301\]' "$HTTPX" > "$OUT_DIR/httpx-301.txt" || true
-          grep '\[302\]' "$HTTPX" > "$OUT_DIR/httpx-302.txt" || true
-          grep '\[307\]' "$HTTPX" > "$OUT_DIR/httpx-307.txt" || true
-          grep '\[308\]' "$HTTPX" > "$OUT_DIR/httpx-308.txt" || true
-          grep '\[401\]' "$HTTPX" > "$OUT_DIR/httpx-401.txt" || true
-          grep '\[403\]' "$HTTPX" > "$OUT_DIR/httpx-403.txt" || true
-          grep '\[404\]' "$HTTPX" > "$OUT_DIR/httpx-404.txt" || true
-          grep '\[500\]' "$HTTPX" > "$OUT_DIR/httpx-500.txt" || true
-          grep '\[502\]' "$HTTPX" > "$OUT_DIR/httpx-502.txt" || true
-          grep '\[503\]' "$HTTPX" > "$OUT_DIR/httpx-503.txt" || true
+          for code in 200 301 302 307 308 401 403 404 500 502 503; do
+            grep "\[$code\]" "$HTTPX" > "$OUT_DIR/httpx-$code.txt" || true
+          done
 
           {
             echo "# HTTPX Status Report"
             echo ""
             echo "Generated at: $(date)"
             echo ""
+            echo "HTTPX lines: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)"
             echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)"
             echo ""
-            echo "## 200 OK"
-            cat "$OUT_DIR/httpx-200.txt" || true
-            echo ""
-            echo "## 301 Redirect"
-            cat "$OUT_DIR/httpx-301.txt" || true
-            echo ""
-            echo "## 302 Redirect"
-            cat "$OUT_DIR/httpx-302.txt" || true
-            echo ""
-            echo "## 307 Redirect"
-            cat "$OUT_DIR/httpx-307.txt" || true
-            echo ""
-            echo "## 308 Redirect"
-            cat "$OUT_DIR/httpx-308.txt" || true
-            echo ""
-            echo "## 401 Unauthorized"
-            cat "$OUT_DIR/httpx-401.txt" || true
-            echo ""
-            echo "## 403 Forbidden"
-            cat "$OUT_DIR/httpx-403.txt" || true
-            echo ""
-            echo "## 404 Not Found"
-            cat "$OUT_DIR/httpx-404.txt" || true
-            echo ""
-            echo "## 5xx Server Errors"
-            cat "$OUT_DIR/httpx-500.txt" || true
-            cat "$OUT_DIR/httpx-502.txt" || true
-            cat "$OUT_DIR/httpx-503.txt" || true
+            for code in 200 301 302 307 308 401 403 404 500 502 503; do
+              echo "## $code"
+              cat "$OUT_DIR/httpx-$code.txt" || true
+              echo ""
+            done
           } > "$OUT_DIR/httpx-status-report.md"
 
-          echo "# Batch Summary" > "$OUT_DIR/summary.md"
-          echo "" >> "$OUT_DIR/summary.md"
-          echo "Run ID: $RUN_ID" >> "$OUT_DIR/summary.md"
-          echo "Batch: $BATCH_NAME" >> "$OUT_DIR/summary.md"
-          echo "Saved at: $(date)" >> "$OUT_DIR/summary.md"
-          echo "" >> "$OUT_DIR/summary.md"
-          echo "Input domains: $(wc -l < "$TARGETS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
-          echo "Subdomains: $(wc -l < "$SUBS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
-          echo "HTTPX lines: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
-          echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)" >> "$OUT_DIR/summary.md"
+          {
+            echo "# Batch Summary"
+            echo ""
+            echo "Run ID: $RUN_ID"
+            echo "Batch: $BATCH_NAME"
+            echo "Saved at: $(date)"
+            echo ""
+            echo "Input domains: $(wc -l < "$TARGETS" 2>/dev/null || echo 0)"
+            echo "Subdomains: $(wc -l < "$SUBS" 2>/dev/null || echo 0)"
+            echo "HTTPX lines: $(wc -l < "$HTTPX" 2>/dev/null || echo 0)"
+            echo "Live URLs: $(wc -l < "$HTTPX_URLS" 2>/dev/null || echo 0)"
+          } > "$OUT_DIR/summary.md"
 
           echo "[+] Batch completed: $(date)" | tee -a "$LOG"
 
@@ -257,13 +221,16 @@ jobs:
 
       - name: Push this batch result immediately
         if: always()
+        shell: bash
         run: |
           set +e
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git pull --rebase origin main || true
+          git pull --rebase origin "$BRANCH" || true
 
           git add results/run-${{ github.run_id }}/${{ matrix.batch }}
 
@@ -277,27 +244,25 @@ jobs:
           for i in 1 2 3 4 5 6 7 8 9 10; do
             echo "Batch push attempt $i..."
 
-            if git push origin main; then
+            if git push origin "HEAD:$BRANCH"; then
               echo "Batch push successful"
               exit 0
             fi
 
-            git pull --rebase origin main || true
-            echo "Batch push failed, retrying..."
+            git pull --rebase origin "$BRANCH" || true
             sleep 20
           done
 
-          echo "Batch push failed after retries, artifact is still uploaded."
+          echo "Batch push failed after retries. Artifact is still uploaded."
           exit 0
 
-  save-and-nuclei:
-    needs: recon
-    if: always()
+  merge:
+    needs:
+      - prepare
+      - recon
+    if: ${{ always() && needs.prepare.outputs.batches != '[]' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 350
-
-    permissions:
-      contents: write
+    continue-on-error: true
 
     steps:
       - name: Checkout latest repo
@@ -306,8 +271,10 @@ jobs:
           fetch-depth: 0
 
       - name: Pull latest batch commits
+        shell: bash
         run: |
-          git pull --rebase origin main || true
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH" || true
 
       - name: Download all batch artifacts
         uses: actions/download-artifact@v4
@@ -316,18 +283,8 @@ jobs:
           path: downloaded-results
           merge-multiple: false
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: stable
-
-      - name: Install nuclei
-        run: |
-          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
-          echo "$HOME/go/bin" >> $GITHUB_PATH
-          nuclei -update-templates || true
-
-      - name: Merge all batch results and run nuclei once
+      - name: Merge all batch results
+        shell: bash
         run: |
           set +e
 
@@ -335,13 +292,7 @@ jobs:
           FINAL_DIR="results/run-$RUN_ID"
           mkdir -p "$FINAL_DIR"
 
-          echo "[+] Existing repo files:"
-          find "$FINAL_DIR" -type f || true
-
-          echo "[+] Downloaded artifact files:"
-          find downloaded-results -type f || true
-
-          echo "[+] Copying artifacts into clean batch folders..."
+          echo "[+] Copying batch artifacts..."
 
           for artifact_dir in downloaded-results/batch-results-${RUN_ID}-batch-*; do
             if [ -d "$artifact_dir" ]; then
@@ -351,128 +302,72 @@ jobs:
             fi
           done
 
-          echo "[+] Final batch files after copy:"
-          find "$FINAL_DIR" -type f || true
+          touch "$FINAL_DIR/subfinder-all.txt"
+          touch "$FINAL_DIR/httpx-all.txt"
+          touch "$FINAL_DIR/httpx-urls-all.txt"
 
-          echo "[+] Merging final files..."
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "subfinder.txt" -type f -exec cat {} \; | sed '/^$/d' | sort -u > "$FINAL_DIR/subfinder-all.txt"
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx.txt" -type f -exec cat {} \; | sed '/^$/d' | sort -u > "$FINAL_DIR/httpx-all.txt"
+          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx-urls.txt" -type f -exec cat {} \; | sed '/^$/d' | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
 
-          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "subfinder.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/subfinder-all.txt"
-          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-all.txt"
-          find "$FINAL_DIR" -mindepth 2 -maxdepth 2 -name "httpx-urls.txt" -type f -exec cat {} \; | sort -u > "$FINAL_DIR/httpx-urls-all.txt"
-
-          grep '\[200\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-200-all.txt" || true
-          grep '\[301\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-301-all.txt" || true
-          grep '\[302\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-302-all.txt" || true
-          grep '\[307\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-307-all.txt" || true
-          grep '\[308\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-308-all.txt" || true
-          grep '\[401\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-401-all.txt" || true
-          grep '\[403\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-403-all.txt" || true
-          grep '\[404\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-404-all.txt" || true
-          grep '\[500\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-500-all.txt" || true
-          grep '\[502\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-502-all.txt" || true
-          grep '\[503\]' "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-503-all.txt" || true
+          for code in 200 301 302 307 308 401 403 404 500 502 503; do
+            grep "\[$code\]" "$FINAL_DIR/httpx-all.txt" > "$FINAL_DIR/httpx-$code-all.txt" || true
+          done
 
           {
             echo "# Final HTTPX Status Report"
             echo ""
+            echo "Run ID: $RUN_ID"
             echo "Generated at: $(date)"
             echo ""
             echo "Total HTTPX lines: $(wc -l < "$FINAL_DIR/httpx-all.txt" 2>/dev/null || echo 0)"
             echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)"
             echo ""
-            echo "## 200 OK"
-            cat "$FINAL_DIR/httpx-200-all.txt" || true
-            echo ""
-            echo "## 301 Redirect"
-            cat "$FINAL_DIR/httpx-301-all.txt" || true
-            echo ""
-            echo "## 302 Redirect"
-            cat "$FINAL_DIR/httpx-302-all.txt" || true
-            echo ""
-            echo "## 307 Redirect"
-            cat "$FINAL_DIR/httpx-307-all.txt" || true
-            echo ""
-            echo "## 308 Redirect"
-            cat "$FINAL_DIR/httpx-308-all.txt" || true
-            echo ""
-            echo "## 401 Unauthorized"
-            cat "$FINAL_DIR/httpx-401-all.txt" || true
-            echo ""
-            echo "## 403 Forbidden"
-            cat "$FINAL_DIR/httpx-403-all.txt" || true
-            echo ""
-            echo "## 404 Not Found"
-            cat "$FINAL_DIR/httpx-404-all.txt" || true
-            echo ""
-            echo "## 5xx Server Errors"
-            cat "$FINAL_DIR/httpx-500-all.txt" || true
-            cat "$FINAL_DIR/httpx-502-all.txt" || true
-            cat "$FINAL_DIR/httpx-503-all.txt" || true
+            for code in 200 301 302 307 308 401 403 404 500 502 503; do
+              echo "## $code"
+              cat "$FINAL_DIR/httpx-$code-all.txt" || true
+              echo ""
+            done
           } > "$FINAL_DIR/httpx-status-report-all.md"
 
-          NUCLEI_TXT="$FINAL_DIR/nuclei.txt"
-          NUCLEI_LOG="$FINAL_DIR/nuclei-log.txt"
+          {
+            echo "# Recon Run $RUN_ID"
+            echo ""
+            echo "Saved at: $(date)"
+            echo ""
+            echo "Total subdomains: $(wc -l < "$FINAL_DIR/subfinder-all.txt" 2>/dev/null || echo 0)"
+            echo "Total HTTPX lines: $(wc -l < "$FINAL_DIR/httpx-all.txt" 2>/dev/null || echo 0)"
+            echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)"
+            echo ""
+            echo "Important files:"
+            echo "- subfinder-all.txt"
+            echo "- httpx-all.txt"
+            echo "- httpx-urls-all.txt"
+            echo "- httpx-status-report-all.md"
+          } > "$FINAL_DIR/summary.md"
 
-          touch "$NUCLEI_TXT" "$NUCLEI_LOG"
-
-          echo "[+] Nuclei started at: $(date)" | tee -a "$NUCLEI_LOG"
-          echo "[+] URL count: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" | tee -a "$NUCLEI_LOG"
-
-          if [ ! -s "$FINAL_DIR/httpx-urls-all.txt" ]; then
-            echo "No live URLs for nuclei." | tee -a "$NUCLEI_TXT" "$NUCLEI_LOG"
-          else
-            timeout "${{ github.event.inputs.nuclei_minutes }}m" nuclei \
-              -l "$FINAL_DIR/httpx-urls-all.txt" \
-              -severity critical,high,medium,low \
-              -es info,unknown \
-              -rl 10 \
-              -c 10 \
-              -retries 1 \
-              -o "$NUCLEI_TXT" \
-              >> "$NUCLEI_LOG" 2>&1
-
-            NUCLEI_EXIT=$?
-
-            if [ "$NUCLEI_EXIT" = "124" ]; then
-              echo "Nuclei timed out after ${{ github.event.inputs.nuclei_minutes }} minutes." | tee -a "$NUCLEI_LOG"
-            else
-              echo "Nuclei finished with exit code: $NUCLEI_EXIT" | tee -a "$NUCLEI_LOG"
-            fi
-
-            if [ ! -s "$NUCLEI_TXT" ]; then
-              echo "No critical/high/medium/low nuclei findings found." > "$NUCLEI_TXT"
-            fi
-          fi
-
-          echo "# Recon Run $RUN_ID" > "$FINAL_DIR/summary.md"
-          echo "" >> "$FINAL_DIR/summary.md"
-          echo "Saved at: $(date)" >> "$FINAL_DIR/summary.md"
-          echo "" >> "$FINAL_DIR/summary.md"
-          echo "Total subdomains: $(wc -l < "$FINAL_DIR/subfinder-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
-          echo "Total HTTPX lines: $(wc -l < "$FINAL_DIR/httpx-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
-          echo "Total live URLs: $(wc -l < "$FINAL_DIR/httpx-urls-all.txt" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
-          echo "Nuclei findings lines: $(wc -l < "$NUCLEI_TXT" 2>/dev/null || echo 0)" >> "$FINAL_DIR/summary.md"
-          echo "" >> "$FINAL_DIR/summary.md"
-          echo "Important files:" >> "$FINAL_DIR/summary.md"
-          echo "- subfinder-all.txt" >> "$FINAL_DIR/summary.md"
-          echo "- httpx-all.txt" >> "$FINAL_DIR/summary.md"
-          echo "- httpx-urls-all.txt" >> "$FINAL_DIR/summary.md"
-          echo "- httpx-status-report-all.md" >> "$FINAL_DIR/summary.md"
-          echo "- nuclei.txt" >> "$FINAL_DIR/summary.md"
-          echo "- nuclei-log.txt" >> "$FINAL_DIR/summary.md"
-
-          echo "[+] Final summary:"
           cat "$FINAL_DIR/summary.md"
+
+      - name: Upload merged artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged-recon-results-${{ github.run_id }}
+          path: results/run-${{ github.run_id }}/
+          retention-days: 30
 
       - name: Final push with retry
         if: always()
+        shell: bash
         run: |
           set +e
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
 
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git pull --rebase origin main || true
+          git pull --rebase origin "$BRANCH" || true
 
           git add results/run-${{ github.run_id }}
 
@@ -486,15 +381,14 @@ jobs:
           for i in 1 2 3 4 5 6 7 8 9 10; do
             echo "Final push attempt $i..."
 
-            if git push origin main; then
+            if git push origin "HEAD:$BRANCH"; then
               echo "Final push successful"
               exit 0
             fi
 
-            git pull --rebase origin main || true
-            echo "Final push failed, retrying..."
+            git pull --rebase origin "$BRANCH" || true
             sleep 30
           done
 
-          echo "Final push failed after retries"
-          exit 1
+          echo "Final push failed after retries. Artifact is still uploaded."
+          exit 0

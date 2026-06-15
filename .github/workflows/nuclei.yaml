@@ -1,0 +1,165 @@
+name: Nuclei
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Recon run_id to scan, example: 1234567890"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  nuclei:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest results
+        shell: bash
+        run: |
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH" || true
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install nuclei
+        shell: bash
+        run: |
+          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+          echo "$HOME/go/bin" >> "$GITHUB_PATH"
+          nuclei -update-templates || true
+
+      - name: Run nuclei
+        shell: bash
+        run: |
+          set +e
+
+          RUN_ID="${{ github.event.inputs.run_id }}"
+          FINAL_DIR="results/run-$RUN_ID"
+
+          URLS="$FINAL_DIR/httpx-urls-all.txt"
+          NUCLEI_TXT="$FINAL_DIR/nuclei.txt"
+          NUCLEI_LOG="$FINAL_DIR/nuclei-log.txt"
+
+          mkdir -p "$FINAL_DIR"
+
+          touch "$NUCLEI_TXT" "$NUCLEI_LOG"
+          : > "$NUCLEI_TXT"
+          : > "$NUCLEI_LOG"
+
+          echo "[+] Nuclei started at: $(date)" | tee -a "$NUCLEI_LOG"
+          echo "[+] Recon run ID: $RUN_ID" | tee -a "$NUCLEI_LOG"
+
+          if [ ! -s "$URLS" ]; then
+            echo "Missing or empty file: $URLS" | tee -a "$NUCLEI_LOG"
+            exit 0
+          fi
+
+          echo "[+] URL count: $(wc -l < "$URLS" 2>/dev/null || echo 0)" | tee -a "$NUCLEI_LOG"
+
+          nuclei \
+            -l "$URLS" \
+            -severity critical,high,medium,low \
+            -es info,unknown \
+            -rl 100 \
+            -c 50 \
+            -bulk-size 25 \
+            -retries 1 \
+            -o "$NUCLEI_TXT" \
+            >> "$NUCLEI_LOG" 2>&1
+
+          NUCLEI_EXIT=$?
+
+          echo "[+] Nuclei finished with exit code: $NUCLEI_EXIT" | tee -a "$NUCLEI_LOG"
+
+          touch "$FINAL_DIR/nuclei-critical.txt"
+          touch "$FINAL_DIR/nuclei-high.txt"
+          touch "$FINAL_DIR/nuclei-medium.txt"
+          touch "$FINAL_DIR/nuclei-low.txt"
+
+          grep -i '\[critical\]' "$NUCLEI_TXT" > "$FINAL_DIR/nuclei-critical.txt" || true
+          grep -i '\[high\]' "$NUCLEI_TXT" > "$FINAL_DIR/nuclei-high.txt" || true
+          grep -i '\[medium\]' "$NUCLEI_TXT" > "$FINAL_DIR/nuclei-medium.txt" || true
+          grep -i '\[low\]' "$NUCLEI_TXT" > "$FINAL_DIR/nuclei-low.txt" || true
+
+          {
+            echo ""
+            echo "[+] Finding counts:"
+            echo "Critical: $(wc -l < "$FINAL_DIR/nuclei-critical.txt" 2>/dev/null || echo 0)"
+            echo "High: $(wc -l < "$FINAL_DIR/nuclei-high.txt" 2>/dev/null || echo 0)"
+            echo "Medium: $(wc -l < "$FINAL_DIR/nuclei-medium.txt" 2>/dev/null || echo 0)"
+            echo "Low: $(wc -l < "$FINAL_DIR/nuclei-low.txt" 2>/dev/null || echo 0)"
+          } | tee -a "$NUCLEI_LOG"
+
+          if [ -f "$FINAL_DIR/summary.md" ]; then
+            {
+              echo ""
+              echo "## Nuclei"
+              echo ""
+              echo "Nuclei scanned at: $(date)"
+              echo "Nuclei findings lines: $(wc -l < "$NUCLEI_TXT" 2>/dev/null || echo 0)"
+              echo "Critical: $(wc -l < "$FINAL_DIR/nuclei-critical.txt" 2>/dev/null || echo 0)"
+              echo "High: $(wc -l < "$FINAL_DIR/nuclei-high.txt" 2>/dev/null || echo 0)"
+              echo "Medium: $(wc -l < "$FINAL_DIR/nuclei-medium.txt" 2>/dev/null || echo 0)"
+              echo "Low: $(wc -l < "$FINAL_DIR/nuclei-low.txt" 2>/dev/null || echo 0)"
+            } >> "$FINAL_DIR/summary.md"
+          fi
+
+          exit 0
+
+      - name: Upload nuclei artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuclei-results-${{ github.event.inputs.run_id }}
+          path: results/run-${{ github.event.inputs.run_id }}/
+          retention-days: 30
+
+      - name: Push nuclei results with retry
+        if: always()
+        shell: bash
+        run: |
+          set +e
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          RUN_ID="${{ github.event.inputs.run_id }}"
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git pull --rebase origin "$BRANCH" || true
+
+          git add results/run-$RUN_ID
+
+          if git diff --cached --quiet; then
+            echo "No nuclei changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Nuclei results run-$RUN_ID" || true
+
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            echo "Nuclei push attempt $i..."
+
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Nuclei push successful"
+              exit 0
+            fi
+
+            git pull --rebase origin "$BRANCH" || true
+            sleep 30
+          done
+
+          echo "Nuclei push failed after retries. Artifact is still uploaded."
+          exit 0

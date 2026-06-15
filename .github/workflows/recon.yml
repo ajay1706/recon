@@ -157,6 +157,7 @@ jobs:
           echo "[+] Running httpx..." | tee -a "$LOG"
 
           httpx -silent \
+            -no-color \
             -l "$HTTPX_INPUT" \
             -status-code \
             -title \

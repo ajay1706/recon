@@ -8,9 +8,9 @@ on:
         required: true
         type: string
       batch_size:
-        description: "URLs per nuclei batch. Use 10 or 25 for huge runs."
+        description: "URLs per nuclei batch. Use 75 for huge runs."
         required: true
-        default: "25"
+        default: "75"
         type: string
 
 permissions:
@@ -54,11 +54,11 @@ jobs:
           rm -rf "$FINAL_DIR/nuclei-results"
 
           if ! echo "$BATCH_SIZE" | grep -Eq '^[0-9]+$'; then
-            BATCH_SIZE="25"
+            BATCH_SIZE="75"
           fi
 
           if [ "$BATCH_SIZE" -lt 1 ]; then
-            BATCH_SIZE="25"
+            BATCH_SIZE="75"
           fi
 
           if [ ! -s "$URLS" ]; then
@@ -69,6 +69,16 @@ jobs:
 
           sed '/^$/d' "$URLS" | sort -u > "$BATCH_DIR/all-urls.txt"
 
+          TOTAL_URLS=$(wc -l < "$BATCH_DIR/all-urls.txt" 2>/dev/null || echo 0)
+          MAX_BATCHES=240
+          MIN_BATCH_SIZE=$(( (TOTAL_URLS + MAX_BATCHES - 1) / MAX_BATCHES ))
+
+          if [ "$BATCH_SIZE" -lt "$MIN_BATCH_SIZE" ]; then
+            echo "Batch size $BATCH_SIZE creates too many jobs."
+            echo "Auto-adjusting batch size to $MIN_BATCH_SIZE"
+            BATCH_SIZE="$MIN_BATCH_SIZE"
+          fi
+
           split -l "$BATCH_SIZE" -d -a 4 "$BATCH_DIR/all-urls.txt" "$BATCH_DIR/batch-"
 
           BATCHES=$(find "$BATCH_DIR" -maxdepth 1 -type f -name 'batch-*' -printf '%f\n' | sort | jq -R -s -c 'split("\n")[:-1]')
@@ -76,8 +86,8 @@ jobs:
           echo "batches=$BATCHES" >> "$GITHUB_OUTPUT"
 
           echo "Run ID: $RUN_ID"
-          echo "Total URLs: $(wc -l < "$BATCH_DIR/all-urls.txt" 2>/dev/null || echo 0)"
-          echo "Batch size: $BATCH_SIZE"
+          echo "Total URLs: $TOTAL_URLS"
+          echo "Final batch size: $BATCH_SIZE"
           echo "Batches: $BATCHES"
 
       - name: Upload prepared nuclei batches

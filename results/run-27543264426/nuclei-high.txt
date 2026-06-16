@@ -1,0 +1,4 @@
+[CVE-2025-4123:open-redirect] [http] [high] https://aevo-prod-monitor.socket.tech/public/..%2F%5coast.pro%2F%3f%2F..%2F..
+[CVE-2025-55184] [http] [high] https://app.beta.galxe.com
+[blockchain-rpc-txpool-exposed] [http] [high] https://api.0g.nansen.ai
+[generic-env] [http] [high] https://admin.accessprotocol.co/.env [paths="/.env"]

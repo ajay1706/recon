@@ -1,0 +1,2 @@
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://feedback.hop.exchange/login [password="password123",username="alice"]
+[intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://explorer.debridge.finance"]

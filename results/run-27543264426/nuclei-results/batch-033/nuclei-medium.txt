@@ -1,0 +1,2 @@
+[config-json] [http] [medium] https://packages.dynamic.xyz/config.json
+[prometheus-metrics] [http] [medium] https://papi.accessprotocol.co/metrics

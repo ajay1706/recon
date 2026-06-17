@@ -1,0 +1,7 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://l1rpc.internal.taiko.xyz
+[blockchain-rpc-debug-exposure] [http] [medium] https://l2geth-rpc-proxy.mainnet.aws.scroll.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://l2geth-rpc-proxy.sepolia.aws.scroll.io
+[blockchain-rpc-txpool-exposed] [http] [high] https://l1rpc.internal.taiko.xyz
+[blockchain-rpc-txpool-exposed] [http] [high] https://l1rpc.hoodi.taiko.xyz
+[blockchain-rpc-txpool-exposed] [http] [high] https://l2-mainnet.wallet.coinbase.com
+[node-express-dev-env] [http] [medium] https://launch-mint-v1.raydium.io

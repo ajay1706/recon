@@ -1,0 +1,5 @@
+[expired-ssl] [ssl] [low] paragraph-nextjs-git-feat-ai-ask.paragraph.xyz:443 ["2025-12-31 02:53:19 +0000 UTC"]
+[expired-ssl] [ssl] [low] paragraph-nextjs-git-feat-par-4219-auth-settings.paragraph.xyz:443 ["2025-12-31 02:53:19 +0000 UTC"]
+[expired-ssl] [ssl] [low] paragraph-nextjs-git-feat-par-2803.paragraph.xyz:443 ["2025-12-31 02:53:19 +0000 UTC"]
+[expired-ssl] [ssl] [low] paragraph-nextjs-git-feat-par-3613-author-card.paragraph.xyz:443 ["2025-12-31 02:53:19 +0000 UTC"]
+[expired-ssl] [ssl] [low] paragraph-nextjs-git-feat-after-gate.paragraph.xyz:443 ["2025-12-31 02:53:19 +0000 UTC"]

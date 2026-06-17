@@ -1,0 +1,2 @@
+[CVE-2025-29927] [http] [critical] https://mobility.fetch.ai
+[node-express-dev-env] [http] [medium] https://mcp.redstone.finance

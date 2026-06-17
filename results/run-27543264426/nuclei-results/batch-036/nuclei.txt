@@ -1,0 +1,4 @@
+[CVE-2026-33032] [http] [critical] https://polygon-amoy-backend.phantom.app/mcp_message
+[blockchain-rpc-txpool-exposed] [http] [high] https://partner.rpc.karak.network
+[blockchain-rpc-debug-exposure] [http] [medium] https://polygon-amoy-backend.phantom.app
+[retool-postmessage-xss] [http] [high] https://partner.coreapp.worldcoin.org/libs/custom-component-collections.BRBIdv1C.umd.js

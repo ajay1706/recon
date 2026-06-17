@@ -1,0 +1,5 @@
+[config-json-exposure-fuzz:endpoints] [http] [critical] https://pro.kraken.com/config.json [""url": "https://www.googletagmanager.com/gtag/js?id=G-8XGH4PGY4S""] [path="/config.json"]
+[config-json-exposure-fuzz:sensitive_endpoints] [http] [critical] https://pro.kraken.com/config.json ["https://iapi.kraken.com/api","https://api-prime-md.kraken.com/api","https://www.kraken.com/api","https://status.kraken.com/api"] [path="/config.json"]
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress.eu-north-1.mainnet.zircuit.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress-eu.mainnet.zircuit.com
+[node-express-dev-env] [http] [medium] https://proxy.zerion.io

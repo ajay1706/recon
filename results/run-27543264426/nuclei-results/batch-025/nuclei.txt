@@ -1,0 +1,2 @@
+[shellscripts] [http] [low] https://hermes-money.hyperlane.xyz/install.sh [paths="/install.sh"]
+[intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://help.marinade.finance"]

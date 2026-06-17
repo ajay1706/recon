@@ -1,0 +1,4 @@
+[CVE-2026-33032] [http] [critical] https://op-proxy.rpc-proxy.zora.co/mcp_message
+[blockchain-rpc-debug-exposure] [http] [medium] https://opbnb-mainnet-rpc.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://opbnb-mainnet-rpc.bnbchain.org
+[intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://old-app.debridge.finance"]

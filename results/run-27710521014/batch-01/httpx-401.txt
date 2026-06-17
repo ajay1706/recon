@@ -1,0 +1,1 @@
+https://training-api.adaptivesecurity.com [401] [] [0] [] [18.226.233.242] [231.577635ms] [Amazon ALB,Amazon Web Services,HSTS]

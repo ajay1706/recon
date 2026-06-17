@@ -1,0 +1,2 @@
+https://cdn.adaptivesecurity.com [403] [] [111] [AmazonS3] [13.224.187.70] [cloudfront] [228.009637ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://events.adaptivesecurity.com [403] [] [780] [adaptivesecurity.com] [DataDome] [151.101.2.133] [fastly] [304.670262ms] [DataDome,HSTS,Varnish]

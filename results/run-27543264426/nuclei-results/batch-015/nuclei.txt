@@ -1,0 +1,2 @@
+[shellscripts] [http] [low] https://cli.thegraph.com/install.sh [paths="/install.sh"]
+[blockchain-rpc-txpool-exposed] [http] [high] https://chain-proxy.wallet.coinbase.com

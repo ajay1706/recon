@@ -1,0 +1,14 @@
+[+] Batch started: Wed Jun 17 19:09:49 UTC 2026
+[+] Run ID: 27710521014
+[+] Batch name: batch-34
+[+] Batch targets:
+lightanchor.ai
+lindy.ai
+linea.build
+[+] Running subfinder...
+[+] Subfinder completed: Wed Jun 17 19:10:03 UTC 2026
+[+] HTTPX input count: 190
+[+] Running httpx...
+[+] httpx completed: Wed Jun 17 19:10:25 UTC 2026
+[+] httpx line count: 90
+[+] Batch completed: Wed Jun 17 19:10:25 UTC 2026

@@ -1,0 +1,92 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:46:41 UTC 2026
+
+HTTPX lines: 64
+Live URLs: 64
+
+## 200
+https://api-docs.defillama.com [200] [] [1708] [API Docs - DefiLlama] [cloudflare] [104.20.35.1] [cloudflare] [204.68831ms] [Cloudflare]
+https://debank.com [200] [] [2959] [DeBank | Your go-to portfolio tracker for Ethereum and EVM] [dbkserver] [108.159.227.128] [cloudfront] [224.285901ms] [Amazon CloudFront,Amazon Web Services,HSTS,React]
+https://discord.defillama.com [200] [] [6293] [Invite gateway] [Heroku] [15.197.129.158] [361.73971ms] [Bootstrap:5.1.3,reCAPTCHA]
+https://discord.swap.defillama.com [200] [] [5944] [Invite gateway] [Heroku] [15.197.129.158] [447.410478ms] [Bootstrap:5.1.3,reCAPTCHA]
+https://cloud.debank.com [200] [] [1154] [DeBank Cloud] [dbkserver] [108.159.227.2] [cloudfront] [606.577702ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://1608.debank.com [200] [] [2650] [DeBank | The Real User Based Web3 Community] [nginx/1.21.4] [3.113.191.160] [651.560365ms] [Nginx:1.21.4,React]
+https://forms.defillama.com [200] [] [2244] [DefiLlama Submissions] [cloudflare] [104.20.35.1] [cloudflare] [451.483628ms] [Cloudflare]
+https://feed.defillama.com [200] [] [3228] [LlamaFeed] [cloudflare] [172.66.145.73] [cloudflare] [546.859272ms] [Cloudflare,Next.js,Node.js,React,Webpack]
+https://official.debank.com [200] [] [3490] [DeBank Official Account] [dbkserver] [18.154.185.42] [cloudfront] [488.241868ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://miniapp.defillama.com [200] [] [1549] [DefiLlama] [cloudflare] [104.20.35.1] [cloudflare] [658.174937ms] [Cloudflare]
+https://open.debank.com [200] [] [1154] [DeBank Cloud] [dbkserver] [3.167.152.97] [cloudfront] [654.507364ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://prod-landing.debridge.finance [200] [] [47750] [deBridge Finance] [cloudflare] [172.66.43.13] [cloudflare] [227.762516ms] [Bootstrap,Cloudflare,Cloudflare Browser Insights,Google Analytics,HSTS,HTTP/3,Swiper,WOW]
+https://search.defillama.com [200] [] [28228] [DefiLlama Search] [cloudflare] [104.20.35.1] [cloudflare] [282.507415ms] [Cloudflare]
+https://enterprise.defillama.com [200] [] [34070] [DefiLlama] [cloudflare] [172.66.145.73] [cloudflare] [651.792724ms] [Cloudflare,Next.js,Node.js,React,Webpack]
+https://search-directory.defillama.com [200] [] [35] [cloudflare] [172.66.145.73] [cloudflare] [607.076568ms] [Cloudflare]
+https://search-core.defillama.com [200] [] [35] [cloudflare] [104.20.35.1] [cloudflare] [646.850382ms] [Cloudflare]
+https://swap-test.defillama.com [200] [] [22952] [cloudflare] [172.66.145.73] [cloudflare] [211.621973ms] [Cloudflare]
+https://swap.defillama.com [200] [] [22952] [cloudflare] [104.20.35.1] [cloudflare] [190.119696ms] [Cloudflare]
+https://investors.defillama.com [200] [] [34398] [DefiLlama] [cloudflare] [104.20.35.1] [cloudflare] [666.374151ms] [Cloudflare,Next.js,Node.js,React,Snowplow Analytics,Webpack]
+https://newsletter.defillama.com [200] [] [506527] [Home | DefiLlama Newsletter] [cloudflare] [104.18.68.40] [cloudflare] [445.771791ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+https://defillama.com [200] [] [5860864] [DefiLlama - DeFi Dashboard & Crypto Analytics] [cloudflare] [104.20.35.1] [cloudflare] [594.284ms] [Cloudflare,Next.js,Node.js,React,Webpack]
+
+## 301
+https://app.debridge.finance [301] [https://app.debridge.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.40.243] [cloudflare] [100.588879ms] [Cloudflare,HSTS,HTTP/3]
+https://app-v1.debridge.finance [301] [https://app.debridge.finance/] [167] [301 Moved Permanently] [cloudflare] [172.66.40.243] [cloudflare] [141.916782ms] [Cloudflare,HSTS,HTTP/3]
+https://deswap.debridge.finance [301] [https://deswap.debridge.finance/v1.0/] [665] [301 Moved Permanently] [cloudflare] [172.66.43.13] [cloudflare] [140.895566ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://chainlist.defillama.com [301] [https://chainlist.org/] [167] [301 Moved Permanently] [cloudflare] [104.20.35.1] [cloudflare] [191.246513ms] [Cloudflare]
+https://assets.debank.com [301] [https://assets.debank.com/index.html] [0] [dbkserver] [18.160.200.32] [cloudfront] [265.978134ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://docs.debridge.finance [301] [https://docs.debridge.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.43.13] [cloudflare] [84.052016ms] [Cloudflare,HSTS,HTTP/3]
+https://debridge.finance [301] [https://debridge.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.40.243] [cloudflare] [365.440298ms] [Cloudflare,HSTS,HTTP/3]
+https://explorer.debridge.finance [301] [https://app.debridge.finance/explorer] [167] [301 Moved Permanently] [cloudflare] [172.66.40.243] [cloudflare] [107.943832ms] [Cloudflare,HSTS,HTTP/3]
+https://blog.debridge.finance [301] [https://debridge.finance/learn/blog/] [167] [301 Moved Permanently] [cloudflare] [172.66.43.13] [cloudflare] [425.783821ms] [Cloudflare,HSTS,HTTP/3]
+https://old-app.debridge.finance [301] [https://app.debridge.finance/] [167] [301 Moved Permanently] [cloudflare] [172.66.43.13] [cloudflare] [86.454787ms] [Cloudflare,HSTS,HTTP/3]
+https://mainnet-explorer.debridge.finance [301] [https://explorer.debridge.finance/] [665] [301 Moved Permanently] [cloudflare] [172.66.43.13] [cloudflare] [174.788679ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://mcp.defillama.com [301] [https://defillama.com/mcp] [59] [cloudflare] [172.66.145.73] [cloudflare] [466.420642ms] [Cloudflare,Express,Node.js]
+https://www.debank.com [301] [https://debank.com/] [0] [dbkserver] [108.159.227.64] [cloudfront] [181.605476ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://v1.debridge.finance [301] [https://app.debridge.finance/] [167] [301 Moved Permanently] [cloudflare] [172.66.40.243] [cloudflare] [270.617413ms] [Cloudflare,HSTS,HTTP/3]
+https://www.defillama.com [301] [https://defillama.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.145.73] [cloudflare] [180.779568ms] [Cloudflare]
+http://wiki.defillama.com [301] [https://wiki.defillama.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.145.73] [cloudflare] [34.844358ms] [Cloudflare]
+
+## 302
+https://dln.debridge.finance [302] [https://dln.debridge.finance/v1.0/] [641] [302 Found] [cloudflare] [172.66.40.243] [cloudflare] [151.539556ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://sentry-ui.debridge.finance [302] [/auth/login/] [0] [cloudflare] [172.66.43.13] [cloudflare] [296.857313ms] [Cloudflare,HSTS,HTTP/3]
+https://www.debridge.finance [302] [https://debridge.finance/] [641] [302 Found] [cloudflare] [172.66.43.13] [cloudflare] [173.805196ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+
+## 307
+https://docs.cloud.debank.com [307] [https://docs.cloud.debank.com/en/] [15] [cloudflare] [104.18.40.47] [cloudflare] [140.064684ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://docs.open.debank.com [307] [https://docs.cloud.debank.com/en/] [15] [cloudflare] [172.64.147.209] [cloudflare] [195.19338ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://tasty.defillama.com [307] [/dashboard] [6124] [Umami] [cloudflare] [172.66.145.73] [cloudflare] [292.383452ms] [Cloudflare,Next.js,Node.js,React,Webpack]
+
+## 308
+
+## 401
+
+## 403
+https://preprod-ui.debridge.finance [403] [] [5051] [Attention Required! | Cloudflare] [cloudflare] [172.66.40.243] [cloudflare] [92.235989ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://prod-ui.debridge.finance [403] [] [5051] [Attention Required! | Cloudflare] [cloudflare] [172.66.43.13] [cloudflare] [105.369227ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://preprod-landing.debridge.finance [403] [] [5051] [Attention Required! | Cloudflare] [cloudflare] [172.66.43.13] [cloudflare] [198.42014ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://swap-api.defillama.com [403] [] [5647] [Just a moment...] [cloudflare] [104.20.35.1] [cloudflare] [163.121802ms] [Cloudflare]
+https://static-assets.debank.com [403] [] [111] [AmazonS3] [108.138.159.85] [cloudfront] [363.11828ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://test1.debridge.finance [403] [] [5051] [Attention Required! | Cloudflare] [cloudflare] [172.66.43.13] [cloudflare] [239.873264ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://static.debank.com [403] [] [111] [AmazonS3] [3.167.163.33] [cloudfront] [640.057507ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://shadow.debank.com [403] [] [111] [AmazonS3] [18.172.134.19] [cloudfront] [666.103951ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://tokens.debridge.finance [403] [] [111] [AmazonS3] [13.32.164.35] [cloudfront] [610.267634ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+
+## 404
+https://cdn.debridge.finance [404] [] [0] [cloudflare] [172.66.43.13] [cloudflare] [192.792666ms] [Cloudflare,HSTS,HTTP/3]
+https://api.debank.com [404] [] [232] [404 Not Found] [dbkserver] [18.160.249.98] [cloudfront] [215.222391ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://api.debridge.finance [404] [] [0] [cloudflare] [172.66.40.243] [cloudflare] [262.889744ms] [Cloudflare,HSTS,HTTP/3]
+https://dln-api.debridge.finance [404] [] [0] [cloudflare] [172.66.43.13] [cloudflare] [273.326665ms] [Cloudflare,HSTS,HTTP/3]
+https://balanced2.defillama.com [404] [] [19] [cloudflare] [104.20.35.1] [cloudflare] [460.890074ms] [Cloudflare]
+https://elinkc8b.newsletter.defillama.com [404] [] [1965] [404 Not Found] [cloudflare] [104.18.68.40] [cloudflare] [264.497773ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+https://balanced.defillama.com [404] [] [19] [cloudflare] [104.20.35.1] [cloudflare] [588.021421ms] [Cloudflare]
+https://beta-feed.defillama.com [404] [] [19] [cloudflare] [104.20.35.1] [cloudflare] [591.350604ms] [Cloudflare]
+https://festats.debank.com [404] [] [0] [dbkserver] [18.160.156.82] [cloudfront] [442.891765ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://hi-ws.debank.com [404] [] [232] [404 Not Found] [dbkserver] [18.172.134.77] [cloudfront] [344.539796ms] [Amazon CloudFront,Amazon Web Services,HSTS]
+https://matomo.debank.com [404] [] [0] [awselb/2.0] [54.248.130.156] [581.463168ms] [Amazon ELB,Amazon Web Services]
+
+## 500
+
+## 502
+
+## 503
+

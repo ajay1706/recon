@@ -1,0 +1,145 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:44:30 UTC 2026
+
+HTTPX lines: 126
+Live URLs: 126
+
+## 200
+https://app.compound.finance [200] [] [2290] [Compound Dashboard] [cloudflare] [172.66.145.186] [cloudflare] [125.290862ms] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://compound.finance [200] [] [1627] [Compound] [cloudflare] [104.20.28.98] [cloudflare] [170.288941ms] [Cloudflare,Google Cloud,Google Cloud Storage,HSTS,HTTP/3]
+https://clerk.partner.coingecko.com [200] [] [0] [cloudflare] [104.18.34.146] [cloudflare] [387.40061ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://app-v2.compound.finance [200] [] [2086] [Compound] [cloudflare] [172.66.145.186] [cloudflare] [484.754844ms] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://careers.coingecko.com [200] [] [73434] [Careers at CoinGecko | CoinGecko Careers] [] [18.211.166.153] [59.715673ms] [Cloudflare,Google Font API,Google Hosted Libraries,HSTS,HTTP/3,Webflow,bxSlider,cdnjs,jQuery:3.5.1,jsDelivr]
+https://legacy.compound.finance [200] [] [1085] [Compound Protocol] [cloudflare] [172.66.145.186] [cloudflare] [195.929624ms] [Cloudflare,Google Cloud,Google Cloud Storage,HSTS,HTTP/3]
+https://docs.compound.finance [200] [] [272769] [Compound III Documentation] [cloudflare] [172.66.145.186] [cloudflare] [229.626216ms] [Cloudflare,Fastly,GitHub Pages,HSTS,HTTP/3,Highlight.js,Varnish]
+https://brand.coingecko.com [200] [] [419422] [Overview | CoinGecko Brand Guidelines] [cloudflare] [104.18.40.47] [cloudflare] [123.595816ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://docs.coingecko.com [200] [] [354158] [Welcome to CoinGecko API - CoinGecko API] [cloudflare] [104.18.3.204] [cloudflare] [217.439246ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://ads.coingecko.com [200] [] [530940] [CoinGecko Ads | Ad Solutions for Crypto Projects & Enterprises] [cloudflare] [104.18.5.118] [cloudflare] [197.115828ms] [Cloudflare,Cloudflare Browser Insights,Crazy Egg,Framer Sites,Google Analytics,HSTS,HTTP/3,OneTrust,React]
+https://design.coingecko.com [200] [] [501338] [CoinGecko Learns from User Experience (GLUE) | CoinGecko UXR] [cloudflare] [104.18.5.118] [cloudflare] [487.410649ms] [Cloudflare,Cloudflare Browser Insights,Framer Sites,HSTS,HTTP/3,React]
+https://coinmarketcap.com [200] [] [705854] [Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap] [Tengine] [18.165.98.111] [cloudfront] [27.090445ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,Azure Edge Network,HSTS,Tengine,dc.js]
+https://mcp.pro-api.coingecko.com [200] [] [79084] [CoinGecko Pro MCP Server] [cloudflare] [104.18.1.41] [cloudflare] [1.095426331s] [Cloudflare,Cloudflare Browser Insights]
+https://mcp.api.coingecko.com [200] [] [76008] [CoinGecko MCP Server] [cloudflare] [104.20.41.132] [cloudflare] [7.099730623s] [Cloudflare,HTTP/3]
+https://mta-sts.coingecko.com [200] [] [180] [cloudflare] [104.18.5.118] [cloudflare] [6.101534425s] [Cloudflare,HSTS,HTTP/3]
+https://sleuth.compound.finance [200] [] [768] [cloudflare] [104.20.28.98] [cloudflare] [1.052839182s] [Cloudflare,HSTS,HTTP/3]
+https://selfserve.coinmarketcap.com [200] [] [6247] [BSA] [nginx/1.18.0 (Ubuntu)] [52.1.179.177] [3.216077766s] [Express,HTTP/3,Nginx:1.18.0,Node.js,Ubuntu]
+https://signed-api.coingecko.com [200] [] [256] [] [3.167.37.19] [cloudfront] [4.16543337s] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://status.coinmarketcap.com [200] [] [55485] [CoinMarketCap Status] [AtlassianEdge] [18.165.83.10] [cloudfront] [4.393759551s] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,Google Analytics,HSTS,cdnjs,jQuery:3.5.1,reCAPTCHA]
+https://trust.coingecko.com [200] [] [3619] [CoinGecko Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [420.877716ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://support-chat.coinmarketcap.com [200] [] [8598] [Support Chat] [AmazonS3] [52.85.193.125] [cloudfront] [5.308105545s] [Amazon CloudFront,Amazon S3,Amazon Web Services,Bootstrap:5.0.2,HTTP/3,jsDelivr]
+https://v2-app.compound.finance [200] [] [2086] [Compound] [cloudflare] [104.20.28.98] [cloudflare] [2.301950979s] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://v3-app-stage.compound.finance [200] [] [2304] [Compound Dashboard] [cloudflare] [172.66.145.186] [cloudflare] [3.516220412s] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://v3-app-staging.compound.finance [200] [] [2290] [Compound Dashboard] [cloudflare] [172.66.145.186] [cloudflare] [5.11055632s] [Cloudflare,HSTS,HTTP/3,IPFS]
+
+## 301
+https://blog.coingecko.com [301] [https://www.coingecko.com/learn/category/announcements] [167] [301 Moved Permanently] [cloudflare] [104.18.5.118] [cloudflare] [24.468939ms] [Cloudflare,HSTS,HTTP/3]
+https://apiguide.coingecko.com [301] [https://docs.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.4.118] [cloudflare] [26.883348ms] [Cloudflare,HSTS,HTTP/3]
+https://adsmanager.coingecko.com [301] [https://partner.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.5.118] [cloudflare] [30.237177ms] [Cloudflare,HSTS,HTTP/3]
+https://accounts.adsmanager.coingecko.com [301] [https://partner.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [172.64.153.110] [cloudflare] [49.491923ms] [Cloudflare,HSTS,HTTP/3]
+https://blog.coinmarketcap.com [301] [https://coinmarketcap.com:443/alexandria] [134] [301 Moved Permanently] [awselb/2.0] [3.162.112.63] [cloudfront] [86.045283ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://c3-docs.compound.finance [301] [https://v3-docs.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [104.20.28.98] [cloudflare] [44.866319ms] [Cloudflare,HSTS,HTTP/3]
+https://br.coinmarketcap.com [301] [https://coinmarketcap.com:443/pt-br/] [134] [301 Moved Permanently] [awselb/2.0] [13.33.82.22] [cloudfront] [103.599072ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://clerk.adsmanager.coingecko.com [301] [https://partner.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.34.146] [cloudflare] [33.922404ms] [Cloudflare,HSTS,HTTP/3]
+https://coingecko.com [301] [https://www.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.4.118] [cloudflare] [18.201075ms] [Cloudflare,HSTS,HTTP/3]
+https://blockchain.coinmarketcap.com [301] [https://coinmarketcap.com/] [239] [301 Moved Permanently] [Tengine] [3.167.112.22] [cloudfront] [314.736605ms] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://conference.coinmarketcap.com [301] [https://coinmarketcap.com/] [239] [301 Moved Permanently] [Tengine] [3.162.103.27] [cloudfront] [151.10423ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3,Tengine]
+https://earn.coingecko.com [301] [https://landing.coingecko.com/earn/] [665] [301 Moved Permanently] [cloudflare] [104.18.4.118] [cloudflare] [127.231928ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://interest.coinmarketcap.com [301] [https://coinmarketcap.com] [239] [301 Moved Permanently] [Tengine] [13.35.78.56] [cloudfront] [176.092737ms] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://it.coinmarketcap.com [301] [https://coinmarketcap.com:443/it/] [134] [301 Moved Permanently] [awselb/2.0] [3.162.112.54] [cloudfront] [364.649778ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://landing.coingecko.com [301] [https://www.coingecko.com/] [167] [301 Moved Permanently] [cloudflare] [104.26.15.170] [cloudflare] [137.141727ms] [Cloudflare]
+http://c3.compound.finance [301] [https://c3.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [104.20.28.98] [cloudflare] [9.054846ms] [Cloudflare,HTTP/3]
+https://newsletter.coingecko.com [301] [/login] [0] [] [104.160.76.158] [2.233870127s] [HSTS]
+http://mainnet-eth.compound.finance [301] [https://mainnet-eth.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [104.20.28.98] [cloudflare] [2.025194262s] [Cloudflare,HTTP/3]
+http://multimedia.newsletter.coingecko.com [301] [https://multimedia.newsletter.coingecko.com/] [162] [301 Moved Permanently] [nginx] [92.38.145.145] [6.063961879s] [Gcore,Nginx]
+https://reports.coingecko.com [301] [https://www.coingecko.com] [167] [301 Moved Permanently] [cloudflare] [172.67.167.143] [cloudflare] [4.047196714s] [Cloudflare,HTTP/3]
+http://prices.compound.finance [301] [https://prices.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [104.20.28.98] [cloudflare] [4.030218876s] [Cloudflare,HTTP/3]
+https://url-newsletter.coinmarketcap.com [301] [https://coinmarketcap.com] [239] [301 Moved Permanently] [Tengine] [3.167.112.78] [cloudfront] [234.313453ms] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+http://selfserve.coingecko.com [301] [https://selfserve.coingecko.com/] [665] [301 Moved Permanently] [cloudflare] [104.18.4.118] [cloudflare] [4.02942006s] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://treasury-stage.compound.finance [301] [https://stage.compoundtreasury.com/] [0] [cloudflare] [172.66.145.186] [cloudflare] [2.035309531s] [Cloudflare,HSTS,HTTP/3]
+http://status.coingecko.com [301] [https://status.coingecko.com/] [162] [301 Moved Permanently] [nginx] [35.184.199.25] [google] [2.08688052s] [Nginx]
+http://stagingstatic.coinmarketcap.com [301] [https://stagingstatic.coinmarketcap.com/] [167] [301 Moved Permanently] [CloudFront] [13.33.109.107] [cloudfront] [6.183335867s] [Amazon CloudFront,Amazon Web Services]
+http://treasury-api-stage.compound.finance [301] [https://treasury-api-stage.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [172.66.145.186] [cloudflare] [15.504341ms] [Cloudflare,HTTP/3]
+https://zh-app.compound.finance [301] [https://v2-app.compound.finance/?locale=zh_ZH] [167] [301 Moved Permanently] [cloudflare] [172.66.145.186] [cloudflare] [3.030324094s] [Cloudflare,HSTS,HTTP/3]
+http://treasury.compound.finance [301] [https://treasury.compound.finance/] [167] [301 Moved Permanently] [cloudflare] [104.20.28.98] [cloudflare] [1.025101469s] [Cloudflare,HTTP/3]
+https://www.newsletter.coingecko.com [301] [/login] [0] [] [104.160.76.158] [5.203927921s] [HSTS]
+http://widgets.coinmarketcap.com [301] [https://widgets.coinmarketcap.com/] [167] [301 Moved Permanently] [CloudFront] [108.139.29.42] [cloudfront] [2.106866572s] [Amazon CloudFront,Amazon Web Services]
+
+## 302
+https://app-ipfs.compound.finance [302] [https://cloudflare-ipfs.com/ipfs/QmRbp91auy77woBj2x4PWDAyzDDTB1mhyYFriWHx9TuRmq/] [0] [cloudflare] [104.20.28.98] [cloudflare] [185.963206ms] [Cloudflare,HSTS,HTTP/3]
+https://conference.coingecko.com [302] [https://landing.coingecko.com/geckocon-2024/] [143] [302 Found] [cloudflare] [104.18.5.118] [cloudflare] [39.67687ms] [Cloudflare,HSTS,HTTP/3]
+https://pro.coinmarketcap.com [302] [https://coinmarketcap.com/api/] [215] [302 Found] [Tengine] [13.35.78.5] [cloudfront] [4.220088197s] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://support.coingecko.com [302] [https://support.coingecko.com/hc] [0] [cloudflare] [216.198.54.6] [3.331115223s] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://v3-docs.compound.finance [302] [https://docs.compound.finance/] [143] [302 Found] [cloudflare] [172.66.145.186] [cloudflare] [1.039783404s] [Cloudflare,HSTS,HTTP/3]
+https://support.coinmarketcap.com [302] [https://support.coinmarketcap.com/hc] [0] [cloudflare] [216.198.53.6] [5.13894549s] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://webflow.coinmarketcap.com [302] [https://coinmarketcap.com:443/data-transparency-alliance/] [110] [302 Found] [awselb/2.0] [3.162.112.63] [cloudfront] [5.277141209s] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+
+## 307
+https://eth-alpha.compound.finance [307] [https://developers.cloudflare.com/web3/how-to/use-ethereum-gateway/] [169] [307 Temporary Redirect] [cloudflare] [172.66.145.186] [cloudflare] [185.70922ms] [Cloudflare,HSTS,HTTP/3]
+
+## 308
+https://dex.coinmarketcap.com [308] [/token/all/] [11] [Tengine] [108.138.85.11] [cloudfront] [1.069802874s] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+
+## 401
+https://llm.coingecko.com [401] [] [26] [cloudflare] [104.18.4.118] [cloudflare] [185.070707ms] [Cloudflare,HSTS,HTTP/3]
+https://web3.coinmarketcap.com [401] [] [626] [401 Authorization Required] [Tengine] [3.171.85.50] [cloudfront] [4.70881998s] [Amazon CloudFront,Amazon Web Services,Basic,HSTS,Tengine]
+
+## 403
+https://beta.coinmarketcap.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.171.76.112] [cloudfront] [60.236792ms] [Amazon CloudFront,Amazon Web Services]
+https://assets.coingecko.com [403] [] [243] [cloudflare] [104.18.4.118] [cloudflare] [75.314092ms] [Amazon Web Services,Cloudflare,HSTS,HTTP/3]
+https://apk.coinmarketcap.com [403] [] [111] [AmazonS3] [3.170.19.45] [cloudfront] [92.72798ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://academy-public.coinmarketcap.com [403] [] [111] [AmazonS3] [3.171.100.70] [cloudfront] [93.969178ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://adtech.coingecko.com [403] [] [243] [cloudflare] [104.18.4.118] [cloudflare] [124.312085ms] [Amazon Web Services,Cloudflare,HSTS,HTTP/3]
+https://accounts.partner.coingecko.com [403] [] [9568] [Just a moment...] [cloudflare] [104.18.34.146] [cloudflare] [100.659255ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://coin-images.coingecko.com [403] [] [263] [cloudflare] [172.67.142.173] [cloudflare] [78.107755ms] [Amazon Web Services,Cloudflare,HTTP/3]
+https://dapi.coinmarketcap.com [403] [] [600] [403 Forbidden] [Tengine] [3.170.42.4] [cloudfront] [231.232534ms] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://eth.compound.finance [403] [] [16] [cloudflare] [104.18.11.112] [cloudflare] [173.540006ms] [Cloudflare,HTTP/3]
+https://infoimage.coinmarketcap.com [403] [] [111] [AmazonS3] [3.171.100.101] [cloudfront] [198.387333ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://files.coinmarketcap.com [403] [] [111] [AmazonS3] [99.84.234.33] [cloudfront] [259.983622ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://hotupdater.coingecko.com [403] [] [5063] [Attention Required! | Cloudflare] [cloudflare] [172.67.143.160] [cloudflare] [176.714867ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+http://marketing.coinmarketcap.com [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [18.67.76.18] [cloudfront] [2.764774ms] [Amazon CloudFront,Amazon Web Services]
+https://s2.coinmarketcap.com [403] [] [111] [AmazonS3] [13.226.209.42] [cloudfront] [1.188363672s] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://staging.coinmarketcap.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [18.154.227.81] [cloudfront] [1.093030076s] [Amazon CloudFront,Amazon Web Services]
+https://s3.beta.coinmarketcap.com [403] [] [111] [AmazonS3] [3.167.56.117] [cloudfront] [5.264784542s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://static.coingecko.com [403] [] [263] [cloudflare] [104.18.5.118] [cloudflare] [4.10238566s] [Amazon Web Services,Cloudflare,HSTS,HTTP/3]
+https://tokens-test.coingecko.com [403] [] [263] [cloudflare] [104.21.83.229] [cloudflare] [2.134884759s] [Amazon Web Services,Cloudflare,HTTP/3]
+https://tokens.coingecko.com [403] [] [263] [cloudflare] [104.21.74.223] [cloudflare] [2.126398098s] [Amazon Web Services,Cloudflare,HTTP/3]
+https://widgets.coingecko.com [403] [] [263] [cloudflare] [104.18.5.118] [cloudflare] [8.092339449s] [Amazon Web Services,Cloudflare,HSTS,HTTP/3]
+
+## 404
+https://api.coinmarketcap.com [404] [] [751] [coinmarketcap.com] [Tengine] [13.35.78.56] [cloudfront] [41.977468ms] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://api.coingecko.com [404] [] [68] [cloudflare] [172.66.172.219] [cloudflare] [68.798176ms] [Cloudflare,HSTS,HTTP/3]
+https://3rdparty-apis.coinmarketcap.com [404] [] [60] [Tengine] [13.35.78.35] [cloudfront] [75.626476ms] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://cables.coingecko.com [404] [] [19] [cloudflare] [172.67.72.175] [cloudflare] [79.094189ms] [Cloudflare]
+https://cf-pages.coingecko.com [404] [] [27648] [Not Found] [cloudflare] [104.18.4.118] [cloudflare] [327.356784ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://ce.coingecko.com [404] [] [0] [cloudflare] [172.67.132.210] [cloudflare] [1.079926725s] [Cloudflare,HSTS,HTTP/3]
+https://dws.coinmarketcap.com [404] [] [0] [] [13.35.78.117] [cloudfront] [867.88496ms] [Amazon CloudFront,Amazon Web Services]
+https://link.coinmarketcap.com [404] [] [150] [404 Not Found] [msys-et] [13.226.238.26] [cloudfront] [2.622511763s] [Amazon CloudFront,Amazon Web Services]
+https://mcp.coinmarketcap.com [404] [] [157] [Tengine] [13.226.209.94] [cloudfront] [2.199877485s] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://memews.coinmarketcap.com [404] [] [0] [] [52.194.100.94] [1.749412197s]
+https://memews-eu.coinmarketcap.com [404] [] [0] [] [52.211.46.68] [3.396947149s]
+https://mixpanel-proxy.coingecko.com [404] [] [90] [cloudflare] [104.18.4.118] [cloudflare] [3.133228012s] [Cloudflare,Envoy,Google Cloud,Google Cloud CDN,HSTS,HTTP/3]
+https://portal-api.coinmarketcap.com [404] [] [60] [Tengine] [3.167.99.6] [cloudfront] [1.192644123s] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://pro-api.coingecko.com [404] [] [68] [cloudflare] [104.18.1.41] [cloudflare] [2.052873536s] [Cloudflare,HSTS]
+https://pro-stream.coinmarketcap.com [404] [] [0] [] [13.226.209.15] [cloudfront] [2.715110361s] [Amazon CloudFront,Amazon Web Services]
+https://sandbox-api.coinmarketcap.com [404] [] [79] [Tengine] [13.35.78.35] [cloudfront] [2.225262807s] [Amazon CloudFront,Amazon Web Services,HSTS,Tengine]
+https://self-served-ads.coingecko.com [404] [] [5334] [The page you were looking for doesn’t exist (404 Not found)] [cloudflare] [104.18.4.118] [cloudflare] [2.091107376s] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://pro-api.coinmarketcap.com [404] [] [79] [Tengine] [3.167.99.115] [cloudfront] [7.206615802s] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://store.coingecko.com [404] [] [4377] [This store is unavailable] [cloudflare] [23.227.38.74] [3.190601214s] [Cloudflare,HSTS,HTTP/3,Shopify]
+https://stream.coingecko.com [404] [] [19] [cloudflare] [104.18.4.118] [cloudflare] [3.091718561s] [Cloudflare,HSTS,HTTP/3]
+https://test.compound.finance [404] [] [9] [cloudflare] [104.20.28.98] [cloudflare] [2.117479396s] [Cloudflare,HSTS,HTTP/3]
+https://v3-api-stage.compound.finance [404] [] [32] [cloudflare] [172.66.145.186] [cloudflare] [1.519259606s] [Cloudflare,HSTS,HTTP/3]
+https://url8813.coingecko.com [404] [] [644] [404 Not Found] [cloudflare] [104.18.5.118] [cloudflare] [4.135071419s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v3-api.compound.finance [404] [] [32] [cloudflare] [172.66.145.186] [cloudflare] [5.294664204s] [Cloudflare,HSTS,HTTP/3]
+
+## 500
+https://api.alpha.compound.finance [500] [] [136] [cloudflare] [104.20.28.98] [cloudflare] [520.557178ms] [Cloudflare,HSTS,HTTP/3]
+
+## 502
+https://api.stage.compound.finance [502] [] [15] [cloudflare] [104.20.28.98] [cloudflare] [414.543005ms] [Cloudflare,HSTS,HTTP/3]
+
+## 503
+https://cgi.administrator.newsletter.coingecko.com [503] [] [108] [] [104.160.76.158] [54.257294ms]
+https://gh-1.cgi.newsletter.coingecko.com [503] [] [108] [] [104.160.76.158] [114.212546ms]
+https://oid-cgi.newsletter.coingecko.com [503] [] [108] [] [104.160.76.158] [3.050861968s]
+http://profile.cgi.newsletter.coingecko.com [503] [] [108] [] [104.160.76.158] [6.033669192s]
+

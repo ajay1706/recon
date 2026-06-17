@@ -1,0 +1,108 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:10:30 UTC 2026
+
+HTTPX lines: 80
+Live URLs: 80
+
+## 200
+https://api.reference.langfuse.com [200] [] [1949] [Langfuse API reference] [Vercel] [216.150.16.193] [55.5515ms] [HSTS,Vercel,jsDelivr]
+https://instance-management-api.reference.langfuse.com [200] [] [2045] [Langfuse API reference] [Vercel] [216.150.16.193] [72.426652ms] [HSTS,Vercel,jsDelivr]
+https://blog.lido.fi [200] [] [50063] [Lido Finance | Blog] [cloudflare] [104.18.24.198] [cloudflare] [41.12327ms] [Cloudflare,Express,Ghost:6.42,HSTS,HTTP/3,Node.js,jsDelivr]
+https://demo.layerzero.network [200] [] [19140] [LayerZero Labs] [Vercel] [216.230.86.193] [127.493164ms] [HSTS,Vercel]
+https://docs.lido.fi [200] [] [34329] [Introduction | Lido Docs] [GitHub.com] [185.199.111.153] [132.874137ms] [Docusaurus:3.9.2,Fastly,GitHub Pages,React,Varnish,Webpack]
+https://js.reference.langfuse.com [200] [] [12770] [Langfuse JS/TS SDKs] [cloudflare] [172.67.69.85] [cloudflare] [180.406278ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://cloud.langfuse.com [200] [] [4501] [] [34.246.9.48] [247.302431ms] [Amazon S3,Amazon Web Services]
+https://organizations-api.reference.langfuse.com [200] [] [2045] [Langfuse API reference] [Vercel] [216.150.1.193] [333.879642ms] [HSTS,Vercel,jsDelivr]
+https://hipaa.cloud.langfuse.com [200] [] [4501] [] [52.10.154.90] [322.739643ms] [Amazon S3,Amazon Web Services]
+https://api.layerzero.network [200] [] [15820] [LayerZero Partner Portal] [Vercel] [216.230.84.65] [778.877314ms] [HSTS,Vercel]
+https://ops.infra.langfuse.com [200] [] [7488] [ops.infra.langfuse.com] [Vercel] [216.150.1.193] [376.696279ms] [HSTS,Vercel]
+https://jp.cloud.langfuse.com [200] [] [4501] [] [18.176.183.9] [700.088884ms] [Amazon S3,Amazon Web Services]
+https://python.reference.langfuse.com [200] [] [1556] [cloudflare] [104.26.5.71] [cloudflare] [414.726634ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://static.lido.fi [200] [] [1936] [logos | Logos & other pictures for Lido assets] [GitHub.com] [185.199.109.153] [222.144851ms] [Cloudflare,Fastly,GitHub Pages,Jekyll:3.9.0,Ruby,Varnish,cdnjs]
+https://operators.lido.fi [200] [] [71148] [cloudflare] [104.18.25.198] [cloudflare] [283.507706ms] [C3.js,Cloudflare,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://fees-monitoring.lido.fi [200] [] [138575] [Lido | Node Operators Dashboard] [cloudflare] [104.18.25.198] [cloudflare] [86.904879ms] [Cloudflare,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://js-sdk-v4-docs-snapshot.langfuse.com [200] [] [58436] [Langfuse] [cloudflare] [104.26.5.71] [cloudflare] [223.154222ms] [Cloudflare,Cloudflare Browser Insights,CookieYes,HSTS]
+https://js-sdk-v3.docs-snapshot.langfuse.com [200] [] [65187] [Langfuse] [cloudflare] [172.67.69.85] [cloudflare] [152.828665ms] [Cloudflare,Cloudflare Browser Insights,CookieYes,HSTS]
+https://events.layerzero.network [200] [] [80645] [LayerZero - A New Era] [] [3.248.123.157] [877.85264ms] [Bootstrap:5.3.0,HSTS,PHP,RequireJS,Swoogo,Yii,jQuery CDN,jQuery Migrate:3.5.2,jQuery:3.7.1,jsDelivr]
+https://csm.lido.fi [200] [] [156861] [cloudflare] [104.18.25.198] [cloudflare] [697.017848ms] [Cloudflare,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://staging.langfuse.com [200] [] [4501] [] [52.213.164.57] [618.53293ms] [Amazon S3,Amazon Web Services]
+https://ui.lido.fi [200] [] [69935] [@storybook/cli - Storybook] [GitHub.com] [185.199.110.153] [536.54628ms] [Fastly,GitHub Pages,Varnish]
+https://trp.lido.fi [200] [] [55260] [TRP UI | Lido] [cloudflare] [104.18.24.198] [cloudflare] [599.094943ms] [Cloudflare,HSTS,HTTP/3]
+https://python-sdk-v2.docs-snapshot.langfuse.com [200] [] [64636] [Langfuse] [cloudflare] [104.26.4.71] [cloudflare] [357.345213ms] [Cloudflare,Cloudflare Browser Insights,CookieYes,HSTS]
+https://python-sdk-v3.docs-snapshot.langfuse.com [200] [] [58436] [Langfuse] [cloudflare] [104.26.4.71] [cloudflare] [480.98343ms] [Cloudflare,Cloudflare Browser Insights,CookieYes,HSTS]
+https://us.cloud.langfuse.com [200] [] [4501] [] [32.186.14.164] [686.251902ms] [Amazon S3,Amazon Web Services]
+https://stvaults.lido.fi [200] [] [131709] [My Vaults | stVaults | Lido] [cloudflare] [104.18.25.198] [cloudflare] [238.526524ms] [Cloudflare,HSTS,HTTP/3]
+https://stake.lido.fi [200] [] [154788] [Stake with Lido | Lido] [cloudflare] [104.18.25.198] [cloudflare] [423.556966ms] [Cloudflare,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://staking-modules.lido.fi [200] [] [241306] [Staking Modules] [Vercel] [76.76.21.93] [479.468153ms] [HSTS,Vercel]
+https://status.langfuse.com [200] [] [174447] [Langfuse Status] [Vercel] [66.33.60.130] [628.34187ms] [HSTS,Vercel]
+https://layerzero.network [200] [] [414881] [LayerZero] [Vercel] [216.230.86.1] [164.780593ms] [Contentful,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://research.lido.fi [200] [] [319219] [Lido Governance - Lido - The Ethereum Liquid Staking Community] [cloudflare] [104.18.25.198] [cloudflare] [546.398282ms] [Cloudflare,Discourse:2026.6.0,HSTS,HTTP/3,Ruby on Rails]
+https://operatorportal.lido.fi [200] [] [513830] [Lido Node Operator Portal] [Vercel] [66.33.60.129] [381.919721ms] [HSTS,Vercel]
+https://langfuse.com [200] [] [521071] [Langfuse] [Vercel] [216.150.1.1] [293.427793ms] [HSTS,Linkedin Ads,Next.js,Node.js,React,Vercel,Webpack]
+https://mcp.reference.langfuse.com [200] [] [704896] [Langfuse MCP Servers] [Vercel] [216.150.1.193] [380.81006ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://docs.layerzero.network [200] [] [1183067] [Introduction - LayerZero] [Vercel] [76.76.21.93] [258.699764ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://lido.fi [200] [] [2373575] [Lido Liquid Staking] [cloudflare] [104.18.24.198] [cloudflare] [422.117848ms] [Cloudflare,HSTS,HTTP/3]
+
+## 301
+https://dg.lido.fi [301] [https://dao.lido.fi/dg] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [46.713231ms] [Cloudflare,HSTS,HTTP/3]
+https://easytrack.lido.fi [301] [https://dao.lido.fi/easy-track/motions] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [35.950631ms] [Cloudflare,HSTS,HTTP/3]
+https://dao-agreements.lido.fi [301] [https://lido.fi/governance] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [366.879553ms] [Cloudflare,HSTS,HTTP/3]
+https://anchor.lido.fi [301] [https://bafybeibm56vtc6bgj2emrcz5que3lr4w3crsbc77h7trtceezpcp2rpoha.ipfs.cf-ipfs.com] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [465.659841ms] [Cloudflare,HSTS,HTTP/3]
+https://governance-herald.lido.fi [301] [https://lido.fi/governance] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [443.02127ms] [Cloudflare,HSTS,HTTP/3]
+http://help.langfuse.com [301] [https://help.langfuse.com/] [162] [301 Moved Permanently] [nginx] [172.65.251.114] [cloudflare] [270.366866ms] [Nginx]
+https://lego.lido.fi [301] [https://lido.fi/lego] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [513.951351ms] [Cloudflare,HSTS,HTTP/3]
+https://lidoconnect.lido.fi [301] [https://lido.fi/lidoconnect] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [514.290076ms] [Cloudflare,HSTS,HTTP/3]
+http://links.support.langfuse.com [301] [https://links.support.langfuse.com/] [162] [301 Moved Permanently] [nginx] [172.65.225.161] [cloudflare] [310.273827ms] [Nginx]
+https://polygon.lido.fi [301] [https://lido.fi/polygon] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [548.409955ms] [Cloudflare,HSTS,HTTP/3]
+https://opportunities.lido.fi [301] [https://lido.fi/opportunities] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [826.571812ms] [Cloudflare,HSTS,HTTP/3]
+https://scorecard.lido.fi [301] [https://lido.fi/scorecard] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [499.424641ms] [Cloudflare,HSTS,HTTP/3]
+https://referral.lido.fi [301] [https://lido.fi/referral] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [603.010603ms] [Cloudflare,HSTS,HTTP/3]
+https://solana.lido.fi [301] [https://lido.fi/solana] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [650.175904ms] [Cloudflare,HSTS,HTTP/3]
+https://terra.lido.fi [301] [https://lido.fi/terra] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [672.654205ms] [Cloudflare,HSTS,HTTP/3]
+https://vote.lido.fi [301] [https://dao.lido.fi/vote/dashboard] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [557.638634ms] [Cloudflare,HSTS,HTTP/3]
+https://v3.lido.fi [301] [https://lido.fi/stvaults] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [841.969785ms] [Cloudflare,HSTS,HTTP/3]
+https://vaults.lido.fi [301] [https://stvaults.lido.fi/] [162] [301 Moved Permanently] [cloudflare] [104.18.24.198] [cloudflare] [945.440421ms] [Cloudflare,HSTS,HTTP/3]
+https://www.lido.fi [301] [https://lido.fi/] [162] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [757.608179ms] [Cloudflare,HSTS,HTTP/3]
+http://1inch-pool-rewards.lido.fi [301] [https://1inch-pool-rewards.lido.fi/] [167] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [11.749727ms] [Cloudflare,HTTP/3]
+http://airdrop.lido.fi [301] [https://airdrop.lido.fi/] [167] [301 Moved Permanently] [cloudflare] [104.18.25.198] [cloudflare] [14.407619ms] [Cloudflare,HTTP/3]
+
+## 302
+https://docs.langfuse.com [302] [https://langfuse.com/docs/] [0] [cloudflare] [104.26.5.71] [cloudflare] [41.1606ms] [Cloudflare,HSTS]
+https://blog.langfuse.com [302] [https://langfuse.com/blog/] [0] [cloudflare] [104.26.4.71] [cloudflare] [75.106705ms] [Cloudflare,HSTS]
+https://discord.langfuse.com [302] [https://langfuse.com/discord/] [0] [cloudflare] [104.26.5.71] [cloudflare] [106.873032ms] [Cloudflare,HSTS]
+https://eu.cloud.langfuse.com [302] [https://cloud.langfuse.com/] [0] [cloudflare] [172.67.69.85] [cloudflare] [46.145658ms] [Cloudflare,HSTS]
+https://get.langfuse.com [302] [https://langfuse.com/] [0] [cloudflare] [172.67.69.85] [cloudflare] [66.522326ms] [Cloudflare,HSTS]
+https://help.lido.fi [302] [https://help.lido.fi/en/] [0] [cloudflare] [104.18.25.198] [cloudflare] [105.6724ms] [Cloudflare,HSTS,HTTP/3]
+https://ethereum-validators.lido.fi [302] [/login] [29] [cloudflare] [104.18.24.198] [cloudflare] [461.82151ms] [Cloudflare,HSTS,HTTP/3]
+
+## 307
+https://dao.lido.fi [307] [/vote/dashboard] [15] [cloudflare] [104.18.24.198] [cloudflare] [158.983335ms] [Cloudflare,HSTS,HTTP/3]
+https://preview.docs.layerzero.network [307] [/login?redirect=%2F] [15] [Vercel] [76.76.21.61] [673.424207ms] [HSTS,Vercel]
+
+## 308
+https://www.langfuse.com [308] [https://langfuse.com/] [15] [Vercel] [216.150.1.193] [433.893312ms] [HSTS,Vercel]
+https://www.layerzero.network [308] [https://layerzero.network/] [15] [Vercel] [216.230.86.65] [440.554054ms] [HSTS,Vercel]
+
+## 401
+https://atlantis.infra.langfuse.com [401] [] [13] [] [34.250.239.19] [275.73015ms] [Basic]
+https://enterprise.layerzero.network [401] [] [15043] [Authentication Required] [Vercel] [76.76.21.61] [188.125002ms] [HSTS,Vercel]
+
+## 403
+https://mainnet.lido.fi [403] [] [333] [403 Forbidden] [cloudflare] [104.18.25.198] [cloudflare] [294.522849ms] [Cloudflare,HSTS,HTTP/3]
+
+## 404
+https://chat.langfuse.com [404] [] [107] [cloudflare] [104.26.5.71] [cloudflare] [109.847558ms] [Cloudflare,HSTS,Vercel]
+https://circ-supply.lido.fi [404] [] [63] [cloudflare] [104.18.24.198] [cloudflare] [367.499575ms] [Cloudflare,HSTS,HTTP/3]
+https://api-fees-monitoring.lido.fi [404] [] [63] [cloudflare] [104.18.24.198] [cloudflare] [420.747618ms] [Cloudflare,HSTS,HTTP/3]
+https://ph.langfuse.com [404] [] [105] [cloudflare] [104.26.5.71] [cloudflare] [721.727002ms] [Cloudflare,HSTS]
+https://eth-api.lido.fi [404] [] [63] [cloudflare] [104.18.25.198] [cloudflare] [1.653472714s] [Cloudflare,HSTS,HTTP/3]
+https://static.langfuse.com [404] [] [28567] [Not Found] [cloudflare] [104.26.5.71] [cloudflare] [470.103511ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://wq-api.lido.fi [404] [] [63] [cloudflare] [104.18.25.198] [cloudflare] [357.320588ms] [Cloudflare,HSTS,HTTP/3]
+
+## 500
+
+## 502
+
+## 503
+

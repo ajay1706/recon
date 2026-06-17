@@ -1,0 +1,6 @@
+https://data-seed-pre-0-s1.bnbchain.org [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [3.162.174.92] [cloudfront] [309.17375ms] [Amazon CloudFront,Amazon Web Services]
+https://data-seed-pre-0-s3.bnbchain.org [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [52.84.217.46] [cloudfront] [347.873498ms] [Amazon CloudFront,Amazon Web Services]
+https://dataseed1.bnbchain.org [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [18.161.134.50] [cloudfront] [262.942493ms] [Amazon CloudFront,Amazon Web Services]
+https://testnet.bnbchain.org [502] [] [932] [ERROR: The request could not be satisfied] [] [18.245.124.69] [cloudfront] [3.451895864s] [Amazon CloudFront,Amazon Web Services]
+https://zkbnb.bnbchain.org [502] [] [507] [ERROR: The request could not be satisfied] [CloudFront] [18.161.170.50] [cloudfront] [601.994684ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://zkbnb-testnet.bnbchain.org [502] [] [507] [ERROR: The request could not be satisfied] [CloudFront] [18.161.170.46] [cloudfront] [629.004393ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]

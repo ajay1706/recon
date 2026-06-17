@@ -1,0 +1,14 @@
+[+] Batch started: Wed Jun 17 18:30:00 UTC 2026
+[+] Run ID: 27710521014
+[+] Batch name: batch-06
+[+] Batch targets:
+availproject.org
+axelar.network
+babylonlabs.io
+[+] Running subfinder...
+[+] Subfinder completed: Wed Jun 17 18:31:02 UTC 2026
+[+] HTTPX input count: 621
+[+] Running httpx...
+[+] httpx completed: Wed Jun 17 18:32:53 UTC 2026
+[+] httpx line count: 275
+[+] Batch completed: Wed Jun 17 18:32:53 UTC 2026

@@ -1,0 +1,2 @@
+https://research.harmonic.ai [308] [https://console.harmonic.ai/dashboard/scout] [15] [Vercel] [66.33.60.66] [239.337605ms] [HSTS,Vercel]
+http://www.heartbyte.ai [308] [https://www.heartbyte.ai/] [14] [Vercel] [76.76.21.93] [88.222071ms] [Vercel]

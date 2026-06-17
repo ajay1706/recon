@@ -1,0 +1,14 @@
+[+] Batch started: Wed Jun 17 20:01:09 UTC 2026
+[+] Run ID: 27710521014
+[+] Batch name: batch-65
+[+] Batch targets:
+token-terminal.com
+trustwallet.com
+union.build
+[+] Running subfinder...
+[+] Subfinder completed: Wed Jun 17 20:01:32 UTC 2026
+[+] HTTPX input count: 281
+[+] Running httpx...
+[+] httpx completed: Wed Jun 17 20:02:04 UTC 2026
+[+] httpx line count: 119
+[+] Batch completed: Wed Jun 17 20:02:04 UTC 2026

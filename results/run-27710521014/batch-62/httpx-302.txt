@@ -1,0 +1,8 @@
+https://7b215e9b7e3634e15e25c836bc2e94ef.tenderly.co [302] [/login] [0] [nginx] [34.120.171.29] [google] [206.818986ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3,Nginx]
+https://auth.tavily.com [302] [https://tavily.com/] [41] [cloudflare] [172.64.144.74] [cloudflare] [168.499753ms] [Auth0,Cloudflare,HSTS,HTTP/3]
+https://auth.eu.tavily.com [302] [https://eu.tavily.com/] [44] [cloudflare] [104.18.34.171] [cloudflare] [285.782156ms] [Auth0,Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://community-events.tavily.com [302] [https://www.community-events.tavily.com/] [0] [] [13.249.74.42] [cloudfront] [125.735584ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://metrics.tavus.io [302] [https://accounts.google.com/o/oauth2/v2/auth?client_id=972798289034-n5gbu6ha4vso9b95sf9im14imfui6qa3.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fmetrics.tavus.io%2Foauth2%2Fidpresponse&response_type=code&scope=openid%20email%20profile&state=AcjKSWdiS54RQ%2B17UMBMB5SEjteYn6jWQ5b1CJgn2mkd2qRXziOdZV90gB1IxKDYyaIT97STmrRG3e4fll1m1IojZDDrWr0LallhVAakhnSPMCTpuu4wavRI4kbv%2Bz3fjtSxyBdkdTXLphPO3xD2FTdclOx1AdW7PBdkNVzFvDpSkx3mh%2FVtOjcUc3CYsND4OT1Im8uyOvVMvjd74zebrj5D2gitXvWMVjF3vmDUbGlgswLchA%3D%3D] [110] [302 Found] [awselb/2.0] [184.169.241.132] [2.057378556s] [Amazon ELB,Amazon Web Services]
+https://onboarding.tavus.io [302] [https://onboarding.tavus.io/?rb.routing.mode=proxy&rb.routing.signature=872299] [0] [] [52.72.49.79] [1.26987389s] [HSTS]
+https://sheets.tavily.com [302] [https://www.sheets.tavily.com/] [0] [] [18.239.199.30] [cloudfront] [1.13806719s] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://video.tavus.io [302] [https://www.tavus.io/] [0] [] [207.174.61.1] [2.315508097s]

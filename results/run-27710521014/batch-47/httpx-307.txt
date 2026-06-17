@@ -1,0 +1,5 @@
+https://app.phia.com [307] [https://phia.com] [0] [openresty] [44.230.115.150] [641.882888ms] [HSTS,Nginx,OpenResty]
+https://docs.phantom.app [307] [https://docs.phantom.com/] [15] [cloudflare] [172.64.152.29] [cloudflare] [418.285681ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,Vercel]
+https://fellowship.perplexity.ai [307] [/login?returnTo=%2F] [19] [cloudflare] [104.18.6.42] [cloudflare] [635.618179ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://join.phia.com [307] [https://apps.apple.com/us/app/phia-best-price-in-one-click/id6739351340] [15] [Vercel] [76.76.21.21] [3.249207515s] [HSTS,Vercel]
+https://test.phia.com [307] [https://phia.com/] [15] [Vercel] [66.33.60.34] [238.945704ms] [HSTS,Vercel]

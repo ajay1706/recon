@@ -1,0 +1,89 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:05:44 UTC 2026
+
+HTTPX lines: 60
+Live URLs: 60
+
+## 200
+https://cdn.kamino.finance [200] [] [171] [Kamino Finance CDN] [cloudflare] [104.20.45.90] [cloudflare] [92.136607ms] [Cloudflare]
+https://dev-docs.karak.network [200] [] [49805] [Karak Overview – Karak Docs] [Netlify] [52.52.192.191] [320.121371ms] [HSTS,Netlify,React]
+https://k2bridge.karak.network [200] [] [2291] [K2 Bridge] [Netlify] [52.52.192.191] [648.159853ms] [HSTS,Netlify]
+https://api.dev.kamino.finance [200] [] [4835] [Kamino Public API] [cloudflare] [172.66.149.38] [cloudflare] [708.168159ms] [Cloudflare,Express,Node.js]
+https://api.kamino.finance [200] [] [4835] [Kamino Public API] [cloudflare] [104.20.45.90] [cloudflare] [747.52209ms] [Cloudflare,Express,Node.js]
+https://node1.rpc.karak.network [200] [] [0] [] [13.234.133.69] [713.177835ms]
+https://risk.kamino.finance [200] [] [1522] [Streamlit] [cloudflare] [104.20.45.90] [cloudflare] [648.259589ms] [Cloudflare]
+https://partner.rpc.karak.network [200] [] [0] [] [13.205.216.50] [730.20207ms]
+https://risk.dev.kamino.finance [200] [] [1522] [Streamlit] [cloudflare] [104.20.45.90] [cloudflare] [665.131862ms] [Cloudflare]
+https://rpc.karak.network [200] [] [0] [] [13.205.216.50] [741.340525ms]
+https://v1-backend-indexer.karak.network [200] [] [1882] [Ponder Playground] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [464.311423ms] [Nginx:1.24.0,Ubuntu,Unpkg]
+https://simulator.dev.kamino.finance [200] [] [1522] [Streamlit] [cloudflare] [172.66.149.38] [cloudflare] [626.917736ms] [Cloudflare]
+https://v1-points-backend.karak.network [200] [] [1882] [Ponder Playground] [nginx/1.18.0 (Ubuntu)] [45.250.252.101] [503.36793ms] [Nginx:1.18.0,Ubuntu,Unpkg]
+https://simulator.kamino.finance [200] [] [1522] [Streamlit] [cloudflare] [104.20.45.90] [cloudflare] [684.344019ms] [Cloudflare]
+https://explorer.karak.network [200] [] [77042] [K2 Mainnet blockchain explorer - View K2 Mainnet stats | Blockscout] [nginx/1.29.7] [13.234.133.69] [765.183969ms] [Next.js,Nginx:1.29.7,Node.js,React,Webpack]
+https://gov.kamino.finance [200] [] [259678] [Kamino Forum] [nginx] [216.66.8.43] [408.314094ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://jupiter.ag [200] [] [144062] [Jupiter Metallvertrieb GmbH – Coils | Bleche | Anarbeitung] [nginx] [80.246.116.105] [1.112607246s] [Elementor:4.1.1,HSTS,Magnific Popup:7.0,Modernizr,MySQL,Nginx,PHP,Swiper,WordPress,jQuery,jQuery Migrate:3.4.1,waitForImages]
+
+## 301
+https://docs.kamino.finance [301] [https://kamino.com/docs] [167] [301 Moved Permanently] [cloudflare] [104.20.45.90] [cloudflare] [32.947616ms] [Cloudflare]
+https://app.kamino.finance [301] [https://kamino.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.149.38] [cloudflare] [51.333891ms] [Cloudflare]
+https://kamino.finance [301] [https://app.kamino.finance] [167] [301 Moved Permanently] [cloudflare] [172.66.149.38] [cloudflare] [57.003898ms] [Cloudflare]
+https://manage.kamino.finance [301] [https://manage.kamino.com/] [167] [301 Moved Permanently] [cloudflare] [104.20.45.90] [cloudflare] [51.463271ms] [Cloudflare]
+https://swap.kamino.finance [301] [https://kamino.com/swap] [167] [301 Moved Permanently] [cloudflare] [172.66.149.38] [cloudflare] [22.116067ms] [Cloudflare]
+https://www.kamino.finance [301] [https://app.kamino.finance] [167] [301 Moved Permanently] [cloudflare] [172.66.149.38] [cloudflare] [41.291414ms] [Cloudflare]
+https://www.jupiter.ag [301] [https://jupiter.ag/] [162] [301 Moved Permanently] [nginx] [80.246.116.105] [498.214614ms] [HSTS,Nginx]
+http://restaking.karak.network [301] [https://restaking.karak.network/] [47] [Netlify] [52.52.192.191] [6.847414ms] [Netlify]
+
+## 302
+
+## 307
+https://www.karak.network [307] [https://opengdp.network/] [15] [Vercel] [76.76.21.98] [86.974382ms] [HSTS,Vercel]
+
+## 308
+https://karak.network [308] [https://opengdp.network/] [15] [Vercel] [76.76.21.21] [65.878778ms] [HSTS,Vercel]
+
+## 401
+https://points-api-v1.karak.network [401] [] [63] [nginx/1.18.0 (Ubuntu)] [45.250.252.101] [480.05254ms] [Nginx:1.18.0,Ubuntu]
+
+## 403
+https://kamrocket.kamino.finance [403] [] [0] [cloudflare] [172.66.149.38] [cloudflare] [39.819257ms] [Cloudflare]
+https://blog.kamino.finance [403] [] [5666] [Just a moment...] [cloudflare] [162.159.153.4] [cloudflare] [30.356362ms] [Cloudflare,HSTS,HTTP/3]
+https://gecko-swaddling-plunging.kamino.finance [403] [] [4550] [Attention Required! | Cloudflare] [cloudflare] [172.66.149.38] [cloudflare] [30.840113ms] [Cloudflare]
+https://clone-playmaker-shortage.dev.kamino.finance [403] [] [4550] [Attention Required! | Cloudflare] [cloudflare] [104.20.45.90] [cloudflare] [55.350228ms] [Cloudflare]
+https://rounding-walking-lounging.kamino.finance [403] [] [4550] [Attention Required! | Cloudflare] [cloudflare] [104.20.45.90] [cloudflare] [42.875344ms] [Cloudflare]
+https://sentinel.kamino.finance [403] [] [0] [cloudflare] [172.66.149.38] [cloudflare] [34.138426ms] [Cloudflare]
+https://squeeze-subtract-purebred.kamino.finance [403] [] [4550] [Attention Required! | Cloudflare] [cloudflare] [104.20.45.90] [cloudflare] [23.864821ms] [Cloudflare]
+https://gatus.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [104.20.45.90] [cloudflare] [641.155534ms] [Cloudflare]
+https://gatus.dev.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [104.20.45.90] [cloudflare] [677.334206ms] [Cloudflare]
+https://keagle.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [104.20.45.90] [cloudflare] [686.224063ms] [Cloudflare]
+https://activity.kamino.finance [403] [] [8485] [Sign In] [cloudflare] [172.66.149.38] [cloudflare] [686.914035ms] [Cloudflare]
+https://keagle.dev.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [172.66.149.38] [cloudflare] [735.773287ms] [Cloudflare]
+https://liquidations.dev.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [104.20.45.90] [cloudflare] [733.383996ms] [Cloudflare]
+https://liquidations.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [104.20.45.90] [cloudflare] [736.387549ms] [Cloudflare]
+https://oracles.dev.kamino.finance [403] [] [8486] [Sign In] [cloudflare] [172.66.149.38] [cloudflare] [696.148347ms] [Cloudflare]
+https://streamlit.kamino.finance [403] [] [8485] [Sign In] [cloudflare] [172.66.149.38] [cloudflare] [679.90272ms] [Cloudflare]
+https://streamlit.dev.kamino.finance [403] [] [8485] [Sign In] [cloudflare] [172.66.149.38] [cloudflare] [698.678884ms] [Cloudflare]
+
+## 404
+https://blog.karak.network [404] [] [50] [Netlify] [52.52.192.191] [106.1756ms] [Netlify]
+https://explorer.sepolia.karak.network [404] [] [1046] [404 Not Found] [cloudflare] [104.26.12.27] [cloudflare] [189.254961ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://public-node1.rpc.karak.network [404] [] [644] [404 Not Found] [cloudflare] [104.26.4.198] [cloudflare] [133.577969ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://rpc.sepolia.karak.network [404] [] [644] [404 Not Found] [cloudflare] [104.26.13.27] [cloudflare] [143.072724ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://stride.rpc.karak.network [404] [] [1046] [404 Not Found] [cloudflare] [104.26.4.198] [cloudflare] [120.057273ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://kobayashi.dev.kamino.finance [404] [] [0] [cloudflare] [172.66.149.38] [cloudflare] [653.925651ms] [Cloudflare]
+https://kobayashi.kamino.finance [404] [] [0] [cloudflare] [104.20.45.90] [cloudflare] [654.962735ms] [Cloudflare]
+https://v2-backend.karak.network [404] [] [13] [nginx/1.24.0 (Ubuntu)] [207.188.7.69] [156.086902ms] [Nginx:1.24.0,Ubuntu]
+https://restaking-backend.karak.network [404] [] [1242] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [487.440659ms] [Express,Nginx:1.24.0,Node.js,Ubuntu]
+https://tokens.kamino.finance [404] [] [0] [cloudflare] [172.66.149.38] [cloudflare] [273.603283ms] [Cloudflare]
+https://wss.rpc.karak.network [404] [] [1046] [404 Not Found] [cloudflare] [172.67.75.88] [cloudflare] [198.470944ms] [Cloudflare,Cloudflare Browser Insights,HSTS]
+https://api.explorer.karak.network [404] [] [139] [Error] [] [51.112.69.218] [862.263692ms] [Express,Node.js]
+https://v1-backend.karak.network [404] [] [1242] [nginx/1.24.0 (Ubuntu)] [66.203.113.33] [518.753074ms] [Express,Nginx:1.24.0,Node.js,Ubuntu]
+https://v1-points-cache.karak.network [404] [] [139] [Error] [nginx/1.18.0 (Ubuntu)] [45.250.252.101] [522.234555ms] [HSTS,Nginx:1.18.0,Ubuntu]
+
+## 500
+
+## 502
+https://proxy.rpc.karak.network [502] [] [122] [502 Bad Gateway] [awselb/2.0] [51.112.69.218] [847.387717ms] [Amazon ELB,Amazon Web Services]
+
+## 503
+

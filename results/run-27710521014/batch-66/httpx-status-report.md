@@ -1,0 +1,129 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 20:05:38 UTC 2026
+
+HTTPX lines: 115
+Live URLs: 115
+
+## 200
+https://app-alt.venus.io [200] [] [3954] [Venus Protocol] [Vercel] [76.76.21.61] [66.778911ms] [HSTS,Vercel]
+https://cloudflare-dnslink-action.venus.io [200] [] [383] [Cloudflare IPFS On-Boarding] [cloudflare] [172.67.142.111] [cloudflare] [159.41121ms] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://app.uniswap.org [200] [] [8709] [Uniswap Interface] [cloudflare] [172.66.0.225] [cloudflare] [212.215887ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://app-ipfs.venus.io [200] [] [3954] [Venus Protocol] [cloudflare] [172.67.142.111] [cloudflare] [321.863872ms] [Cloudflare,HSTS,HTTP/3,IPFS]
+https://app-preview.venus.io [200] [] [3746] [Venus Protocol] [AmazonS3] [3.171.85.125] [cloudfront] [432.714513ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://app-preview-cf.venus.io [200] [] [3746] [Venus Protocol] [AmazonS3] [3.171.85.88] [cloudfront] [446.981037ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://about.uniswap.org [200] [] [72208] [About Uniswap Labs] [Vercel] [216.150.1.129] [64.770622ms] [HSTS,Vercel]
+https://collect.uniswap.org [200] [] [68603] [Uniswap Card Generator] [Vercel] [216.150.16.1] [141.515272ms] [HSTS,Vercel]
+https://careers.uniswap.org [200] [] [71067] [Uniswap Labs | Careers] [cloudflare] [172.66.0.225] [cloudflare] [146.018351ms] [Cloudflare,Cloudflare Bot Management,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://blog.uniswap.org [200] [] [234752] [Blog | Uniswap Labs] [Vercel] [66.33.60.35] [43.644779ms] [Contentful,Google Tag Manager,HSTS,Vercel]
+https://community.venus.io [200] [] [153298] [Venus Community - Venus Protocol Community] [cloudflare] [172.67.142.111] [cloudflare] [374.688078ms] [Cloudflare,Discourse:3.3.0,HSTS,HTTP/3,Ruby on Rails]
+https://cca.uniswap.org [200] [] [471023] [Uniswap | Continuous Clearing Auctions] [Framer/31fe488] [31.43.161.6] [300.744179ms] [Framer Sites,Google Analytics,Google Tag Manager,HSTS,HTTP/3,React]
+https://failover.uniswap.org [200] [] [6838] [Uniswap Interface] [cloudflare] [172.66.0.225] [cloudflare] [3.143488955s] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]
+https://extendedtokens.uniswap.org [200] [] [1126058] [cloudflare] [172.66.0.225] [cloudflare] [6.949970967s] [Cloudflare,Cloudflare Bot Management,HSTS,IPFS]
+https://gov.uniswap.org [200] [] [274710] [Uniswap Governance - Uniswap is a fully decentralized protocol for automated liquidity provision on Ethereum.] [nginx] [184.105.99.75] [4.633456272s] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://posthog.venus.io [200] [] [2] [Tengine] [3.171.100.122] [cloudfront] [3.551203292s] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://tokens.uniswap.org [200] [] [614527] [cloudflare] [162.159.140.227] [cloudflare] [3.14017812s] [Cloudflare,Cloudflare Bot Management,HSTS,IPFS]
+https://tokens.venus.io [200] [] [9788] [cloudflare] [104.21.71.28] [cloudflare] [4.39436439s] [Cloudflare,HSTS,HTTP/3]
+https://unicup.uniswap.org [200] [] [10168] [Uniswap Cup] [Vercel] [216.150.16.1] [2.233537774s] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://university.uniswap.org [200] [] [33148] [DeFi Safety Quiz] [Vercel] [216.150.16.1] [1.885526407s] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://venus.io [200] [] [3954] [Venus Protocol] [Vercel] [76.76.21.21] [4.088206997s] [HSTS,Vercel]
+https://unsupportedtokens.uniswap.org [200] [] [122026] [cloudflare] [172.66.0.225] [cloudflare] [6.405479792s] [Cloudflare,Cloudflare Bot Management,HSTS,IPFS]
+https://x.uniswap.org [200] [] [415260] [UniswapX] [Framer/31fe488] [31.43.161.6] [1.073626538s] [Framer Sites,Google Analytics,HSTS,HTTP/3,React]
+https://wrapped.uniswap.org [200] [] [14356] [Uniswap Wrapped] [Vercel] [216.150.1.193] [4.344724782s] [HSTS,Vercel,dc.js]
+https://web.uniswap.org [200] [] [478373] [Uniswap Web App | Trade Crypto with the World’s Leading DEX] [Framer/31fe488] [31.43.161.6] [6.223726424s] [Amplitude,Framer Sites,Google Analytics,Google Tag Manager,HSTS,HTTP/3,React]
+https://www.velodrome.finance [200] [] [4391] [Velodrome Finance] [cloudflare] [104.18.15.32] [cloudflare] [5.091203405s] [Cloudflare]
+
+## 301
+https://api-docs.uniswap.org [301] [https://developers.uniswap.org/docs/trading/swapping-api/getting-started] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [31.500396ms] [Cloudflare,HSTS]
+https://docs.uniswap.org [301] [https://developers.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [2.038338347s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://docs.venus.io [301] [https://docs-v4.venus.io/] [0] [cloudflare] [172.67.142.111] [cloudflare] [3.101647659s] [Cloudflare,HSTS,HTTP/3]
+http://docs-v4.venus.io [301] [https://docs-v4.venus.io/] [167] [301 Moved Permanently] [cloudflare] [172.64.147.209] [cloudflare] [2.237677194s] [Cloudflare,HTTP/3]
+https://help.uniswap.org [301] [https://support.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [28.586953ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+http://gateway.uniswap.org [301] [https://gateway.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [162.159.140.227] [cloudflare] [3.02597002s] [Cloudflare,Cloudflare Bot Management]
+http://gating.ios.wallet.gateway.uniswap.org [301] [https://gating.ios.wallet.gateway.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [162.159.140.227] [cloudflare] [4.02711973s] [Cloudflare,Cloudflare Bot Management]
+http://gating.interface.gateway.uniswap.org [301] [https://gating.interface.gateway.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [5.046928214s] [Cloudflare,Cloudflare Bot Management]
+https://hub.uniswap.org [301] [https://developers.uniswap.org/docs/trading/swapping-api/getting-started] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [1.028947821s] [Cloudflare,HSTS]
+https://shop.uniswap.org [301] [https://blog.uniswap.org/introducing-uniswap-labs-x-kidsuper] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [8.039313795s] [Cloudflare,HSTS]
+http://scantastic.extension.gateway.uniswap.org [301] [https://scantastic.extension.gateway.uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [1.033585088s] [Cloudflare,Cloudflare Bot Management]
+https://v2.info.uniswap.org [301] [https://app.uniswap.org/explore] [167] [301 Moved Permanently] [cloudflare] [162.159.140.227] [cloudflare] [28.304039ms] [Cloudflare,HSTS]
+http://testnet.venus.io [301] [https://testnet.venus.io/] [167] [301 Moved Permanently] [cloudflare] [172.67.142.111] [cloudflare] [11.819564ms] [Cloudflare,HTTP/3]
+https://www.uniswap.org [301] [https://uniswap.org/] [167] [301 Moved Permanently] [cloudflare] [172.66.0.225] [cloudflare] [3.038707096s] [Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 302
+https://enterpriseenrollment.uniswap.org [302] [https://intune.microsoft.com/] [0] [cloudflare] [172.66.0.225] [cloudflare] [4.08623343s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://go.uniswap.org [302] [https://go.uniswap.org/?rb.routing.mode=proxy&rb.routing.signature=655759] [0] [cloudflare] [162.159.140.227] [cloudflare] [1.206855026s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://login.uniswap.org [302] [https://login.uniswap.org/app/UserHome?iss=https%3A%2F%2Flogin.uniswap.org&session_hint=AUTHENTICATED] [0] [nginx] [13.248.245.245] [5.446128431s] [HSTS,Nginx]
+https://support.uniswap.org [302] [https://support.uniswap.org/hc] [0] [cloudflare] [172.66.0.225] [cloudflare] [7.171776829s] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://uniswap.org [302] [https://app.uniswap.org/] [143] [302 Found] [cloudflare] [162.159.140.227] [cloudflare] [2.031626517s] [Cloudflare,HSTS]
+
+## 307
+
+## 308
+https://app.venus.io [308] [https://venus.io/] [15] [Vercel] [76.76.21.61] [43.31223ms] [HSTS,Vercel]
+http://flux.venus.io [308] [https://flux.venus.io/] [14] [Vercel] [216.150.1.193] [3.193559469s] [Vercel]
+https://www.venus.io [308] [https://venus.io/] [15] [Vercel] [66.33.60.129] [111.025422ms] [HSTS,Vercel]
+
+## 401
+https://tokenized.uniswap.org [401] [] [13482] [This site is password protected | Framer] [Framer/31fe488] [31.43.160.6] [3.125359648s] [Framer Sites,HSTS,HTTP/3,React]
+https://websockets.backend-dev.api.uniswap.org [401] [] [60] [] [52.14.199.75] [2.145882358s]
+https://websockets.backend-staging.api.uniswap.org [401] [] [60] [] [18.189.45.245] [4.119777607s]
+https://websockets.backend-prod.api.uniswap.org [401] [] [60] [] [3.12.77.224] [5.083016179s]
+
+## 403
+https://api.uniswap.org [403] [] [23] [] [13.226.209.49] [cloudfront] [34.001015ms] [Amazon CloudFront,Amazon Web Services]
+https://beta.api.uniswap.org [403] [] [23] [] [3.170.19.117] [cloudfront] [79.187381ms] [Amazon CloudFront,Amazon Web Services]
+https://amplitude-proxy.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [83.06545ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://android.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [104.917444ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://beta.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [154.192296ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://cdn.developers.uniswap.org [403] [] [111] [AmazonS3] [3.167.56.116] [cloudfront] [152.110076ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+http://dev-portal-statics.uniswap.org [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [3.167.56.13] [cloudfront] [3.529695ms] [Amazon CloudFront,Amazon Web Services]
+https://dev-portal-statics-staging.uniswap.org [403] [] [111] [AmazonS3] [52.85.193.24] [cloudfront] [2.190286988s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://for.android.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.070057564s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://for.extension.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [3.108017126s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://for.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.077260448s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://graphql.extension.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [1.06284125s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://gating.extension.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.077254823s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://for.ios.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [5.10739836s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://interface.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [2.06883665s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://metrics.ios.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [1.104457292s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://metrics.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.06392122s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://metrics.android.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [5.076967921s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://scantastic.ios.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [1.092164466s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://scantastic.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.077666757s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://statsig-proxy.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [5.114776756s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://unitags.interface.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [1.086034167s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://unitags.extension.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.064694009s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://unitags.external.gateway.uniswap.org [403] [] [23] [cloudflare] [162.159.140.227] [cloudflare] [5.090936781s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://unitags.ios.wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [5.065676047s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://wallet.gateway.uniswap.org [403] [] [23] [cloudflare] [172.66.0.225] [cloudflare] [4.077340145s] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 404
+https://api-proxy.backend-prod.api.uniswap.org [404] [] [23] [nginx] [16.58.44.1] [55.913419ms] [Nginx]
+https://api-proxy.backend-dev.api.uniswap.org [404] [] [23] [nginx] [3.12.234.174] [69.018827ms] [Nginx]
+https://api-proxy.backend-staging.api.uniswap.org [404] [] [23] [nginx] [18.189.122.209] [100.090068ms] [Nginx]
+https://api.venus.io [404] [] [139] [Error] [Tengine] [3.167.99.77] [cloudfront] [316.2745ms] [Amazon CloudFront,Amazon Web Services,Tengine]
+https://beta.realtime.gateway.uniswap.org [404] [] [118] [cloudflare] [172.66.0.225] [cloudflare] [510.575301ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Bot Management,HSTS]
+https://compliance-api.backend-prod.api.uniswap.org [404] [] [23] [] [3.19.133.248] [1.165017965s]
+https://compliance-api.backend-staging.api.uniswap.org [404] [] [23] [] [3.150.4.92] [2.106033142s]
+https://email.uniswap.org [404] [] [19] [] [34.110.180.34] [google] [3.227896032s]
+https://enterpriseregistration.uniswap.org [404] [] [101] [cloudflare] [172.66.0.225] [cloudflare] [4.082269964s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://entry-gateway-v2.backend-dev.api.uniswap.org [404] [] [19] [] [3.142.72.212] [2.071051699s]
+https://entry-gateway.backend-prod.api.uniswap.org [404] [] [72] [] [3.151.98.190] [2.114041475s]
+https://entry-gateway.backend-dev.api.uniswap.org [404] [] [72] [] [3.18.66.110] [6.235415735s]
+https://entry-gateway.backend-staging.api.uniswap.org [404] [] [72] [] [3.141.137.128] [7.171431043s]
+https://hexagate-webhook.backend-staging.api.uniswap.org [404] [] [23] [] [3.18.66.110] [5.144936033s]
+https://liquidity-dev.api.uniswap.org [404] [] [23] [nginx] [3.12.234.174] [306.837769ms] [Nginx]
+https://liquidity.api.uniswap.org [404] [] [23] [nginx] [16.58.44.1] [1.098937665s] [Nginx]
+https://liquidity.backend-staging.api.uniswap.org [404] [] [72] [] [3.143.121.164] [1.171664824s]
+https://liquidity.backend-prod.api.uniswap.org [404] [] [72] [] [52.14.148.147] [2.092977342s]
+https://liquidity-staging.api.uniswap.org [404] [] [23] [nginx] [18.189.122.209] [3.166834833s] [Nginx]
+https://sso-assets.uniswap.org [404] [] [0] [cloudflare] [172.66.0.225] [cloudflare] [4.085058992s] [Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 500
+
+## 502
+https://infra-auth-proxy.backend-staging.api.uniswap.org [502] [] [122] [502 Bad Gateway] [awselb/2.0] [18.221.177.122] [1.198882339s] [Amazon ELB,Amazon Web Services]
+https://infra-auth-proxy.backend-prod.api.uniswap.org [502] [] [122] [502 Bad Gateway] [awselb/2.0] [52.15.42.14] [6.093551801s] [Amazon ELB,Amazon Web Services]
+
+## 503
+

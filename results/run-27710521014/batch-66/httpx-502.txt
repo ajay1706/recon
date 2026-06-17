@@ -1,0 +1,2 @@
+https://infra-auth-proxy.backend-staging.api.uniswap.org [502] [] [122] [502 Bad Gateway] [awselb/2.0] [18.221.177.122] [1.198882339s] [Amazon ELB,Amazon Web Services]
+https://infra-auth-proxy.backend-prod.api.uniswap.org [502] [] [122] [502 Bad Gateway] [awselb/2.0] [52.15.42.14] [6.093551801s] [Amazon ELB,Amazon Web Services]

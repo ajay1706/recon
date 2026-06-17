@@ -1,0 +1,6 @@
+https://docs.replicate.com [301] [https://replicate.com/docs] [167] [301 Moved Permanently] [cloudflare] [104.18.2.60] [cloudflare] [34.245325ms] [Cloudflare,HSTS,HTTP/3]
+https://status.replicate.com [301] [https://www.replicatestatus.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.3.60] [cloudflare] [71.704452ms] [Cloudflare,HSTS,HTTP/3]
+https://www.blog.renzoprotocol.com [301] [https://blog.renzoprotocol.com/] [162] [301 Moved Permanently] [nginx] [192.0.78.24] [177.986912ms] [HSTS,Nginx]
+https://www.reflection.ai [301] [https://reflection.ai/] [37] [Netlify] [52.52.192.191] [178.463326ms] [HSTS,Netlify]
+https://www.replicate.com [301] [https://replicate.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.2.60] [cloudflare] [177.948402ms] [Cloudflare,HSTS,HTTP/3]
+http://openai-proxy.replicate.com [301] [https://openai-proxy.replicate.com/] [0] [Fly/1902b7295 (2026-06-16)] [66.241.125.88] [25.246889ms] [Fly.io]

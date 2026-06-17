@@ -1,0 +1,14 @@
+[+] Batch started: Wed Jun 17 19:30:05 UTC 2026
+[+] Run ID: 27710521014
+[+] Batch name: batch-44
+[+] Batch targets:
+optimism.io
+orbiter.finance
+orca.so
+[+] Running subfinder...
+[+] Subfinder completed: Wed Jun 17 19:31:23 UTC 2026
+[+] HTTPX input count: 344
+[+] Running httpx...
+[+] httpx completed: Wed Jun 17 19:32:17 UTC 2026
+[+] httpx line count: 132
+[+] Batch completed: Wed Jun 17 19:32:17 UTC 2026

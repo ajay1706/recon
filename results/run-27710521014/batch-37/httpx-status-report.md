@@ -1,0 +1,106 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:16:57 UTC 2026
+
+HTTPX lines: 77
+Live URLs: 77
+
+## 200
+https://webhooks.mechanic.dev [200] [] [345] [] [35.170.10.242] [190.500923ms]
+https://app.marginfi.com [200] [] [3710] [lend - marginfi] [Vercel] [76.76.21.98] [231.383325ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://convert.mechanic.dev [200] [] [485] [Shopify To Mechanic Email Converter] [GitHub.com] [185.199.109.153] [845.413176ms] [Fastly,GitHub Pages,HSTS,Varnish]
+https://ideas.mechanic.dev [200] [] [26093] [Mechanic Feedback] [] [44.214.112.154] [527.831175ms] [Canny,HSTS,Linkedin Ads]
+https://help.matcha.xyz [200] [] [22820] [Matcha Support Knowledge Base] [] [13.226.238.52] [cloudfront] [451.488459ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://trade.marginfi.com [200] [] [12627] [Sign up for mrgnswap] [openresty/1.27.1.2] [3.13.246.91] [613.955364ms] [Cloudflare,ConvertKit,Nginx,OpenResty:1.27.1.2,cdnjs]
+https://ui.mechanic.dev [200] [] [3220] [Fly/1902b7295 (2026-06-16)] [66.241.124.110] [306.334141ms] [Fly.io,Next.js,Node.js,React,Webpack]
+https://account-search.marginfi.com [200] [] [13173] [Marginfi Search - Accounts] [Vercel] [76.76.21.98] [397.578667ms] [HSTS,Vercel]
+https://tasks.mechanic.dev [200] [] [82342] [Task directory – Mechanic, ecommerce automation platform for Shopify] [Fly/1902b7295 (2026-06-16)] [149.248.193.3] [322.055056ms] [Fly.io,Font Awesome,Google Hosted Libraries,HSTS,Ruby,Ruby on Rails,jQuery:3.5.1,jsDelivr]
+https://ybx.marginfi.com [200] [] [14335] [marginfi's LST-Backed Stablecoin: $YBX] [openresty/1.27.1.2] [3.13.222.255] [801.748745ms] [Cloudflare,ConvertKit,Nginx,OpenResty:1.27.1.2,cdnjs]
+https://claims.marginfi.com [200] [] [9941] [mrgn - liquidation claims] [Vercel] [76.76.21.61] [1.335066942s] [HSTS,Vercel]
+https://docs.marginfi.com [200] [] [71929] [marginfi documentation] [Vercel] [66.33.60.130] [172.209803ms] [HSTS,Vercel]
+https://support.marginfi.com [200] [] [88884] [Help Center] [] [151.101.193.91] [fastly] [439.923055ms] [Highlight.js,jsDelivr]
+https://meta.matcha.xyz [200] [] [43727] [Matcha Meta | Meta DEX Aggregator] [cloudflare] [104.18.26.209] [cloudflare] [161.91028ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://mechanic.dev [200] [] [122001] [Mechanic - Shopify Development Platform] [GitHub.com] [185.199.110.153] [265.173328ms] [Fastly,GitHub Pages,HSTS,Varnish,Wistia,WordPress,Yoast SEO:26.7,jQuery,jQuery Migrate]
+https://additions.mechanic.dev [200] [] [49089] [Mechanic Additions | Shopify Automation Updates] [GitHub.com] [185.199.108.153] [1.784697927s] [Fastly,GitHub Pages,Varnish]
+https://status.mechanic.dev [200] [] [152347] [Mechanic Status] [AtlassianEdge] [52.85.193.27] [cloudfront] [1.26924352s] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,HSTS,bowser,cdnjs,jQuery:3.5.1,reCAPTCHA]
+https://blog.matcha.xyz [200] [] [280923] [Matcha – Blog] [cloudflare] [198.202.211.1] [124.706839ms] [Cloudflare,Google Analytics,Google Tag Manager,HSTS,HTTP/3,jQuery:3.5.1,jsDelivr]
+https://partners.mechanic.dev [200] [] [335312] [Mechanic Partner Directory: Shopify Automation and Development Platform] [nginx] [13.56.148.255] [1.380885794s] [Google Analytics,HSTS,HTTP/3,Nginx,Node.js,Nuxt.js,Vue.js,jQuery CDN,jQuery:3.5.1]
+https://learn.mechanic.dev [200] [] [574921] [Introduction | Mechanic] [cloudflare] [172.64.147.209] [cloudflare] [600.739205ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+
+## 301
+https://analytics.marginfi.com [301] [https://mrgn.grafana.net/public-dashboards/a2700f1bbca64aeaa5582a90dbaeb276?orgId=1&refresh=1m] [133] [ip-10-123-125-49.ec2.internal] [15.197.225.128] [142.128386ms]
+http://permit.meta.matcha.xyz [301] [https://permit.meta.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.26.209] [cloudflare] [52.166431ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/2]
+http://www.api-v1.matcha.xyz [301] [https://www.api-v1.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [130.099157ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.api-staging.matcha.xyz [301] [https://www.api-staging.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [114.362228ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.comp.matcha.xyz [301] [https://www.comp.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [113.984047ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/2]
+http://www.dev-call-preview.matcha.xyz [301] [https://www.dev-call-preview.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.26.209] [cloudflare] [102.593212ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.internal.matcha.xyz [301] [https://www.internal.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.26.209] [cloudflare] [98.397025ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/2]
+http://www.limit.matcha.xyz [301] [https://www.limit.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [91.491908ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.dogfood-internal-only.matcha.xyz [301] [https://www.dogfood-internal-only.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [82.791094ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.crash-test.matcha.xyz [301] [https://www.crash-test.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.26.209] [cloudflare] [134.221163ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+http://www.metatx-internal.matcha.xyz [301] [https://www.metatx-internal.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.26.209] [cloudflare] [111.059258ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+https://task.mechanic.dev [301] [https://tasks.mechanic.dev] [61] [] [3.131.150.69] [823.350079ms]
+http://www.search.matcha.xyz [301] [https://www.search.matcha.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.18.27.209] [cloudflare] [131.53559ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+https://pricing.mechanic.dev [301] [https://learn.mechanic.dev/platform/policies/pricing] [87] [] [3.131.150.69] [896.41847ms]
+https://slack.mechanic.dev [301] [https://join.slack.com/t/usemechanic/shared_invite/zt-374b4xmvn-BNgSDIlDWoq_uEif3agJUA] [121] [] [3.131.150.69] [971.227172ms]
+https://www.mechanic.dev [301] [https://mechanic.dev/] [162] [301 Moved Permanently] [GitHub.com] [185.199.108.153] [909.122537ms] [Fastly,GitHub Pages,Varnish]
+
+## 302
+https://demo.mechanic.dev [302] [https://demo.mechanic.dev/password] [0] [cloudflare] [23.227.38.74] [1.094303415s] [Cloudflare,HSTS,HTTP/3,Shopify]
+https://matt.mechanic.dev [302] [https://matt.mechanic.dev/password] [0] [cloudflare] [23.227.38.74] [1.262838659s] [Cloudflare,HSTS,HTTP/3,Shopify]
+
+## 307
+https://feedback.matcha.xyz [307] [/?cursor=1&order=top&limit=10] [0] [cloudflare] [104.26.7.42] [cloudflare] [262.427835ms] [Cloudflare,HSTS,HTTP/3]
+
+## 308
+https://www.marginfi.com [308] [https://app.marginfi.com/] [15] [Vercel] [66.33.60.130] [221.944696ms] [HSTS,Vercel]
+https://marginfi.com [308] [https://app.marginfi.com/] [15] [Vercel] [76.76.21.21] [823.980781ms] [HSTS,Vercel]
+
+## 401
+
+## 403
+https://dev-call-preview.matcha.xyz [403] [] [5631] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [30.497845ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://cloudflare.matcha.xyz [403] [] [5582] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [35.460014ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://api-staging.matcha.xyz [403] [] [5520] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [30.336101ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://crash-test.matcha.xyz [403] [] [5668] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [32.473367ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://api-v1.matcha.xyz [403] [] [5536] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [53.079509ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://mtx-v1.matcha.xyz [403] [] [5536] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [51.615526ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://mx.matcha.xyz [403] [] [5489] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [63.195491ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://beta.matcha.xyz [403] [] [5619] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [53.049168ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://go.matcha.xyz [403] [] [5532] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [52.62655ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://blog-editor.matcha.xyz [403] [] [5669] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [64.335031ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://matcha.xyz [403] [] [5614] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [64.282692ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://bsc.matcha.xyz [403] [] [5618] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [52.83141ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://hostmaster.matcha.xyz [403] [] [5540] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [52.75841ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://metatx-internal.matcha.xyz [403] [] [5673] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [53.120587ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://dev.matcha.xyz [403] [] [5533] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [106.309676ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://mini.matcha.xyz [403] [] [5576] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [141.550173ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://parrot.matcha.xyz [403] [] [5515] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [108.642828ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://comp.matcha.xyz [403] [] [5576] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [187.661838ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://advanced.matcha.xyz [403] [] [5538] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [187.122654ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://limit.matcha.xyz [403] [] [5535] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [144.300189ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://dogfood-internal-only.matcha.xyz [403] [] [5551] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [186.943363ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://internal.matcha.xyz [403] [] [5601] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [172.722668ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://staging.matcha.xyz [403] [] [5622] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [151.019504ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://search.matcha.xyz [403] [] [5643] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [124.630865ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://powerup.matcha.xyz [403] [] [5644] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [199.756781ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://price-comparisons.matcha.xyz [403] [] [5632] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [158.407409ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://promo.matcha.xyz [403] [] [5620] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [177.946737ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://tc.matcha.xyz [403] [] [5574] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [169.659009ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://wallet.matcha.xyz [403] [] [5643] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [205.037235ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://v4-test.matcha.xyz [403] [] [5537] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [245.161643ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://wildcard.matcha.xyz [403] [] [5517] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [190.515936ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://walletpreview.matcha.xyz [403] [] [5671] [Just a moment...] [cloudflare] [104.18.27.209] [cloudflare] [190.515765ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://www.matcha.xyz [403] [] [5618] [Just a moment...] [cloudflare] [104.18.26.209] [cloudflare] [408.006619ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+
+## 404
+https://api-staging.mechanic.dev [404] [] [23] [Fly/1902b7295 (2026-06-16)] [66.241.124.88] [374.058782ms] [Fly.io,HSTS]
+https://api.mechanic.dev [404] [] [23] [Fly/1902b7295 (2026-06-16)] [149.248.193.3] [845.357281ms] [Fly.io,HSTS]
+https://integrations.mechanic.dev [404] [] [132865] [Mechanic Partner Directory: Shopify Automation and Development Platform] [nginx] [13.56.148.255] [961.865419ms] [Google Analytics,HSTS,HTTP/3,Nginx,Node.js,Nuxt.js,Vue.js,jQuery CDN,jQuery:3.5.1]
+
+## 500
+
+## 502
+
+## 503
+

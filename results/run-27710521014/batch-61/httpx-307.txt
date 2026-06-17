@@ -1,0 +1,2 @@
+https://developer.synfutures.com [307] [https://app.gitbook.com/o/SVTAieJ8nOdjdW5A8yFt/sites/site_R8Gtx/] [15] [cloudflare] [172.64.147.209] [cloudflare] [322.9956ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://login.synthesia.io [307] [https://api.workos.com/user_management/initiate_login?context=&client_id=client_01JHTZY0ZK03VMGDP7HV8TKXTE] [89960] [Sign in] [cloudflare] [104.18.35.233] [cloudflare] [2.464959041s] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]

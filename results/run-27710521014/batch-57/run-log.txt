@@ -1,0 +1,14 @@
+[+] Batch started: Wed Jun 17 19:50:42 UTC 2026
+[+] Run ID: 27710521014
+[+] Batch name: batch-57
+[+] Batch targets:
+solflare.com
+solv.finance
+spark.fi
+[+] Running subfinder...
+[+] Subfinder completed: Wed Jun 17 19:51:35 UTC 2026
+[+] HTTPX input count: 158
+[+] Running httpx...
+[+] httpx completed: Wed Jun 17 19:51:39 UTC 2026
+[+] httpx line count: 115
+[+] Batch completed: Wed Jun 17 19:51:39 UTC 2026

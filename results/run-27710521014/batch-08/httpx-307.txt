@@ -1,0 +1,4 @@
+https://bos.basepowercompany.com [307] [https://bos.basepowercompany.com/sign-in?redirect_url=https%3A%2F%2Fbos.basepowercompany.com%2F] [95] [cloudflare] [172.67.138.51] [cloudflare] [155.392057ms] [Cloudflare,HTTP/3]
+https://account.basepowercompany.com [307] [/dashboard] [18148] [Base Power] [cloudflare] [172.67.138.51] [cloudflare] [296.924397ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3,Next.js,Node.js,React,Webpack]
+https://operators.basepowercompany.com [307] [/app] [11610] [Operators UI] [cloudflare] [104.21.54.108] [cloudflare] [489.989562ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3,Next.js,Node.js,React,Webpack]
+https://slop-shop.bos.basepowercompany.com [307] [/sign-in] [5777] [Slop Shop] [Vercel] [216.150.1.193] [868.298619ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]

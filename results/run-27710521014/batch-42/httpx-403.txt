@@ -1,0 +1,3 @@
+https://auth.nousresearch.com [403] [] [16] [cloudflare] [172.64.144.74] [cloudflare] [156.809285ms] [Cloudflare,HTTP/3]
+https://auth-dev.nousresearch.com [403] [] [16] [cloudflare] [172.64.144.74] [cloudflare] [323.734203ms] [Cloudflare]
+https://auth-stg.nousresearch.com [403] [] [16] [cloudflare] [104.18.43.182] [cloudflare] [434.119306ms] [Cloudflare]

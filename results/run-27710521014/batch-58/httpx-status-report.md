@@ -1,0 +1,125 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:54:03 UTC 2026
+
+HTTPX lines: 103
+Live URLs: 103
+
+## 200
+https://btc.minipay.squidrouter.com [200] [] [2639] [Squid] [cloudflare] [104.26.7.7] [cloudflare] [227.466282ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://coralscan.squidrouter.com [200] [] [9512] [Squid - Coralscan] [cloudflare] [172.67.68.83] [cloudflare] [179.459265ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://beta.minipay.squidrouter.com [200] [] [3865] [cloudflare] [104.26.7.7] [cloudflare] [84.906205ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://beta.hedera.app.squidrouter.com [200] [] [3775] [cloudflare] [104.26.7.7] [cloudflare] [80.96921ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://app.sprinterhealth.com [200] [] [1142] [Sprinter Health] [AmazonS3] [18.238.192.91] [cloudfront] [372.503611ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://checkout.squidrouter.com [200] [] [5175] [Squid | Checkout] [cloudflare] [104.26.6.7] [cloudflare] [62.753119ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://beta.app.squidrouter.com [200] [] [4398] [Squid | Swap, send, and bridge crypto across 100+ chains] [cloudflare] [172.67.68.83] [cloudflare] [89.560495ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://eth.minipay.squidrouter.com [200] [] [2639] [Squid] [cloudflare] [104.26.6.7] [cloudflare] [313.760985ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://celo.minipay.squidrouter.com [200] [] [2639] [Squid] [cloudflare] [104.26.6.7] [cloudflare] [509.60227ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://canton-wallet.squidrouter.com [200] [] [8564] [cloudflare] [104.26.6.7] [cloudflare] [550.660895ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://app.stacks.co [200] [] [19163] [sBTC Dual Stacking – Earn Bitcoin on Bitcoin | Powered by Stacks] [Vercel] [216.150.1.1] [105.624727ms] [HSTS,Vercel]
+https://app.squidrouter.com [200] [] [42112] [Squid | Swap, send, and bridge crypto across 100+ chains] [cloudflare] [172.67.68.83] [cloudflare] [199.907276ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://app-stg.stacks.co [200] [] [19163] [sBTC Dual Stacking – Earn Bitcoin on Bitcoin | Powered by Stacks] [Vercel] [216.150.1.193] [286.961445ms] [HSTS,Vercel]
+https://careers.sprinterhealth.com [200] [] [2629] [Careers | Sprinter Health] [cloudflare] [185.158.133.1] [1.254619422s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://orderbooks.squidrouter.com [200] [] [10305] [CORAL Orderbooks 🪸] [cloudflare] [104.26.6.7] [cloudflare] [249.925857ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://squidschool.squidrouter.com [200] [] [4515] [cloudflare] [104.26.7.7] [cloudflare] [335.633885ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://pac.squidrouter.com [200] [] [41553] [PacSquid] [cloudflare] [104.26.6.7] [cloudflare] [469.448402ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://old.sbtc.stacks.co [200] [] [13806] [sBTC Bridge] [] [54.155.176.112] [827.974796ms] [Amazon ALB,Amazon Web Services,Next.js,Node.js,React,Webpack]
+https://status.v2.api.squidrouter.com [200] [] [1489] [cloudflare] [104.26.6.7] [cloudflare] [528.284813ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Node.js,Nuxt.js,Vercel,Vue.js]
+https://tracker.squidrouter.com [200] [] [962] [Squid Tx Tracker] [cloudflare] [104.26.6.7] [cloudflare] [381.694116ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://scan.squidrouter.com [200] [] [4080] [cloudflare] [172.67.68.83] [cloudflare] [370.90433ms] [C3.js,Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://testnet.xrpl.squidrouter.com [200] [] [5800] [Squid - Have a nice swap.] [cloudflare] [172.67.68.83] [cloudflare] [289.998729ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://stats.squidrouter.com [200] [] [13843] [Squid | Analytics] [cloudflare] [172.67.68.83] [cloudflare] [452.083377ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://trust.sprinterhealth.com [200] [] [4635] [Sprinter Health Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [948.11989ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://v1.coralscan.squidrouter.com [200] [] [9512] [Squid - Coralscan] [cloudflare] [104.26.7.7] [cloudflare] [574.255717ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://xaut.minipay.squidrouter.com [200] [] [2639] [Squid] [cloudflare] [104.26.7.7] [cloudflare] [648.014802ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://rural.sprinterhealth.com [200] [] [49744] [Sprinter Health — Rural Health Transformation Starts in the Home] [cloudflare] [185.158.133.1] [1.588094451s] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sprinterhealth.com [200] [] [60352] [Sprinter Health | Bringing care to wherever patients call home] [cloudflare] [198.202.211.1] [381.636034ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Webflow,cdnjs,jQuery:3.5.1,jsDelivr]
+https://uat.widget.squidrouter.com [200] [] [5179] [cloudflare] [104.26.6.7] [cloudflare] [380.150464ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel,dc.js]
+https://support.squidrouter.com [200] [] [50917] [Squid Help Center<!-- --> | Squid Help Center] [cloudflare] [104.26.6.7] [cloudflare] [639.58692ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://tokka.app.squidrouter.com [200] [] [42112] [Squid | Swap, send, and bridge crypto across 100+ chains] [cloudflare] [104.26.6.7] [cloudflare] [474.852855ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://v2.widget.squidrouter.com [200] [] [5179] [cloudflare] [104.26.6.7] [cloudflare] [563.388725ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel,dc.js]
+https://squidweb.uat.squidrouter.com [200] [] [74352] [cloudflare] [172.67.68.83] [cloudflare] [348.982035ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://webinar.stacks.co [200] [] [48884] [Unlocking Institutional Bitcoin Yield | Stacks & Fireblocks] [Netlify] [13.52.188.95] [1.144799943s] [HSTS,Netlify]
+https://sbtc.stacks.co [200] [] [107512] [sBTC Bridge] [] [54.154.64.147] [2.344894475s] [Next.js,Node.js,React,Webpack]
+https://widget.squidrouter.com [200] [] [7324] [cloudflare] [172.67.68.83] [cloudflare] [400.16388ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel,dc.js]
+https://filecoin.uat.squidrouter.com [200] [] [165026] [Squid Widget Studio] [cloudflare] [172.67.68.83] [cloudflare] [209.992029ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://dev.squidrouter.com [200] [] [170908] [Squid Widget Studio] [cloudflare] [104.26.7.7] [cloudflare] [123.807277ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://hyundai.app.squidrouter.com [200] [] [165026] [Squid Widget Studio] [cloudflare] [172.67.68.83] [cloudflare] [184.43435ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://www.sprinterhealth.com [200] [] [60356] [Sprinter Health | Bringing care to wherever patients call home] [cloudflare] [198.202.211.1] [497.460308ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Webflow,cdnjs,jQuery:3.5.1,jsDelivr]
+https://xrpl.squidrouter.com [200] [] [153441] [Squid x XRPL: Explore, Bridge & Discover New Apps] [cloudflare] [172.67.68.83] [cloudflare] [860.287247ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Vercel,Webpack]
+https://www.stacks.co [200] [] [94429] [Stacks | Earn Native Bitcoin Yield, Self-Custodial BTC] [cloudflare] [198.202.211.1] [342.665192ms] [Cloudflare,Cookiebot,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Plausible,jQuery:3.5.1]
+https://uat.squidrouter.com [200] [] [170990] [Squid Widget Studio] [cloudflare] [172.67.68.83] [cloudflare] [685.931481ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://studio.squidrouter.com [200] [] [170990] [Squid Widget Studio] [cloudflare] [104.26.7.7] [cloudflare] [532.484991ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://docs.squidrouter.com [200] [] [467005] [Overview | Squid Dev Documentation] [cloudflare] [172.64.147.209] [cloudflare] [105.662708ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://www.squidrouter.com [200] [] [267113] [Squid - Bridge, Swap & Build Across 100+ Chains] [cloudflare] [172.67.68.83] [cloudflare] [422.650513ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://newsletters.stacks.co [200] [] [706846] [Home | Unleashing Bitcoin] [cloudflare] [104.18.69.40] [cloudflare] [453.766007ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HTTP/3]
+https://docs.stacks.co [200] [] [706797] [Introduction | Stacks Documentation] [cloudflare] [172.64.147.209] [cloudflare] [174.601684ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+
+## 301
+https://blog.stacks.co [301] [https://www.stacks.co/blog/] [167] [301 Moved Permanently] [cloudflare] [172.66.154.212] [cloudflare] [22.501675ms] [Cloudflare]
+https://china.stacks.co [301] [https://stacksasia.foundation/] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [33.676393ms] [Cloudflare]
+http://api.testnet.stacks.co [301] [https://api.testnet.stacks.co/] [0] [cloudflare] [172.66.154.212] [cloudflare] [171.490773ms] [Cloudflare]
+https://events.stacks.co [301] [https://www.stacks.co/explore/events#add-event] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [193.816715ms] [Cloudflare]
+https://mena.stacks.co [301] [https://www.stacks.co/explore/ecosystem?category=All+Teams#community] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [155.13148ms] [Cloudflare]
+https://n21.stacks.co [301] [https://www.stacks.co/build/fuel-your-project] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [220.59426ms] [Cloudflare]
+https://pakistan.stacks.co [301] [https://www.stacks.co/explore/ecosystem?category=All+Teams#community] [167] [301 Moved Permanently] [cloudflare] [172.66.154.212] [cloudflare] [210.418816ms] [Cloudflare]
+https://podcast.stacks.co [301] [https://www.youtube.com/@Stacks-btc] [167] [301 Moved Permanently] [cloudflare] [172.66.154.212] [cloudflare] [202.266727ms] [Cloudflare]
+https://registrar.stacks.co [301] [https://docs.stacks.co/concepts/network-fundamentals/bitcoin-name-system] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [195.926104ms] [Cloudflare]
+http://registrar.testnet.stacks.co [301] [https://registrar.testnet.stacks.co/] [0] [cloudflare] [172.66.154.212] [cloudflare] [218.992522ms] [Cloudflare]
+https://shop.stacks.co [301] [https://www.stacks.co/shop] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [388.428837ms] [Cloudflare]
+https://sprinteruniversity.sprinterhealth.com [301] [https://sprinteruniversity.sprinterhealth.com/learn] [166] [301 Moved Permanently] [] [34.199.229.129] [830.952208ms] [HSTS]
+https://stacks-node-api.stacks.co [301] [/extended] [0] [cloudflare] [104.20.18.107] [cloudflare] [454.208118ms] [Cloudflare]
+http://stacks-node-api.testnet.stacks.co [301] [https://stacks-node-api.testnet.stacks.co/] [0] [cloudflare] [104.20.18.107] [cloudflare] [251.342658ms] [Cloudflare]
+https://stacks.co [301] [https://www.stacks.co/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [405.842377ms] [Cloudflare,HSTS,HTTP/3]
+http://stacks-node-api.mainnet.stacks.co [301] [https://stacks-node-api.mainnet.stacks.co/] [0] [cloudflare] [104.20.18.107] [cloudflare] [303.799022ms] [Cloudflare]
+https://testnet.stacks.co [301] [https://docs.stacks.co/network-fundamentals/mainnet-and-testnets] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [331.965554ms] [Cloudflare]
+https://v2.coralscan.squidrouter.com [301] [https://scan.squidrouter.com/] [15] [cloudflare] [104.26.7.7] [cloudflare] [395.847146ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://wallet.stacks.co [301] [https://www.stacks.co/explore/find-a-wallet] [167] [301 Moved Permanently] [cloudflare] [104.20.18.107] [cloudflare] [385.967134ms] [Cloudflare]
+http://airbyte.squidrouter.com [301] [https://airbyte.squidrouter.com/] [665] [301 Moved Permanently] [cloudflare] [172.67.68.83] [cloudflare] [16.017014ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+
+## 302
+https://explorer.stacks.co [302] [https://explorer.hiro.so/] [143] [302 Found] [cloudflare] [172.66.154.212] [cloudflare] [136.80293ms] [Cloudflare]
+https://form.stacks.co [302] [https://stacks.co] [39] [cloudflare] [216.24.57.9] [249.932918ms] [Cloudflare,HSTS,HTTP/3,Render]
+
+## 307
+https://bridge.stacks.co [307] [/usdc/eth/stx] [15] [Vercel] [216.150.1.193] [59.766987ms] [HSTS,Vercel]
+https://scim.sprinterhealth.com [307] [/app/] [41] [] [34.44.205.64] [google] [510.203026ms]
+https://v2.app.squidrouter.com [307] [https://app.squidrouter.com/] [15] [cloudflare] [104.26.6.7] [cloudflare] [447.585783ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://www.app.squidrouter.com [307] [https://app.squidrouter.com/] [15] [cloudflare] [172.67.68.83] [cloudflare] [397.452827ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+
+## 308
+https://squidrouter.com [308] [https://www.squidrouter.com/] [15] [cloudflare] [104.26.7.7] [cloudflare] [289.306626ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+
+## 401
+https://api-testnet.seer.sprinterhealth.com [401] [] [43] [] [34.218.83.49] [449.001444ms] [HSTS]
+https://squidweb.dev.squidrouter.com [401] [] [15541] [Authentication Required] [cloudflare] [172.67.68.83] [cloudflare] [607.499773ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://uat.coralscan.squidrouter.com [401] [] [15544] [Authentication Required] [cloudflare] [104.26.6.7] [cloudflare] [358.30034ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+
+## 403
+https://analytics-api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [158.53988ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://apiplus.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [172.67.68.83] [cloudflare] [177.79491ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+http://demo.sprinterhealth.com [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [52.85.151.97] [cloudfront] [40.495721ms] [Amazon CloudFront,Amazon Web Services]
+https://rest-api.sprinterhealth.com [403] [] [42] [] [18.239.199.93] [cloudfront] [257.462539ms] [Amazon CloudFront,Amazon Web Services]
+https://v2.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.6.7] [cloudflare] [466.493022ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.dev.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.6.7] [cloudflare] [606.357643ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.uat.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [739.528596ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+
+## 404
+https://canton.proxy.squidrouter.com [404] [] [63] [cloudflare] [104.26.6.7] [cloudflare] [191.099726ms] [Cloudflare,Express,HTTP/3,Node.js]
+https://assets.stacks.co [404] [] [678] [404 - File Not Found] [cloudflare] [104.20.18.107] [cloudflare] [227.806804ms] [Cloudflare]
+https://auth.uat.squidrouter.com [404] [] [0] [awselb/2.0] [108.138.246.30] [cloudfront] [272.908383ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://auth.squidrouter.com [404] [] [0] [awselb/2.0] [65.8.180.9] [cloudfront] [341.150254ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://careactivation.sprinterhealth.com [404] [] [142] [] [35.85.12.128] [360.537537ms] [Express,Node.js]
+https://careactivation-testnet.sprinterhealth.com [404] [] [142] [] [32.184.189.181] [488.559328ms] [Express,Node.js]
+https://clinical-careers.sprinterhealth.com [404] [] [1256] [Domain not connected] [cloudflare] [185.158.133.1] [473.331291ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://canton-api.squidrouter.com [404] [] [106] [cloudflare] [104.26.7.7] [cloudflare] [544.692437ms] [Cloudflare,HTTP/3]
+https://corporate-careers.sprinterhealth.com [404] [] [1256] [Domain not connected] [cloudflare] [185.158.133.1] [652.265405ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://testnet.seer.sprinterhealth.com [404] [] [267] [AmazonS3] [65.8.180.110] [cloudfront] [544.482285ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://www2.sprinterhealth.com [404] [] [3312] [Squarespace - Website Expired] [Squarespace] [198.185.159.144] [851.711755ms] [HSTS,Squarespace,Squarespace Commerce]
+
+## 500
+
+## 502
+
+## 503
+

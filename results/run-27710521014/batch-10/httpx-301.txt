@@ -1,0 +1,6 @@
+https://blog.bitget.com [301] [https://www.bitget.com/en/blog] [167] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [62.099856ms] [Cloudflare]
+https://academy.bitget.com [301] [https://www.bitget.com/academy] [167] [301 Moved Permanently] [cloudflare] [104.18.8.145] [cloudflare] [71.269102ms] [Cloudflare]
+https://bitget.com [301] [https://www.bitget.com/] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [199.803094ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://h5.bitget.com [301] [http://h5.bitget.com/download.html] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [588.482765ms] [Cloudflare,Cloudflare Bot Management]
+https://m.bitget.com [301] [http://m.bitget.com/download.html] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [578.115643ms] [Cloudflare,Cloudflare Bot Management]
+https://www.bitcoin.org [301] [https://bitcoin.org/] [682] [301 Moved Permanently] [cloudflare] [104.21.9.86] [cloudflare] [565.734026ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]

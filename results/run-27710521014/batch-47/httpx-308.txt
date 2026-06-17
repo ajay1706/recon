@@ -1,0 +1,7 @@
+https://blog.perplexity.ai [308] [https://www.perplexity.ai/hub/blog/] [1088] [308 Permanent Redirect] [cloudflare] [104.18.26.48] [cloudflare] [149.693502ms] [Cloudflare,HSTS]
+https://docs.phia.com [308] [/api-reference/introduction] [102622] [Vercel] [66.33.60.34] [654.178905ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://docs.perplexity.ai [308] [/docs/getting-started/overview] [173881] [Vercel] [76.76.21.98] [441.987877ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://podcast.perplexity.ai [308] [https://www.perplexity.ai/podcast] [1088] [308 Permanent Redirect] [cloudflare] [104.18.26.48] [cloudflare] [140.694334ms] [Cloudflare,HSTS]
+https://shop.phia.com [308] [https://phia.com/] [15] [Vercel] [76.76.21.123] [263.881141ms] [HSTS,Vercel]
+https://social.perplexity.ai [308] [https://www.social.perplexity.ai/] [69] [Framer/31fe488] [31.43.160.6] [373.330446ms] [Framer Sites,HSTS,HTTP/3,React]
+http://www.phia.com [308] [https://www.phia.com/] [14] [Vercel] [66.33.60.193] [225.717134ms] [Vercel]

@@ -1,0 +1,115 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:31:43 UTC 2026
+
+HTTPX lines: 95
+Live URLs: 95
+
+## 200
+https://api.beefy.finance [200] [] [2] [cloudflare] [172.67.136.132] [cloudflare] [194.532492ms] [Cloudflare,HSTS,HTTP/3]
+https://clerk.bos.basepowercompany.com [200] [] [0] [cloudflare] [172.64.153.110] [cloudflare] [205.958031ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://app.beefy.finance [200] [] [4427] [Beefy] [cloudflare] [104.21.26.147] [cloudflare] [179.523637ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://analytics.beefy.finance [200] [] [1314] [Beefy Analytics Dashboard] [cloudflare] [172.67.136.132] [cloudflare] [217.980131ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://clerk.operators.basepowercompany.com [200] [] [0] [cloudflare] [172.64.153.110] [cloudflare] [300.027038ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://clerk.basepowercompany.com [200] [] [0] [cloudflare] [104.18.34.146] [cloudflare] [461.429294ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://dashboard.base.org [200] [] [17736] [Base Dashboard] [cloudflare] [172.64.147.103] [cloudflare] [195.646013ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://flashblocks-demo.base.org [200] [] [15442] [Base Flashblocks] [Vercel] [76.76.21.142] [191.540445ms] [HSTS,Vercel]
+https://interview.basepowercompany.com [200] [] [5985] [Base Interview Coding Pen] [cloudflare] [104.21.54.108] [cloudflare] [357.175316ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3,Next.js,Node.js,React,Webpack]
+https://learn.basepowercompany.com [200] [] [51086] [Base Power electricity guides] [cloudflare] [104.21.54.108] [cloudflare] [205.390116ms] [Astro:6.1.9,Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://batches.base.org [200] [] [89967] [Base Batches 2026] [Vercel] [64.239.109.129] [363.864879ms] [HSTS,Vercel]
+https://help.basepowercompany.com [200] [] [87985] [Help Center] [] [151.101.129.91] [fastly] [358.255819ms] [Highlight.js,jsDelivr]
+https://onramp.beefy.finance [200] [] [13] [cloudflare] [104.21.26.147] [cloudflare] [365.000495ms] [Cloudflare,HTTP/3]
+https://report.basepowercompany.com [200] [] [8031] [cloudflare] [104.21.54.108] [cloudflare] [350.778136ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://brand.base.org [200] [] [126770] [Base | Brand] [cloudflare] [172.64.147.103] [cloudflare] [238.706938ms] [Cloudflare,Cloudflare Bot Management,Google Analytics,HSTS]
+https://requirements.basepowercompany.com [200] [] [4138] [Login - Gen3 Requirements] [CloudFront] [18.154.219.101] [cloudfront] [748.847604ms] [Amazon CloudFront,Amazon Web Services]
+https://snapshot.beefy.finance [200] [] [1419] [BIFI Snapshot Checker] [cloudflare] [104.21.26.147] [cloudflare] [418.346152ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://beefy.finance [200] [] [211364] [Beefy] [cloudflare] [172.67.136.132] [cloudflare] [328.719019ms] [Cloudflare,Cloudflare Browser Insights,Gatsby:5.15.0,HTTP/3,React,Webpack]
+https://vote-archive.beefy.finance [200] [] [1330] [vote.beefy.finance] [Vercel] [66.33.60.130] [539.160169ms] [Adobe Fonts,HSTS,Typekit,Vercel]
+https://snapshots.base.org [200] [] [15908] [Base Snapshots] [cloudflare] [172.64.147.103] [cloudflare] [455.012637ms] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]
+https://tools.basepowercompany.com [200] [] [19194] [Base Power] [Vercel] [66.33.60.35] [502.993957ms] [HSTS,Vercel]
+https://vibes.base.org [200] [] [10989] [base vibenet] [cloudflare] [172.64.147.103] [cloudflare] [611.154125ms] [Cloudflare,Cloudflare Bot Management,HSTS,Next.js,Node.js,React,Webpack]
+https://shop.base.org [200] [] [51983] [Base Shop        – shop.base] [cloudflare] [23.227.38.74] [666.651812ms] [Alpine.js,Cloudflare,HSTS,HTTP/3,Shopify]
+https://bito.base.org [200] [] [447650] [Brand in the Open] [cloudflare] [172.64.147.103] [cloudflare] [394.607136ms] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]
+https://merch.basepowercompany.com [200] [] [116758] [Base Power Store] [cloudflare] [23.227.38.74] [626.977171ms] [Cloudflare,HSTS,HTTP/3,Shopify]
+https://blog.base.org [200] [] [218530] [Base] [cloudflare] [104.18.40.153] [cloudflare] [995.939713ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud CDN,HSTS,Next.js,Node.js,React,Webpack]
+https://nexus.basepowercompany.com [200] [] [219088] [NEXUS — Base Power Company] [] [199.36.158.100] [577.237383ms] [Cloudflare,D3,Firebase,HSTS,HTTP/3,cdnjs]
+https://inside.basepowercompany.com [200] [] [77194] [Inside Base Power Company | Substack] [cloudflare] [172.64.151.232] [cloudflare] [322.593499ms] [C3.js,Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,Express,HSTS,HTTP/3,Node.js,Substack]
+https://docs.beefy.finance [200] [] [418826] [Overview | Beefy] [cloudflare] [104.21.26.147] [cloudflare] [265.583556ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://www.basepowercompany.com [200] [] [239133] [Affordable, Reliable Home Power | Base Power] [cloudflare] [172.67.138.51] [cloudflare] [455.262245ms] [Cloudflare,Google Tag Manager,HSTS,HTTP/3,jQuery:3.5.1,jsDelivr]
+https://www.base.org [200] [] [242817] [Base] [cloudflare] [104.18.40.153] [cloudflare] [457.022906ms] [Cloudflare,Cloudflare Bot Management,Google Analytics,HSTS]
+https://status.base.org [200] [] [645691] [Base Status] [cloudflare] [104.18.40.153] [cloudflare] [1.232835593s] [Atlassian Statuspage,Cloudflare,Cloudflare Bot Management,Fastly,HSTS,bowser,jQuery:3.5.1]
+
+## 301
+https://beta.beefy.finance [301] [https://app.beefy.finance/] [167] [301 Moved Permanently] [cloudflare] [172.67.136.132] [cloudflare] [155.469025ms] [Cloudflare]
+https://dashboard.beefy.finance [301] [https://app.beefy.finance/] [671] [301 Moved Permanently] [cloudflare] [172.67.136.132] [cloudflare] [188.210923ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://blog.beefy.finance [301] [https://beefy.finance/articles/] [671] [301 Moved Permanently] [cloudflare] [172.67.136.132] [cloudflare] [249.517984ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://basepowercompany.com [301] [https://www.basepowercompany.com/] [166] [301 Moved Permanently] [cloudflare] [104.21.54.108] [cloudflare] [310.015968ms] [Cloudflare,HSTS,HTTP/3]
+https://legacy.beefy.finance [301] [https://app.beefy.finance/] [671] [301 Moved Permanently] [cloudflare] [104.21.26.147] [cloudflare] [250.185651ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://specs.base.org [301] [https://docs.base.org/base-chain/specs/] [167] [301 Moved Permanently] [cloudflare] [172.64.147.103] [cloudflare] [297.818639ms] [Cloudflare,HSTS]
+https://www.beefy.finance [301] [https://beefy.finance/] [671] [301 Moved Permanently] [cloudflare] [104.21.26.147] [cloudflare] [455.906357ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+
+## 302
+https://bridge.base.org [302] [https://docs.base.org/chain/bridges-mainnet] [143] [302 Found] [cloudflare] [104.18.40.153] [cloudflare] [139.598612ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://base.org [302] [https://www.base.org/] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [169.299064ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://discord.base.org [302] [https://discord.gg/buildonbase] [143] [302 Found] [cloudflare] [104.18.40.153] [cloudflare] [212.995143ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://explorer.base.org [302] [https://basescan.org/] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [207.698172ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://flashblocks.base.org [302] [https://flashblocks-demo.base.org/] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [173.248606ms] [Cloudflare,HSTS]
+https://goerli-bridge.base.org [302] [https://docs.base.org/chain/bridges-mainnet] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [306.914384ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://join.basepowercompany.com [302] [/auth?next=%2F] [0] [Vercel] [216.150.16.129] [948.070836ms] [HSTS,Vercel]
+https://mint.base.org [302] [https://zora.co/collect/0xd4307e0acd12cf46fd6cf93bc264f5d5d1598792] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [335.773543ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://quests.base.org [302] [https://www.base.org/] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [375.860651ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sepolia-bridge.base.org [302] [https://docs.base.org/chain/bridges-mainnet] [143] [302 Found] [cloudflare] [172.64.147.103] [cloudflare] [357.985377ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sepolia-explorer.base.org [302] [https://base-sepolia.blockscout.com/] [143] [302 Found] [cloudflare] [104.18.40.153] [cloudflare] [337.179342ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://vote.beefy.finance [302] [https://snapshot.box/#/s:beefydao.eth/] [143] [302 Found] [cloudflare] [172.67.136.132] [cloudflare] [349.216871ms] [Cloudflare]
+
+## 307
+https://bos.basepowercompany.com [307] [https://bos.basepowercompany.com/sign-in?redirect_url=https%3A%2F%2Fbos.basepowercompany.com%2F] [95] [cloudflare] [172.67.138.51] [cloudflare] [155.392057ms] [Cloudflare,HTTP/3]
+https://account.basepowercompany.com [307] [/dashboard] [18148] [Base Power] [cloudflare] [172.67.138.51] [cloudflare] [296.924397ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3,Next.js,Node.js,React,Webpack]
+https://operators.basepowercompany.com [307] [/app] [11610] [Operators UI] [cloudflare] [104.21.54.108] [cloudflare] [489.989562ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3,Next.js,Node.js,React,Webpack]
+https://slop-shop.bos.basepowercompany.com [307] [/sign-in] [5777] [Slop Shop] [Vercel] [216.150.1.193] [868.298619ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 308
+https://docs.base.org [308] [/get-started/base] [255847] [Vercel] [76.76.21.142] [364.237175ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+
+## 401
+
+## 403
+https://accounts.operators.basepowercompany.com [403] [] [9598] [Just a moment...] [cloudflare] [172.64.153.110] [cloudflare] [393.494012ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://accounts.bos.basepowercompany.com [403] [] [9528] [Just a moment...] [cloudflare] [104.18.34.146] [cloudflare] [433.900051ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+http://accounts.admins.basepowercompany.com [403] [] [16] [cloudflare] [104.18.34.146] [cloudflare] [266.237052ms] [Cloudflare,HTTP/3]
+http://clerk.admins.basepowercompany.com [403] [] [16] [cloudflare] [172.64.153.110] [cloudflare] [398.843869ms] [Cloudflare,HTTP/3]
+
+## 404
+https://charge.basepowercompany.com [404] [] [105] [cloudflare] [104.21.54.108] [cloudflare] [206.178466ms] [Cloudflare,HSTS,HTTP/3]
+https://clm-api.beefy.finance [404] [] [72] [cloudflare] [104.21.26.147] [cloudflare] [308.587452ms] [Cloudflare,HTTP/3]
+https://blobs-sepolia.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [175.729393ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://data.beefy.finance [404] [] [72] [cloudflare] [104.21.26.147] [cloudflare] [367.581053ms] [Cloudflare,HTTP/3]
+https://balance-api.beefy.finance [404] [] [72] [cloudflare] [172.67.136.132] [cloudflare] [549.653402ms] [Cloudflare,HTTP/3]
+https://blobs-mainnet.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [373.798454ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://databarn.beefy.finance [404] [] [72] [cloudflare] [104.21.26.147] [cloudflare] [660.596612ms] [Cloudflare,HSTS,HTTP/3]
+https://bifi.beefy.finance [404] [] [72] [cloudflare] [104.21.26.147] [cloudflare] [730.214563ms] [Cloudflare,HTTP/3]
+https://gcb7w4yuvk76nxxvdfrpq.base.org [404] [] [107] [Vercel] [66.33.60.34] [566.777429ms] [HSTS,Vercel]
+https://lrt.beefy.finance [404] [] [72] [cloudflare] [172.67.136.132] [cloudflare] [688.766317ms] [Cloudflare,HTTP/3]
+https://mainnet.flashblocks.base.org [404] [] [0] [cloudflare] [104.18.40.153] [cloudflare] [443.387191ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://mainnet-reth-archive-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [429.877446ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://mainnet-reth-proofs-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [455.883026ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://merkl-api.beefy.finance [404] [] [21] [cloudflare] [104.21.26.147] [cloudflare] [539.882116ms] [Cloudflare,HTTP/3]
+https://mainnet-full-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [561.648123ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://mainnet-reth-pruned-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [490.652811ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://mainnet-v2-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [581.414111ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://rpc.beefy.finance [404] [] [19] [cloudflare] [104.21.26.147] [cloudflare] [798.733812ms] [Cloudflare,HTTP/3]
+https://sepolia-full-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [439.209452ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sepolia-reth-pruned-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [398.646256ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sepolia-reth-proofs-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [467.286609ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://sepolia-reth-archive-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [452.064257ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://slop-shop.operators.basepowercompany.com [404] [] [107] [Vercel] [216.150.1.1] [777.018719ms] [HSTS,Vercel]
+https://sepolia-v2-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [104.18.40.153] [cloudflare] [525.023965ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://zeronet-v2-snapshots.base.org [404] [] [27150] [Not Found] [cloudflare] [172.64.147.103] [cloudflare] [420.255446ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 500
+
+## 502
+
+## 503
+https://investor-api.beefy.finance [503] [] [1071] [Application Error] [cloudflare] [104.21.26.147] [cloudflare] [872.545523ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+

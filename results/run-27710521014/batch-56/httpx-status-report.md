@@ -1,0 +1,98 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:51:02 UTC 2026
+
+HTTPX lines: 71
+Live URLs: 71
+
+## 200
+https://api.testnet.solana.com [200] [] [830] [Solana RPC] [] [64.130.37.162] [30.306169ms] [HTTP/3]
+https://api.mainnet-beta.solana.com [200] [] [830] [Solana RPC] [] [208.91.111.195] [33.821871ms] [HTTP/3]
+https://api.devnet.solana.com [200] [] [829] [Solana RPC] [] [208.115.212.49] [40.728132ms] [HTTP/3]
+https://api.mainnet.solana.com [200] [] [830] [Solana RPC] [] [208.91.111.195] [64.446308ms] [HTTP/3]
+https://break.solana.com [200] [] [2671] [Break | Solana] [Vercel] [66.33.60.67] [46.997499ms] [Google Analytics,HSTS,Vercel]
+https://clerk.platform.solana.com [200] [] [0] [cloudflare] [104.18.34.146] [cloudflare] [124.110951ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://beta.docs.solana.com [200] [] [7481] [Solana Blockchain Developer Resources] [Vercel] [66.33.60.34] [104.660958ms] [HSTS,Vercel]
+https://explorer-api.testnet.solana.com [200] [] [830] [Solana RPC] [] [64.130.37.162] [54.676276ms] [HTTP/3]
+https://explorer-api.mainnet-beta.solana.com [200] [] [830] [Solana RPC] [] [208.91.111.195] [58.465235ms] [HTTP/3]
+https://explorer-api.devnet.solana.com [200] [] [829] [Solana RPC] [] [208.115.212.49] [69.501327ms] [HTTP/3]
+https://explorer-api.mainnet.solana.com [200] [] [830] [Solana RPC] [] [208.91.111.195] [79.393612ms] [HTTP/3]
+https://clerk.ecosystem.solana.com [200] [] [0] [cloudflare] [172.64.153.110] [cloudflare] [373.855289ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://edge.docs.solana.com [200] [] [7481] [Solana Blockchain Developer Resources] [Vercel] [66.33.60.194] [82.50872ms] [HSTS,Vercel]
+https://docs.solana.com [200] [] [7481] [Solana Blockchain Developer Resources] [Vercel] [66.33.60.129] [133.983651ms] [HSTS,Vercel]
+https://breakpoint25.solana.com [200] [] [18698] [Solana Accelerate USA Schedule] [Vercel] [64.239.123.193] [105.364957ms] [C3.js,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://climate.solana.com [200] [] [2386] [Solana Climate Dashboard] [cloudflare] [104.20.41.212] [cloudflare] [505.728071ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://faucet.solana.com [200] [] [18381] [Solana Devnet Faucet - Airdrop SOL] [cloudflare] [104.20.41.212] [cloudflare] [146.180437ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Vercel,Webpack]
+https://arena.sentient.xyz [200] [] [20724] [Sentient Arena] [cloudflare] [104.18.15.230] [cloudflare] [376.918477ms] [Cloudflare,Cloudflare Bot Management,Next.js,Node.js,React,Webpack]
+https://idl.solana.com [200] [] [10416] [IDL History Explorer] [Vercel] [76.76.21.142] [390.439895ms] [HSTS,Vercel]
+https://explorer.solana.com [200] [] [44648] [Explorer | Solana] [Vercel] [66.33.60.129] [68.969366ms] [HSTS,Vercel]
+https://godmode.sentient.xyz [200] [] [13966] [Sentient Chat Admin] [Vercel] [66.33.60.67] [334.979405ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://attest.solana.com [200] [] [101084] [Solana Attestation Service] [Vercel] [66.33.60.67] [105.563105ms] [HSTS,Vercel]
+http://release.solana.com [200] [] [122] [UploadServer] [34.128.128.178] [google] [100.909132ms] [Google Cloud,Google Cloud Storage]
+https://ecosystem.solana.com [200] [] [26472] [ecosystem.org] [Vercel] [64.239.109.65] [637.90795ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://records.solana.com [200] [] [10205] [SRS] [Vercel] [66.33.60.67] [196.504695ms] [HSTS,Vercel]
+https://mcp.solana.com [200] [] [35441] [Solana Developer MCP] [Google Frontend] [142.251.111.121] [google] [219.731598ms] [Google Cloud,Google Cloud Load Balancing,Google Cloud Trace]
+https://metrics.solana.com [200] [] [67989] [Grafana] [nginx/1.27.5] [35.206.116.166] [google] [293.23208ms] [Nginx:1.27.5]
+https://platform.solana.com [200] [] [19287] [Solana Developer Platform] [Vercel] [64.239.109.1] [458.022396ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://speakers.solana.com [200] [] [18698] [Solana Accelerate USA Schedule] [Vercel] [64.239.123.1] [537.718959ms] [C3.js,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://usa.solana.com [200] [] [71264] [Solana USA | Events Across the USA] [Vercel] [76.76.21.123] [216.989716ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://www.sentient.xyz [200] [] [61325] [Sentient Labs: The home for open-source AI reasoning] [Vercel] [216.150.16.1] [179.506248ms] [HSTS,Vercel]
+https://forum.solana.com [200] [] [238785] [Solana Developer Forums - Welcome to the Solana Developer Forums] [nginx] [216.66.8.75] [320.565271ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://chat.sentient.xyz [200] [] [101230] [Sentient Chat] [cloudflare] [104.18.15.230] [cloudflare] [1.293814857s] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]
+https://sentient.foundation [200] [] [118503] [Sentient Foundation | Open-Source AGI] [cloudflare] [198.202.211.1] [389.22772ms] [Cloudflare,Google Analytics,HSTS,HTTP/3,Three.js,Unpkg,Webflow,jQuery:3.5.1,jsDelivr]
+https://tokens.solana.com [200] [] [96453] [Tokens | Solana Liquidity & Token Aggregator] [Vercel] [64.239.123.129] [518.026044ms] [Google Analytics,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://www.sentient.foundation [200] [] [118523] [Sentient Foundation | Open-Source AGI] [cloudflare] [198.202.211.1] [344.9667ms] [Cloudflare,Google Analytics,HSTS,HTTP/3,Three.js,Unpkg,Webflow,jQuery:3.5.1,jsDelivr]
+https://docs.sentient.xyz [200] [] [311582] [What is Sentient | Sentient Protocol Docs] [cloudflare] [172.64.147.209] [cloudflare] [306.849756ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://launch.solana.com [200] [] [262433] [Launch - Ship faster on Solana] [Vercel] [64.239.109.193] [445.448711ms] [HSTS,Vercel]
+https://status.solana.com [200] [] [276989] [Solana Status] [AtlassianEdge] [13.227.87.91] [cloudfront] [504.287591ms] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,HSTS,bowser,cdnjs,jQuery:3.5.1,reCAPTCHA]
+https://staging.solana.com [200] [] [765284] [The Capital Market For Every Asset on Earth] [Vercel] [76.76.21.22] [709.713583ms] [Google Tag Manager,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://solana.com [200] [] [805550] [The Capital Market For Every Asset on Earth] [Vercel] [76.76.21.21] [563.581295ms] [Google Tag Manager,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 301
+https://blog.sentient.xyz [301] [https://www.sentient.xyz/blog] [0] [cloudflare] [104.18.14.230] [cloudflare] [48.962988ms] [Cloudflare,Cloudflare Bot Management]
+https://forums.solana.com [301] [https://forum.solana.com/] [167] [301 Moved Permanently] [cloudflare] [172.66.173.25] [cloudflare] [50.704285ms] [Cloudflare,HTTP/3]
+https://grid.sentient.xyz [301] [https://www.sentient.xyz/grid] [167] [301 Moved Permanently] [cloudflare] [104.18.15.230] [cloudflare] [193.17375ms] [Cloudflare]
+https://internal-metrics.solana.com [301] [https://grafana.internal.anza.xyz/] [169] [301 Moved Permanently] [nginx/1.27.5] [91.242.214.51] [232.062144ms] [Nginx:1.27.5]
+https://podcast.solana.com [301] [https://solana.com/validated/] [665] [301 Moved Permanently] [cloudflare] [172.66.173.25] [cloudflare] [162.551549ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://templates.solana.com [301] [https://solana.com/developers/templates] [665] [301 Moved Permanently] [cloudflare] [172.66.173.25] [cloudflare] [191.912404ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+
+## 302
+https://build.sentient.xyz [302] [https://zenith-carol-301.notion.site/Sentient-Builder-Program-1b8d4609dd4180219d4be5d1e82b5435?pvs=73] [143] [302 Found] [cloudflare] [104.18.15.230] [cloudflare] [55.134498ms] [Cloudflare,Cloudflare Bot Management]
+https://jobs.solana.com [302] [https://jobs.solana.com/jobs] [636] [302 Found] [cloudflare] [104.20.41.212] [cloudflare] [271.305967ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+
+## 307
+https://docs.platform.solana.com [307] [/docs] [9647] [Solana Developer Platform Docs] [Vercel] [64.239.109.129] [527.333225ms] [HSTS,Vercel]
+https://sentient.xyz [307] [https://www.sentient.xyz/] [15] [Vercel] [76.76.21.21] [235.380038ms] [HSTS,Vercel]
+https://trading.solana.com [307] [https://www.frontiertraders.com/] [15] [Vercel] [64.239.109.1] [246.111923ms] [HSTS,Vercel]
+
+## 308
+https://spl.solana.com [308] [https://www.solana-program.com/docs] [15] [Vercel] [66.33.60.194] [189.801857ms] [HSTS,Vercel]
+https://www.solana.com [308] [https://solana.com/] [15] [Vercel] [76.76.21.98] [182.202748ms] [HSTS,Vercel]
+
+## 401
+https://analytics.solana.com [401] [] [13309] [Authentication Required] [Vercel] [66.33.60.67] [42.032741ms] [HSTS,Vercel]
+https://chat.uat.sentient.xyz [401] [] [13309] [Authentication Required] [Vercel] [216.150.16.1] [64.274352ms] [HSTS,Vercel]
+https://chat.dev.sentient.xyz [401] [] [13309] [Authentication Required] [Vercel] [216.150.16.193] [189.76426ms] [HSTS,Vercel]
+https://graphql.solana.com [401] [] [15511] [Authentication Required] [cloudflare] [104.20.41.212] [cloudflare] [217.438341ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://goi.sentient.xyz [401] [] [14228] [Authentication Required] [cloudflare] [104.18.14.230] [cloudflare] [309.625758ms] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]
+
+## 403
+https://accounts.platform.solana.com [403] [] [9566] [Just a moment...] [cloudflare] [104.18.34.146] [cloudflare] [216.759987ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://payments-dev.solana.com [403] [] [217] [] [34.82.63.136] [google] [406.948563ms]
+https://tln.solana.com [403] [] [134] [403] [] [35.206.228.142] [google] [879.394044ms] [HTTP/3]
+
+## 404
+https://cdn.trading.solana.com [404] [] [27648] [Not Found] [cloudflare] [104.20.41.212] [cloudflare] [88.435159ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://bridge.sentient.xyz [404] [] [19] [] [16.170.111.163] [360.614453ms]
+https://conference.solana.com [404] [] [3832] [Bizzabo | 404 | Social Networking in conferences, meetups and events made easy with Bizzabo’s mobile networking solution] [] [3.210.43.210] [340.50419ms] [Cloudflare,HSTS,Linkedin Sign-in,cdnjs,jQuery]
+https://explorer.sentient.xyz [404] [] [19] [] [13.50.11.195] [487.716507ms]
+https://cdn.solana.com [404] [] [27648] [Not Found] [cloudflare] [172.66.173.25] [cloudflare] [373.626546ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://openagi.sentient.xyz [404] [] [107] [Vercel] [76.76.21.241] [305.611911ms] [HSTS,Vercel]
+https://rpc.sentient.xyz [404] [] [19] [] [13.50.11.195] [517.828382ms]
+
+## 500
+
+## 502
+
+## 503
+

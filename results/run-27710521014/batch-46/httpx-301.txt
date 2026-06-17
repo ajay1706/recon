@@ -1,0 +1,8 @@
+https://cdn.paraswap.io [301] [http://cdn.velora.xyz/index.html] [0] [AmazonS3] [13.32.164.103] [cloudfront] [73.054639ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://files.paraswap.io [301] [https://www.velora.xyz/] [0] [AmazonS3] [52.85.12.114] [cloudfront] [127.30916ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://app.paraswap.io [301] [https://app.velora.xyz/] [0] [AmazonS3] [3.162.163.48] [cloudfront] [162.208706ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://help.paraswap.io [301] [https://help.velora.xyz/] [0] [AmazonS3] [13.249.141.44] [cloudfront] [169.456325ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://paraswap.io [301] [https://velora.xyz/] [0] [AmazonS3] [18.172.122.24] [cloudfront] [212.008091ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://portal.paraswap.io [301] [https://portal.velora.xyz/] [0] [AmazonS3] [3.167.183.97] [cloudfront] [209.509247ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://pendle.finance [301] [https://www.pendle.finance/] [42] [cloudflare] [172.66.172.188] [cloudflare] [520.087449ms] [Cloudflare,HSTS,Netlify]
+https://www.paraswap.io [301] [https://velora.xyz/] [0] [AmazonS3] [18.172.122.67] [cloudfront] [146.199637ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]

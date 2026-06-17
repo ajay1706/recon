@@ -1,0 +1,1 @@
+https://squidrouter.com [308] [https://www.squidrouter.com/] [15] [cloudflare] [104.26.7.7] [cloudflare] [289.306626ms] [Cloudflare,HSTS,HTTP/3,Vercel]

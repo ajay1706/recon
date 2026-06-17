@@ -1,0 +1,123 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:53:34 UTC 2026
+
+HTTPX lines: 100
+Live URLs: 100
+
+## 200
+https://antibot.firecrawl.dev [200] [] [0] [] [13.248.176.92] [112.640023ms] [HSTS]
+https://cdp-proxy-staging.firecrawl.dev [200] [] [37] [] [35.245.250.27] [google] [144.017275ms]
+https://cdp-proxy.firecrawl.dev [200] [] [37] [] [35.245.250.27] [google] [146.606897ms]
+https://api.firecrawl.dev [200] [] [76] [] [35.245.250.27] [google] [192.160001ms]
+https://billing.firecrawl.dev [200] [] [1418] [Manage Your Billing] [AmazonS3] [37.16.25.177] [209.62736ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://claim.fluence.network [200] [] [655] [Fluence dev rewards] [Vercel] [76.76.21.241] [253.535036ms] [HSTS,Vercel]
+https://exporter.firecrawl.dev [200] [] [11] [] [35.245.250.27] [google] [212.182372ms] [Express,Node.js]
+https://branding-extractor.firecrawl.dev [200] [] [9575] [Firecrawl Branding Extractor Demo] [Vercel] [216.150.1.1] [288.839038ms] [HSTS,Vercel]
+https://admin.fluence.network [200] [] [2383] [Fluence Admin] [cloudflare] [172.67.195.206] [cloudflare] [552.312168ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://cheetcode-ctf.firecrawl.dev [200] [] [12577] [CheetCode CTF] [Vercel] [76.76.21.21] [548.424879ms] [HSTS,Vercel]
+https://cc.flipsidecrypto.xyz [200] [] [12333] [Command Center] [Vercel] [216.150.1.129] [464.408609ms] [C3.js,HSTS,Vercel]
+https://flipsidecrypto.xyz [200] [] [27752] [Flipside — Going all-in on AI] [cloudflare] [104.20.43.249] [cloudflare] [213.127086ms] [Astro:5.16.4,Cloudflare,Cloudflare Browser Insights]
+https://jobmatcherai.firecrawl.dev [200] [] [1837] [Streamlit] [railway-hikari] [69.46.46.116] [624.58151ms]
+https://mail.flipsidecrypto.xyz [200] [] [10930] [Webmail :: Welcome to Webmail] [cloudflare] [104.20.43.249] [cloudflare] [446.61796ms] [Bootstrap,Cloudflare,Cloudflare Browser Insights,PHP:8.3.31,jQuery,jQuery UI,punycode]
+https://llmstxt.firecrawl.dev [200] [] [15261] [Generate llms.txt] [Vercel] [66.33.60.35] [332.116307ms] [HSTS,Vercel]
+https://flt.fluence.network [200] [] [30464] [Fluence Token App] [cloudflare] [104.21.65.246] [cloudflare] [691.209735ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,dc.js]
+https://mcp-gate.firecrawl.dev [200] [] [21363] [MCP Gate - Download] [Vercel] [216.150.1.129] [576.793357ms] [HSTS,Vercel]
+https://pointless.fluence.network [200] [] [8254] [Pointless Program by Fluence] [Vercel] [66.33.60.130] [275.490533ms] [Google Analytics,HSTS,Vercel]
+https://providers.fluence.network [200] [] [1006] [Fluence Provider App] [Vercel] [66.33.60.193] [228.810846ms] [HSTS,Vercel]
+https://community.firecrawl.dev [200] [] [131187] [Firecrawl Community] [nginx] [216.66.8.75] [293.727805ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://ctf.firecrawl.dev [200] [] [119455] [CheetCode CTF] [Vercel] [216.150.1.193] [685.112161ms] [HSTS,Next.js,Node.js,React,RxJS,Vercel,Webpack]
+https://wp-origin.fluence.network [200] [] [11935] [One moment, please...] [nginx] [64.23.255.79] [251.514591ms] [Nginx]
+https://postpredictor.firecrawl.dev [200] [] [14784] [PostPredictor] [Vercel] [76.76.21.164] [481.676726ms] [HSTS,Vercel]
+https://trust.firecrawl.dev [200] [] [3478] [Firecrawl Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [692.293381ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://openscouts.firecrawl.dev [200] [] [72672] [Open Scouts - AI-Powered Monitoring & Search] [Vercel] [216.150.1.193] [356.919065ms] [HSTS,Vercel]
+https://x-wrapped.firecrawl.dev [200] [] [23138] [X Wrapped 2025 | Your Year on X] [Vercel] [216.150.16.193] [431.708182ms] [HSTS,Vercel]
+https://product.flipsidecrypto.xyz [200] [] [93052] [Flipside — Curated Data. Agents as a Service.] [Vercel] [216.150.1.193] [457.631883ms] [HSTS,Vercel]
+https://auctions.fluence.network [200] [] [270052] [Fluence GPU Marketplace: reserved GPU compute, matched by auction] [cloudflare] [172.67.195.206] [cloudflare] [873.93335ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://gov.fluence.network [200] [] [276944] [Fluence DAO] [cloudflare] [172.67.195.206] [cloudflare] [540.222262ms] [Cloudflare,Cloudflare Browser Insights,Discourse:2026.6.0,HSTS,HTTP/3,Ruby on Rails]
+https://raise.flipsidecrypto.xyz [200] [] [306351] [Flipside Raises $50M | Flipside Crypto Raises $50M] [cloudflare] [172.64.147.209] [cloudflare] [320.869802ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://status.firecrawl.dev [200] [] [232043] [Firecrawl status] [] [167.235.220.62] [906.058196ms] [Google Analytics,HSTS,HTTP/3,Ruby,Ruby on Rails,Stimulus]
+https://www.firecrawl.dev [200] [] [1175076] [Firecrawl - The context API to search, scrape, and interact with the web at scale. 🔥] [Vercel] [66.33.60.66] [565.478068ms] [Google Tag Manager,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://www.fluence.network [200] [] [2549152] [Slash your cloud bill by up to 85%] [cloudflare] [172.67.195.206] [cloudflare] [617.744059ms] [Cloudflare,Cloudflare Browser Insights,Framer Sites,Google Analytics,HSTS,HTTP/3,React]
+
+## 301
+https://blog.fluence.network [301] [https://fluence.network/blog] [167] [301 Moved Permanently] [cloudflare] [104.21.65.246] [cloudflare] [107.074677ms] [Cloudflare]
+https://data.flipsidecrypto.xyz [301] [https://flipsidecrypto.xyz/] [167] [301 Moved Permanently] [cloudflare] [104.20.43.249] [cloudflare] [194.419991ms] [Cloudflare]
+https://docs.flipsidecrypto.xyz [301] [https://docs.flipsidecrypto.com/] [167] [301 Moved Permanently] [cloudflare] [104.20.43.249] [cloudflare] [129.160998ms] [Cloudflare]
+https://earn.flipsidecrypto.xyz [301] [https://flipsidecrypto.xyz/earn] [665] [301 Moved Permanently] [cloudflare] [104.20.43.249] [cloudflare] [177.230682ms] [Cloudflare,Cloudflare Browser Insights]
+http://home.flipsidecrypto.xyz [301] [https://home.flipsidecrypto.xyz/] [162] [301 Moved Permanently] [nginx] [18.211.166.153] [72.679367ms] [Nginx]
+https://mcp.firecrawl.dev [301] [https://docs.firecrawl.dev/mcp-server] [169] [301 Moved Permanently] [nginx/1.30.2] [35.245.250.27] [google] [252.320153ms] [Nginx:1.30.2]
+http://www.data.flipsidecrypto.xyz [301] [https://www.data.flipsidecrypto.xyz/] [665] [301 Moved Permanently] [cloudflare] [104.20.43.249] [cloudflare] [149.571561ms] [Cloudflare,Cloudflare Browser Insights]
+https://stake.fluence.network [301] [https://flt.fluence.network/stake] [666] [301 Moved Permanently] [cloudflare] [172.67.195.206] [cloudflare] [765.53563ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+http://liveview.firecrawl.dev [301] [https://liveview.firecrawl.dev/] [46] [Netlify] [98.84.224.111] [58.956651ms] [Netlify]
+
+## 302
+http://go.fluence.network [302] [https://go.fluence.network/] [50] [] [34.56.91.48] [google] [117.432696ms]
+https://login.flipsidecrypto.xyz [302] [https://flipsidecrypto.xyz/] [49] [cloudflare] [172.64.144.74] [cloudflare] [409.92559ms] [Auth0,Cloudflare,HSTS,HTTP/3]
+https://new.flipsidecrypto.xyz [302] [https://www.getbeamer.com/] [0] [nginx] [35.207.24.13] [google] [336.218808ms] [Google Cloud,Google Cloud CDN,Java,Nginx]
+https://science-server.flipsidecrypto.xyz [302] [https://science-server.flipsidecrypto.xyz/auth-sign-in?appUri=%2F] [80] [RStudio] [54.81.67.206] [240.677925ms] [Amazon ALB,Amazon Web Services]
+
+## 307
+https://app.flipsidecrypto.xyz [307] [/login?redirect=%2F] [0] [cloudflare] [172.66.156.225] [cloudflare] [346.443773ms] [Cloudflare,Fly.io]
+https://edisyl.flipsidecrypto.xyz [307] [/login] [15] [Vercel] [216.150.1.129] [222.722027ms] [HSTS,Vercel]
+https://console.fluence.network [307] [/public-cloud/compute] [21] [cloudflare] [104.21.65.246] [cloudflare] [599.211ms] [Cloudflare,HSTS,HTTP/3]
+https://auth.fluence.network [307] [/auth/v1/account] [16] [cloudflare] [172.67.195.206] [cloudflare] [618.105276ms] [Cloudflare,HSTS,HTTP/3]
+https://mono.flipsidecrypto.xyz [307] [/fleets] [0] [cloudflare] [104.20.43.249] [cloudflare] [336.831218ms] [Cloudflare,Fly.io]
+https://prometheus.firecrawl.dev [307] [https://firecrawl.dev/prometheus] [15] [Vercel] [216.150.1.193] [244.976285ms] [HSTS,Vercel]
+https://rio-docs.flipsidecrypto.xyz [307] [https://app.gitbook.com/o/-LdEn7uFmFX9w2zbU4Eu/sites/site_yki65/] [15] [cloudflare] [172.64.147.209] [cloudflare] [252.157086ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://science.flipsidecrypto.xyz [307] [/connect/] [45] [Posit Connect v2024.08.0] [54.81.67.206] [372.062803ms]
+https://stratum.flipsidecrypto.xyz [307] [/select-org] [0] [cloudflare] [172.66.156.225] [cloudflare] [248.384586ms] [Cloudflare,Fly.io]
+https://spring.firecrawl.dev [307] [/signin?redirectTo=%2F] [15] [Vercel] [216.150.1.1] [367.446305ms] [HSTS,Vercel]
+https://tools.firecrawl.dev [307] [https://firecrawl.dev/] [10895] [Firecrawl Tools] [Vercel] [76.76.21.123] [545.057525ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 308
+https://browsers.firecrawl.dev [308] [https://docs.firecrawl.dev] [0] [] [35.245.250.27] [google] [174.327958ms]
+https://firecrawl.dev [308] [https://www.firecrawl.dev/] [15] [Vercel] [76.76.21.21] [148.408447ms] [HSTS,Vercel]
+https://fluence.network [308] [https://www.fluence.network/] [64] [cloudflare] [104.21.65.246] [cloudflare] [284.694503ms] [Cloudflare,HSTS,HTTP/3]
+https://docs.firecrawl.dev [308] [/introduction] [686164] [cloudflare] [104.18.3.204] [cloudflare] [238.300293ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+
+## 401
+https://ash.firecrawl.dev [401] [] [15010] [Authentication Required] [Vercel] [216.150.1.193] [238.917397ms] [HSTS,Vercel]
+https://ax.firecrawl.dev [401] [] [15007] [Authentication Required] [Vercel] [216.150.1.129] [345.281418ms] [HSTS,Vercel]
+https://firebrain.firecrawl.dev [401] [] [15028] [Authentication Required] [Vercel] [216.150.1.193] [285.660086ms] [HSTS,Vercel]
+https://lfg.firecrawl.dev [401] [] [15010] [Authentication Required] [Vercel] [216.150.1.193] [495.3616ms] [HSTS,Vercel]
+
+## 403
+https://eng-docs.flipsidecrypto.xyz [403] [] [16] [cloudflare] [104.20.43.249] [cloudflare] [147.526454ms] [Cloudflare]
+
+## 404
+https://browser.firecrawl.dev [404] [] [21] [Fly/1902b7295 (2026-06-16)] [66.241.125.114] [140.516998ms] [Fly.io]
+https://api.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [178.514681ms]
+https://auth.flipsidecrypto.xyz [404] [] [37] [cloudflare] [172.64.149.246] [cloudflare] [220.16301ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://api.flipsidecrypto.xyz [404] [] [13] [cloudflare] [104.20.43.249] [cloudflare] [247.806381ms] [Cloudflare,Fly.io]
+https://email.updates.firecrawl.dev [404] [] [0] [] [35.190.5.171] [google] [138.790914ms] [HSTS,HTTP/3]
+https://extract-v3-744233.firecrawl.dev [404] [] [139] [Error] [] [35.245.250.27] [google] [169.520396ms] [Express,Node.js]
+https://bridge.fluence.network [404] [] [107] [Vercel] [76.76.21.164] [419.819348ms] [HSTS,Vercel]
+https://email.notifications.firecrawl.dev [404] [] [0] [] [34.98.83.137] [google] [306.115164ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3]
+https://email.firecrawl.dev [404] [] [0] [] [35.190.5.171] [google] [367.376324ms] [HSTS,HTTP/3]
+https://bos.flipsidecrypto.xyz [404] [] [107] [Vercel] [66.33.60.66] [601.312887ms] [HSTS,Vercel]
+https://drop-key-preview.flipsidecrypto.xyz [404] [] [107] [cloudflare] [172.66.156.225] [cloudflare] [515.481658ms] [Cloudflare,HSTS,Vercel]
+https://assets.pointless.fluence.network [404] [] [27150] [Not Found] [cloudflare] [172.67.195.206] [cloudflare] [400.308735ms] [Cloudflare,HTTP/3]
+https://integrations.firecrawl.dev [404] [] [52] [] [35.245.250.27] [google] [258.178521ms] [Express,Node.js]
+https://files.flipsidecrypto.xyz [404] [] [27648] [Not Found] [cloudflare] [104.20.43.249] [cloudflare] [389.133117ms] [Cloudflare,Cloudflare Browser Insights]
+https://hydrant.firecrawl.dev [404] [] [22] [uvicorn] [167.233.19.255] [665.190493ms] [HTTP/3,Python,Uvicorn]
+https://mcp.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [343.286574ms]
+https://mcp-staging.flipsidecrypto.xyz [404] [] [19] [Fly/1902b7295 (2026-06-16)] [66.241.124.178] [367.640781ms] [Fly.io]
+https://parallel-agent.firecrawl.dev [404] [] [139] [Error] [] [35.245.250.27] [google] [220.981415ms] [Express,Node.js]
+https://mcp-pages.flipsidecrypto.xyz [404] [] [27648] [Not Found] [cloudflare] [172.66.156.225] [cloudflare] [553.790903ms] [Cloudflare,Cloudflare Browser Insights]
+https://race.fluence.network [404] [] [906] [404 - Page not found] [] [34.202.203.47] [306.968359ms] [Cloudflare,HTTP/3]
+https://service.firecrawl.dev [404] [] [37] [cloudflare] [172.64.149.246] [cloudflare] [231.635705ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://pointless-api.fluence.network [404] [] [71] [cloudflare] [104.21.65.246] [cloudflare] [741.498803ms] [Cloudflare,HSTS,HTTP/3]
+https://rpc-docs.flipsidecrypto.xyz [404] [] [5017] [Not found] [AmazonS3] [98.94.229.252] [356.341937ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://premierleague.flipsidecrypto.xyz [404] [] [107] [cloudflare] [104.20.43.249] [cloudflare] [703.6092ms] [Cloudflare,HSTS,Vercel]
+https://snowflake.flipsidecrypto.xyz [404] [] [6873] [Site Not Found | Framer] [Framer/31fe488] [31.43.160.6] [337.36972ms] [Framer Sites,HSTS,HTTP/3,React]
+https://work.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [261.263627ms]
+https://work.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [298.528526ms]
+
+## 500
+
+## 502
+https://auth-demo.firecrawl.dev [502] [] [332] [502 Server Error] [] [35.244.217.44] [google] [181.172105ms] [HTTP/3]
+
+## 503
+

@@ -1,0 +1,78 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:36:22 UTC 2026
+
+HTTPX lines: 58
+Live URLs: 58
+
+## 200
+https://app.blast.io [200] [] [2275] [Blast] [cloudflare] [104.18.11.15] [cloudflare] [164.361221ms] [Amazon CloudFront,Amazon Web Services,Cloudflare]
+https://bonus.bitget.com [200] [] [7] [cloudflare] [104.18.8.145] [cloudflare] [270.281655ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://brandkit.blast.io [200] [] [23176] [Blast] [] [18.211.166.153] [109.802068ms] [Cloudflare,Google Font API,Google Hosted Libraries,HTTP/3,jQuery:3.5.1]
+https://blog.blast.io [200] [] [45033] [Blast L2 | Blog] [openresty] [151.101.3.7] [fastly] [127.933907ms] [Ghost:6.45,Nginx,Node.js,OpenResty,Varnish,jsDelivr]
+https://newaffiliates.bitget.com [200] [] [2223] [cloudflare] [104.18.8.145] [cloudflare] [345.636064ms] [Amazon Web Services,Clipboard.js,Cloudflare,Cloudflare Bot Management,GeeTest,HSTS]
+https://secure.blast.io [200] [] [1222] [Blast App Authentication] [cloudflare] [104.18.11.15] [cloudflare] [249.234154ms] [Amazon CloudFront,Amazon Web Services,Cloudflare]
+https://share.bitget.com [200] [] [7305] [Join Bitget and get 6,200 USDT reward！] [cloudflare] [104.18.8.145] [cloudflare] [492.095488ms] [Amazon Web Services,Cloudflare,Cloudflare Bot Management]
+https://developer.bitcoin.org [200] [] [125700] [Getting Started — Bitcoin] [cloudflare] [104.21.9.86] [cloudflare] [135.141193ms] [Bootstrap:4,Cloudflare,Cloudflare Browser Insights,HTTP/3,Pygments,Underscore.js,jQuery]
+https://affiliates.bitget.com [200] [] [223407] [Login the Bitget Crypto Affiliate Program] [cloudflare] [104.18.8.145] [cloudflare] [344.472888ms] [Cloudflare,Cloudflare Bot Management,GeeTest,HSTS]
+https://wallet.bitget.com [200] [] [3917] [cloudfront] [3.167.99.11] [cloudfront] [634.342325ms] [Amazon CloudFront,Amazon Web Services]
+https://www.bitget.com [200] [] [228051] [Bitget | The Universal Exchange — Trade Crypto, Stocks, Gold & Forex in One Account] [cloudflare] [104.18.9.145] [cloudflare] [92.892311ms] [Apple Sign-in,Cloudflare,Cloudflare Bot Management,GeeTest,Google Tag Manager,HSTS,Vue.js]
+https://status.blast.io [200] [] [415918] [Blast Status] [AtlassianEdge] [3.170.3.14] [cloudfront] [1.331896748s] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,HSTS,bowser,cdnjs,jQuery:3.5.1,reCAPTCHA]
+
+## 301
+https://blog.bitget.com [301] [https://www.bitget.com/en/blog] [167] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [62.099856ms] [Cloudflare]
+https://academy.bitget.com [301] [https://www.bitget.com/academy] [167] [301 Moved Permanently] [cloudflare] [104.18.8.145] [cloudflare] [71.269102ms] [Cloudflare]
+https://bitget.com [301] [https://www.bitget.com/] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [199.803094ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://h5.bitget.com [301] [http://h5.bitget.com/download.html] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [588.482765ms] [Cloudflare,Cloudflare Bot Management]
+https://m.bitget.com [301] [http://m.bitget.com/download.html] [166] [301 Moved Permanently] [cloudflare] [104.18.9.145] [cloudflare] [578.115643ms] [Cloudflare,Cloudflare Bot Management]
+https://www.bitcoin.org [301] [https://bitcoin.org/] [682] [301 Moved Permanently] [cloudflare] [104.21.9.86] [cloudflare] [565.734026ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+
+## 302
+https://forum.blast.io [302] [https://app.blast.io/] [143] [302 Found] [cloudflare] [104.18.10.15] [cloudflare] [35.034736ms] [Cloudflare]
+https://bitcoin.org [302] [https://bitcoin.org/en/] [658] [302 Found] [cloudflare] [172.67.189.49] [cloudflare] [304.676076ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://jobs.blast.io [302] [https://jobs.ashbyhq.com/blast-io] [143] [302 Found] [cloudflare] [104.18.10.15] [cloudflare] [215.690825ms] [Cloudflare]
+https://web3.bitget.com [302] [/en] [0] [cloudflare] [104.18.9.145] [cloudflare] [299.66054ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+
+## 307
+https://blast.io [307] [/en/] [4] [cloudflare] [104.18.10.15] [cloudflare] [47.163686ms] [Cloudflare]
+https://gjlpka22.blast.io [307] [/en/] [4] [cloudflare] [104.18.10.15] [cloudflare] [62.617339ms] [Cloudflare]
+https://www.blast.io [307] [/en/] [4] [cloudflare] [104.18.11.15] [cloudflare] [60.542462ms] [Cloudflare]
+
+## 308
+https://docs.blast.io [308] [/about-blast] [106080] [cloudflare] [104.18.10.15] [cloudflare] [1.675821648s] [Cloudflare,HSTS,Vercel]
+https://test-docs.blast.io [308] [/about-blast] [106080] [cloudflare] [104.18.11.15] [cloudflare] [1.07493415s] [Cloudflare,HSTS,Vercel]
+https://test-docs2.blast.io [308] [/about-blast] [106080] [cloudflare] [104.18.10.15] [cloudflare] [1.094310437s] [Cloudflare,HSTS,Vercel]
+
+## 401
+
+## 403
+https://assets.prod.blast.io [403] [] [111] [cloudflare] [104.18.10.15] [cloudflare] [326.969636ms] [Amazon CloudFront,Amazon Web Services,Cloudflare]
+https://assets.blast.io [403] [] [111] [cloudflare] [104.18.11.15] [cloudflare] [518.81199ms] [Amazon CloudFront,Amazon Web Services,Cloudflare]
+https://cdn.blast.io [403] [] [111] [cloudflare] [104.18.11.15] [cloudflare] [821.801908ms] [Amazon CloudFront,Amazon Web Services,Cloudflare]
+https://static.bitget.com [403] [] [111] [AmazonS3] [3.170.42.9] [cloudfront] [574.18729ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+
+## 404
+https://admin-ops.prod.blast.io [404] [] [63] [cloudflare] [104.18.11.15] [cloudflare] [98.899937ms] [Cloudflare]
+https://cron.prod.blast.io [404] [] [63] [cloudflare] [104.18.10.15] [cloudflare] [124.507093ms] [Cloudflare]
+https://foundation-api.prod.blast.io [404] [] [63] [cloudflare] [104.18.10.15] [cloudflare] [139.361761ms] [Cloudflare]
+https://capi.bitget.com [404] [] [15] [cloudflare] [104.18.23.63] [cloudflare] [208.787412ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://api.bitget.com [404] [] [15] [cloudflare] [104.18.15.166] [cloudflare] [224.753149ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://contract-websocket.bitget.com [404] [] [13] [cloudflare] [104.18.8.145] [cloudflare] [253.13811ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://appapi.bitget.com [404] [] [15] [cloudflare] [104.18.8.145] [cloudflare] [266.591208ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://fast-track.blast.io [404] [] [63] [cloudflare] [104.18.10.15] [cloudflare] [371.976644ms] [Cloudflare]
+https://partner.bitget.com [404] [] [15] [cloudflare] [104.18.9.145] [cloudflare] [239.468089ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://mainnet-snapshots.blast.io [404] [] [27150] [Not Found] [cloudflare] [104.18.11.15] [cloudflare] [277.431606ms] [Cloudflare]
+https://token-api.prod.blast.io [404] [] [9] [cloudflare] [104.18.11.15] [cloudflare] [56.074185ms] [Cloudflare]
+https://url743.promo.bitget.com [404] [] [146] [404 Not Found] [nginx] [3.231.179.208] [25.801446ms] [Nginx]
+https://waitlist-api.prod.blast.io [404] [] [63] [cloudflare] [104.18.10.15] [cloudflare] [48.809272ms] [Cloudflare]
+https://withdrawal.prod.blast.io [404] [] [63] [cloudflare] [104.18.11.15] [cloudflare] [61.33106ms] [Cloudflare]
+https://stream.bitget.com [404] [] [15] [cloudflare] [104.18.9.145] [cloudflare] [551.83357ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://ws.bitget.com [404] [] [15] [OrEdge-Nginx] [3.167.88.96] [cloudfront] [553.168372ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3,Nginx]
+
+## 500
+
+## 502
+
+## 503
+https://tracking.mail.test.bitget.com [503] [] [107] [] [18.198.163.56] [414.022973ms]
+

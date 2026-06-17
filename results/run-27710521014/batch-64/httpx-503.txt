@@ -1,0 +1,2 @@
+https://api-apse1.together.ai [503] [] [162] [503 Service Temporarily Unavailable] [cloudflare] [104.18.37.81] [cloudflare] [233.241956ms] [Cloudflare,HSTS,HTTP/3]
+https://dex.thrivingtulip-tgb300-k8s.cloud.together.ai [503] [] [20] [] [208.185.136.131] [7.220148005s]

@@ -1,0 +1,7 @@
+https://analytics-api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [158.53988ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://apiplus.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [172.67.68.83] [cloudflare] [177.79491ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+http://demo.sprinterhealth.com [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [52.85.151.97] [cloudfront] [40.495721ms] [Amazon CloudFront,Amazon Web Services]
+https://rest-api.sprinterhealth.com [403] [] [42] [] [18.239.199.93] [cloudfront] [257.462539ms] [Amazon CloudFront,Amazon Web Services]
+https://v2.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.6.7] [cloudflare] [466.493022ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.dev.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.6.7] [cloudflare] [606.357643ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.uat.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [739.528596ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]

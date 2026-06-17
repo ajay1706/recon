@@ -1,0 +1,87 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 19:40:53 UTC 2026
+
+HTTPX lines: 61
+Live URLs: 61
+
+## 200
+https://launch-mint-v1.raydium.io [200] [] [12] [cloudflare] [172.64.146.19] [cloudflare] [272.702842ms] [Cloudflare,Cloudflare Bot Management,Express,HTTP/3,Node.js]
+https://api-v3-devnet.raydium.io [200] [] [12] [cloudflare] [172.64.146.19] [cloudflare] [304.118819ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://api-v3.raydium.io [200] [] [12] [cloudflare] [104.18.41.237] [cloudflare] [318.863484ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://api-perps-v1.raydium.io [200] [] [12] [cloudflare] [104.18.41.237] [cloudflare] [354.950412ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://link.rainbow.me [200] [] [2804] [Rainbow.me] [cloudflare] [172.66.172.168] [cloudflare] [286.794836ms] [Cloudflare,Cloudflare Browser Insights,HSTS,React,Vercel]
+https://investors.rainbow.me [200] [] [35895] [Rainbow Investor Relations] [cloudflare] [104.20.16.62] [cloudflare] [253.638505ms] [Cloudflare,Cloudflare Browser Insights,Google Analytics]
+https://perps-old.raydium.io [200] [] [828] [Raydium - Perpetual] [cloudflare] [104.18.41.237] [cloudflare] [206.698856ms] [Cloudflare,Cloudflare Bot Management,Google Analytics,HTTP/3]
+https://perps.raydium.io [200] [] [836] [raydium] [cloudflare] [104.18.41.237] [cloudflare] [245.138232ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://rds-web.rainbow.me [200] [] [15962] [Rainbow Design System] [cloudflare] [104.20.16.62] [cloudflare] [277.77603ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://transaction-v1.raydium.io [200] [] [12] [cloudflare] [172.64.146.19] [cloudflare] [306.45164ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://v2.raydium.io [200] [] [20503] [cloudflare] [172.64.146.19] [cloudflare] [264.650503ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://learn.rainbow.me [200] [] [333157] [Rainbow Learn] [cloudflare] [104.20.16.62] [cloudflare] [510.230912ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel,jsDelivr]
+https://rainbow.me [200] [] [810386] [Rainbow | Fun, powerful, and secure crypto wallets] [cloudflare] [172.66.172.168] [cloudflare] [546.679273ms] [Cloudflare,Cloudflare Browser Insights,Framer Sites,Front Chat,Google Analytics,Google Tag Manager,HSTS,React]
+https://docs.raydium.io [200] [] [1981056] [Raydium Documentation - Raydium Docs] [cloudflare] [104.18.3.204] [cloudflare] [444.501259ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://staging.rainbow.me [200] [] [810386] [Rainbow | Fun, powerful, and secure crypto wallets] [cloudflare] [104.20.16.62] [cloudflare] [443.394909ms] [Cloudflare,Cloudflare Browser Insights,Framer Sites,Front Chat,Google Analytics,Google Tag Manager,HSTS,React]
+
+## 301
+https://support.rainbow.me [301] [https://rainbow.me/support/] [0] [cloudflare] [172.66.172.168] [cloudflare] [145.403532ms] [Cloudflare]
+https://www.rainbow.me [301] [https://rainbow.me/] [665] [301 Moved Permanently] [cloudflare] [172.66.172.168] [cloudflare] [235.197551ms] [Cloudflare,Cloudflare Browser Insights]
+https://www.radius.xyz [301] [https://efty.com/d/338lu/radius.xyz/] [4] [openresty/1.21.4.1] [86.105.245.69] [868.123506ms] [Nginx,OpenResty:1.21.4.1,PHP]
+
+## 302
+https://addys.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [108.138.159.69] [cloudfront] [158.691398ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://datadog-metrics.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [13.224.187.127] [cloudfront] [185.931837ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://bx-docs.rainbow.me [302] [https://rainbowdotme.cloudflareaccess.com/cdn-cgi/access/login/bx-docs.rainbow.me?kid=31ad2963ae527057a1ed1d7335192efcc95bf4f52c7c77025f3fa48108338802&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImQzYTkzNWI2NzY3MmYyM2FiYWNhZTZjZTQ4OTJiYWY0MjgzNjE3NDI0N2RmOGM4YWI3YjA0M2U1N2QxOWY1ZjkifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6IjMxYWQyOTYzYWU1MjcwNTdhMWVkMWQ3MzM1MTkyZWZjYzk1YmY0ZjUyYzdjNzcwMjVmM2ZhNDgxMDgzMzg4MDIiLCJob3N0bmFtZSI6ImJ4LWRvY3MucmFpbmJvdy5tZSIsInJlZGlyZWN0X3VybCI6Ii8iLCJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwiZXhwIjoxNzgxNzI1NTMyLCJuYmYiOjE3ODE3MjUyMzIsImlhdCI6MTc4MTcyNTIzMiwiYXV0aF9zdGF0dXMiOiJOT05FIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX2RuIjoiIiwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNvbW1vbl9uYW1lIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sInJlYWxfY291bnRyeSI6IlVTIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkzYjg2N2ViYTNlYTAzYmJmMDI1NjcxNTIyODk5MDkwMjM1YzI4OTRhMWI5ZWUyZTNlMDMzYjBmYzQ1MTk4MGUifQ.ktiwAGSWk9gZyxGKY8jwTtW3VIY2WyuAMzCpXp2FsuaDF3IJQc6SQpke4ScU6BrtApJ_dUaaycHmTlBdDsbhV61AsCCV9ImsdMgPoX_3zM_Mlpu8iGt189GNxN9ag2L6Z0h64tI9akRG8noLkAeWej4295vqzA-SeZZ_e6lJ6gAMOwHyUVaHrUR2LaURGpfrr0PIh-IKqx5tEcTO2cmTAnaDoTgYlvY3h8kjc9pbcR8fAtgEIVm401az1uSjIfCFmLEOOjVD8Vv5AnWzHWGp_3JL7k_MTTb_djB1p5qtxNuaLK5L56_iJQgAbe2F3RwYRCVZKKvOdWWHQdRaYP55lw&redirect_url=%2F] [641] [302 Found] [cloudflare] [172.66.172.168] [cloudflare] [186.572741ms] [Cloudflare,Cloudflare Browser Insights]
+https://addys.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [3.168.24.75] [cloudfront] [199.40785ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://addys.api.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [100.55.146.165] [301.127055ms] [Amazon ELB,Amazon Web Services]
+https://metadata.api.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [54.237.51.103] [323.657071ms] [Amazon ELB,Amazon Web Services]
+https://meteorology.api.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [54.157.232.59] [241.475611ms] [Amazon ELB,Amazon Web Services]
+https://datadog-metrics.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [52.84.199.67] [cloudfront] [408.898024ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://platform.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [18.245.124.82] [cloudfront] [223.257941ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://platform.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [18.154.219.10] [cloudfront] [256.019001ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://notifications.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [18.238.152.55] [cloudfront] [417.241641ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://notifications.api.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [107.22.153.26] [454.282371ms] [Amazon ELB,Amazon Web Services]
+https://points.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [13.225.61.37] [cloudfront] [319.229677ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://points.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [52.84.199.82] [cloudfront] [332.216998ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://notifications.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [13.249.205.47] [cloudfront] [467.738235ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://swap.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [3.167.246.55] [cloudfront] [208.499608ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://swap.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [100.52.32.79] [256.677401ms] [Amazon ELB,Amazon Web Services]
+https://tokens.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [108.138.159.40] [cloudfront] [260.759447ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://radius.xyz [302] [https://www.radius.xyz/] [0] [openresty/1.21.4.1] [86.105.245.69] [717.668229ms] [Nginx,OpenResty:1.21.4.1]
+https://tokens.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [18.161.134.65] [cloudfront] [330.056053ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://wcpush.p.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [18.154.219.11] [cloudfront] [289.323661ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://www.raydium.io [302] [https://raydium.io/] [143] [302 Found] [cloudflare] [104.18.41.237] [cloudflare] [229.011809ms] [Cloudflare,HTTP/3]
+https://wcpush.s.rainbow.me [302] [https://rainbow.me:443/?k=v] [110] [302 Found] [awselb/2.0] [13.32.104.29] [cloudfront] [505.087589ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+
+## 307
+https://raydium.io [307] [/swap/] [0] [cloudflare] [104.18.41.237] [cloudflare] [437.030379ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+
+## 308
+
+## 401
+
+## 403
+https://birdeye-proxy.raydium.io [403] [] [4512] [Attention Required! | Cloudflare] [cloudflare] [104.18.41.237] [cloudflare] [117.538381ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://helius-proxy.raydium.io [403] [] [4512] [Attention Required! | Cloudflare] [cloudflare] [104.18.41.237] [cloudflare] [135.057977ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://app-team.p.rainbow.me [403] [] [111] [AmazonS3] [3.168.24.38] [cloudfront] [220.286996ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://metadata.p.rainbow.me [403] [] [111] [AmazonS3] [3.168.24.53] [cloudfront] [241.190191ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://monitor.raydium.io [403] [] [4512] [Attention Required! | Cloudflare] [cloudflare] [104.18.41.237] [cloudflare] [152.786774ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://metadata.s.rainbow.me [403] [] [111] [AmazonS3] [13.225.61.72] [cloudfront] [315.11775ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+
+## 404
+https://api.rainbow.me [404] [] [21376] [Page Not Found] [] [199.36.158.100] [210.395082ms] [Firebase,HSTS,HTTP/3]
+https://api.raydium.io [404] [] [57] [cloudflare] [104.18.41.237] [cloudflare] [349.871831ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://ndn.p.rainbow.me [404] [] [18] [] [18.245.124.118] [cloudfront] [207.201925ms] [Amazon CloudFront,Amazon Web Services]
+https://ndn.s.rainbow.me [404] [] [18] [] [52.84.217.73] [cloudfront] [215.452875ms] [Amazon CloudFront,Amazon Web Services]
+https://arc-graphql.rainbow.me [404] [] [61] [cloudflare] [104.20.16.62] [cloudflare] [429.854476ms] [Cloudflare]
+https://img-v1.raydium.io [404] [] [27150] [Not Found] [cloudflare] [104.18.41.237] [cloudflare] [431.425336ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://img-v1-devnet.raydium.io [404] [] [27150] [Not Found] [cloudflare] [104.18.41.237] [cloudflare] [479.962665ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://img.raydium.io [404] [] [27150] [Not Found] [cloudflare] [172.64.146.19] [cloudflare] [520.08499ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://perps-img-v1.raydium.io [404] [] [15] [cloudflare] [104.18.41.237] [cloudflare] [512.268909ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://rpc.rainbow.me [404] [] [21] [cloudflare] [172.66.172.168] [cloudflare] [335.128762ms] [Cloudflare]
+
+## 500
+
+## 502
+
+## 503
+

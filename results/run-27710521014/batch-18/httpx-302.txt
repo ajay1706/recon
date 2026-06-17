@@ -1,0 +1,6 @@
+https://auth0login-dev.crewai.com [302] [https://crewai.com/] [41] [cloudflare] [172.64.144.74] [cloudflare] [191.866444ms] [Auth0,Cloudflare,HSTS,HTTP/3]
+https://auth.crewai.com [302] [https://crewai.com/] [41] [cloudflare] [172.64.144.74] [cloudflare] [212.844079ms] [Auth0,Cloudflare,HSTS,HTTP/3]
+https://aiagentsweek.crewai.com [302] [https://week.crewai.com] [0] [cloudflare] [216.24.57.9] [248.962237ms] [Cloudflare,HSTS,HTTP/3,Render]
+https://dev.crewai.com [302] [https://dev.crewai.com/auth/login] [0] [] [52.26.159.36] [670.814608ms]
+https://factory.crewai.com [302] [https://factory.crewai.com/auth/login] [0] [] [54.149.96.68] [493.02793ms] [HSTS]
+https://staging.crewai.com [302] [https://staging.crewai.com/auth/login] [0] [] [44.245.169.171] [623.956876ms] [HSTS]

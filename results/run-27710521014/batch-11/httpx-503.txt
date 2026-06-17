@@ -1,0 +1,8 @@
+https://gnfd-bsc-testnet-dataseed2.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [16.76.118.103] [606.397675ms] [HSTS,Nginx:1.25.5]
+https://gnfd-bsc-testnet-dataseed1.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [16.76.118.103] [624.311188ms] [HSTS,Nginx:1.25.5]
+https://gnfd-testnet-sp-2.bnbchain.org [503] [] [599] [503 Service Temporarily Unavailable] [nginx/1.25.5] [13.113.1.241] [542.172203ms] [HSTS,Nginx:1.25.5]
+https://gnfd-testnet-sp-3.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [16.76.118.103] [561.447051ms] [HSTS,Nginx:1.25.5]
+https://gnfd-testnet-sp-4.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [16.76.118.103] [617.038732ms] [HSTS,Nginx:1.25.5]
+https://wildcard.gnfd-testnet-sp-3.bnbchain.org [503] [] [599] [503 Service Temporarily Unavailable] [nginx/1.25.5] [16.76.118.103] [529.979311ms] [HSTS,Nginx:1.25.5]
+https://wildcard.gnfd-testnet-sp-2.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [13.113.1.241] [565.046673ms] [HSTS,Nginx:1.25.5]
+https://wildcard.gnfd-testnet-sp-4.bnbchain.org [503] [] [197] [503 Service Temporarily Unavailable] [nginx/1.25.5] [13.113.1.241] [570.599293ms] [HSTS,Nginx:1.25.5]

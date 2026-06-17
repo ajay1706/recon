@@ -1,0 +1,145 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:40:17 UTC 2026
+
+HTTPX lines: 130
+Live URLs: 130
+
+## 200
+https://blocks.chain.link [200] [] [3320] [storybook - Storybook] [cloudflare] [104.18.0.43] [cloudflare] [112.100775ms] [Cloudflare,HSTS,Vercel]
+https://api.ccip.chain.link [200] [] [139] [cloudflare] [104.18.0.43] [cloudflare] [148.962778ms] [Cloudflare,HSTS]
+https://decoder.chain.link [200] [] [14209] [Calldata Decoder] [Vercel] [64.239.123.1] [86.37814ms] [HSTS,Vercel]
+https://clearapp.ai [200] [] [27033] [Clear — Know What's In It] [railway-hikari] [69.46.46.87] [565.925556ms] [Google Analytics,HSTS]
+https://edensafe.celestia.org [200] [] [33621] [Eden Multisig wallet] [Vercel] [216.150.1.193] [200.098698ms] [HSTS,Vercel]
+https://api.clearapp.ai [200] [] [27033] [Clear — Know What's In It] [railway-hikari] [69.46.46.80] [590.413923ms] [Google Analytics,HSTS]
+https://cips.celestia.org [200] [] [38923] [Overview - Celestia Improvement Proposals (CIPs)] [cloudflare] [104.26.5.185] [cloudflare] [178.582804ms] [Clipboard.js,Cloudflare,Cloudflare Browser Insights,Fastly,GitHub Pages,HTTP/3,Lunr.js,Varnish]
+https://blog.celestia.org [200] [] [31844] [Celestia Blog] [cloudflare] [104.26.5.185] [cloudflare] [1.258297394s] [Cloudflare,Cloudflare Browser Insights,Express,Ghost:5.115,HSTS,HTTP/3,Node.js,cdnjs,jsDelivr]
+https://automation.chain.link [200] [] [92663] [Automation | Chainlink] [cloudflare] [104.18.1.43] [cloudflare] [78.576545ms] [Cloudflare,Google Tag Manager,HSTS,Vercel,dc.js]
+https://docs.chain.link [200] [] [209656] [Chainlink Documentation | Chainlink Documentation] [cloudflare] [104.18.1.43] [cloudflare] [132.184029ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://faucets-ui-preview.chain.link [200] [] [81201] [Chainlink Faucets - Get Testnet Tokens] [cloudflare] [104.18.1.43] [cloudflare] [364.439604ms] [Cloudflare,Google Tag Manager,HSTS]
+https://podcast.celestia.org [200] [] [3281] [Caddy nginx/1.31.1] [34.239.225.42] [678.268477ms] [HSTS,Nginx:1.31.1]
+https://docs.celestia.org [200] [] [159372] [Celestia Documentation] [cloudflare] [172.67.73.54] [cloudflare] [278.857239ms] [Cloudflare,Cloudflare Browser Insights,Fastly,GitHub Pages,HTTP/3,Varnish]
+https://functions.chain.link [200] [] [99959] [Functions | Chainlink] [cloudflare] [104.18.0.43] [cloudflare] [275.72613ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://plausible.celestia.org [200] [] [17118] [Plausible · Simple, privacy-friendly alternative to Google Analytics] [cloudflare] [104.26.4.185] [cloudflare] [851.853866ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://ccip.chain.link [200] [] [162395] [CCIP Explorer | Chainlink] [cloudflare] [104.18.1.43] [cloudflare] [138.549454ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://go.chain.link [200] [] [118783] [Build Your Web3 Dev Skills With Chainlink] [cloudflare] [198.202.211.1] [513.848061ms] [Cloudflare,Google Tag Manager,HSTS,HTTP/3,jQuery:3.5.1]
+https://faucets.chain.link [200] [] [140002] [Chainlink Faucets - Get Testnet Tokens] [cloudflare] [104.18.1.43] [cloudflare] [190.999364ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://forum.celestia.org [200] [] [263352] [Celestia Forum] [cloudflare] [104.26.4.185] [cloudflare] [1.182292325s] [Cloudflare,Cloudflare Browser Insights,Discourse:2026.5.0,HSTS,HTTP/3,Ruby on Rails]
+https://restricted.chain.link [200] [] [52346] [cloudflare] [104.18.0.43] [cloudflare] [246.498567ms] [Cloudflare,HSTS,Vercel]
+https://metrics.chain.link [200] [] [102501] [Metrics | Chainlink] [cloudflare] [104.18.1.43] [cloudflare] [377.516988ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://pegswap.chain.link [200] [] [78776] [PegSwap | Chainlink] [cloudflare] [104.18.0.43] [cloudflare] [386.373765ms] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://celestia.org [200] [] [182429] [Fibre Optic Performance for Millisecond Markets | Celestia] [cloudflare] [172.67.73.54] [cloudflare] [741.009093ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://status.celestia.org [200] [] [132364] [Celestia Network Status] [Vercel] [66.33.60.194] [749.469347ms] [HSTS,Vercel]
+https://chain.link [200] [] [400025] [Chainlink: The Industry-Standard Oracle Platform] [cloudflare] [198.202.211.1] [67.24847ms] [Cloudflare,Google Tag Manager,HSTS,HTTP/3,cdnjs,jQuery:3.5.1,jsDelivr]
+https://shop.chain.link [200] [] [72169] [Chainlink Swag Store] [cloudflare] [104.18.0.43] [cloudflare] [1.855610217s] [Ahoy,Cloudflare,Google Tag Manager,HSTS,Ruby,Ruby on Rails,iubenda,jQuery,reCAPTCHA]
+https://dev.chain.link [200] [] [488926] [Chainlink DevHub | The Hub for Chainlink Developers] [cloudflare] [198.202.211.1] [193.457354ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,jQuery:3.5.1,jsDelivr]
+https://smartcon.chain.link [200] [] [754770] [SmartCon] [cloudflare] [198.202.211.1] [420.781633ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HTTP/3,Plyr:3.7.8,Unpkg,Webflow,YouTube,cdnjs,jQuery:3.5.1,jsDelivr]
+https://staking.chain.link [200] [] [12857] [Staking | Chainlink] [cloudflare] [104.18.0.43] [cloudflare] [3.684645952s] [Cloudflare,HSTS,Vercel,dc.js]
+https://vrf.chain.link [200] [] [98802] [VRF | Subscription Management] [cloudflare] [104.18.0.43] [cloudflare] [1.087971106s] [Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://tokenmanager.chain.link [200] [] [111355] [CCIP Token Manager | Chainlink] [cloudflare] [104.18.1.43] [cloudflare] [4.125254537s] [Algolia,Cloudflare,Google Tag Manager,HSTS,Vercel]
+https://supply.celestia.org [200] [] [501] [cloudflare] [104.26.5.185] [cloudflare] [8.517795238s] [Cloudflare,HSTS,HTTP/3]
+https://zk-verifier.testnet.celestia.org [200] [] [91580] [Bridge Tokens | Celestia ZK Verifier Testnet] [nginx/1.24.0 (Ubuntu)] [51.159.166.149] [2.666773351s] [Next.js,Nginx:1.24.0,Node.js,React,Ubuntu,Webpack]
+
+## 301
+https://careers.chain.link [301] [https://www.chainlinklabs.com/careers] [167] [301 Moved Permanently] [cloudflare] [104.18.0.43] [cloudflare] [34.125309ms] [Cloudflare,HSTS]
+https://cre.chain.link [301] [https://app.chain.link/] [15] [cloudflare] [104.18.1.43] [cloudflare] [76.714047ms] [Cloudflare,HSTS,Vercel]
+https://deco.chain.link [301] [/sandbox] [0] [cloudflare] [104.26.6.248] [cloudflare] [130.547668ms] [Cloudflare]
+https://defi.chain.link [301] [https://chain.link/data-feeds] [167] [301 Moved Permanently] [cloudflare] [104.18.0.43] [cloudflare] [106.298842ms] [Cloudflare,HSTS]
+https://eligibility.chain.link [301] [https://staking.chain.link/] [15] [cloudflare] [104.18.0.43] [cloudflare] [162.845656ms] [Cloudflare,HSTS,Vercel]
+https://events.chain.link [301] [https://chain.link/events] [167] [301 Moved Permanently] [cloudflare] [104.18.1.43] [cloudflare] [187.886681ms] [Cloudflare,HSTS]
+https://faucet.chain.link [301] [https://faucets.chain.link/] [15] [cloudflare] [104.18.1.43] [cloudflare] [206.399026ms] [Cloudflare,HSTS,Vercel]
+https://getcertified.chain.link [301] [https://dev.chain.link/certification] [167] [301 Moved Permanently] [cloudflare] [104.18.1.43] [cloudflare] [417.124915ms] [Cloudflare,HSTS]
+https://hack.chain.link [301] [https://chain.link/hackathon] [167] [301 Moved Permanently] [cloudflare] [104.18.0.43] [cloudflare] [257.237642ms] [Cloudflare,HSTS]
+https://home.chain.link [301] [https://app.chain.link/] [15] [cloudflare] [104.18.0.43] [cloudflare] [390.028822ms] [Cloudflare,HSTS,Vercel]
+https://keeper.chain.link [301] [https://automation.chain.link/] [15] [cloudflare] [104.18.0.43] [cloudflare] [328.092199ms] [Cloudflare,HSTS,Vercel]
+https://keepers-beta.chain.link [301] [https://automation.chain.link/] [15] [cloudflare] [104.18.1.43] [cloudflare] [333.58032ms] [Cloudflare,HSTS,Vercel]
+https://keepers.chain.link [301] [https://automation.chain.link/] [15] [cloudflare] [104.18.0.43] [cloudflare] [322.537095ms] [Cloudflare,HSTS,Vercel]
+https://on.chain.link [301] [https://chain.link/thefutureison] [167] [301 Moved Permanently] [cloudflare] [104.18.1.43] [cloudflare] [524.418601ms] [Cloudflare,HSTS]
+https://pages.chain.link [301] [https://chainlinklabs.com/] [0] [cloudflare] [199.60.103.254] [458.211514ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://ropsten.chain.link [301] [https://faucets.chain.link] [167] [301 Moved Permanently] [cloudflare] [104.18.1.43] [cloudflare] [316.1737ms] [Cloudflare,HSTS]
+https://security.chain.link [301] [https://chain.link/security] [167] [301 Moved Permanently] [cloudflare] [104.18.1.43] [cloudflare] [324.983977ms] [Cloudflare,HSTS]
+https://www.careers.chain.link [301] [https://www.chainlinklabs.com/careers] [167] [301 Moved Permanently] [cloudflare] [104.18.0.43] [cloudflare] [2.038896633s] [Cloudflare,HSTS]
+https://www.celestia.org [301] [https://celestia.org/] [671] [301 Moved Permanently] [cloudflare] [172.67.73.54] [cloudflare] [3.03365928s] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://www.chain.link [301] [https://chain.link/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [3.173173475s] [Cloudflare,HSTS,HTTP/3]
+http://storage.cre.chain.link [301] [https://storage.cre.chain.link/] [167] [301 Moved Permanently] [CloudFront] [18.238.192.10] [cloudfront] [3.116221431s] [Amazon CloudFront,Amazon Web Services]
+
+## 302
+https://blog.chain.link [302] [https://chain.link/blog] [0] [cloudflare] [104.18.0.43] [cloudflare] [39.4337ms] [Cloudflare,HSTS]
+https://login.chain.link [302] [https://chain.link/] [41] [cloudflare] [104.18.34.171] [cloudflare] [479.101143ms] [Auth0,Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://pm-ds-request.streams.chain.link [302] [https://docs.google.com/forms/d/e/1FAIpQLSc82td5sKImJ8HFDWYW96AQ7anqAQNwIkmZc7ZEb7okTbriCA/viewform?usp=dialog] [143] [302 Found] [cloudflare] [104.18.0.43] [cloudflare] [295.768051ms] [Cloudflare,HSTS]
+https://register.smartcon.chain.link [302] [https://smartcon.chain.link/tickets] [143] [302 Found] [cloudflare] [104.18.0.43] [cloudflare] [214.848831ms] [Cloudflare,HSTS]
+https://reserve.chain.link [302] [https://metrics.chain.link/reserve] [143] [302 Found] [cloudflare] [104.18.1.43] [cloudflare] [275.984322ms] [Cloudflare,HSTS]
+https://rewards.chain.link [302] [https://restricted.chain.link/] [143] [302 Found] [cloudflare] [104.18.0.43] [cloudflare] [232.145258ms] [Cloudflare,HSTS]
+https://support.chain.link [302] [https://support.chain.link/hc] [0] [cloudflare] [216.198.53.11] [1.326575674s] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+
+## 307
+http://bid470x.20755222t.chain.link [307] [https://policy.hubspot.com/abuse-complaints] [0] [] [158.247.25.79] [176.759031ms]
+
+## 308
+https://app.chain.link [308] [/cre/discover] [15] [cloudflare] [104.18.1.43] [cloudflare] [74.596696ms] [Algolia,Cloudflare,HSTS,Vercel]
+http://test.expert.tokenmanager.chain.link [308] [https://test.expert.tokenmanager.chain.link/] [14] [cloudflare] [104.18.1.43] [cloudflare] [2.062669413s] [Cloudflare]
+
+## 401
+https://confidential-http-2.enclaves.chain.link [401] [] [29] [cloudflare] [104.18.0.43] [cloudflare] [163.865863ms] [Cloudflare,HSTS]
+https://confidential-http.enclaves.chain.link [401] [] [29] [cloudflare] [104.18.1.43] [cloudflare] [171.19523ms] [Cloudflare,HSTS]
+https://expert.tokenmanager.chain.link [401] [] [13309] [Authentication Required] [cloudflare] [104.18.1.43] [cloudflare] [217.294449ms] [Cloudflare,HSTS,Vercel]
+https://prod.telemetry.chain.link [401] [] [36] [cloudflare] [104.20.20.252] [cloudflare] [321.775348ms] [Cloudflare]
+https://staging.telemetry.chain.link [401] [] [36] [cloudflare] [104.20.20.252] [cloudflare] [231.335072ms] [Cloudflare]
+https://telemetry.testnet-dataengine.chain.link [401] [] [68] [cloudflare] [104.18.0.43] [cloudflare] [2.05192557s] [Cloudflare,HSTS]
+https://telemetry.chain.link [401] [] [36] [cloudflare] [172.66.174.221] [cloudflare] [3.151923973s] [Cloudflare]
+
+## 403
+https://api.dataengine.chain.link [403] [] [9] [cloudflare] [104.18.0.43] [cloudflare] [76.004084ms] [Cloudflare,HSTS]
+https://api.testnet-dataengine.chain.link [403] [] [9] [cloudflare] [104.18.0.43] [cloudflare] [134.925299ms] [Cloudflare,HSTS]
+https://apitesting.dataengine.chain.link [403] [] [9] [cloudflare] [104.18.0.43] [cloudflare] [207.503403ms] [Cloudflare,HSTS]
+https://fast-stake-api.chain.link [403] [] [4547] [Attention Required! | Cloudflare] [cloudflare] [104.18.1.43] [cloudflare] [156.686481ms] [Cloudflare,HSTS]
+https://kovan.chain.link [403] [] [16] [cloudflare] [104.18.1.43] [cloudflare] [387.650833ms] [Cloudflare]
+https://ko.chain.link [403] [] [16] [cloudflare] [104.17.201.193] [cloudflare] [528.951934ms] [Cloudflare,HSTS]
+https://nav.chain.link [403] [] [23] [] [54.70.7.185] [290.240018ms]
+https://payment-router-sepolia.st6.production.enterprise.chain.link [403] [] [4547] [Attention Required! | Cloudflare] [cloudflare] [104.18.0.43] [cloudflare] [298.901844ms] [Cloudflare,HSTS]
+https://payment-router-mainnet.st6.production.enterprise.chain.link [403] [] [4547] [Attention Required! | Cloudflare] [cloudflare] [104.18.1.43] [cloudflare] [297.406263ms] [Cloudflare,HSTS]
+https://priceapi.testnet-dataengine.chain.link [403] [] [21] [cloudflare] [104.18.0.43] [cloudflare] [188.749715ms] [Cloudflare,HSTS]
+https://priceapi.dataengine.chain.link [403] [] [21] [cloudflare] [104.18.1.43] [cloudflare] [208.755653ms] [Cloudflare,HSTS]
+https://streamsdnsonly.dataengine.chain.link [403] [] [9] [cloudflare] [104.18.1.43] [cloudflare] [5.193628612s] [Cloudflare,HSTS]
+https://ws.dataengine.chain.link [403] [] [9] [cloudflare] [104.18.1.43] [cloudflare] [1.308948445s] [Cloudflare,HSTS]
+https://wstesting.dataengine.chain.link [403] [] [9] [cloudflare] [104.18.0.43] [cloudflare] [2.210844686s] [Cloudflare,HSTS]
+http://svr-bid-endpoint2.chain.link [403] [] [4547] [Attention Required! | Cloudflare] [cloudflare] [104.18.0.43] [cloudflare] [3.022973733s] [Cloudflare]
+http://zh.chain.link [403] [] [16] [cloudflare] [104.17.201.193] [cloudflare] [6.148871429s] [Cloudflare]
+
+## 404
+https://cdy.chain.link [404] [] [107] [cloudflare] [104.18.0.43] [cloudflare] [75.369956ms] [Cloudflare,HSTS,Vercel]
+https://ace.api.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [147.494489ms] [Cloudflare,HSTS]
+https://api.cre.chain.link [404] [] [19] [cloudflare] [104.18.1.43] [cloudflare] [147.576324ms] [Cloudflare,HSTS]
+https://api.data-streams-portal.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [164.448388ms] [Cloudflare,HSTS]
+https://agents.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [164.522538ms] [Cloudflare,HSTS]
+https://aggregator.testnet.ccip.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [164.404576ms] [Cloudflare,HSTS]
+https://aggregator.ccip.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [173.735774ms] [Cloudflare,HSTS]
+https://chip.telemetry.chain.link [404] [] [0] [cloudflare] [172.66.174.221] [cloudflare] [178.263959ms] [Cloudflare]
+https://cre-connect.api.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [196.505574ms] [Cloudflare,HSTS]
+https://eds.testnet.ccip.chain.link [404] [] [18] [cloudflare] [104.18.0.43] [cloudflare] [166.389618ms] [Cloudflare,HSTS]
+https://eds.canton-staging.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [207.243505ms] [Cloudflare,HSTS]
+https://eds.ccip.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [246.033413ms] [Cloudflare,HSTS]
+https://email.chain.link [404] [] [11878] [Error 404 | Page not found] [cloudflare] [199.60.103.254] [439.433377ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,HubSpot,HubSpot CMS Hub]
+https://grpc.staging.telemetry.chain.link [404] [] [0] [cloudflare] [172.66.174.221] [cloudflare] [395.913709ms] [Cloudflare]
+https://indexer-1.ccip.chain.link [404] [] [18] [cloudflare] [104.18.0.43] [cloudflare] [355.751998ms] [Cloudflare,HSTS]
+https://http.staging.telemetry.chain.link [404] [] [0] [cloudflare] [104.20.20.252] [cloudflare] [495.063716ms] [Cloudflare]
+https://indexer-1.testnet.ccip.chain.link [404] [] [18] [cloudflare] [104.18.0.43] [cloudflare] [406.640888ms] [Cloudflare,HSTS]
+https://indexer-2.ccip.chain.link [404] [] [18] [cloudflare] [104.18.0.43] [cloudflare] [403.235063ms] [Cloudflare,HSTS]
+https://indexer.testnet.ccip.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [372.085778ms] [Cloudflare,HSTS]
+https://indexer-2.testnet.ccip.chain.link [404] [] [18] [cloudflare] [104.18.0.43] [cloudflare] [462.958734ms] [Cloudflare,HSTS]
+https://jwh.chain.link [404] [] [0] [awselb/2.0] [44.232.33.36] [390.239972ms] [Amazon ELB,Amazon Web Services]
+https://indexer.ccip.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [519.257763ms] [Cloudflare,HSTS]
+https://indexer.canton-staging.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [461.150072ms] [Cloudflare,HSTS]
+https://org-resolver.cre.chain.link [404] [] [0] [cloudflare] [104.18.0.43] [cloudflare] [371.865298ms] [Cloudflare,HSTS]
+https://research.chain.link [404] [] [281] [AmazonS3] [65.8.180.75] [cloudfront] [304.612691ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://rinkeby.chain.link [404] [] [107] [cloudflare] [104.18.1.43] [cloudflare] [712.076123ms] [Cloudflare,HSTS,Vercel]
+https://svr-bid-endpoint.chain.link [404] [] [0] [cloudflare] [104.18.1.43] [cloudflare] [6.561229595s] [Cloudflare,HSTS]
+https://ws-nd-061-873-799.mercury-srv.chain.link [404] [] [146] [404 Not Found] [cloudflare] [104.18.1.43] [cloudflare] [2.160343761s] [Cloudflare,HSTS]
+https://verifier.deco.chain.link [404] [] [19] [cloudflare] [104.26.7.248] [cloudflare] [6.140668691s] [Cloudflare]
+
+## 500
+
+## 502
+
+## 503
+

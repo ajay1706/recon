@@ -1,0 +1,6 @@
+https://oyster.synfutures.com [301] [https://app.synfutures.com:443/] [134] [301 Moved Permanently] [awselb/2.0] [52.84.217.92] [cloudfront] [846.568745ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://synapseprotocol.com [301] [https://hypercall.xyz/synapse] [0] [cloudflare] [104.20.20.228] [cloudflare] [171.110387ms] [Cloudflare]
+https://synfutures.com [301] [https://www.synfutures.com/] [166] [301 Moved Permanently] [cloudflare] [18.245.113.116] [cloudfront] [310.442951ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,HSTS]
+https://synthesia.io [301] [https://www.synthesia.io/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [413.942852ms] [Cloudflare,HSTS,HTTP/3]
+https://trade.synfutures.com [301] [http://oyster.synfutures.com/] [0] [AmazonS3] [18.154.253.98] [cloudfront] [192.917076ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://www.synapseprotocol.com [301] [https://hypercall.xyz/synapse] [0] [cloudflare] [104.20.20.228] [cloudflare] [244.185485ms] [Cloudflare]

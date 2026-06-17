@@ -1,0 +1,82 @@
+# HTTPX Status Report
+
+Generated at: Wed Jun 17 18:31:38 UTC 2026
+
+HTTPX lines: 56
+Live URLs: 56
+
+## 200
+https://api-dexscreener-v3.balancer.fi [200] [] [3589] [Balancer V3 DEX Screener Adapter] [cloudflare] [172.66.157.70] [cloudflare] [214.66765ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://charts.backpack.exchange [200] [] [3239] [Vercel] [216.150.1.193] [81.002533ms] [HSTS,Vercel]
+https://backpack.app [200] [] [61659] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [Vercel] [76.76.21.21] [44.348444ms] [Google Tag Manager,HSTS,Vercel]
+https://mobile.workers.backpack.app [200] [] [11] [cloudflare] [104.21.15.25] [cloudflare] [130.340025ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+https://jobs.backpack.app [200] [] [4906] [Backpack] [Vercel] [66.33.60.34] [266.001407ms] [HSTS,Vercel]
+https://discord.balancer.fi [200] [] [126006] [Balancer Discord Invite] [cloudflare] [172.66.157.70] [cloudflare] [163.373688ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://docs.balancer.fi [200] [] [44704] [Home | Balancer] [Vercel] [76.76.21.241] [52.228114ms] [Fathom,HSTS,Vercel,Vue.js]
+https://docs-v2.balancer.fi [200] [] [71921] [Home | Balancer] [Vercel] [66.33.60.34] [64.026033ms] [Fathom,HSTS,Vercel,Vue.js]
+https://forum.balancer.fi [200] [] [217747] [Balancer] [nginx] [216.66.8.43] [213.665005ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://lbp.balancer.fi [200] [] [65182] [LBP Simulator | Balancer] [cloudflare] [104.20.26.103] [cloudflare] [830.391148ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://learn.backpack.exchange [200] [] [118235] [Welcome to Backpack Learn] [cloudflare] [198.202.211.1] [176.637895ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Htmx:1.9.2,Unpkg,Weglot,jQuery:3.5.1,jsDelivr]
+https://docs.backpack.app [200] [] [279700] [Deeplinks | Backpack Wallet Docs] [cloudflare] [172.64.147.209] [cloudflare] [188.697729ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://links.backpack.app [200] [] [135176] [LINKS.BACKPACK.APP - A Dub Custom Domain | Dub] [Vercel] [76.76.21.21] [176.824872ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://eu.support.backpack.exchange [200] [] [336378] [Start Here | Backpack EU] [cloudflare] [104.18.40.47] [cloudflare] [273.52394ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://jp.support.backpack.exchange [200] [] [292118] [Trek Labs Japan -Backpack- | Backpack Exchange] [cloudflare] [172.64.147.209] [cloudflare] [533.672601ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://news.backpack.app [200] [] [79040] [Backpack Newsletter | Substack] [cloudflare] [104.18.36.24] [cloudflare] [219.833129ms] [C3.js,Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,Express,HSTS,HTTP/3,Node.js,Substack]
+https://guide.backpack.exchange [200] [] [376214] [Welcome | Backpack Exchange] [cloudflare] [104.18.40.47] [cloudflare] [195.399767ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://support.backpack.exchange [200] [] [405883] [Start Here | Backpack Exchange] [cloudflare] [104.18.40.47] [cloudflare] [576.602881ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://ops.balancer.fi [200] [] [883170] [Vercel] [216.150.16.193] [275.779388ms] [HSTS,Vercel]
+https://status.backpack.exchange [200] [] [435391] [Backpack Exchange status] [] [167.235.220.62] [888.643405ms] [Google Analytics,HSTS,HTTP/3,Ruby,Ruby on Rails,Stimulus]
+https://eu.backpack.exchange [200] [] [2685660] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.73] [cloudfront] [1.751936033s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://backpack.exchange [200] [] [2685645] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.116] [cloudfront] [1.34263542s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://ui.backpack.exchange [200] [] [2685660] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [52.68.240.91] [4.072807496s] [Google Tag Manager,Next.js,Node.js,React,Webpack]
+https://www.backpack.exchange [200] [] [2685660] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.116] [cloudfront] [1.166427074s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://docs.backpack.exchange [200] [] [3396548] [Backpack Exchange API] [GitHub.com] [185.199.109.153] [118.46666ms] [Fastly,GitHub Pages,Varnish]
+
+## 301
+https://app.balancer.fi [301] [https://balancer.fi/pools] [665] [301 Moved Permanently] [cloudflare] [104.20.26.103] [cloudflare] [55.996974ms] [Cloudflare,Cloudflare Browser Insights]
+https://dev.balancer.fi [301] [https://docs.balancer.fi] [665] [301 Moved Permanently] [cloudflare] [104.20.26.103] [cloudflare] [33.253541ms] [Cloudflare,Cloudflare Browser Insights]
+https://docs-v3.balancer.fi [301] [https://docs.balancer.fi/] [15] [Vercel] [66.33.60.194] [50.944799ms] [HSTS,Vercel]
+https://grants.balancer.fi [301] [https://grants.balancer.community/] [665] [301 Moved Permanently] [cloudflare] [172.66.157.70] [cloudflare] [79.296143ms] [Cloudflare,Cloudflare Browser Insights]
+https://pool-creator.balancer.fi [301] [https://balancer.fi/create] [665] [301 Moved Permanently] [cloudflare] [172.66.157.70] [cloudflare] [349.226418ms] [Cloudflare,Cloudflare Browser Insights]
+http://test-api-v3.balancer.fi [301] [https://test-api-v3.balancer.fi/] [665] [301 Moved Permanently] [cloudflare] [172.66.157.70] [cloudflare] [3.17445144s] [Cloudflare,Cloudflare Browser Insights]
+http://wallet.backpack.exchange [301] [https://wallet.backpack.exchange/] [167] [301 Moved Permanently] [CloudFront] [3.171.38.116] [cloudfront] [2.116213907s] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+
+## 302
+
+## 307
+https://cs.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_raLBH/visitor-auth?location=%2F] [15] [cloudflare] [104.18.40.47] [cloudflare] [136.33591ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://developers.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_StgGV/visitor-auth?location=%2F] [15] [cloudflare] [104.18.40.47] [cloudflare] [145.723684ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://employee.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_NkOOV/visitor-auth?location=%2F] [15] [cloudflare] [104.18.40.47] [cloudflare] [142.466436ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+
+## 308
+http://merkl-api.balancer.fi [308] [https://merkl-api.balancer.fi/] [14] [Vercel] [216.150.1.129] [31.18548ms] [Vercel]
+https://www.backpack.app [308] [https://backpack.app/] [15] [Vercel] [76.76.21.21] [3.176554699s] [HSTS,Vercel]
+
+## 401
+https://rpc.backpack.app [401] [] [188] [401 Authorization Required] [nginx/1.24.0 (Ubuntu)] [108.181.93.162] [314.985212ms] [Basic,Nginx:1.24.0,Ubuntu]
+
+## 403
+https://api-v3-cow.balancer.fi [403] [] [5045] [Attention Required! | Cloudflare] [cloudflare] [172.66.157.70] [cloudflare] [40.586962ms] [Cloudflare,Cloudflare Browser Insights]
+https://api-v3-origin.balancer.fi [403] [] [118] [403 Forbidden] [awselb/2.0] [99.83.131.39] [195.721824ms] [Amazon ELB,Amazon Web Services]
+https://download.backpack.app [403] [] [1148] [Access Denied] [cloudflare] [172.66.0.157] [cloudflare] [100.332051ms] [Cloudflare,HTTP/3]
+https://api.internal.backpack.exchange [403] [] [520] [403 Forbidden] [awselb/2.0] [13.196.50.11] [708.958923ms] [Amazon ELB,Amazon Web Services]
+https://api.cdn1.backpack.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [13.196.50.11] [729.301935ms] [Amazon ELB,Amazon Web Services]
+https://api.bolt.backpack.exchange [403] [] [46] [awselb/2.0] [57.181.245.118] [771.427844ms] [Amazon ELB,Amazon Web Services]
+https://api.cdn2.backpack.exchange [403] [] [520] [403 Forbidden] [awselb/2.0] [13.192.69.57] [804.690189ms] [Amazon ELB,Amazon Web Services]
+https://download.backpack.exchange [403] [] [1148] [Access Denied] [cloudflare] [162.159.140.159] [cloudflare] [508.439499ms] [Cloudflare,HTTP/3]
+https://api2.backpack.exchange [403] [] [520] [403 Forbidden] [awselb/2.0] [52.192.188.13] [877.69709ms] [Amazon ELB,Amazon Web Services]
+https://api2.internal.backpack.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [13.196.50.11] [921.197442ms] [Amazon ELB,Amazon Web Services]
+
+## 404
+https://api.eu.backpack.exchange [404] [] [9] [] [3.167.88.57] [cloudfront] [184.719685ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.backpack.exchange [404] [] [9] [] [3.167.88.82] [cloudfront] [243.563654ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://campaigns.backpack.app [404] [] [107] [Vercel] [66.33.60.67] [361.291984ms] [HSTS,Vercel]
+https://scaffold.balancer.fi [404] [] [107] [Vercel] [76.76.21.241] [548.852463ms] [HSTS,Vercel]
+
+## 500
+
+## 502
+https://address-watcher.backpack.exchange [502] [] [524] [502 Bad Gateway] [awselb/2.0] [54.248.104.22] [1.150415255s] [Amazon ELB,Amazon Web Services]
+
+## 503
+

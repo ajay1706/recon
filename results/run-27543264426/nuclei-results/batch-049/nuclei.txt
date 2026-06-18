@@ -1,0 +1,2 @@
+[CVE-2023-5561] [http] [medium] https://www.madlads.io/?rest_route=/wp/v2/users&search=@ [route="?rest_route=/wp/v2/users&"]
+[config-json-exposure-fuzz:sensitive_endpoints] [http] [critical] https://www.kraken.com/config.json ["https://www.kraken.com/api"] [path="/config.json"]

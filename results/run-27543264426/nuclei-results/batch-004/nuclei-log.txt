@@ -4318,4 +4318,3 @@
 [5:56:25] | Templates: 6683 | Hosts: 300 | RPS: 142 | Matched: 37 | Errors: 108501 | Requests: 3054038/4446300 (68%)
 [5:56:30] | Templates: 6683 | Hosts: 300 | RPS: 142 | Matched: 37 | Errors: 108593 | Requests: 3054549/4446300 (68%)
 [5:56:35] | Templates: 6683 | Hosts: 300 | RPS: 142 | Matched: 37 | Errors: 108729 | Requests: 3055047/4446300 (68%)
-[5:56:40] | Templates: 6683 | Hosts: 300 | RPS: 142 | Matched: 37 | Errors: 108838 | Requests: 3055589/4446300 (68%)

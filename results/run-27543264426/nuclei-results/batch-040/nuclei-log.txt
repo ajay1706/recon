@@ -4527,4 +4527,3 @@
 [5:57:05] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 238 | Errors: 28117 | Requests: 3064783/4446300 (68%)
 [5:57:10] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 238 | Errors: 29298 | Requests: 3066504/4446300 (68%)
 [5:57:15] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 238 | Errors: 29937 | Requests: 3067702/4446300 (68%)
-[5:57:20] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 238 | Errors: 31024 | Requests: 3069305/4446300 (69%)

@@ -4414,4 +4414,3 @@
 [5:56:25] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 133 | Errors: 250875 | Requests: 3071092/4446300 (69%)
 [5:56:30] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 133 | Errors: 252182 | Requests: 3072855/4446300 (69%)
 [5:56:35] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 133 | Errors: 252509 | Requests: 3073589/4446300 (69%)
-[5:56:40] | Templates: 6683 | Hosts: 300 | RPS: 143 | Matched: 133 | Errors: 253440 | Requests: 3074976/4446300 (69%)

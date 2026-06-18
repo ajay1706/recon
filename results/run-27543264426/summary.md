@@ -11,3 +11,12 @@ Important files:
 - httpx-all.txt
 - httpx-urls-all.txt
 - httpx-status-report-all.md
+
+## Nuclei
+
+Nuclei merged at: Thu Jun 18 16:03:55 UTC 2026
+Total findings: 3556
+Critical: 28
+High: 58
+Medium: 293
+Low: 3177

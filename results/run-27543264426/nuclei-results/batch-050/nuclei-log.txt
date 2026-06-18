@@ -4394,4 +4394,3 @@
 [5:57:00] | Templates: 6683 | Hosts: 275 | RPS: 140 | Matched: 106 | Errors: 249848 | Requests: 2999481/4075775 (73%)
 [5:57:05] | Templates: 6683 | Hosts: 275 | RPS: 140 | Matched: 106 | Errors: 249877 | Requests: 2999984/4075775 (73%)
 [5:57:10] | Templates: 6683 | Hosts: 275 | RPS: 140 | Matched: 106 | Errors: 249917 | Requests: 3000474/4075775 (73%)
-[5:57:15] | Templates: 6683 | Hosts: 275 | RPS: 140 | Matched: 106 | Errors: 249969 | Requests: 3000969/4075775 (73%)

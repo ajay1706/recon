@@ -202,6 +202,45 @@ jobs:
           path: results/run-${{ github.event.inputs.run_id }}/nuclei-results/${{ matrix.batch }}/
           retention-days: 30
 
+      - name: Push nuclei batch result live
+        if: always()
+        shell: bash
+        run: |
+          set +e
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          RUN_ID="${{ github.event.inputs.run_id }}"
+          BATCH="${{ matrix.batch }}"
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git pull --rebase origin "$BRANCH" || true
+
+          git add results/run-$RUN_ID/nuclei-results/$BATCH
+
+          if git diff --cached --quiet; then
+            echo "No batch changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Nuclei live batch $BATCH run-$RUN_ID" || true
+
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            echo "Live batch push attempt $i..."
+
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Live batch push successful"
+              exit 0
+            fi
+
+            git pull --rebase origin "$BRANCH" || true
+            sleep 20
+          done
+
+          echo "Live batch push failed after retries. Artifact is still available."
+          exit 0
+
   merge:
     needs:
       - prepare

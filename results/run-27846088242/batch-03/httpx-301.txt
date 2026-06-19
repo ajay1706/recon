@@ -1,0 +1,7 @@
+https://help.paraswap.io [301] [https://help.velora.xyz/] [0] [AmazonS3] [3.170.42.57] [cloudfront] [79.263795ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://portal.paraswap.io [301] [https://portal.velora.xyz/] [0] [AmazonS3] [18.165.98.36] [cloudfront] [86.519859ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://www.paraswap.io [301] [https://velora.xyz/] [0] [AmazonS3] [3.170.19.3] [cloudfront] [89.770656ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://cdn.paraswap.io [301] [http://cdn.velora.xyz/index.html] [0] [AmazonS3] [3.167.112.81] [cloudfront] [94.318642ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://files.paraswap.io [301] [https://www.velora.xyz/] [0] [AmazonS3] [3.171.85.11] [cloudfront] [101.819195ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://paraswap.io [301] [https://velora.xyz/] [0] [AmazonS3] [3.170.19.75] [cloudfront] [104.616969ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://app.paraswap.io [301] [https://app.velora.xyz/] [0] [AmazonS3] [13.35.78.117] [cloudfront] [146.796558ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]

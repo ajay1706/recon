@@ -1,0 +1,4 @@
+https://orders-sso.orders.paraswap.io [200] [] [0] [awselb/2.0] [3.167.88.97] [cloudfront] [54.892813ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://prod-sso.paraswap.io [200] [] [0] [awselb/2.0] [18.67.76.126] [cloudfront] [61.980488ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://v5.paraswap.io [200] [] [6072] [Velora - Intent-based Trading Protocol] [AmazonS3] [3.171.38.27] [cloudfront] [110.68644ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://embedded.paraswap.io [200] [] [6072] [Velora - Intent-based Trading Protocol] [AmazonS3] [3.171.38.21] [cloudfront] [491.79312ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]

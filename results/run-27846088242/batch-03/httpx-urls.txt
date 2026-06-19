@@ -1,0 +1,16 @@
+https://api.paraswap.io
+https://apiv5.paraswap.io
+https://app.paraswap.io
+https://cdn.paraswap.io
+https://dashboard.paraswap.io
+https://embedded.paraswap.io
+https://files.paraswap.io
+https://help.paraswap.io
+https://orders-sso.orders.paraswap.io
+https://orders.paraswap.io
+https://paraswap.io
+https://portal.paraswap.io
+https://prod-sso.paraswap.io
+https://staging.paraswap.io
+https://v5.paraswap.io
+https://www.paraswap.io

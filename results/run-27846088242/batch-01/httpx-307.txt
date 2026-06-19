@@ -1,0 +1,1 @@
+https://legacy-docs.bebop.xyz [307] [https://legacy-docs.bebop.xyz/bebop/] [15] [cloudflare] [104.20.45.219] [cloudflare] [183.970655ms] [Cloudflare,HSTS,Vercel]

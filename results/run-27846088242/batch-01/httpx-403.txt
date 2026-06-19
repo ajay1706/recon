@@ -1,0 +1,4 @@
+https://api-v3-cow.balancer.fi [403] [] [5043] [Attention Required! | Cloudflare] [cloudflare] [104.20.26.103] [cloudflare] [125.931919ms] [Cloudflare,Cloudflare Browser Insights]
+https://api-v3-origin.balancer.fi [403] [] [520] [403 Forbidden] [awselb/2.0] [75.2.12.216] [267.486771ms] [Amazon ELB,Amazon Web Services]
+https://uat.bebop.xyz [403] [] [17] [cloudflare] [104.20.45.219] [cloudflare] [291.023693ms] [Cloudflare]
+https://test-api-v3-origin.balancer.fi [403] [] [520] [403 Forbidden] [awselb/2.0] [18.194.252.3] [587.312501ms] [Amazon ELB,Amazon Web Services]

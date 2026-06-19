@@ -1,0 +1,8 @@
+https://docs.dydx.trade [301] [https://docs.dydx.xyz] [665] [301 Moved Permanently] [cloudflare] [172.66.166.30] [cloudflare] [199.413366ms] [Cloudflare,Cloudflare Browser Insights]
+https://app.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [377.415952ms] [Cloudflare,HSTS,Vercel]
+https://apex.exchange [301] [https://www.apex.exchange//] [0] [AmazonS3] [99.84.132.121] [cloudfront] [710.329676ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://deeplink.omni.apex.exchange [301] [https://omni.apex.exchange] [61] [] [138.113.24.210] [872.929243ms] [Amazon ALB,Amazon Web Services]
+https://blog.apex.exchange [301] [https://www.apex.exchange/blog/] [17] [] [138.113.24.210] [972.781905ms] [Amazon ALB,Amazon Web Services]
+https://www.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [408.987395ms] [Cloudflare,HSTS,Vercel]
+http://dev.pro.apex.exchange [301] [https://dev.pro.apex.exchange:443/] [134] [301 Moved Permanently] [awselb/2.0] [18.143.17.106] [366.774869ms] [Amazon ELB,Amazon Web Services]
+http://quote-dev.pro.apex.exchange [301] [https://quote-dev.pro.apex.exchange:443/] [134] [301 Moved Permanently] [awselb/2.0] [3.1.17.255] [366.821375ms] [Amazon ELB,Amazon Web Services]

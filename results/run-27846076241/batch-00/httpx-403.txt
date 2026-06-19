@@ -1,0 +1,8 @@
+https://l2dex-image-static.dev.apex.exchange [403] [] [111] [AmazonS3] [52.222.205.72] [cloudfront] [911.451643ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://litellm.apex.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [43.169.27.12] [1.068352499s] [Amazon ELB,Amazon Web Services]
+https://qa-quote.omni.apex.exchange [403] [] [1624] [403 Forbidden] [nginx] [163.171.238.16] [413.217644ms] [Nginx]
+https://quote.pro.apex.exchange [403] [] [1631] [403 Forbidden] [nginx] [140.150.36.123] [328.564698ms] [Nginx]
+https://quote-qa.pro.apex.exchange [403] [] [1623] [403 Forbidden] [nginx] [163.171.238.16] [403.788622ms] [Nginx]
+http://quotecfqa.omni.apex.exchange [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [3.170.115.45] [cloudfront] [70.344867ms] [Amazon CloudFront,Amazon Web Services]
+https://translations.apex.exchange [403] [] [555] [403 Forbidden] [nginx/1.21.5] [138.113.24.210] [460.945949ms] [Amazon ALB,Amazon Web Services,Nginx:1.21.5]
+https://translations-qa.apex.exchange [403] [] [153] [403 Forbidden] [nginx/1.21.5] [140.150.36.123] [481.94821ms] [Nginx:1.21.5]

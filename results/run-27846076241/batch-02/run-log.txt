@@ -1,0 +1,14 @@
+[+] Batch started: Fri Jun 19 20:55:36 UTC 2026
+[+] Run ID: 27846076241
+[+] Batch name: batch-02
+[+] Batch targets:
+kwenta.io
+orderly.network
+synfutures.com
+[+] Running subfinder...
+[+] Subfinder completed: Fri Jun 19 20:57:06 UTC 2026
+[+] HTTPX input count: 560
+[+] Running httpx...
+[+] httpx completed: Fri Jun 19 20:59:10 UTC 2026
+[+] httpx line count: 141
+[+] Batch completed: Fri Jun 19 20:59:10 UTC 2026

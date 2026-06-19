@@ -1,0 +1,112 @@
+# HTTPX Status Report
+
+Generated at: Fri Jun 19 20:40:35 UTC 2026
+
+HTTPX lines: 86
+Live URLs: 86
+
+## 200
+https://dev-build.aevo.xyz [200] [] [3785] [Aevo] [Vercel] [66.33.60.130] [176.568102ms] [HSTS,Vercel]
+https://admin-a94f1c7e8b3d20fa.aevo.xyz [200] [] [907] [Admin Dashboard] [Vercel] [76.76.21.241] [233.904648ms] [HSTS,Vercel]
+https://admin-testnet-a94f1c7e8b3d20fa.aevo.xyz [200] [] [907] [Admin Dashboard] [Vercel] [66.33.60.194] [239.710134ms] [HSTS,Vercel]
+https://app.aevo.xyz [200] [] [4646] [Aevo] [Vercel] [66.33.60.34] [286.756263ms] [Google Tag Manager,HSTS,Vercel]
+https://arena.dydx.trade [200] [] [4498] [dYdX Trading Arena] [cloudflare] [172.66.166.30] [cloudflare] [323.787813ms] [Cloudflare,Cloudflare Browser Insights,Node.js,Nuxt.js,Vue.js]
+https://buyback.dydx.trade [200] [] [42062] [dYdX Buyback Tracker: Powered by the Community] [Vercel] [216.150.1.193] [209.033749ms] [HSTS,Vercel]
+https://api-testnet.aevo.xyz [200] [] [338] [] [35.72.205.182] [646.297276ms] [HSTS]
+https://api.aevo.xyz [200] [] [327] [] [18.180.63.131] [682.691209ms] [HSTS]
+https://dydx.trade [200] [] [11849] [dYdX | Leading Decentralized Platform for Crypto Perpetual Trading] [cloudflare] [172.66.166.30] [cloudflare] [314.305215ms] [BugSnag,Cloudflare,Cloudflare Browser Insights,Google Tag Manager,HSTS,Vercel,jsDelivr]
+https://chatterbox-api-mainnet.dydx.trade [200] [] [15] [cloudflare] [104.20.40.161] [cloudflare] [721.433228ms] [Cloudflare,Express,Node.js]
+https://geo-v2-preview.dydx.trade [200] [] [181] [cloudflare] [104.20.40.161] [cloudflare] [357.215378ms] [Cloudflare]
+https://geo-v2.dydx.trade [200] [] [181] [cloudflare] [172.66.166.30] [cloudflare] [334.066696ms] [Cloudflare]
+https://bridge.dydx.trade [200] [] [10412] [dYdX Bridge] [cloudflare] [198.202.211.1] [545.530914ms] [Cloudflare,Google Font API,Google Hosted Libraries,HSTS,HTTP/3,jQuery:3.5.1]
+https://chainqa.apex.exchange [200] [] [2314] [Upside] [nginx/1.21.5] [52.199.117.115] [790.97227ms] [Nginx:1.21.5]
+https://gov.aevo.xyz [200] [] [1289] [Aevo Governance] [Vercel] [66.33.60.129] [275.869598ms] [HSTS,Vercel]
+https://funding.dydx.trade [200] [] [10648] [dYdX Funding Rate Comparison] [cloudflare] [104.20.40.161] [cloudflare] [281.856874ms] [Amazon CloudFront,Amazon Web Services,Cloudflare,Cloudflare Browser Insights,Next.js,Node.js,React,Webpack]
+https://affiliates.pro.apex.exchange [200] [] [1017] [ApeX Affiliates] [nginx/1.21.5] [138.113.24.210] [913.218554ms] [Amazon ALB,Amazon Web Services,Nginx:1.21.5]
+https://grpc-status.dydx.trade [200] [] [8349] [gRPC Report] [cloudflare] [104.20.40.161] [cloudflare] [591.502498ms] [Cloudflare,Cloudflare Browser Insights,jsDelivr]
+https://h5.qa.pro.apex.exchange [200] [] [1811] [apex_app] [nginx/1.21.5] [52.77.95.236] [983.320691ms] [Nginx:1.21.5]
+https://explorer-testnet.aevo.xyz [200] [] [81939] [Aevo Testnet blockchain explorer - View Aevo Testnet stats | Blockscout] [cloudflare] [104.20.30.246] [cloudflare] [485.777872ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://explorer.aevo.xyz [200] [] [81923] [Aevo Mainnet blockchain explorer - View Aevo Mainnet stats | Blockscout] [cloudflare] [172.66.160.117] [cloudflare] [557.271409ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://metrics.aevo.xyz [200] [] [0] [] [76.223.63.1] [960.553879ms] [HSTS]
+https://oegs.dydx.trade [200] [] [3671] [cloudflare] [104.26.0.133] [cloudflare] [704.843432ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://affiliates-home.pro.apex.exchange [200] [] [208370] [ApeX Affiliates] [] [138.113.24.210] [633.149773ms] [Amazon ALB,Amazon Web Services,Ant Design,Next.js,Node.js,React,Webpack]
+https://omni.apex.exchange [200] [] [5795] [ApeX Omni] [nginx/1.21.5] [163.171.238.16] [829.471019ms] [Amazon ALB,Amazon Web Services,Google Analytics,Google Tag Manager,Nginx:1.21.5,reCAPTCHA]
+https://pro.apex.exchange [200] [] [3058] [Crypto Trade to Earn | ApeX Pro (DEX)] [nginx/1.21.5] [163.171.238.16] [701.324217ms] [Amazon ALB,Amazon Web Services,Google Analytics,Nginx:1.21.5,reCAPTCHA]
+https://qa.pro.apex.exchange [200] [] [3058] [Crypto Trade to Earn | ApeX Pro (DEX)] [nginx/1.21.5] [140.150.36.123] [717.273914ms] [Google Analytics,Nginx:1.21.5,reCAPTCHA]
+https://spot-api-mainnet.dydx.trade [200] [] [18] [cloudflare] [172.66.166.30] [cloudflare] [827.662256ms] [Cloudflare,Express,Node.js]
+https://qa.omni.apex.exchange [200] [] [5795] [ApeX Omni] [nginx/1.21.5] [43.169.27.12] [1.017147541s] [Google Analytics,Google Tag Manager,Nginx:1.21.5,reCAPTCHA]
+https://testnet.pro.apex.exchange [200] [] [3058] [Crypto Trade to Earn | ApeX Pro (DEX)] [nginx/1.21.5] [163.171.238.16] [760.642677ms] [Google Analytics,Nginx:1.21.5,reCAPTCHA]
+https://testnet.apex.exchange [200] [] [5795] [ApeX Omni] [nginx/1.21.5] [138.113.24.210] [715.30315ms] [Google Analytics,Google Tag Manager,Nginx:1.21.5,reCAPTCHA]
+https://docs.apex.exchange [200] [] [310419] [ApeX Protocol] [cloudflare] [104.18.40.47] [cloudflare] [335.797295ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://agp.aevo.xyz [200] [] [300054] [SNAPSHOT | Aevo Governance Proposals] [cloudflare] [172.64.147.209] [cloudflare] [412.218276ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://status.aevo.xyz [200] [] [33280] [Exchange REST API] [] [142.132.149.97] [882.448669ms] [HSTS,HTTP/3,UIKit,jQuery:3.7.1]
+https://testnet.aevo.xyz [200] [] [4646] [Aevo] [Vercel] [76.76.21.241] [1.183589233s] [Google Tag Manager,HSTS,Vercel]
+https://docs.aevo.xyz [200] [] [479861] [Welcome to Aevo | Aevo Documentation] [cloudflare] [104.18.40.47] [cloudflare] [484.780502ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://www.apex.exchange [200] [] [176169] [ApeX: Decentralized Exchange and Trading Platform] [] [163.171.238.16] [770.401517ms] [Amazon ALB,Amazon Web Services,Next.js,Node.js,React,Webpack]
+https://status.dydx.trade [200] [] [257038] [dYdX Chain Status] [AtlassianEdge] [3.168.24.70] [cloudfront] [776.55086ms] [Amazon CloudFront,Amazon Web Services,Atlassian Statuspage,Cloudflare,HSTS,bowser,cdnjs,jQuery:3.5.1,reCAPTCHA]
+https://www.aevo.xyz [200] [] [374178] [Aevo - Trade Perps, Options and Strategies] [Framer/2ea93c3] [31.43.160.6] [488.93252ms] [Framer Sites,HSTS,HTTP/3,React]
+https://api-docs.pro.apex.exchange [200] [] [674340] [Resources & Support — ApeX Omni API Docs] [AmazonS3] [3.163.83.74] [cloudfront] [1.003658132s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://api-docs.qa.pro.apex.exchange [200] [] [663382] [Resources & Support — ApeX Omni API Docs] [AmazonS3] [3.161.242.3] [cloudfront] [1.911960084s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+
+## 301
+https://docs.dydx.trade [301] [https://docs.dydx.xyz] [665] [301 Moved Permanently] [cloudflare] [172.66.166.30] [cloudflare] [199.413366ms] [Cloudflare,Cloudflare Browser Insights]
+https://app.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [377.415952ms] [Cloudflare,HSTS,Vercel]
+https://apex.exchange [301] [https://www.apex.exchange//] [0] [AmazonS3] [99.84.132.121] [cloudfront] [710.329676ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://deeplink.omni.apex.exchange [301] [https://omni.apex.exchange] [61] [] [138.113.24.210] [872.929243ms] [Amazon ALB,Amazon Web Services]
+https://blog.apex.exchange [301] [https://www.apex.exchange/blog/] [17] [] [138.113.24.210] [972.781905ms] [Amazon ALB,Amazon Web Services]
+https://www.dydx.trade [301] [https://dydx.trade/] [15] [cloudflare] [104.20.40.161] [cloudflare] [408.987395ms] [Cloudflare,HSTS,Vercel]
+http://dev.pro.apex.exchange [301] [https://dev.pro.apex.exchange:443/] [134] [301 Moved Permanently] [awselb/2.0] [18.143.17.106] [366.774869ms] [Amazon ELB,Amazon Web Services]
+http://quote-dev.pro.apex.exchange [301] [https://quote-dev.pro.apex.exchange:443/] [134] [301 Moved Permanently] [awselb/2.0] [3.1.17.255] [366.821375ms] [Amazon ELB,Amazon Web Services]
+
+## 302
+https://api-docs.aevo.xyz [302] [/reference] [32] [cloudflare] [104.16.241.118] [cloudflare] [303.906002ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,Render]
+https://help.dydx.trade [302] [https://help.dydx.trade/en/] [0] [cloudflare] [104.20.40.161] [cloudflare] [575.528864ms] [Cloudflare,HSTS]
+https://news.apex.exchange [302] [https://bitly.com/pages/landing/branded-short-domains-powered-by-bitly?bsd=news.apex.exchange] [116] [nginx] [67.199.248.12] [295.805616ms] [HSTS,HTTP/3,Nginx]
+http://status-testnet.aevo.xyz [302] [https://status-testnet.aevo.xyz/] [0] [Caddy] [142.132.149.97] [297.16731ms] [Caddy]
+
+## 307
+https://m.omni.apex.exchange [307] [/en-US/trade/BTCUSDT] [20] [] [138.113.24.210] [462.435041ms] [Amazon ALB,Amazon Web Services]
+https://m.pro.apex.exchange [307] [/en-US/trade/BTCUSDT] [20] [] [138.113.24.210] [662.37949ms] [Amazon ALB,Amazon Web Services]
+
+## 308
+https://aevo.xyz [308] [https://www.aevo.xyz/] [57] [Framer/2ea93c3] [52.223.52.2] [304.105386ms] [Framer Sites,HSTS,HTTP/3,React]
+
+## 401
+
+## 403
+https://l2dex-image-static.dev.apex.exchange [403] [] [111] [AmazonS3] [52.222.205.72] [cloudfront] [911.451643ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://litellm.apex.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [43.169.27.12] [1.068352499s] [Amazon ELB,Amazon Web Services]
+https://qa-quote.omni.apex.exchange [403] [] [1624] [403 Forbidden] [nginx] [163.171.238.16] [413.217644ms] [Nginx]
+https://quote.pro.apex.exchange [403] [] [1631] [403 Forbidden] [nginx] [140.150.36.123] [328.564698ms] [Nginx]
+https://quote-qa.pro.apex.exchange [403] [] [1623] [403 Forbidden] [nginx] [163.171.238.16] [403.788622ms] [Nginx]
+http://quotecfqa.omni.apex.exchange [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [3.170.115.45] [cloudfront] [70.344867ms] [Amazon CloudFront,Amazon Web Services]
+https://translations.apex.exchange [403] [] [555] [403 Forbidden] [nginx/1.21.5] [138.113.24.210] [460.945949ms] [Amazon ALB,Amazon Web Services,Nginx:1.21.5]
+https://translations-qa.apex.exchange [403] [] [153] [403 Forbidden] [nginx/1.21.5] [140.150.36.123] [481.94821ms] [Nginx:1.21.5]
+
+## 404
+https://degen-testnet.aevo.xyz [404] [] [107] [Vercel] [66.33.60.67] [607.381631ms] [HSTS,Vercel]
+https://degen.aevo.xyz [404] [] [107] [Vercel] [66.33.60.35] [607.34907ms] [HSTS,Vercel]
+https://admin-api-testnet.aevo.xyz [404] [] [19] [] [52.68.195.107] [721.104829ms]
+https://api.apex.exchange [404] [] [19] [] [52.220.26.97] [811.440796ms] [Amazon ALB,Amazon Web Services]
+https://governance.aevo.xyz [404] [] [107] [Vercel] [76.76.21.241] [304.496489ms] [HSTS,Vercel]
+https://indexer.dydx.trade [404] [] [0] [cloudflare] [104.20.40.161] [cloudflare] [508.908095ms] [Cloudflare]
+https://akamai-pro.apex.exchange [404] [] [19] [] [23.221.220.40] [1.412307116s] [Amazon ALB,Amazon Web Services]
+https://image-generator.dydx.trade [404] [] [637] [Error] [cloudflare] [172.66.166.30] [cloudflare] [656.840034ms] [Cloudflare,Cloudflare Browser Insights,Express,Node.js]
+https://otc.aevo.xyz [404] [] [107] [Vercel] [76.76.21.93] [215.169099ms] [HSTS,Vercel]
+https://privy.dydx.trade [404] [] [2] [cloudflare] [104.18.24.69] [cloudflare] [203.129014ms] [Cloudflare,Cloudflare Bot Management]
+https://oracle-relay-staging.dydx.trade [404] [] [9] [cloudflare] [104.20.40.161] [cloudflare] [682.240896ms] [Cloudflare]
+https://oracle-relay.dydx.trade [404] [] [9] [cloudflare] [104.20.40.161] [cloudflare] [632.782329ms] [Cloudflare]
+https://quote.omni.apex.exchange [404] [] [19] [] [138.113.24.210] [440.986806ms]
+https://testnet-faucet.aevo.xyz [404] [] [79] [Vercel] [76.76.21.98] [421.512228ms] [HSTS,Vercel]
+https://static-pro.apex.exchange [404] [] [538] [404 Not Found] [AmazonS3] [163.171.238.16] [899.275171ms] [Amazon S3,Amazon Web Services]
+https://tg-testnet.pro.apex.exchange [404] [] [19] [] [52.77.95.236] [918.615444ms]
+
+## 500
+https://deeplink.pro.apex.exchange [500] [] [91] [] [163.171.238.16] [1.563820462s] [Amazon ALB,Amazon Web Services]
+
+## 502
+https://clawopen.apex.exchange [502] [] [122] [502 Bad Gateway] [awselb/2.0] [13.32.104.94] [cloudfront] [645.979987ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://midas.omni.apex.exchange [502] [] [507] [ERROR: The request could not be satisfied] [CloudFront] [13.225.222.70] [cloudfront] [622.605278ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+
+## 503
+

@@ -1,0 +1,4 @@
+[debug-vars] [http] [low] https://114.rpc.thirdweb.com/debug/vars
+[debug-vars] [http] [low] https://1.rpc.thirdweb.com/debug/vars
+[debug-vars] [http] [low] https://1301.rpc.thirdweb.com/debug/vars
+[debug-vars] [http] [low] https://14.rpc.thirdweb.com/debug/vars

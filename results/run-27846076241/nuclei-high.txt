@@ -1,0 +1,5 @@
+[CVE-2019-11248] [http] [high] https://quote.omni.apex.exchange/debug/pprof/
+[CVE-2025-55184] [http] [high] https://demo.orderly.network/en/perp/PERP_ETH_USDC
+[CVE-2025-55184] [http] [high] https://dmm.orderly.network/en/perp/PERP_ETH_USDC
+[github-takeover] [http] [high] https://github-test.orderly.network ["orderlynetwork.github.io"]
+[github-takeover] [http] [high] https://staging-dex.orderly.network ["orderlynetwork.github.io"]

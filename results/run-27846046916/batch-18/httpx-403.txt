@@ -1,0 +1,8 @@
+https://api.safe.global [403] [] [43] [CloudFront] [3.167.69.82] [cloudfront] [44.260849ms] [Amazon CloudFront,Amazon Web Services]
+https://apiplus.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [44.989778ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://analytics-api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [70.42816ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://safe-transaction-assets.safe.global [403] [] [111] [AmazonS3] [13.226.238.127] [cloudfront] [737.468104ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://canton-auth.proxy.squidrouter.com [403] [] [23966] [Error ・ Cloudflare Access] [cloudflare] [172.67.68.83] [cloudflare] [520.560827ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://v2.api.squidrouter.com [403] [] [644] [403 Forbidden] [cloudflare] [172.67.68.83] [cloudflare] [556.220637ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.dev.api.squidrouter.com [403] [] [1046] [403 Forbidden] [cloudflare] [172.67.68.83] [cloudflare] [725.811455ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://v2.uat.api.squidrouter.com [403] [] [644] [403 Forbidden] [cloudflare] [104.26.7.7] [cloudflare] [733.682555ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3]

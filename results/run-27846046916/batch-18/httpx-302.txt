@@ -1,0 +1,2 @@
+https://safe-client.safe.global [302] [/api] [26] [] [3.171.85.62] [cloudfront] [434.566047ms] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://jobs.safe.global [302] [https://jobs.safe.global/companies] [138] [302 Found] [nginx] [3.222.67.212] [559.335457ms] [HSTS,Nginx]

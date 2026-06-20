@@ -1,0 +1,6 @@
+https://canton.proxy.squidrouter.com [404] [] [63] [cloudflare] [104.26.6.7] [cloudflare] [64.744204ms] [Cloudflare,Express,HTTP/3,Node.js]
+https://auth.uat.squidrouter.com [404] [] [0] [awselb/2.0] [3.171.38.14] [cloudfront] [203.659866ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://auth.squidrouter.com [404] [] [0] [awselb/2.0] [13.226.209.53] [cloudfront] [261.543017ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services]
+https://api.stargate.finance [404] [] [2009] [404: This page could not be found] [Vercel] [76.76.21.22] [74.154825ms] [HSTS,Vercel]
+https://canton-api.squidrouter.com [404] [] [106] [cloudflare] [172.67.68.83] [cloudflare] [391.288591ms] [Cloudflare,HTTP/3]
+https://safe-claiming-app-data.safe.global [404] [] [307] [AmazonS3] [3.171.76.113] [cloudfront] [712.213734ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]

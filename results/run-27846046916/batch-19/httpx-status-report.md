@@ -1,0 +1,51 @@
+# HTTPX Status Report
+
+Generated at: Fri Jun 19 23:57:03 UTC 2026
+
+HTTPX lines: 23
+Live URLs: 23
+
+## 200
+https://old.synapseprotocol.com [200] [] [1021] [Synapse] [cloudflare] [104.20.20.228] [cloudflare] [97.511063ms] [Cloudflare,Google Analytics]
+https://docs.synapseprotocol.com [200] [] [4073] [Synapse Docs] [Vercel] [76.76.21.93] [92.512485ms] [Docusaurus:3.5.2,Google Analytics,HSTS,React,Vercel,Webpack]
+https://analytics.synapseprotocol.com [200] [] [771] [Synapse Analytics] [cloudflare] [172.66.47.113] [cloudflare] [179.115335ms] [Cloudflare,HTTP/3]
+https://widget.synapseprotocol.com [200] [] [789] [Synapse] [cloudflare] [172.66.174.44] [cloudflare] [231.497594ms] [Cloudflare]
+https://solana.synapseprotocol.com [200] [] [8921] [Synapse – Solana Bridge] [Vercel] [66.33.60.66] [166.640176ms] [HSTS,Vercel]
+https://rfq-contracts.synapseprotocol.com [200] [] [21689] [Home] [cloudflare] [104.20.20.228] [cloudflare] [125.558183ms] [Clipboard.js,Cloudflare,HSTS,Lunr.js,Vercel]
+https://api.synapseprotocol.com [200] [] [20931] [cloudflare] [104.20.20.228] [cloudflare] [504.297597ms] [Cloudflare,Express,Node.js]
+https://interchain-contracts.synapseprotocol.com [200] [] [37054] [Home] [cloudflare] [172.66.174.44] [cloudflare] [132.464292ms] [Clipboard.js,Cloudflare,HSTS,Lunr.js,Vercel]
+https://bridge.synapseprotocol.com [200] [] [19750] [Synapse Protocol] [cloudflare] [172.66.174.44] [cloudflare] [332.793642ms] [Cloudflare]
+https://forum.synapseprotocol.com [200] [] [23957] [Synapse Forum] [Caddy] [167.235.245.31] [634.281056ms] [Caddy,Flarum,HTTP/3,MySQL,PHP]
+https://resources.symbiotic.fi [200] [] [43350] [Symbiotic Resources] [cloudflare] [199.60.103.2] [166.909889ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3,HubSpot,HubSpot CMS Hub]
+https://explorer.synapseprotocol.com [200] [] [36703] [Synapse Explorer] [Vercel] [216.198.79.195] [381.860114ms] [HSTS,Vercel]
+https://blog.symbiotic.fi [200] [] [137115] [Symbiotic - Permissionless Restaking] [] [13.227.87.93] [cloudfront] [89.587432ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://symbiotic.fi [200] [] [232348] [Symbiotic | Collateral Markets] [] [3.167.163.112] [cloudfront] [47.127272ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://contracts.synapseprotocol.com [200] [] [294583] [console | Contracts] [cloudflare] [172.64.147.209] [cloudflare] [263.214685ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+
+## 301
+https://www.synapseprotocol.com [301] [https://hypercall.xyz/synapse] [0] [cloudflare] [172.66.174.44] [cloudflare] [83.103119ms] [Cloudflare]
+https://synapseprotocol.com [301] [https://hypercall.xyz/synapse] [0] [cloudflare] [104.20.20.228] [cloudflare] [86.939159ms] [Cloudflare]
+https://docs.symbiotic.fi [301] [/get-started] [162] [301 Moved Permanently] [] [18.172.122.77] [cloudfront] [179.359092ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+
+## 302
+https://app.symbiotic.fi [302] [/deposit] [138] [302 Found] [] [3.162.174.105] [cloudfront] [230.817889ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://app.hoodi.symbiotic.fi [302] [/deposit] [138] [302 Found] [] [3.169.149.47] [cloudfront] [538.047766ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+
+## 307
+
+## 308
+
+## 401
+
+## 403
+
+## 404
+https://interchain.synapseprotocol.com [404] [] [6873] [Site Not Found | Framer] [Framer/2ea93c3] [31.43.160.6] [197.873118ms] [Framer Sites,HSTS,HTTP/3,React]
+https://rfq-indexer.synapseprotocol.com [404] [] [139] [Error] [cloudflare] [172.66.174.44] [cloudflare] [284.807489ms] [Cloudflare,Express,Node.js]
+
+## 500
+
+## 502
+
+## 503
+

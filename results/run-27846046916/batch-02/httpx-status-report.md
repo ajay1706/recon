@@ -1,0 +1,85 @@
+# HTTPX Status Report
+
+Generated at: Fri Jun 19 20:25:28 UTC 2026
+
+HTTPX lines: 62
+Live URLs: 62
+
+## 200
+https://app.uniswap.org [200] [] [8709] [Uniswap Interface] [cloudflare] [162.159.140.227] [cloudflare] [47.289258ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://arb1-auctioneer.arbitrum.io [200] [] [0] [cloudflare] [172.66.171.45] [cloudflare] [123.100559ms] [Cloudflare,Envoy]
+https://arbsepolia-auctioneer.arbitrum.io [200] [] [0] [cloudflare] [172.66.171.45] [cloudflare] [125.100905ms] [Cloudflare,Envoy]
+https://gas.arbitrum.io [200] [] [2260] [Arbitrum Cost Estimator] [cloudflare] [172.66.171.45] [cloudflare] [143.505119ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://docs.arbitrum.io [200] [] [30249] [Get started with Arbitrum | Arbitrum Docs] [Vercel] [66.33.60.66] [188.84669ms] [Docusaurus:3.10.1,Fathom,HSTS,React,Vercel,Webpack]
+https://nova-auctioneer.arbitrum.io [200] [] [0] [cloudflare] [172.66.171.45] [cloudflare] [287.248617ms] [Cloudflare,Envoy]
+https://retryable-dashboard.arbitrum.io [200] [] [10615] [Arbitrum Tools] [Vercel] [66.33.60.34] [118.809645ms] [HSTS,Vercel]
+https://retryable-tx-panel-nitro.arbitrum.io [200] [] [10615] [Arbitrum Tools] [Vercel] [66.33.60.34] [225.47892ms] [HSTS,Vercel]
+https://blog.arbitrum.io [200] [] [157032] [Arbitrum Blog] [openresty] [151.101.3.7] [fastly] [54.876822ms] [Ghost:6.46,Google Analytics,Nginx,Node.js,OpenResty,Varnish,jsDelivr]
+https://portal-data.arbitrum.io [200] [] [64387] [Arbitrum Portal — Your Gateway into Arbitrum] [Vercel] [216.150.1.129] [439.129398ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://vesting-wallet.arbitrum.io [200] [] [5097] [Arbitrum Vesting Wallet] [cloudflare] [104.20.39.96] [cloudflare] [148.818639ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://trustlists.argent.xyz [200] [] [3203] [Trust Lists | Argent] [AmazonS3] [18.160.200.118] [cloudfront] [347.414862ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://security.argent.xyz [200] [] [1610] [Argent Security Center] [AmazonS3] [3.162.174.71] [cloudfront] [349.549125ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,Bootstrap:4.1.3]
+https://retryable-tx-panel.arbitrum.io [200] [] [11113] [Arbitrum Tools] [cloudflare] [172.66.171.45] [cloudflare] [143.430833ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://snapshot-explorer.arbitrum.io [200] [] [8025] [Arbitrum Snapshots] [cloudflare] [104.20.39.96] [cloudflare] [273.696439ms] [Cloudflare,Cloudflare Browser Insights,Envoy,Next.js,Node.js,React,Webpack]
+https://research.arbitrum.io [200] [] [233046] [Arbitrum Research - Arbitrum developers and researchers] [nginx] [216.66.8.43] [254.816273ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://status.arbitrum.io [200] [] [366850] [Arbitrum] [Vercel] [66.33.60.129] [139.001693ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 301
+https://arb1.arbitrum.io [301] [https://arbitrum.io/] [167] [301 Moved Permanently] [cloudflare] [104.20.39.96] [cloudflare] [43.521763ms] [Cloudflare]
+https://forum.arbitrum.io [301] [https://forum.arbitrum.foundation/] [0] [] [216.66.8.43] [57.569474ms]
+https://community.arbitrum.io [301] [https://forum.arbitrum.io/] [0] [] [216.66.8.43] [86.811317ms]
+https://explorer.arbitrum.io [301] [https://arbiscan.io/] [665] [301 Moved Permanently] [cloudflare] [104.20.39.96] [cloudflare] [73.311881ms] [Cloudflare,Cloudflare Browser Insights]
+http://arb1-sequencer.arbitrum.io [301] [https://arb1-sequencer.arbitrum.io/] [0] [istio-envoy] [18.224.87.33] [20.831316ms]
+https://developer.arbitrum.io [301] [https://docs.arbitrum.io/] [15] [Vercel] [66.33.60.194] [249.15618ms] [HSTS,Vercel]
+https://argent.xyz [301] [https://www.argent.xyz/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [277.115828ms] [Cloudflare,HSTS,HTTP/3]
+https://imaginative-hearty.arbitrum.io [301] [https://usefathom.com] [330] [Redirecting to https://usefathom.com] [BunnyCDN-IL1-1235] [185.93.1.245] [197.314847ms] [Bunny]
+https://gift.argent.xyz [301] [https://gift.ready.co/] [0] [] [3.169.149.80] [cloudfront] [380.611355ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://card.argent.xyz [301] [https://card.ready.co/] [0] [] [108.156.107.8] [cloudfront] [408.184453ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://nova.arbitrum.io [301] [https://arbitrum.io/anytrust] [0] [cloudflare] [172.66.171.45] [cloudflare] [52.859731ms] [Cloudflare]
+https://orbit.arbitrum.io [301] [https://portal.arbitrum.io/orbit] [167] [301 Moved Permanently] [cloudflare] [172.66.171.45] [cloudflare] [45.407727ms] [Cloudflare]
+https://marvelous-energetic.arbitrum.io [301] [https://usefathom.com] [330] [Redirecting to https://usefathom.com] [BunnyCDN-IL1-1235] [185.93.1.245] [288.486214ms] [Bunny]
+https://portal-nova.arbitrum.io [301] [https://portal.arbitrum.io/nova] [167] [301 Moved Permanently] [cloudflare] [172.66.171.45] [cloudflare] [164.762812ms] [Cloudflare]
+https://portfolio.argent.xyz [301] [https://portfolio.ready.co/] [0] [] [3.171.22.45] [cloudfront] [369.64663ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://snapshot.arbitrum.io [301] [https://snapshot-explorer.arbitrum.io] [665] [301 Moved Permanently] [cloudflare] [172.66.171.45] [cloudflare] [25.616828ms] [Cloudflare,Cloudflare Browser Insights]
+https://sepolia-explorer.arbitrum.io [301] [https://docs.arbitrum.io/build-decentralized-apps/reference/monitoring-tools-block-explorers] [0] [cloudflare] [172.66.171.45] [cloudflare] [157.043786ms] [Cloudflare]
+https://twentyone-unreal.arbitrum.io [301] [https://usefathom.com] [330] [Redirecting to https://usefathom.com] [BunnyCDN-IL1-1347] [143.244.60.197] [191.815862ms] [Bunny]
+https://web.argent.xyz [301] [https://web.ready.co/] [0] [] [108.159.227.9] [cloudfront] [316.480268ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://www.argent.xyz [301] [https://www.ready.co] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [259.516965ms] [Cloudflare,HSTS,HTTP/3]
+https://xplorer.argent.xyz [301] [https://xplorer.ready.co/] [0] [] [18.172.122.87] [cloudfront] [344.1507ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+http://jobs.arbitrum.io [301] [https://jobs.arbitrum.io/] [162] [301 Moved Permanently] [nginx] [3.222.67.212] [56.715009ms] [Nginx]
+
+## 302
+https://link.arbitrum.io [302] [https://link.arbitrum.io/?rb.routing.mode=proxy&rb.routing.signature=665712] [0] [cloudflare] [104.20.39.96] [cloudflare] [326.929992ms] [Cloudflare,HSTS]
+https://support.arbitrum.io [302] [https://support.arbitrum.io/hc] [0] [cloudflare] [216.198.54.6] [194.646495ms] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://support.argent.xyz [302] [https://support.argent.xyz/hc] [0] [cloudflare] [216.198.53.11] [509.829866ms] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+
+## 307
+https://docs.argent.xyz [307] [https://docs.ready.co/] [15] [cloudflare] [172.64.147.209] [cloudflare] [271.233245ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://playground.arbitrum.io [307] [/bridge] [6349] [Vercel] [216.150.1.193] [182.040496ms] [HSTS,Vercel]
+
+## 308
+https://bridge.arbitrum.io [308] [https://portal.arbitrum.io/bridge/] [15] [cloudflare] [172.66.171.45] [cloudflare] [162.463083ms] [Cloudflare,HSTS,Vercel]
+https://www.arbitrum.io [308] [https://arbitrum.io/] [15] [Vercel] [76.76.21.164] [336.1136ms] [HSTS,Vercel]
+
+## 401
+https://funds-recovery-tool.arbitrum.io [401] [] [13309] [Authentication Required] [Vercel] [66.33.60.67] [89.914902ms] [HSTS,Vercel]
+
+## 403
+https://arbitrum.io [403] [] [5487] [Just a moment...] [cloudflare] [104.20.39.96] [cloudflare] [226.11204ms] [Cloudflare]
+https://portal.arbitrum.io [403] [] [5707] [Just a moment...] [cloudflare] [104.20.39.96] [cloudflare] [65.830693ms] [Cloudflare]
+https://tokenlist.arbitrum.io [403] [] [801] [403 Forbidden] [cloudflare] [104.20.39.96] [cloudflare] [257.924768ms] [Amazon Web Services,Cloudflare,Cloudflare Browser Insights]
+
+## 404
+https://graph.arbitrum.io [404] [] [0] [cloudflare] [172.66.171.45] [cloudflare] [246.647046ms] [Cloudflare]
+https://link.argent.xyz [404] [] [548] [404 Not Found] [nginx] [3.20.87.51] [154.617684ms] [Nginx]
+https://nova-sequencer.arbitrum.io [404] [] [0] [istio-envoy] [18.217.36.207] [171.39459ms]
+https://privy.app.uniswap.org [404] [] [2] [cloudflare] [104.18.24.69] [cloudflare] [106.196057ms] [Cloudflare,Cloudflare Bot Management]
+https://sepolia-rollup.arbitrum.io [404] [] [0] [cloudflare] [104.20.39.96] [cloudflare] [53.141967ms] [Cloudflare]
+https://snapshot-r2.arbitrum.io [404] [] [27648] [Not Found] [cloudflare] [172.66.171.45] [cloudflare] [215.992294ms] [Cloudflare,Cloudflare Browser Insights]
+
+## 500
+
+## 502
+
+## 503
+

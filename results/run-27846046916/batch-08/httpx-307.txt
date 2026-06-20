@@ -1,0 +1,2 @@
+https://l.gains.trade [307] [https://gains.trade/?spdl=] [0] [cloudflare] [172.67.156.230] [cloudflare] [197.813524ms] [Cloudflare,HTTP/3]
+https://www.friend.tech [307] [/keys] [15] [Vercel] [216.150.16.193] [200.251393ms] [HSTS,Vercel]

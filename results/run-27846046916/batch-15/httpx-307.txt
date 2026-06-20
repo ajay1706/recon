@@ -1,0 +1,2 @@
+https://base.polymarket.com [307] [https://polymarket.com/] [15] [Vercel] [64.239.123.65] [413.424512ms] [HSTS,Vercel]
+https://docs.perpetuals.polymarket.com [307] [/login?redirect=%2F] [15] [Vercel] [76.76.21.123] [584.170228ms] [HSTS,Vercel]

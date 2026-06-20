@@ -1,0 +1,2 @@
+https://assets.hop.exchange [403] [] [243] [cloudflare] [104.21.2.167] [cloudflare] [160.811747ms] [Amazon Web Services,Cloudflare,HTTP/3]
+https://stats-data.hyperliquid.xyz [403] [] [111] [AmazonS3] [18.238.96.52] [cloudfront] [265.996554ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]

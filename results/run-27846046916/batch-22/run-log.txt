@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 20 00:07:41 UTC 2026
+[+] Run ID: 27846046916
+[+] Batch name: batch-22
+[+] Batch targets:
+uniswap.org
+vertexprotocol.com
+zapper.xyz
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 20 00:08:45 UTC 2026
+[+] HTTPX input count: 818
+[+] Running httpx...
+[+] httpx completed: Sat Jun 20 00:11:36 UTC 2026
+[+] httpx line count: 266
+[+] Batch completed: Sat Jun 20 00:11:36 UTC 2026

@@ -1,0 +1,7 @@
+https://gamma-api.polymarket.com [301] [/docs] [40] [cloudflare] [172.64.153.51] [cloudflare] [142.905389ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://gamma-cache.polymarket.com [301] [/docs] [40] [cloudflare] [172.64.153.51] [cloudflare] [249.619139ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://learn.polymarket.com [301] [https://docs.polymarket.com/polymarket-learn] [167] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [143.759511ms] [Cloudflare,HSTS,HTTP/3]
+https://legacy-docs.polymarket.com [301] [https://learn.polymarket.com] [665] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [136.304328ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://status-clob.polymarket.com [301] [https://status.polymarket.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [163.566366ms] [Cloudflare,HSTS,HTTP/3]
+http://prediction.market [301] [https://augur.net] [52] [ip-10-123-125-25.ec2.internal] [3.33.152.147] [70.624073ms]
+http://www.prediction.market [301] [https://augur.net] [52] [ip-10-123-125-246.ec2.internal] [15.197.142.173] [59.152997ms]

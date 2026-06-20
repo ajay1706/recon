@@ -1,0 +1,14 @@
+[+] Batch started: Fri Jun 19 23:58:32 UTC 2026
+[+] Run ID: 27846046916
+[+] Batch name: batch-20
+[+] Batch targets:
+synfutures.com
+tenderly.co
+thegraph.com
+[+] Running subfinder...
+[+] Subfinder completed: Fri Jun 19 23:59:24 UTC 2026
+[+] HTTPX input count: 1693
+[+] Running httpx...
+[+] httpx completed: Sat Jun 20 00:03:16 UTC 2026
+[+] httpx line count: 759
+[+] Batch completed: Sat Jun 20 00:03:16 UTC 2026

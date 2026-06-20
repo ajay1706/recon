@@ -1,0 +1,4 @@
+[open-redirect-generic] [http] [medium] https://api.camelot.exchange//oast.me/ [redirect="/oast.me/"]
+[prometheus-metrics] [http] [medium] https://ap1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://api-v2.pendle.finance/api/metrics
+[CVE-2025-54793] [http] [medium] https://api.camelot.exchange//interact.sh/en//

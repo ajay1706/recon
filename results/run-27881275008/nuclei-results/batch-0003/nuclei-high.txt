@@ -1,0 +1,1 @@
+[framer-takeover] [http] [high] https://spin-event.verse8.io ["sites.framer.app"]

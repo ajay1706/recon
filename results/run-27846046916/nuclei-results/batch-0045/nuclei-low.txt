@@ -1,0 +1,33 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] unichain.eu.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unichain.eu.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unichain.us-west.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unichain.us-west.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unitags.android.wallet.gateway.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unitags.ios.wallet.gateway.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unitags.external.gateway.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unitags.android.wallet.gateway.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unitags.ios.wallet.gateway.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unitags.external.gateway.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unsupportedtokens.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] unleash-edge.1inch.io:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unsupportedtokens.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] unleash-edge.1inch.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] us-west.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] us-west.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] user-pnl-api.polymarket.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] user-pnl-api.polymarket.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] v1.info.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] v1.info.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] v2.info.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] v2.info.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] v3.info.uniswap.org:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] v3.info.uniswap.org:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[debug-vars] [http] [low] https://us1.multiregion.thirdweb.com/debug/vars
+[debug-vars] [http] [low] https://us1.rpc-mg.thirdweb.com/debug/vars
+[graphiql-exposure] [http] [low] https://v1-backend-indexer.karak.network/graphql
+[graphiql-exposure] [http] [low] https://v1-points-backend.karak.network/graphql
+[expired-ssl] [ssl] [low] us-east.canary-gateway.tenderly.co:443 ["2026-04-24 11:10:09 +0000 UTC"]
+[expired-ssl] [ssl] [low] v2.beta.kwenta.io:443 ["2022-10-24 22:16:01 +0000 UTC"]
+[postgres-exporter-metrics] [http] [low] https://v1-backend-indexer.karak.network/metrics
+[postgres-exporter-metrics] [http] [low] https://v1-points-backend.karak.network/metrics
+[kubernetes-metrics] [http] [low] https://v1-points-cache.karak.network/metrics

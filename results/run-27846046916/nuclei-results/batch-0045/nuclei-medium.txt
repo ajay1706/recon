@@ -1,0 +1,6 @@
+[CVE-2025-57822] [http] [medium] https://v2-explorer-sepolia.hop.exchange/?cb=MftVevoNJJ
+[intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://v1.debridge.finance"]
+[prometheus-metrics] [http] [medium] https://us1.rpc-mg.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://us1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://v1-backend-indexer.karak.network/metrics
+[prometheus-metrics] [http] [medium] https://v1-points-backend.karak.network/metrics

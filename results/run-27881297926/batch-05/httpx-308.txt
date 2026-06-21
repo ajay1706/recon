@@ -1,0 +1,7 @@
+https://granola.ai [308] [https://www.granola.ai/] [15] [Vercel] [76.76.21.21] [68.962089ms] [HSTS,Vercel]
+https://join.granola.ai [308] [https://granola.ai] [15] [Vercel] [216.150.16.193] [72.571376ms] [HSTS,Vercel]
+https://docs.granola.ai [308] [/introduction] [149507] [Vercel] [76.76.21.93] [503.820584ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://recipes.granola.ai [308] [https://granola.ai] [15] [Vercel] [216.150.1.129] [2.476968005s] [HSTS,Vercel]
+http://notes.granola.ai [308] [https://notes.granola.ai/] [14] [Vercel] [216.150.1.193] [28.348864ms] [Vercel]
+http://memorai.humanloop.com [308] [https://memorai.humanloop.com/] [14] [Vercel] [66.33.60.193] [11.147164ms] [Vercel]
+https://www.humanloop.com [308] [https://humanloop.com/] [15] [Vercel] [76.76.21.22] [2.064037271s] [HSTS,Vercel]

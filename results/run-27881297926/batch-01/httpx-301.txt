@@ -1,0 +1,6 @@
+https://bridge.baseten.co [301] [https://docs.baseten.co/inference/calling-your-model] [162] [301 Moved Permanently] [] [34.69.45.22] [google] [247.53734ms] [HSTS]
+https://bridge.staging.baseten.co [301] [https://docs.baseten.co/inference/calling-your-model] [162] [301 Moved Permanently] [] [34.27.247.226] [google] [276.238849ms] [HSTS]
+http://dnstestingzbtzasklf.baseten.co [301] [https://dnstestingzbtzasklf.baseten.co/] [162] [301 Moved Permanently] [nginx] [44.229.220.222] [67.514102ms] [Nginx]
+https://support.baseten.co [301] [http://docs.baseten.co/] [0] [AmazonS3] [99.84.215.76] [cloudfront] [2.23022076s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+http://status.baseten.co [301] [https://status.baseten.co/] [167] [301 Moved Permanently] [CloudFront] [3.168.147.85] [cloudfront] [5.130454992s] [Amazon CloudFront,Amazon Web Services]
+http://support-legacy.baseten.co [301] [https://support-legacy.baseten.co/] [167] [301 Moved Permanently] [CloudFront] [52.222.244.28] [cloudfront] [6.154623688s] [Amazon CloudFront,Amazon Web Services]

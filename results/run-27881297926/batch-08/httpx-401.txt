@@ -1,0 +1,1 @@
+https://bauhaus.openrouter.ai [401] [] [15520] [Authentication Required] [cloudflare] [104.18.3.115] [cloudflare] [292.043858ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]

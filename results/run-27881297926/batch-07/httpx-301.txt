@@ -1,0 +1,3 @@
+https://help.midjourney.com [301] [https://docs.midjourney.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.33.217] [cloudflare] [24.329103ms] [Cloudflare,HTTP/3]
+https://legacyalpha.midjourney.com [301] [https://midjourney.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.33.217] [cloudflare] [36.191876ms] [Cloudflare,HTTP/3]
+https://legacy.midjourney.com [301] [https://midjourney.com/] [167] [301 Moved Permanently] [cloudflare] [172.64.154.39] [cloudflare] [39.820315ms] [Cloudflare,HTTP/3]

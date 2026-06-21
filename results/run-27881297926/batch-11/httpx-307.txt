@@ -1,0 +1,7 @@
+https://api.v0.dev [307] [https://api.v0.dev/chat] [0] [Vercel] [64.239.109.193] [5.077245113s] [Amazon S3,Amazon Web Services,HSTS,Vercel]
+https://esm.v0.dev [307] [https://v0.app] [15] [Vercel] [64.239.123.193] [73.657559ms] [HSTS,Vercel]
+https://docs.game.virtuals.io [307] [https://app.gitbook.com/o/OefuIv32WG440h2tS5N0/sites/site_pjHoH/] [15] [cloudflare] [104.18.40.47] [cloudflare] [141.743883ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://docs.vapi.ai [307] [/quickstart/introduction] [168094] [Vercel] [66.33.60.130] [77.943194ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://mcp.v0.dev [307] [https://mcp.v0.dev/sse] [35] [Vercel] [64.239.109.65] [1.050252643s] [HSTS,Vercel]
+https://status.st.vapi.ai [307] [https://status.st.vapi.ai/password] [0] [] [167.235.220.62] [6.324855006s] [HSTS,HTTP/3]
+https://www.v0.dev [307] [https://v0.app/] [15] [Vercel] [64.239.109.65] [5.103979737s] [HSTS,Vercel]

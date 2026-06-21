@@ -1,0 +1,6 @@
+https://api.wp-1.omar-jstr.mc-dev.baseten.co [503] [] [592] [503 Service Temporarily Unavailable] [] [44.232.185.80] [213.453883ms] [HSTS]
+https://bridge-test-central.baseten.co [503] [] [592] [503 Service Temporarily Unavailable] [] [34.69.45.22] [google] [234.002546ms] [HSTS]
+https://foo.bar.mc-dev.baseten.co [503] [] [592] [503 Service Temporarily Unavailable] [] [44.246.233.255] [6.244547639s] [HSTS]
+https://infra-platform.log.mc-dev.baseten.co [503] [] [19] [istio-envoy] [184.33.147.146] [2.17979949s]
+https://neb-eu-west1-dae.api.mc-dev.baseten.co [503] [] [592] [503 Service Temporarily Unavailable] [] [66.201.5.137] [2.567460252s] [HSTS]
+http://pd-test.inference.mc-dev.baseten.co [503] [] [190] [503 Service Temporarily Unavailable] [] [34.16.121.236] [google] [5.158038834s]

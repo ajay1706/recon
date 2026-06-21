@@ -1,0 +1,6 @@
+https://email-assets.granola.ai [403] [] [111] [AmazonS3] [3.162.112.40] [cloudfront] [1.051256823s] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mta-sts.granola.ai [403] [] [111] [AmazonS3] [13.35.78.82] [cloudfront] [116.722541ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://stream.api.bradley.granola.ai [403] [] [144] [] [3.162.112.23] [cloudfront] [134.915338ms] [Amazon CloudFront,Amazon Web Services]
+https://stream.api.jacob.granola.ai [403] [] [144] [] [3.170.3.19] [cloudfront] [2.113045273s] [Amazon CloudFront,Amazon Web Services]
+https://stream.api.samtucker.granola.ai [403] [] [144] [] [52.85.193.125] [cloudfront] [302.157845ms] [Amazon CloudFront,Amazon Web Services]
+https://testapi.granola.ai [403] [] [23] [] [3.22.144.67] [302.991229ms]

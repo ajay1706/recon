@@ -1,0 +1,12 @@
+[+] Batch started: Sun Jun 21 05:12:00 UTC 2026
+[+] Run ID: 27881297926
+[+] Batch name: batch-12
+[+] Batch targets:
+wordware.ai
+[+] Running subfinder...
+[+] Subfinder completed: Sun Jun 21 05:12:03 UTC 2026
+[+] HTTPX input count: 30
+[+] Running httpx...
+[+] httpx completed: Sun Jun 21 05:12:14 UTC 2026
+[+] httpx line count: 29
+[+] Batch completed: Sun Jun 21 05:12:14 UTC 2026

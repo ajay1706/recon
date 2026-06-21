@@ -1,0 +1,3 @@
+https://baseten.co [307] [https://www.baseten.co/] [15] [Vercel] [76.76.21.21] [137.22891ms] [HSTS,Vercel]
+https://blueprint.baseten.co [307] [https://www.baseten.co/] [15] [Vercel] [66.33.60.194] [176.886241ms] [HSTS,Vercel]
+https://login.baseten.co [307] [https://auth.baseten.co/user_management/initiate_login?context=&client_id=client_01GFS4WX73TQ4NQJPQ9EPCYQY7] [80616] [Sign in] [cloudflare] [104.18.35.233] [cloudflare] [6.839033775s] [Cloudflare,Cloudflare Bot Management,HSTS,Vercel]

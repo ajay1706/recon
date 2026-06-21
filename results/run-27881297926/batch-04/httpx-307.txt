@@ -1,0 +1,7 @@
+https://app.fireworks.ai [307] [/account/home] [15] [Vercel] [64.239.123.1] [56.875444ms] [HSTS,Vercel]
+https://codingdemo.exa.ai [307] [/api/auth/guest?redirectUrl=https%3A%2F%2Fcodingdemo.exa.ai%2F] [15] [cloudflare] [172.66.43.165] [cloudflare] [313.168946ms] [Cloudflare,HSTS,Vercel]
+https://dev.fireworks.ai [307] [/account/home] [15] [Vercel] [64.239.123.65] [56.875749ms] [HSTS,Vercel]
+https://docs.exa.ai [307] [https://exa.ai/docs/reference/search-api-guide] [15] [cloudflare] [172.66.43.165] [cloudflare] [83.622192ms] [Cloudflare,HSTS,Vercel]
+https://preview.exa.ai [307] [https://auth.exa.ai/?callbackUrl=https%3A%2F%2Fpreview.exa.ai%2F] [15] [Vercel] [216.150.16.1] [1.188005552s] [HSTS,Vercel]
+https://staging.fireworks.ai [307] [/account/home] [15] [Vercel] [64.239.109.65] [1.186815129s] [HSTS,Vercel]
+https://twitterwrapped.exa.ai [307] [https://exa.ai/search/xwrapped] [15] [cloudflare] [172.66.40.91] [cloudflare] [4.075820403s] [Cloudflare,HSTS,Vercel]

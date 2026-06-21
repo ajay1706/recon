@@ -1,0 +1,55 @@
+# HTTPX Status Report
+
+Generated at: Sun Jun 21 05:12:14 UTC 2026
+
+HTTPX lines: 29
+Live URLs: 29
+
+## 200
+https://fake-llm.wordware.ai [200] [] [769] [Test Site] [cloudflare] [172.66.40.165] [cloudflare] [112.388209ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://mcp.beta.wordware.ai [200] [] [9063] [Wordware MCP - Connect your AI tools] [cloudflare] [172.66.43.91] [cloudflare] [230.312074ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+https://demo.wordware.ai [200] [] [6964] [Wordware Demo] [cloudflare] [172.66.40.165] [cloudflare] [129.236014ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://react.wordware.ai [200] [] [14636] [Wordware ReAct UI] [cloudflare] [172.66.40.165] [cloudflare] [103.184724ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel,dc.js]
+https://roast.wordware.ai [200] [] [8030] [Ramsay Roasts] [Vercel] [66.33.60.66] [218.641539ms] [HSTS,Vercel]
+https://author.wordware.ai [200] [] [48190] [AuthorGPT 📚] [cloudflare] [172.66.43.91] [cloudflare] [107.972555ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+https://trust.wordware.ai [200] [] [604] [Trust center] [] [34.77.87.94] [google] [572.833602ms] [HSTS]
+https://www.wordware.ai [200] [] [69267] [Wordware] [Vercel] [216.150.1.193] [100.374492ms] [HSTS,Vercel]
+https://twitter.wordware.ai [200] [] [71962] [Twitter Personality - AI Agent by Wordware] [cloudflare] [172.66.40.165] [cloudflare] [272.020687ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Vercel,Webpack]
+https://audioscribe.wordware.ai [200] [] [97827] [Audioscribe · AI-powered Record-to-Text tool built by Wordware] [cloudflare] [172.66.40.165] [cloudflare] [308.778565ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Next.js,Node.js,React,Vercel,Webpack]
+https://blog.wordware.ai [200] [] [1526478] [Wordware Blog] [Vercel] [76.76.21.93] [1.046110507s] [Contentful,HSTS,Vercel]
+
+## 301
+https://horoscope.wordware.ai [301] [https://twitter.wordware.ai/] [15] [cloudflare] [172.66.43.91] [cloudflare] [127.838922ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+http://links.chat.wordware.ai [301] [https://links.chat.wordware.ai/] [162] [301 Moved Permanently] [nginx] [172.65.225.161] [cloudflare] [335.801086ms] [Nginx]
+http://mcp.wordware.ai [301] [https://mcp.wordware.ai/] [671] [301 Moved Permanently] [cloudflare] [172.66.40.165] [cloudflare] [47.706215ms] [Cloudflare,Cloudflare Browser Insights,HTTP/2]
+http://shakespeare.wordware.ai [301] [https://shakespeare.wordware.ai/] [671] [301 Moved Permanently] [cloudflare] [172.66.40.165] [cloudflare] [51.263081ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+http://api.preview.wordware.ai [301] [https://api.preview.wordware.ai/] [671] [301 Moved Permanently] [cloudflare] [172.66.40.165] [cloudflare] [51.794961ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]
+
+## 302
+http://emails.wordware.ai [302] [https://emails.wordware.ai/] [50] [] [34.69.224.94] [google] [129.549596ms]
+
+## 307
+https://app.wordware.ai [307] [/login] [20753] [Wordware] [Vercel] [66.33.60.194] [246.628141ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 308
+https://wordware.ai [308] [https://www.wordware.ai/] [15] [Vercel] [216.150.1.1] [51.043879ms] [HSTS,Vercel]
+https://docs.wordware.ai [308] [/tour] [107038] [cloudflare] [172.66.40.165] [cloudflare] [359.303484ms] [Cloudflare,Cloudflare Browser Insights,HSTS,HTTP/3,Vercel]
+
+## 401
+https://code-executor.wordware.ai [401] [] [136] [cloudflare] [172.66.43.91] [cloudflare] [193.610489ms] [Cloudflare,HTTP/3]
+
+## 403
+
+## 404
+https://macbeth.wordware.ai [404] [] [13] [cloudflare] [172.66.43.91] [cloudflare] [286.859512ms] [Cloudflare,HTTP/3]
+https://events.wordware.ai [404] [] [13] [cloudflare] [172.66.43.91] [cloudflare] [405.251905ms] [Cloudflare,HSTS,HTTP/3]
+https://staging.wordware.ai [404] [] [107] [Vercel] [76.76.21.164] [484.504858ms] [HSTS,Vercel]
+https://cdn.wordware.ai [404] [] [27150] [Not Found] [cloudflare] [172.66.43.91] [cloudflare] [158.201269ms] [Cloudflare,HTTP/3]
+https://api.wordware.ai [404] [] [13] [cloudflare] [172.66.43.91] [cloudflare] [599.104296ms] [Cloudflare,HTTP/3]
+
+## 500
+
+## 502
+
+## 503
+

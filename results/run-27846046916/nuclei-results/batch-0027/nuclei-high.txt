@@ -1,0 +1,2 @@
+[CVE-2024-53991] [http] [high] https://forum.celer.network/stylesheets/discourse-details_176b72e6e38dee06dfc1be8f35778491bd6261ea.css?__ws=forum.celer.network&cachebuster=3FQABLwRDQvjeGyfITbbSOpYmJK
+[CVE-2025-48954:open-redirect-meta-refresh] [http] [high] https://forum.manifold.xyz/auth/failure?provider=%3Cmeta%20http-equiv%3D%22refresh%22%20content%3D%220%3Burl%3Dhttps%3A//evil.com%22%3E ["3.5.0.beta6"]

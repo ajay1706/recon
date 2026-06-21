@@ -1,12 +1,12 @@
-[CVE-2023-48795] [javascript] [medium] redash.verse8.io:22 ["Vulnerable to Terrapin"]
 [CVE-2025-49825] [http] [critical] https://teleport.rakkardigital.com/webapi/ping ["Teleport Version: 11.3.1"]
+[CVE-2025-55184] [http] [high] https://growth.kalshi.com/auth/signin?callbackUrl=%2F
 [aws-object-listing] [http] [low] https://docs.elections.kalshi.com ["docs.election.kalshi.com"]
 [expired-ssl] [ssl] [low] donation.startale.com:443 ["2025-10-18 10:14:26 +0000 UTC"]
 [framer-takeover] [http] [high] https://itch-contest1.verse8.io ["sites.framer.app"]
 [framer-takeover] [http] [high] https://kr-contest1.verse8.io ["sites.framer.app"]
 [framer-takeover] [http] [high] https://spin-event.verse8.io ["sites.framer.app"]
 [intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://mkt.kalshi.com"]
-[nextjs-vite-public-env:public_env] [http] [medium] https://news.kalshi.com [""VITE_CAL_OAUTH_CLIENT_ID":"cmh1rxzo40003ql1r4zddst44"",""VITE_EXTERNAL_EMBED_DOMAIN":"beehiivusercontent.com"",""VITE_HUMAN_ENABLED":"true"",""VITE_HUMAN_URL":"//client.px-cloud.net/PXeBumDLwe/main.min.js"",""VITE_ADNETWORK_PIXELJS_URL":"https://beehiiv-adnetwork-production.s3.amazonaws.com/pixel-js.js"",""VITE_ADNETWORK_PIXELV2_URL":"https://beehiiv-adnetwork-production.s3.amazonaws.com/pixel-v2.js"",""VITE_BIRDIE_CLIENT_ID":"q2je1lwj""]
+[nextjs-vite-public-env:public_env] [http] [medium] https://news.kalshi.com [""VITE_ADNETWORK_PIXELJS_URL":"https://beehiiv-adnetwork-production.s3.amazonaws.com/pixel-js.js"",""VITE_ADNETWORK_PIXELV2_URL":"https://beehiiv-adnetwork-production.s3.amazonaws.com/pixel-v2.js"",""VITE_BIRDIE_CLIENT_ID":"q2je1lwj"",""VITE_CAL_OAUTH_CLIENT_ID":"cmh1rxzo40003ql1r4zddst44"",""VITE_EXTERNAL_EMBED_DOMAIN":"beehiivusercontent.com"",""VITE_HUMAN_ENABLED":"true"",""VITE_HUMAN_URL":"//client.px-cloud.net/PXeBumDLwe/main.min.js""]
 [node-express-dev-env] [http] [medium] https://credit-dev.verse8.io
 [weak-cipher-suites:tls-1.0] [ssl] [low] about.verse8.io:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
 [weak-cipher-suites:tls-1.0] [ssl] [low] abstract.vx-pay.verse8.io:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]

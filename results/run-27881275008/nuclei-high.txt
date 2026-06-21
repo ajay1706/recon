@@ -1,3 +1,4 @@
+[CVE-2025-55184] [http] [high] https://growth.kalshi.com/auth/signin?callbackUrl=%2F
 [framer-takeover] [http] [high] https://itch-contest1.verse8.io ["sites.framer.app"]
 [framer-takeover] [http] [high] https://kr-contest1.verse8.io ["sites.framer.app"]
 [framer-takeover] [http] [high] https://spin-event.verse8.io ["sites.framer.app"]

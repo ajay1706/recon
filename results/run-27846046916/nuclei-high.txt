@@ -1,0 +1,16 @@
+[CVE-2019-11248] [http] [high] https://quote.omni.apex.exchange/debug/pprof/
+[CVE-2024-53991] [http] [high] https://forum.celer.network/stylesheets/discourse-details_176b72e6e38dee06dfc1be8f35778491bd6261ea.css?__ws=forum.celer.network&cachebuster=3FQABLwRDQvjeGyfITbbSOpYmJK
+[CVE-2025-48954:open-redirect-meta-refresh] [http] [high] https://forum.manifold.xyz/auth/failure?provider=%3Cmeta%20http-equiv%3D%22refresh%22%20content%3D%220%3Burl%3Dhttps%3A//evil.com%22%3E ["3.5.0.beta6"]
+[CVE-2025-55184] [http] [high] https://demo.orderly.network/en/perp/PERP_ETH_USDC
+[CVE-2025-55184] [http] [high] https://dmm.orderly.network/en/perp/PERP_ETH_USDC
+[CVE-2025-55184] [http] [high] https://status.across.to
+[CVE-2025-55184] [http] [high] https://testnet-dmm.orderly.network/en/perp/PERP_ETH_USDC
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://feedback.hop.exchange/login [password="password123",username="alice"]
+[blockchain-rpc-txpool-exposed] [http] [high] https://node1.rpc.karak.network
+[blockchain-rpc-txpool-exposed] [http] [high] https://partner.rpc.karak.network
+[blockchain-rpc-txpool-exposed] [http] [high] https://xai-mainnet.rpc.quicknode.com
+[blockchain-rpc-txpool-exposed] [http] [high] https://xai-testnet.rpc.quicknode.com
+[canny-takeover] [http] [high] https://feedback.plutusdao.io ["cname.canny.io"]
+[framer-takeover] [http] [high] https://interchain.synapseprotocol.com ["sites.framer.app"]
+[github-takeover] [http] [high] https://github-test.orderly.network ["orderlynetwork.github.io"]
+[github-takeover] [http] [high] https://staging-dex.orderly.network ["orderlynetwork.github.io"]

@@ -1,0 +1,2 @@
+[CVE-2025-55182] [http] [critical] https://xxl-job.orderly.network
+[CVE-2026-33032] [http] [critical] https://op-proxy.rpc-proxy.zora.co/mcp_message

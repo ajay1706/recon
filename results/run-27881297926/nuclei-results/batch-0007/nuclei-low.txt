@@ -1,0 +1,96 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] app.supermemory.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] app.supermemory.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] assets.cluely.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] assets.composio.dev:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] assets.supermemory.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] assets.cluely.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] assets.composio.dev:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] assets.supermemory.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[kubernetes-fake-certificate] [ssl] [low] aql4c67ps6g6nqvxwd8v.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] aql4c67ps6g6nqvxwd8v.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-0.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-0.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-11.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-11.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-10.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-10.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-13.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-13.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-14.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-14.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-15.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-15.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-16.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-16.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-17.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-17.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-19.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-19.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-18.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-18.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-2.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-2.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-20.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-20.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-21.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-21.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-22.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-22.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-23.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-23.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-26.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-26.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-24.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-24.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-25.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-25.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-27.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-27.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-28.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-28.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-29.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-29.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-3.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-3.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-30.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-30.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-31.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-31.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-33.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-33.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-32.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-32.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-34.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-34.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-35.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-35.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-36.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-36.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-37.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-37.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-39.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-39.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-42.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-42.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-44.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-44.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-45.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-45.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-47.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-47.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-43.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-43.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-48.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-48.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-46.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-46.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-49.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-49.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-5.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-5.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-50.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-50.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-52.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-52.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] atlas-heph-gpu-flat-worker-v0-51.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] atlas-heph-gpu-flat-worker-v0-51.hephaestus.exa.ai:443

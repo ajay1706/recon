@@ -1,0 +1,103 @@
+# HTTPX Status Report
+
+Generated at: Sat Jun 20 23:35:50 UTC 2026
+
+HTTPX lines: 76
+Live URLs: 76
+
+## 200
+https://app.bvnk.com [200] [] [1737] [Loading...] [AmazonS3] [3.167.99.80] [cloudfront] [45.11738ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://app.sandbox.bvnk.com [200] [] [1719] [Loading...] [AmazonS3] [3.171.38.48] [cloudfront] [305.069476ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://mfe-fiat-send.test.bvnk.com [200] [] [529] [Fiat Send] [AmazonS3] [18.160.41.17] [cloudfront] [96.478178ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://docs.bvnk.com [200] [] [20768] [BVNK Documentation] [AmazonS3] [13.35.78.16] [cloudfront] [283.394849ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,Docusaurus:3.10.1,Google Analytics,HSTS,React,Webpack]
+https://mfe-profile.staging.bvnk.com [200] [] [634] [Profile] [AmazonS3] [52.85.193.68] [cloudfront] [128.127407ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://atlasora.io [200] [] [23114] [atlasora.io for sale | Spaceship.com] [openresty] [52.40.42.113] [337.101652ms] [HSTS,Nginx,OpenResty]
+https://mfe-send.test.bvnk.com [200] [] [598] [Send] [AmazonS3] [3.171.38.73] [cloudfront] [87.088267ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://docs.sandbox.bvnk.com [200] [] [20768] [BVNK Documentation] [AmazonS3] [3.170.42.101] [cloudfront] [380.47654ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,Docusaurus:3.10.1,Google Analytics,HSTS,React,Webpack]
+https://mfe-webhooks.sandbox.bvnk.com [200] [] [642] [Webhooks] [AmazonS3] [3.167.69.11] [cloudfront] [100.988316ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-profile.bvnk.com [200] [] [602] [Profile] [AmazonS3] [108.138.64.85] [cloudfront] [341.533905ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-profile.sandbox.bvnk.com [200] [] [634] [Profile] [AmazonS3] [13.35.78.69] [cloudfront] [351.998432ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-send.sandbox.bvnk.com [200] [] [610] [Send] [AmazonS3] [3.167.88.3] [cloudfront] [293.20064ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-profile.test.bvnk.com [200] [] [622] [Profile] [AmazonS3] [18.165.83.72] [cloudfront] [347.556413ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-send.staging.bvnk.com [200] [] [610] [Send] [AmazonS3] [3.170.3.109] [cloudfront] [313.318675ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-webhooks.bvnk.com [200] [] [610] [Webhooks] [AmazonS3] [3.170.42.33] [cloudfront] [321.837332ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-send.bvnk.com [200] [] [578] [Send] [AmazonS3] [13.35.78.86] [cloudfront] [390.748227ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://onboarding.bvnk.com [200] [] [767] [BVNK Onboarding] [CloudFront] [3.171.38.7] [cloudfront] [298.807544ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://mfe-webhooks.staging.bvnk.com [200] [] [642] [Webhooks] [AmazonS3] [18.154.227.56] [cloudfront] [357.75953ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-webhooks.test.bvnk.com [200] [] [630] [Webhooks] [AmazonS3] [13.35.78.66] [cloudfront] [379.453017ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://wallet.sandbox.bvnk.com [200] [] [1349] [Stablecoin wallet] [envoy] [18.67.65.117] [cloudfront] [289.423656ms] [Amazon CloudFront,Amazon Web Services,Envoy,HSTS,HTTP/3]
+https://verify.bvnk.com [200] [] [1143] [Hosted Verify] [AmazonS3] [52.85.193.10] [cloudfront] [544.22198ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://verify.sandbox.bvnk.com [200] [] [1143] [Hosted Verify] [AmazonS3] [3.167.88.51] [cloudfront] [589.779414ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://verify.test.bvnk.com [200] [] [1143] [Hosted Verify] [AmazonS3] [3.162.103.52] [cloudfront] [575.096204ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HTTP/3]
+https://wallet.test.bvnk.com [200] [] [1349] [Stablecoin wallet] [nginx] [3.160.188.99] [cloudfront] [508.340086ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3,Nginx]
+https://www.atlasora.io [200] [] [23114] [atlasora.io for sale | Spaceship.com] [openresty] [44.232.173.249] [465.36979ms] [HSTS,Nginx,OpenResty]
+https://signup.sandbox.bvnk.com [200] [] [1431] [Signup] [AmazonS3] [18.67.76.18] [cloudfront] [715.401874ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://try.bvnk.com [200] [] [166377] [Stablecoin Payments Platform | Settle in Seconds | BVNK] [Vercel] [66.33.60.66] [72.942135ms] [Google Tag Manager,HSTS,Vercel]
+https://signup.bvnk.com [200] [] [1455] [Signup] [AmazonS3] [3.170.42.23] [cloudfront] [811.565267ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS]
+https://bvnk.com [200] [] [358824] [Enterprise Stablecoin Payments Infrastructure | BVNK] [cloudflare] [198.202.211.1] [79.611834ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Linkedin Ads,Unpkg,cdnjs,jQuery:3.5.1,jsDelivr]
+https://trust.bvnk.com [200] [] [3920] [BVNK Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [1.081261709s] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+
+## 301
+https://catapult.network [301] [https://www.catapulting.com/] [162] [301 Moved Permanently] [nginx] [185.173.21.120] [726.103569ms] [HSTS,Nginx]
+https://status.bvnk.com [301] [http://bvnk.status.io/] [0] [AmazonS3] [52.85.193.80] [cloudfront] [53.254825ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://www.bvnk.com [301] [https://bvnk.com/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [125.970538ms] [Cloudflare,HSTS,HTTP/3]
+https://www.catapult.network [301] [https://www.catapulting.com/] [162] [301 Moved Permanently] [nginx] [185.173.21.120] [693.760218ms] [HSTS,Nginx]
+
+## 302
+https://info.bvnk.com [302] [https://www.bvnk.com] [0] [] [34.237.219.119] [116.363077ms] [Salesforce Marketing Cloud Account Engagement]
+https://help.bvnk.com [302] [https://help.bvnk.com/hc] [0] [cloudflare] [216.198.54.6] [225.526555ms] [Cloudflare,Cloudflare Bot Management,Envoy,HSTS,Zendesk]
+https://design.bvnk.com [302] [https://zeroheight.com/sso/share?path=%2F&domain=https%3A%2F%2Fdesign.bvnk.com&share_id=9aac9bbf1] [0] [] [63.33.17.94] [497.548471ms] [HSTS]
+https://content.bvnk.com [302] [https://coindirect2021.my.salesforce.com/0I48e0000008Owj] [0] [] [23.212.251.133] [621.428517ms]
+https://sso-auth.bvnk.com [302] [https://sso-auth.bvnk.com/app/UserHome?iss=https%3A%2F%2Fsso-auth.bvnk.com&session_hint=AUTHENTICATED] [0] [nginx] [76.223.112.12] [346.537377ms] [HSTS,Nginx]
+
+## 307
+
+## 308
+
+## 401
+https://api.sandbox.bvnk.com [401] [] [0] [CloudFront] [108.138.64.29] [cloudfront] [130.138615ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.bvnk.com [401] [] [0] [CloudFront] [3.171.38.80] [cloudfront] [193.705432ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://api.layer1.bvnk.com [401] [] [0] [CloudFront] [3.171.61.116] [cloudfront] [336.768711ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.staging.bvnk.com [401] [] [0] [CloudFront] [13.33.252.3] [cloudfront] [401.595632ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.test.bvnk.com [401] [] [0] [CloudFront] [3.167.88.89] [cloudfront] [427.778361ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://ui-components.bvnk.com [401] [] [61] [Caddy Qloaked] [137.66.11.6] [1.19743793s] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+
+## 403
+http://api-test.layer1.bvnk.com [403] [] [915] [ERROR: The request could not be satisfied] [CloudFront] [3.171.61.115] [cloudfront] [5.186386ms] [Amazon CloudFront,Amazon Web Services]
+https://fincrime.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.170.42.101] [cloudfront] [63.694746ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://fincrime.staging.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [108.138.85.16] [cloudfront] [119.075663ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://events.bvnk.com [403] [] [768] [bvnk.com] [DataDome] [151.101.2.133] [fastly] [314.336304ms] [DataDome,HSTS,Varnish]
+https://mfe-fiat-send.bvnk.com [403] [] [111] [AmazonS3] [13.226.209.78] [cloudfront] [329.64177ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-fiat-send.sandbox.bvnk.com [403] [] [111] [AmazonS3] [13.35.78.86] [cloudfront] [328.518349ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://mfe-fiat-send.staging.bvnk.com [403] [] [111] [AmazonS3] [3.171.38.26] [cloudfront] [352.592631ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://regtech.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [18.160.41.60] [cloudfront] [51.252301ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://regtech.sandbox.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.171.61.81] [cloudfront] [82.895691ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://regtech.test.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.167.56.60] [cloudfront] [67.214085ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://travel-rule.staging.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [108.138.85.44] [cloudfront] [27.589499ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://wallet.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.167.99.116] [cloudfront] [71.22647ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://travel-rule.bvnk.com [403] [] [919] [ERROR: The request could not be satisfied] [CloudFront] [3.170.42.91] [cloudfront] [87.7509ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+
+## 404
+https://auth.bvnk.com [404] [] [0] [CloudFront] [3.171.38.80] [cloudfront] [256.019539ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://auth.sandbox.bvnk.com [404] [] [0] [CloudFront] [108.138.64.94] [cloudfront] [260.826546ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://email.events.bvnk.com [404] [] [19] [] [34.111.99.212] [google] [298.304328ms]
+https://auth.layer1.bvnk.com [404] [] [0] [CloudFront] [3.171.61.104] [cloudfront] [347.569774ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://auth.test.bvnk.com [404] [] [0] [CloudFront] [3.167.88.89] [cloudfront] [380.582132ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://auth.staging.bvnk.com [404] [] [0] [CloudFront] [3.167.99.117] [cloudfront] [424.632665ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://qnksd.bvnk.com [404] [] [16] [cloudflare] [172.67.222.84] [cloudflare] [170.969791ms] [Cloudflare,HSTS,HTTP/3]
+https://wallet.staging.bvnk.com [404] [] [0] [awselb/2.0] [13.226.209.12] [cloudfront] [316.618856ms] [Amazon CloudFront,Amazon ELB,Amazon Web Services,HTTP/3]
+https://pay.bvnk.com [404] [] [6747] [404: This page could not be found.] [] [3.170.19.82] [cloudfront] [628.537068ms] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://payment.bvnk.com [404] [] [6025] [404: This page could not be found.] [] [18.160.41.104] [cloudfront] [950.395752ms] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://payment.staging.bvnk.com [404] [] [6025] [404: This page could not be found.] [] [18.160.46.74] [cloudfront] [1.974427522s] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://payment.sandbox.bvnk.com [404] [] [6025] [404: This page could not be found.] [] [52.85.193.100] [cloudfront] [2.107552684s] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://pay.staging.bvnk.com [404] [] [7001] [404: This page could not be found.] [] [13.226.238.18] [cloudfront] [2.943002228s] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://pay.sandbox.bvnk.com [404] [] [6742] [404: This page could not be found.] [] [18.160.18.104] [cloudfront] [3.198087496s] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+https://pay.test.bvnk.com [404] [] [6740] [404: This page could not be found.] [] [3.167.56.7] [cloudfront] [3.29697046s] [Amazon CloudFront,Amazon Web Services,HTTP/3,Next.js,Node.js,React,Webpack]
+
+## 500
+
+## 502
+https://wildcard.squad.bvnk.com [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [3.167.88.35] [cloudfront] [167.201086ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+
+## 503
+

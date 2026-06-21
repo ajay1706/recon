@@ -1,0 +1,3 @@
+https://blog.kalshi.com [301] [https://news.kalshi.com/] [0] [CloudFront] [108.138.167.120] [cloudfront] [150.505841ms] [Amazon CloudFront,Amazon Web Services]
+https://research.kalshi.com [301] [https://kalshi.com/research] [0] [CloudFront] [13.225.61.17] [cloudfront] [262.254232ms] [Amazon CloudFront,Amazon Web Services]
+https://www.shop.kalshi.com [301] [https://shop.kalshi.com/?&../actuator/heapdump] [0] [] [34.117.223.165] [google] [259.813929ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3]

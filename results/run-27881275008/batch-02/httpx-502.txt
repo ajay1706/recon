@@ -1,0 +1,2 @@
+https://features.rakkardigital.com [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [3.171.38.54] [cloudfront] [152.059654ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]
+https://features-api.rakkardigital.com [502] [] [960] [ERROR: The request could not be satisfied] [CloudFront] [3.171.38.86] [cloudfront] [272.020488ms] [Amazon CloudFront,Amazon Web Services,HTTP/3]

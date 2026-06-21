@@ -1,0 +1,4 @@
+https://catapult.network [301] [https://www.catapulting.com/] [162] [301 Moved Permanently] [nginx] [185.173.21.120] [726.103569ms] [HSTS,Nginx]
+https://status.bvnk.com [301] [http://bvnk.status.io/] [0] [AmazonS3] [52.85.193.80] [cloudfront] [53.254825ms] [Amazon CloudFront,Amazon S3,Amazon Web Services]
+https://www.bvnk.com [301] [https://bvnk.com/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [125.970538ms] [Cloudflare,HSTS,HTTP/3]
+https://www.catapult.network [301] [https://www.catapulting.com/] [162] [301 Moved Permanently] [nginx] [185.173.21.120] [693.760218ms] [HSTS,Nginx]

@@ -1,0 +1,30 @@
+[+] Started: Sun Jun 21 14:44:03 UTC 2026
+[+] Run ID: 27846046916
+[+] Batch: batch-0053
+[+] URL count: 1
+[0:00:05] | Templates: 6683 | Hosts: 1 | RPS: 88 | Matched: 0 | Errors: 0 | Requests: 465/14821 (3%)
+[0:00:10] | Templates: 6683 | Hosts: 1 | RPS: 97 | Matched: 0 | Errors: 0 | Requests: 1003/14821 (6%)
+[0:00:15] | Templates: 6683 | Hosts: 1 | RPS: 87 | Matched: 0 | Errors: 0 | Requests: 1328/14821 (8%)
+[0:00:20] | Templates: 6683 | Hosts: 1 | RPS: 81 | Matched: 0 | Errors: 0 | Requests: 1655/14821 (11%)
+[0:00:25] | Templates: 6683 | Hosts: 1 | RPS: 79 | Matched: 0 | Errors: 1 | Requests: 2011/14821 (13%)
+[0:00:30] | Templates: 6683 | Hosts: 1 | RPS: 78 | Matched: 0 | Errors: 2 | Requests: 2360/14821 (15%)
+[0:00:35] | Templates: 6683 | Hosts: 1 | RPS: 76 | Matched: 0 | Errors: 3 | Requests: 2708/14821 (18%)
+[0:00:40] | Templates: 6683 | Hosts: 1 | RPS: 78 | Matched: 0 | Errors: 3 | Requests: 3151/14821 (21%)
+[0:00:45] | Templates: 6683 | Hosts: 1 | RPS: 76 | Matched: 0 | Errors: 3 | Requests: 3452/14821 (23%)
+[0:00:50] | Templates: 6683 | Hosts: 1 | RPS: 76 | Matched: 0 | Errors: 3 | Requests: 3827/14821 (25%)
+[0:00:55] | Templates: 6683 | Hosts: 1 | RPS: 76 | Matched: 0 | Errors: 3 | Requests: 4221/14821 (28%)
+[0:01:00] | Templates: 6683 | Hosts: 1 | RPS: 70 | Matched: 0 | Errors: 3 | Requests: 4261/14821 (28%)
+[0:01:05] | Templates: 6683 | Hosts: 1 | RPS: 66 | Matched: 0 | Errors: 43 | Requests: 4325/14821 (29%)
+[0:01:10] | Templates: 6683 | Hosts: 1 | RPS: 62 | Matched: 0 | Errors: 97 | Requests: 4409/14821 (29%)
+[0:01:15] | Templates: 6683 | Hosts: 1 | RPS: 60 | Matched: 0 | Errors: 160 | Requests: 4519/14821 (30%)
+[0:01:20] | Templates: 6683 | Hosts: 1 | RPS: 57 | Matched: 0 | Errors: 223 | Requests: 4583/14821 (30%)
+[0:01:25] | Templates: 6683 | Hosts: 1 | RPS: 54 | Matched: 0 | Errors: 286 | Requests: 4656/14821 (31%)
+[0:01:30] | Templates: 6683 | Hosts: 1 | RPS: 51 | Matched: 0 | Errors: 326 | Requests: 4680/14821 (31%)
+[0:01:35] | Templates: 6683 | Hosts: 1 | RPS: 49 | Matched: 0 | Errors: 366 | Requests: 4702/14821 (31%)
+[0:01:40] | Templates: 6683 | Hosts: 1 | RPS: 47 | Matched: 0 | Errors: 406 | Requests: 4727/14821 (31%)
+[0:01:45] | Templates: 6683 | Hosts: 1 | RPS: 45 | Matched: 0 | Errors: 426 | Requests: 4737/14821 (31%)
+[0:01:50] | Templates: 6683 | Hosts: 1 | RPS: 42 | Matched: 0 | Errors: 432 | Requests: 4740/14821 (31%)
+[0:01:55] | Templates: 6683 | Hosts: 1 | RPS: 41 | Matched: 0 | Errors: 433 | Requests: 4741/14821 (31%)
+[0:01:56] | Templates: 6683 | Hosts: 1 | RPS: 40 | Matched: 0 | Errors: 433 | Requests: 4741/14821 (31%)
+[0:01:56] | Templates: 6683 | Hosts: 1 | RPS: 40 | Matched: 0 | Errors: 433 | Requests: 4741/14821 (31%)
+[+] Finished: Sun Jun 21 14:46:04 UTC 2026

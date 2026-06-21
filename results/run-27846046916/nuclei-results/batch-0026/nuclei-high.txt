@@ -1,0 +1,2 @@
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://feedback.hop.exchange/login [password="password123",username="alice"]
+[canny-takeover] [http] [high] https://feedback.plutusdao.io ["cname.canny.io"]

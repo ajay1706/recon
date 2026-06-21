@@ -1,0 +1,3 @@
+[prometheus-metrics] [http] [medium] https://linea-ccip-gateway.linea.build/metrics
+[prometheus-metrics] [http] [medium] https://linea-sepolia.rpc.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://linea.rpc.thirdweb.com/metrics

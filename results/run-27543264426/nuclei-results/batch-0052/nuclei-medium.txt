@@ -1,0 +1,5 @@
+[CVE-2022-41697] [http] [medium] https://blog.celestia.org/ghost/api/admin/session
+[prometheus-metrics] [http] [medium] https://blockscoutapi.internal.taiko.xyz/metrics
+[prometheus-metrics] [http] [medium] https://blockscoutapi.masaya.taiko.xyz/metrics
+[prometheus-metrics] [http] [medium] https://blockscoutapi.mainnet.taiko.xyz/metrics
+[prometheus-metrics] [http] [medium] https://blockscoutapi.hoodi.taiko.xyz/metrics

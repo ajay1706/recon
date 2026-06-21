@@ -1,0 +1,2 @@
+[prometheus-metrics] [http] [medium] https://zksync-era-testnet.rpc.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://zkverify-prom-node2.monitor.staking.nansen.ai/metrics

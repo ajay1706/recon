@@ -1,0 +1,82 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] consumer-web-assets.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] console.solv.finance:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] console.solv.finance:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] consumer-web-assets.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] content.parallel.life:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] content.parallel.life:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] context.mirror.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] context.mirror.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] contribute.optimism.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] converge-testnet.eu.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] converge-testnet.eu.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] converge-testnet.us-west.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] converge-testnet.us-west.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] coopahtroopa.mirror.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] cookie.fun:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] coopahtroopa.mirror.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] cookie.fun:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[expired-ssl] [ssl] [low] converge-testnet.us-east.canary-gateway.tenderly.co:443 ["2026-04-24 11:10:09 +0000 UTC"]
+[kubernetes-fake-certificate] [ssl] [low] coordinator-api-test-seb-1.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-api-test-seb-1.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-api-xiaojie-1.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-api-xiaojie-1.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-1.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-1.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-11.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-11.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-10.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-10.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-12.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-12.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-13.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-13.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-17.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-17.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-18.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-18.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-16.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-16.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-15.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-15.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-2.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-2.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-19.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-19.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-21.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-21.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-20.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-20.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-23.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-23.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-3.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-3.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-30.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-30.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-35.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-35.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-6.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-6.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-4.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-4.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-5.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-5.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-8.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-8.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-1.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-1.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-feynman-e2e-test-9.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-feynman-e2e-test-9.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-2.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-2.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-3.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-3.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-4.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-4.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-6.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-6.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-7.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-7.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-5.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-5.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] coordinator-galileo-8.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] coordinator-galileo-8.devnet.aws.scroll.io:443

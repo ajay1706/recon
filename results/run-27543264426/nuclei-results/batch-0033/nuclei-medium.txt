@@ -1,0 +1,3 @@
+[laravel-debugbar-exposure] [http] [medium] https://api-ide.manage.supra.com/_debugbar/open
+[prometheus-metrics] [http] [medium] https://ap1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://api-explorer.devnet.linea.build/metrics

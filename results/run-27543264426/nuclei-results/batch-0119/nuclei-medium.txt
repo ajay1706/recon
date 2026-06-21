@@ -1,0 +1,4 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://mainnet-sequencer-proxy.scroll.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://mainnet-rpc.scroll.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://mainnet.zircuit.com
+[intercom-identity-misconfiguration] [http] [medium] https://api-iam.intercom.io/messenger/web/ping ["https://mainnet-explorer.debridge.finance"]

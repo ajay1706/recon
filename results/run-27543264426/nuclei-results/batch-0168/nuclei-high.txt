@@ -1,0 +1,1 @@
+[CVE-2024-34351] [http] [high] https://staging.spherepay.co/_next/image?w=16&q=10&url=https://d8qsp7bomj13f79kbgfgfd9exq5bdhb8r.oast.pro

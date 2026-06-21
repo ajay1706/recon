@@ -1,0 +1,2 @@
+[debug-vars] [http] [low] https://98867.rpc.thirdweb.com/debug/vars
+[prometheus-metrics] [http] [medium] https://98867.rpc.thirdweb.com/metrics

@@ -1,0 +1,3 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://l1rpc.internal.taiko.xyz
+[blockchain-rpc-txpool-exposed] [http] [high] https://l1rpc.hoodi.taiko.xyz
+[blockchain-rpc-txpool-exposed] [http] [high] https://l2-mainnet.wallet.coinbase.com

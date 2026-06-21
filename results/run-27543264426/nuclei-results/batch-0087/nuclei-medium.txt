@@ -1,0 +1,2 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://evm-rpc.wallet.atlantic-2.sei.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://evm-rpc.wallet.arctic-1.sei.io

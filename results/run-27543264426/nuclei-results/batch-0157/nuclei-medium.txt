@@ -1,0 +1,2 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://rpc.garfield-testnet.zircuit.com
+[node-express-dev-env] [http] [medium] https://rpc-sapphire-mainnet.oceanprotocol.com

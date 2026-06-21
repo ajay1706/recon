@@ -1,0 +1,2 @@
+[rabbitmq-default-login] [http] [high] https://rabbitmq.internal.taiko.xyz/api/whoami [password="guest",username="guest"]
+[CVE-2019-11248] [http] [high] https://quote.omni.apex.exchange/debug/pprof/

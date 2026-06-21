@@ -1,0 +1,1 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://jsonrpc-1-rave-1.anvil.asia-southeast.initia.xyz

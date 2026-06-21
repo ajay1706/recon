@@ -1,0 +1,2 @@
+[nextjs-vite-public-env:public_env] [http] [medium] https://backoffice.prod.polygon.technology [""VITE_GITCOMMIT":"1fa566e5bfc64f388874e532ac7b6b0a13bbeaa2"",""VITE_VERSION":"v26.6.15-1fa566e"",""VITE_API_URL":"https://backoffice-api.prod.polygon.technology""]
+[prometheus-metrics] [http] [medium] https://babylon-vault-indexer-api.testnet.babylonlabs.io/metrics

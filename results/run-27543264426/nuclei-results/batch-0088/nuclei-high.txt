@@ -1,0 +1,1 @@
+[CVE-2024-34351] [http] [high] https://explorer.humanity.org/_next/image?w=16&q=10&url=http://d8pusoromj13e6n9s4h0xn8qryou1338w.oast.me

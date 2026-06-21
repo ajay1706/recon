@@ -1,0 +1,14 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] auth.farcaster.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] auth.farcaster.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] auth.id.pump.fun:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] auth.id.pump.fun:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] auth2.nansen.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] auth2.nansen.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] automation.chain.link:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] automation.chain.link:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[netlify-headers-config-exposure] [http] [low] https://automation.chain.link/_headers
+[unauthenticated-varnish-cache-purge] [http] [low] https://auth.developers.aptoslabs.com
+[unauthenticated-varnish-cache-purge] [http] [low] https://auth.genopets.me
+[unauthenticated-varnish-cache-purge] [http] [low] https://auth.developers.staging.aptoslabs.com
+[wp-user-enum:usernames] [http] [low] https://autoconfig.guild.xyz/wp-json/wp/v2/users/ ["michael","michael felici","matteo"]
+[wp-user-enum:usernames] [http] [low] https://autodiscover.guild.xyz/wp-json/wp/v2/users/ ["matteo","michael","michael felici"]

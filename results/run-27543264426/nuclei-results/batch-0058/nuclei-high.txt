@@ -1,0 +1,1 @@
+[CVE-2024-34351] [http] [high] https://canary-onboard.fetch.ai/_next/image?w=16&q=10&url=https://d8pfooad99c3eukchudgo863nhy76hcmi.oast.online

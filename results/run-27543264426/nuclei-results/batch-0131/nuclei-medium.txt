@@ -1,0 +1,1 @@
+[prometheus-metrics] [http] [medium] https://p-testnet.blockexplorer.optimism.io/api/metrics

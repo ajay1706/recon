@@ -1,0 +1,1 @@
+[retool-postmessage-xss] [http] [high] https://coreapp.worldcoin.org/libs/custom-component-collections.BRBIdv1C.umd.js

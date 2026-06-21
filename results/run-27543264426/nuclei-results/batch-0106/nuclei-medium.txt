@@ -1,0 +1,3 @@
+[node-express-dev-env] [http] [medium] https://incentive-backend.oceanprotocol.com
+[prometheus-metrics] [http] [medium] https://index-api.sequencer.mainnet.fuel.network/metrics
+[prometheus-metrics] [http] [medium] https://index-api.sequencer.testnet.fuel.network/metrics

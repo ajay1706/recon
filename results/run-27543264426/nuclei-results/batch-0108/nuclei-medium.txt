@@ -1,0 +1,2 @@
+[CVE-2021-20323] [http] [medium] https://iot.fetch.ai/auth/realms/master/clients-registrations/default
+[prometheus-metrics] [http] [medium] https://ipfs-uploader.zora.co/metrics

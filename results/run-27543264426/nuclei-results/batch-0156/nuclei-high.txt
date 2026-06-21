@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://rpc-amoy.polygon.technology
+[blockchain-rpc-txpool-exposed] [http] [high] https://rpc-2.mainnet.taiko.xyz

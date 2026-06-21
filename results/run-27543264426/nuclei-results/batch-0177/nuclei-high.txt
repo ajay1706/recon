@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://testnet-rpc.avantisfi.com
+[blockchain-rpc-txpool-exposed] [http] [high] https://testnet-rpc.plasma.to

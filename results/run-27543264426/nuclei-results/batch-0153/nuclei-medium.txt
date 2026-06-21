@@ -1,0 +1,1 @@
+[zip-backup-files] [http] [medium] https://quiz.basepaint.xyz/quiz.db [EXT="db",FILENAME="quiz"]

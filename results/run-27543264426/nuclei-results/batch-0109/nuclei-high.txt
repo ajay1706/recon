@@ -1,0 +1,1 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://jsonrpc-1-rave-1.anvil.asia-southeast.initia.xyz

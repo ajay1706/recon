@@ -1,0 +1,2 @@
+[CVE-2025-55184] [http] [high] https://chatgpt.sendai.fun
+[blockchain-rpc-txpool-exposed] [http] [high] https://chain-proxy.wallet.coinbase.com

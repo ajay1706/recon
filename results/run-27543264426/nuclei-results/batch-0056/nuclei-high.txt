@@ -1,0 +1,6 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed-public.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed1.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-testnet-dataseed.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-dataseed2.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-prebsc-dataseed.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://bsc-testnet.bnbchain.org

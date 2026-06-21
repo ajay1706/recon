@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://polygon-amoy-backend.phantom.app
+[framer-takeover] [http] [high] https://points.nansen.ai ["sites.framer.app"]

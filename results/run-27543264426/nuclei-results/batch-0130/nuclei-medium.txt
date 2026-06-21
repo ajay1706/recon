@@ -1,0 +1,4 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://opbnb-mainnet-rpc.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://opbnb-testnet-rpc.bnbchain.org
+[mongodb-exporter-metrics] [http] [medium] https://opbnb-testnet-bridge.bnbchain.org/metrics
+[mongodb-exporter-metrics] [http] [medium] https://opbnb-bridge.bnbchain.org/metrics

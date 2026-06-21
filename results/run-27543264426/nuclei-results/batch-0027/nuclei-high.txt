@@ -1,0 +1,1 @@
+[generic-env] [http] [high] https://admin.accessprotocol.co/.env [paths="/.env"]

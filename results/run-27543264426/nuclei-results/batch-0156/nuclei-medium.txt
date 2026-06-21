@@ -1,0 +1,1 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://rpc-alchemy.scroll.io

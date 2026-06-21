@@ -1,0 +1,3 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://vflow-devnet-rpc.zkverify.io
+[github-takeover] [http] [high] https://verify.solana.nil.foundation ["nilfoundation.github.io"]
+[github-takeover] [http] [high] https://verify.mina.nil.foundation ["nilfoundation.github.io"]

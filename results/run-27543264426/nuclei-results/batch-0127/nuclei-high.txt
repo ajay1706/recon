@@ -1,0 +1,1 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://node1.rpc.karak.network

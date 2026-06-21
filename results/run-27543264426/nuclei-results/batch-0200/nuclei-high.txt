@@ -1,0 +1,2 @@
+[CVE-2024-34351] [http] [high] https://www.spherepay.co/_next/image?w=16&q=10&url=https://d8rj0kromj13dnh2uke0s4ayru1uc7fun.oast.fun
+[framer-takeover] [http] [high] https://www.scroll.io

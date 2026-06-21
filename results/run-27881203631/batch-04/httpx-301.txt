@@ -1,0 +1,5 @@
+https://gamma-api.polymarket.com [301] [/docs] [40] [cloudflare] [104.18.34.205] [cloudflare] [114.584892ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://legacy-docs.polymarket.com [301] [https://learn.polymarket.com] [665] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [108.390494ms] [Cloudflare,Cloudflare Bot Management,Cloudflare Browser Insights,HSTS,HTTP/3]
+https://learn.polymarket.com [301] [https://docs.polymarket.com/polymarket-learn] [167] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [194.897952ms] [Cloudflare,HSTS,HTTP/3]
+https://gamma-cache.polymarket.com [301] [/docs] [40] [cloudflare] [104.18.34.205] [cloudflare] [238.503014ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://status-clob.polymarket.com [301] [https://status.polymarket.com/] [167] [301 Moved Permanently] [cloudflare] [104.18.34.205] [cloudflare] [230.875167ms] [Cloudflare,HSTS,HTTP/3]

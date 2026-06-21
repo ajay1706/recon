@@ -1,0 +1,124 @@
+# HTTPX Status Report
+
+Generated at: Sat Jun 20 22:58:06 UTC 2026
+
+HTTPX lines: 108
+Live URLs: 108
+
+## 200
+https://api.firecrawl.dev [200] [] [76] [] [35.245.250.27] [google] [51.293673ms]
+https://antibot.firecrawl.dev [200] [] [0] [] [76.223.60.10] [66.293667ms] [HSTS]
+https://billing.firecrawl.dev [200] [] [1418] [Manage Your Billing] [AmazonS3] [37.16.25.177] [127.546942ms] [Amazon CloudFront,Amazon S3,Amazon Web Services,HSTS,HTTP/3]
+https://cdp-proxy-staging.firecrawl.dev [200] [] [37] [] [35.245.250.27] [google] [43.9525ms]
+https://cdp-proxy.firecrawl.dev [200] [] [37] [] [35.245.250.27] [google] [72.729158ms]
+https://arena.browserbase.com [200] [] [25230] [Arena] [Vercel] [76.76.21.22] [107.924983ms] [HSTS,Vercel]
+https://charts.backpack.exchange [200] [] [3239] [Vercel] [216.150.1.193] [73.564656ms] [HSTS,Vercel]
+https://branding-extractor.firecrawl.dev [200] [] [9575] [Firecrawl Branding Extractor Demo] [Vercel] [216.150.16.193] [257.539681ms] [HSTS,Vercel]
+https://clerk.browserbase.com [200] [] [0] [cloudflare] [104.18.34.146] [cloudflare] [319.014142ms] [Cloudflare,Cloudflare Bot Management,Google Cloud,Google Cloud Trace,HSTS]
+https://cheetcode-ctf.firecrawl.dev [200] [] [12577] [CheetCode CTF] [Vercel] [76.76.21.21] [123.92746ms] [HSTS,Vercel]
+https://exporter.firecrawl.dev [200] [] [11] [] [35.245.250.27] [google] [68.919617ms] [Express,Node.js]
+https://cua.browserbase.com [200] [] [22958] [Computer Use Browser] [Vercel] [66.33.60.129] [70.891866ms] [HSTS,Vercel]
+https://jobmatcherai.firecrawl.dev [200] [] [1837] [Streamlit] [railway-hikari] [69.46.46.116] [360.820686ms]
+https://gemini.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [216.150.16.1] [221.417503ms] [HSTS,Vercel]
+https://google.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [66.33.60.130] [211.617765ms] [HSTS,Vercel]
+https://google-cua.browserbase.com [200] [] [25097] [Gemini Browser] [Vercel] [216.150.16.129] [259.631757ms] [HSTS,Vercel]
+https://mpp.browserbase.com [200] [] [3229] [Browserbase Payment Gateway (x402 + MPP)] [] [52.85.193.116] [cloudfront] [423.447916ms] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://llmstxt.firecrawl.dev [200] [] [15261] [Generate llms.txt] [Vercel] [66.33.60.193] [249.171533ms] [HSTS,Vercel]
+https://mcp-gate.firecrawl.dev [200] [] [21363] [MCP Gate - Download] [Vercel] [216.150.1.193] [393.36946ms] [HSTS,Vercel]
+https://operator.browserbase.com [200] [] [17673] [Open Operator] [Vercel] [76.76.21.93] [354.325614ms] [HSTS,Vercel]
+https://postpredictor.firecrawl.dev [200] [] [14784] [PostPredictor] [Vercel] [76.76.21.241] [302.424937ms] [HSTS,Vercel]
+https://trust.browserbase.com [200] [] [3463] [Browserbase Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [625.271196ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://community.firecrawl.dev [200] [] [135102] [Firecrawl Community] [nginx] [216.66.8.75] [261.417932ms] [Discourse:2026.6.0,HSTS,Nginx,Ruby on Rails]
+https://trust.firecrawl.dev [200] [] [3478] [Firecrawl Trust Center] [cloudflare] [104.18.26.175] [cloudflare] [936.260804ms] [Amazon S3,Amazon Web Services,Cloudflare,HSTS,Merge]
+https://ctf.firecrawl.dev [200] [] [119455] [CheetCode CTF] [Vercel] [216.150.16.129] [872.004889ms] [HSTS,Next.js,Node.js,React,RxJS,Vercel,Webpack]
+https://stealth.browserbase.com [200] [] [38700] [Browserbase Stealth Status] [Vercel] [76.76.21.142] [558.980335ms] [HSTS,Vercel]
+https://x402.browserbase.com [200] [] [3229] [Browserbase Payment Gateway (x402 + MPP)] [] [52.85.193.116] [cloudfront] [691.230797ms] [Amazon CloudFront,Amazon Web Services,Express,Node.js]
+https://openscouts.firecrawl.dev [200] [] [72672] [Open Scouts - AI-Powered Monitoring & Search] [Vercel] [216.150.1.193] [593.72304ms] [HSTS,Vercel]
+https://x-wrapped.firecrawl.dev [200] [] [23138] [X Wrapped 2025 | Your Year on X] [Vercel] [216.150.1.193] [459.276664ms] [HSTS,Vercel]
+https://status.browserbase.com [200] [] [88943] [Browserbase Status] [Vercel] [76.76.21.98] [668.724736ms] [HSTS,Vercel]
+https://learn.backpack.exchange [200] [] [119483] [Welcome to Backpack Learn] [cloudflare] [198.202.211.1] [792.958718ms] [Cloudflare,Google Font API,Google Hosted Libraries,Google Tag Manager,HSTS,HTTP/3,Htmx:1.9.2,Unpkg,Weglot,jQuery:3.5.1,jsDelivr]
+https://jp.support.backpack.exchange [200] [] [292075] [Trek Labs Japan -Backpack- | Backpack Exchange] [cloudflare] [172.64.147.209] [cloudflare] [461.056704ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://eu.support.backpack.exchange [200] [] [336335] [Start Here | Backpack EU] [cloudflare] [172.64.147.209] [cloudflare] [157.876783ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://status.firecrawl.dev [200] [] [244078] [Firecrawl status] [] [167.235.220.62] [981.935133ms] [Google Analytics,HSTS,HTTP/3,Ruby,Ruby on Rails,Stimulus]
+https://guide.backpack.exchange [200] [] [376171] [Welcome | Backpack Exchange] [cloudflare] [172.64.147.209] [cloudflare] [430.23947ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://dev.browserbase.com [200] [] [377768] [Browserbase] [Vercel] [76.76.21.98] [596.924016ms] [HSTS,Linkedin Ads,Vercel]
+https://support.backpack.exchange [200] [] [406012] [Start Here | Backpack Exchange] [cloudflare] [172.64.147.209] [cloudflare] [411.016876ms] [Cloudflare,GitBook,HSTS,HTTP/3,Vercel,dc.js]
+https://www.browserbase.com [200] [] [377834] [Browserbase] [Vercel] [76.76.21.93] [369.73957ms] [HSTS,Linkedin Ads,Vercel]
+https://status.backpack.exchange [200] [] [435459] [Backpack Exchange status] [] [167.235.220.62] [1.222848769s] [Google Analytics,HSTS,HTTP/3,Ruby,Ruby on Rails,Stimulus]
+https://www.firecrawl.dev [200] [] [1179429] [Firecrawl - The context API to search, scrape, and interact with the web at scale. 🔥] [Vercel] [76.76.21.22] [753.136791ms] [Google Tag Manager,HSTS,Next.js,Node.js,React,Vercel,Webpack]
+https://backpack.exchange [200] [] [2684310] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.112] [cloudfront] [1.000971797s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://eu.backpack.exchange [200] [] [2684307] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.112] [cloudfront] [1.557072453s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://wallet.backpack.exchange [200] [] [2684307] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.112] [cloudfront] [1.01414719s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://ui.backpack.exchange [200] [] [2684307] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [13.193.134.38] [2.310577508s] [Google Tag Manager,Next.js,Node.js,React,Webpack]
+https://www.backpack.exchange [200] [] [2684310] [Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC] [] [3.171.38.112] [cloudfront] [1.829021249s] [Amazon CloudFront,Amazon Web Services,Google Tag Manager,HSTS,HTTP/3,Next.js,Node.js,React,Webpack]
+https://docs.backpack.exchange [200] [] [3406003] [Backpack Exchange API] [GitHub.com] [185.199.108.153] [178.655753ms] [Fastly,GitHub Pages,Varnish]
+
+## 301
+https://browserbase.com [301] [https://www.browserbase.com/] [15] [Vercel] [76.76.21.21] [92.143932ms] [HSTS,Vercel]
+https://mcp.firecrawl.dev [301] [https://docs.firecrawl.dev/mcp-server] [169] [301 Moved Permanently] [nginx/1.30.2] [35.245.250.27] [google] [295.81222ms] [Nginx:1.30.2]
+http://liveview.firecrawl.dev [301] [https://liveview.firecrawl.dev/] [46] [Netlify] [98.84.224.111] [95.040149ms] [Netlify]
+
+## 302
+
+## 307
+https://app.browserbase.com [307] [https://www.browserbase.com/] [15] [Vercel] [76.76.21.21] [226.32595ms] [HSTS,Vercel]
+https://developers.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_StgGV/visitor-auth?location=%2F] [15] [cloudflare] [104.18.40.47] [cloudflare] [157.045311ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://cs.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_raLBH/visitor-auth?location=%2F] [15] [cloudflare] [172.64.147.209] [cloudflare] [216.760335ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://employee.backpack.exchange [307] [https://integrations.gitbook.com/v1/integrations/oidc/installations/cad4783f4f8b70eb120eddbbec5cda7a5120def33215954b553fa80b0564f59d/sites/site_NkOOV/visitor-auth?location=%2F] [15] [cloudflare] [104.18.40.47] [cloudflare] [131.370224ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://prometheus.firecrawl.dev [307] [https://firecrawl.dev/prometheus] [15] [Vercel] [216.150.16.193] [406.351145ms] [HSTS,Vercel]
+https://spring.firecrawl.dev [307] [/signin?redirectTo=%2F] [15] [Vercel] [216.150.1.1] [476.492052ms] [HSTS,Vercel]
+https://tools.firecrawl.dev [307] [https://firecrawl.dev/] [10895] [Firecrawl Tools] [Vercel] [66.33.60.67] [543.263061ms] [HSTS,Next.js,Node.js,React,Vercel,Webpack]
+
+## 308
+https://browsers.firecrawl.dev [308] [https://docs.firecrawl.dev] [0] [] [35.245.250.27] [google] [39.916175ms]
+https://firecrawl.dev [308] [https://www.firecrawl.dev/] [15] [Vercel] [76.76.21.21] [83.352697ms] [HSTS,Vercel]
+https://docs.browserbase.com [308] [/welcome/introduction] [160628] [Vercel] [66.33.60.129] [185.596708ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://docs.firecrawl.dev [308] [/introduction] [686133] [cloudflare] [104.18.2.204] [cloudflare] [141.65883ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+
+## 401
+https://ax.firecrawl.dev [401] [] [15007] [Authentication Required] [Vercel] [216.150.16.129] [116.316151ms] [HSTS,Vercel]
+https://ash.firecrawl.dev [401] [] [15010] [Authentication Required] [Vercel] [216.150.1.193] [119.595171ms] [HSTS,Vercel]
+https://firebrain.firecrawl.dev [401] [] [15028] [Authentication Required] [Vercel] [216.150.1.129] [104.239004ms] [HSTS,Vercel]
+https://lfg.firecrawl.dev [401] [] [15010] [Authentication Required] [Vercel] [216.150.16.193] [305.043364ms] [HSTS,Vercel]
+
+## 403
+https://accounts.browserbase.com [403] [] [9562] [Just a moment...] [cloudflare] [104.18.34.146] [cloudflare] [202.537655ms] [Cloudflare,Cloudflare Bot Management,HSTS]
+https://download.backpack.exchange [403] [] [1148] [Access Denied] [cloudflare] [162.159.140.159] [cloudflare] [63.048996ms] [Cloudflare,HTTP/3]
+https://api.cdn2.backpack.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [18.178.109.209] [676.219332ms] [Amazon ELB,Amazon Web Services]
+https://api.cdn1.backpack.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [52.192.188.13] [690.037208ms] [Amazon ELB,Amazon Web Services]
+https://api2.internal.backpack.exchange [403] [] [118] [403 Forbidden] [awselb/2.0] [52.192.188.13] [710.668721ms] [Amazon ELB,Amazon Web Services]
+https://api.internal.backpack.exchange [403] [] [520] [403 Forbidden] [awselb/2.0] [52.192.188.13] [937.20469ms] [Amazon ELB,Amazon Web Services]
+https://api2.backpack.exchange [403] [] [520] [403 Forbidden] [awselb/2.0] [13.196.50.11] [952.990369ms] [Amazon ELB,Amazon Web Services]
+https://api.bolt.backpack.exchange [403] [] [46] [awselb/2.0] [54.248.17.13] [1.059235939s] [Amazon ELB,Amazon Web Services]
+
+## 404
+https://api.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [40.984106ms]
+https://api.use1.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [54.225.169.26] [53.867998ms] [Amazon ELB,Amazon Web Services]
+https://browser.firecrawl.dev [404] [] [21] [Fly/7a9033265 (2026-06-19)] [66.241.125.114] [93.02011ms] [Fly.io]
+https://api.eu.backpack.exchange [404] [] [9] [] [3.167.88.39] [cloudfront] [218.96013ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.backpack.exchange [404] [] [9] [] [3.167.88.82] [cloudfront] [262.89238ms] [Amazon CloudFront,Amazon Web Services,HSTS,HTTP/3]
+https://api.browserbase.com [404] [] [72] [] [100.23.54.205] [276.051898ms]
+https://api.euc1.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [18.195.93.140] [430.246108ms] [Amazon ELB,Amazon Web Services]
+https://api.stagehand.browserbase.com [404] [] [0] [awselb/2.0] [35.160.107.193] [497.181497ms] [Amazon ELB,Amazon Web Services]
+https://email.updates.firecrawl.dev [404] [] [0] [] [35.190.5.171] [google] [74.313908ms] [HSTS,HTTP/3]
+https://email.firecrawl.dev [404] [] [0] [] [35.190.5.171] [google] [85.665968ms] [HSTS,HTTP/3]
+https://extract-v3-744233.firecrawl.dev [404] [] [139] [Error] [] [35.245.250.27] [google] [56.335856ms] [Express,Node.js]
+https://email.notifications.firecrawl.dev [404] [] [0] [] [34.98.83.137] [google] [319.885363ms] [Google Cloud,Google Cloud CDN,HSTS,HTTP/3]
+https://hydrant.firecrawl.dev [404] [] [22] [uvicorn] [167.233.19.255] [459.744443ms] [HTTP/3,Python,Uvicorn]
+https://integrations.firecrawl.dev [404] [] [52] [] [35.245.250.27] [google] [249.81304ms] [Express,Node.js]
+https://mcp.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [367.001185ms]
+https://mcp.browserbase.com [404] [] [0] [awselb/2.0] [34.217.171.74] [632.959692ms] [Amazon ELB,Amazon Web Services]
+https://parallel-agent.firecrawl.dev [404] [] [139] [Error] [] [35.245.250.27] [google] [313.296584ms] [Express,Node.js]
+https://open-operator.browserbase.com [404] [] [107] [cloudflare] [172.66.42.226] [cloudflare] [442.24562ms] [Cloudflare,HSTS,HTTP/3,Vercel]
+https://service.firecrawl.dev [404] [] [37] [cloudflare] [172.64.149.246] [cloudflare] [419.439706ms] [Cloudflare,Cloudflare Bot Management,HSTS,HTTP/3]
+https://work.staging.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [409.343014ms]
+https://work.firecrawl.dev [404] [] [19] [] [35.245.250.27] [google] [449.373588ms]
+
+## 500
+
+## 502
+https://auth-demo.firecrawl.dev [502] [] [332] [502 Server Error] [] [35.244.217.44] [google] [73.895462ms] [HTTP/3]
+https://address-watcher.backpack.exchange [502] [] [524] [502 Bad Gateway] [awselb/2.0] [52.196.185.125] [701.037511ms] [Amazon ELB,Amazon Web Services]
+
+## 503
+

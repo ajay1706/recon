@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 20 22:50:33 UTC 2026
+[+] Run ID: 27881203631
+[+] Batch name: batch-01
+[+] Batch targets:
+gradial.com
+grass.io
+harmonic.ai
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 20 22:51:11 UTC 2026
+[+] HTTPX input count: 273
+[+] Running httpx...
+[+] httpx completed: Sat Jun 20 22:51:44 UTC 2026
+[+] httpx line count: 158
+[+] Batch completed: Sat Jun 20 22:51:44 UTC 2026

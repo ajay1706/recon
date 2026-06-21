@@ -1,0 +1,1 @@
+https://faucet.testnet.suzuka.movementlabs.xyz [403] [] [5056] [Attention Required! | Cloudflare] [cloudflare] [172.66.152.119] [cloudflare] [75.130417ms] [Cloudflare,Cloudflare Browser Insights,HTTP/3]

@@ -1,0 +1,4 @@
+[CVE-2024-46310] [http] [medium] https://xxl-job.orderly.network/players.json
+[blockchain-rpc-debug-exposure] [http] [medium] https://xai-mainnet.rpc.quicknode.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://xai-testnet.rpc.quicknode.com
+[prometheus-metrics] [http] [medium] https://zksync-era-testnet.rpc.thirdweb.com/metrics

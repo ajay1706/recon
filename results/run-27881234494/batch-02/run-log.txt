@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 20 23:15:50 UTC 2026
+[+] Run ID: 27881234494
+[+] Batch name: batch-02
+[+] Batch targets:
+fal.ai
+firecrawl.dev
+gamma.app
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 20 23:17:30 UTC 2026
+[+] HTTPX input count: 8605
+[+] Running httpx...
+[+] httpx completed: Sat Jun 20 23:55:11 UTC 2026
+[+] httpx line count: 226
+[+] Batch completed: Sat Jun 20 23:55:11 UTC 2026

@@ -1,0 +1,8 @@
+http://content.together.ai [301] [https://content.together.ai/] [167] [301 Moved Permanently] [cloudflare] [199.60.103.254] [140.537795ms] [Cloudflare,Cloudflare Bot Management,HTTP/3]
+http://frankieferret.api.together.ai [301] [https://frankieferret.api.together.ai/] [162] [301 Moved Permanently] [nginx] [45.77.65.7] [193.827161ms] [Nginx]
+http://eu.api.together.ai [301] [https://eu.api.together.ai/] [167] [301 Moved Permanently] [cloudflare] [104.18.37.81] [cloudflare] [4.037988723s] [Cloudflare,HTTP/3]
+http://frankieferret.eu-central-2a.cloud.together.ai [301] [https://frankieferret.eu-central-2a.cloud.together.ai/] [162] [301 Moved Permanently] [nginx] [45.77.65.7] [191.300749ms] [Nginx]
+http://flyte.qa.cloud.together.ai [301] [https://flyte.qa.cloud.together.ai:443/] [134] [301 Moved Permanently] [awselb/2.0] [184.32.99.14] [2.345496889s] [Amazon ELB,Amazon Web Services]
+https://ord-idm.cloud.together.ai [301] [https://ord-idm.cloud.together.ai/ipa/ui] [248] [301 Moved Permanently] [Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1 mod_auth_gssapi/1.6.3 mod_wsgi/4.7.1 Python/3.9] [104.207.139.114] [2.101804484s] [Apache HTTP Server:2.4.62,OpenSSL:3.5.1,Python:3.9,mod_wsgi:4.7.1]
+https://sjc-idm.cloud.together.ai [301] [https://sjc-idm.cloud.together.ai/ipa/ui] [248] [301 Moved Permanently] [Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1 mod_auth_gssapi/1.6.3 mod_wsgi/4.7.1 Python/3.9] [45.32.134.159] [307.386323ms] [Apache HTTP Server:2.4.62,OpenSSL:3.5.1,Python:3.9,mod_wsgi:4.7.1]
+https://together.ai [301] [https://www.together.ai/] [166] [301 Moved Permanently] [cloudflare] [198.202.211.1] [117.49165ms] [Cloudflare,HTTP/3]

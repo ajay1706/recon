@@ -1,0 +1,5 @@
+https://blog.perplexity.ai [308] [https://www.perplexity.ai/hub/blog/] [1088] [308 Permanent Redirect] [cloudflare] [104.18.26.48] [cloudflare] [24.038312ms] [Cloudflare,HSTS]
+https://docs.primeintellect.ai [308] [/introduction] [148853] [Vercel] [76.76.21.93] [357.655016ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://docs.perplexity.ai [308] [/docs/getting-started/overview] [174056] [Vercel] [66.33.60.194] [340.536187ms] [Cloudflare,Cloudflare Browser Insights,HSTS,Vercel]
+https://podcast.perplexity.ai [308] [https://www.perplexity.ai/podcast] [1088] [308 Permanent Redirect] [cloudflare] [104.18.26.48] [cloudflare] [4.031773308s] [Cloudflare,HSTS]
+https://social.perplexity.ai [308] [https://www.social.perplexity.ai/] [69] [Framer/2ea93c3] [31.43.161.6] [216.474602ms] [Framer Sites,HSTS,HTTP/3,React]

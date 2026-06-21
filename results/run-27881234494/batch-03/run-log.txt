@@ -1,0 +1,14 @@
+[+] Batch started: Sat Jun 20 23:07:00 UTC 2026
+[+] Run ID: 27881234494
+[+] Batch name: batch-03
+[+] Batch targets:
+gradial.com
+groq.com
+heygen.com
+[+] Running subfinder...
+[+] Subfinder completed: Sat Jun 20 23:08:32 UTC 2026
+[+] HTTPX input count: 350
+[+] Running httpx...
+[+] httpx completed: Sat Jun 20 23:09:24 UTC 2026
+[+] httpx line count: 169
+[+] Batch completed: Sat Jun 20 23:09:24 UTC 2026

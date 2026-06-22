@@ -1,0 +1,1 @@
+[generic-linux-lfi] [http] [high] https://staging-webrtc.vapi.ai/etc/passwd [paths="/etc/passwd"]

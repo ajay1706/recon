@@ -1,0 +1,20 @@
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://creators.n8n.io/login [password="password123",username="alice"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] data-apps.character.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] data-apps.character.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-eu-central-1-backend-staging2.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-us-west-2-backend-production2.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-ap-southeast-2-backend-production1.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-us-west-2-backend-production3.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-us-west-2-backend-staging-sagar.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-us-west-2-backend-staging-sri-1.vapi.ai/_headers
+[netlify-headers-config-exposure] [http] [low] https://dashboard.aws-us-west-2-backend-staging2.vapi.ai/_headers
+[kubernetes-fake-certificate] [ssl] [low] cw10.baseten.co:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] cw10.baseten.co:443
+[kubernetes-fake-certificate] [ssl] [low] dashboard.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] dashboard.hephaestus.exa.ai:443
+[expired-ssl] [ssl] [low] databricks-job-manager-pr-21899.hephaestus.exa.ai:443 ["2026-06-11 01:40:34 +0000 UTC"]
+[expired-ssl] [ssl] [low] databricks-job-manager-pr-21933.hephaestus.exa.ai:443 ["2026-06-07 12:56:14 +0000 UTC"]
+[expired-ssl] [ssl] [low] databricks-job-manager-pr-23215.hephaestus.exa.ai:443 ["2026-06-11 20:39:03 +0000 UTC"]
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-23337.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-23337.hephaestus.exa.ai:443
+[expired-ssl] [ssl] [low] databricks-job-manager-pr-23339.hephaestus.exa.ai:443 ["2026-06-12 11:14:09 +0000 UTC"]

@@ -1,0 +1,2 @@
+[open-redirect-generic] [http] [medium] https://dev.supermemory.ai/%5Coast.me [redirect="%5Coast.me"]
+[django-debug-config-enabled] [http] [medium] https://dev.galenai.co/NON_EXISTING_PATH/

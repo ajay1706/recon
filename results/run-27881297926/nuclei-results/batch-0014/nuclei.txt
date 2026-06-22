@@ -1,0 +1,12 @@
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-32996.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-32996.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-35105.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-35105.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-36774.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-36774.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-36658.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-36658.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-36921.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-36921.hephaestus.exa.ai:443
+[kubernetes-fake-certificate] [ssl] [low] databricks-job-manager-pr-35836.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] databricks-job-manager-pr-35836.hephaestus.exa.ai:443

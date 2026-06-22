@@ -1,0 +1,3 @@
+[apache-casbin-mcp-gateway-default-login] [http] [high] https://dune.com/login [password="password123",username="alice"]
+[blockchain-rpc-txpool-exposed] [http] [high] https://api.0g.nansen.ai
+[framer-takeover] [http] [high] https://trade.nansen.ai ["sites.framer.app"]

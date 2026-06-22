@@ -1,0 +1,2 @@
+[kubernetes-fake-certificate] [ssl] [low] overseer-pr-37868.hephaestus.exa.ai:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] overseer-pr-37868.hephaestus.exa.ai:443

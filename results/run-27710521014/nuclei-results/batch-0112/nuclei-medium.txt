@@ -1,0 +1,2 @@
+[exposed-nomad] [http] [medium] https://nomad.alpha.fal.ai/ui/jobs
+[exposed-nomad] [http] [medium] https://nomad.shark.fal.ai/ui/jobs

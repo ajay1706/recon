@@ -1,0 +1,4 @@
+[CVE-2023-48795] [javascript] [medium] categories.qdrant.tech:22 ["Vulnerable to Terrapin"]
+[CVE-2025-24354] [http] [medium] https://cdn.magiceden.io/unsafe/plain/http://d8qbt3jomj13er4n609g1qoqb3u1ipkpn.oast.site
+[CVE-2023-30019] [http] [medium] https://cdn.magiceden.io/111/rs:fit:400:400:0:0/plain/http://d8qbt3jomj13er4n609gp7yjegrqysozy.oast.site
+[CVE-2023-30019] [http] [medium] https://cdn.magiceden.io/111/rs:fit:400:400:0:0/plain/http://d8qbt3jomj13er4n609gp7yjegrqysozy.oast.site

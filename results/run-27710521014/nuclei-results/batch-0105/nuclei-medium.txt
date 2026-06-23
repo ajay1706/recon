@@ -1,0 +1,4 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://mainnet-sequencer-proxy.scroll.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://mainnet-rpc.scroll.io
+[prometheus-metrics] [http] [medium] https://marketplace.dev.pinecone.io/metrics
+[nextjs-vite-public-env:public_env] [http] [medium] https://maru-dashboard.linea.build [""VITE_NETWORK_NAME":"mainnet"",""VITE_BEACON_API_URL":"https://maru.linea.build""]

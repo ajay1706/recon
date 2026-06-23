@@ -1,0 +1,12 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] custody.internal.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] custody.internal.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] custody.vip.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] custody.vip.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] custompage.story.foundation:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] custompage.story.foundation:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] dagster.codeium.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] dagster.codeium.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[expired-ssl] [ssl] [low] custody.internal.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] custody.vip.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] dagster.alpha.fal.ai:443 ["2026-04-13 17:28:01 +0000 UTC"]
+[self-signed-ssl] [ssl] [low] dapperdingo.api.together.ai:443

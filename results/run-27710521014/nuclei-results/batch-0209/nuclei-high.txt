@@ -1,0 +1,1 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://towns-devnet.rpc.caldera.xyz

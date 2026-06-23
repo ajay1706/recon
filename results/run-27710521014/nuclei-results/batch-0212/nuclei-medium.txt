@@ -1,0 +1,2 @@
+[prometheus-metrics] [http] [medium] https://us1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://us1.rpc-mg.thirdweb.com/metrics

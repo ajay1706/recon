@@ -1,0 +1,3 @@
+[CVE-2023-48795] [javascript] [medium] files.qdrant.tech:22 ["Vulnerable to Terrapin"]
+[CVE-2023-48795] [javascript] [medium] food-discovery.qdrant.tech:22 ["Vulnerable to Terrapin"]
+[prometheus-metrics] [http] [medium] https://flaky.ei.eng.xbow.com/metrics

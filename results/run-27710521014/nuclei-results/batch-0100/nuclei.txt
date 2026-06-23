@@ -1,0 +1,91 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://l2geth-rpc-proxy.mainnet.aws.scroll.io
+[blockchain-rpc-debug-exposure] [http] [medium] https://l2geth-rpc-proxy.sepolia.aws.scroll.io
+[node-express-dev-env] [http] [medium] https://launch-mint-v1.raydium.io
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.f1.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.faucet.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.f0.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.all.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.faucet.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.all.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.f0.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.f1.aptos.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.dns-naming.faucet.testnet.suzuka.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.certbot.rpc.testnet.bardock.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.dns-naming.faucet.testnet.suzuka.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.certbot.rpc.testnet.bardock.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l-monninger.docker-compose-rewrite.munet.suzuka.movementlabs.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l-monninger.docker-compose-rewrite.munet.suzuka.movementlabs.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l.gains.trade:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] kyc.optimism.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l.gains.trade:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] kyb.optimism.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-mainnet-node2-execution.eu-north-1.mainnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-mainnet-node2-beacon.mainnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-sepolia-node1-execution.garfield-testnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-sepolia-node1-beacon.garfield-testnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-mainnet-node2-execution.mainnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-sepolia-node1-execution.garfield-testnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-sepolia-node1-beacon.garfield-testnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-sepolia-node1.us-east-2.garfield-testnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-sepolia-node1-beacon.us-east-2.garfield-testnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l1-mainnet-node2-beacon.eu-north-1.mainnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-sepolia-node1.us-east-2.garfield-testnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-sepolia-node1-beacon.us-east-2.garfield-testnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-mainnet-node2-execution.eu-north-1.mainnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-mainnet-node2-beacon.mainnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-mainnet-node2-execution.mainnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l1-mainnet-node2-beacon.eu-north-1.mainnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l2dex-image-static.dev.apex.exchange:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l2dex-image-static.dev.apex.exchange:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l2geth-replica1.eu-north-1.mainnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] l2geth-replica1.us-east-2.garfield-testnet.zircuit.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l2geth-replica1.us-east-2.garfield-testnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lab.primeintellect.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lab.primeintellect.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] labs.manifold.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] labs.manifold.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] l2geth-replica1.eu-north-1.mainnet.zircuit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lambda.chain.link:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lambda.chain.link:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] langsmith.gtm.langconnect.langchain.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] langsmith.gtm.langconnect.langchain.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] launch-mint-v1.raydium.io:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] launch-mint-v1.raydium.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] launch.pendle.finance:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] launch.pendle.finance:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lb-api.polymarket.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lb-api.polymarket.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[prometheus-metrics] [http] [medium] https://l1-sepolia-node1-execution.garfield-testnet.zircuit.com/metrics
+[kubernetes-fake-certificate] [ssl] [low] l1-explorer.mars.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] l1-explorer.mars.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] l1-devnet.mars.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] l1-devnet.mars.devnet.aws.scroll.io:443
+[kubernetes-fake-certificate] [ssl] [low] l2-rpc.mars.devnet.aws.scroll.io:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] l2-rpc.mars.devnet.aws.scroll.io:443
+[expired-ssl] [ssl] [low] labs.manifold.xyz:443 ["2025-04-12 23:59:59 +0000 UTC"]
+[kubernetes-fake-certificate] [ssl] [low] lancedb-clap-search.research-g2.ops.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lancedb-clap-search.research-g2.ops.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g2.prod.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g2.prod.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g2.research.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g2.research.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g2.stage.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g2.stage.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g3.stage.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g3.stage.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g3.research.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g3.research.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g4.prod.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g4.prod.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g5.stage.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g5.stage.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g6.stage.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g6.stage.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g5.prod.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g5.prod.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g4.research.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g4.research.runwayml.com:443
+[kubernetes-fake-certificate] [ssl] [low] lb.g4.stage.runwayml.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] lb.g4.stage.runwayml.com:443

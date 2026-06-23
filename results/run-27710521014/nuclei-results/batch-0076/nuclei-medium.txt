@@ -1,0 +1,4 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://eth-sepolia-backend.phantom.app
+[prometheus-metrics] [http] [medium] https://eu.api.hub.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://eu.api.smith.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://eu.sandbox.langchain.com/metrics

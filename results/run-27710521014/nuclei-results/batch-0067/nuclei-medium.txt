@@ -1,0 +1,3 @@
+[prometheus-metrics] [http] [medium] https://dev.api.smith.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://dev.api.hub.langchain.com/metrics
+[rails-debug-mode] [http] [medium] https://dev.crewai.com/3FLfTPA87JuHD5rjqmE9LjnJkqt

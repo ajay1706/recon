@@ -1,0 +1,6 @@
+[prometheus-metrics] [http] [medium] https://test.sandbox.langchain.com/metrics
+[docker-registry] [http] [medium] https://tcr.s1.us-central-7a.cloud.together.ai/v2/_catalog
+[docker-registry] [http] [medium] https://tcr.s1.ca-west-1b.cloud.together.ai/v2/_catalog
+[docker-registry] [http] [medium] https://tcr.s2.ca-west-1a.cloud.together.ai/v2/_catalog
+[docker-registry] [http] [medium] https://tcr.s2.ca-west-1b.cloud.together.ai/v2/_catalog
+[docker-registry] [http] [medium] https://tcr.s3.us-central-8a.cloud.together.ai/v2/_catalog

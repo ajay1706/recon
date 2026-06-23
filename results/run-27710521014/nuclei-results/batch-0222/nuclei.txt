@@ -1,0 +1,47 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] withdrawal.prod.blast.io:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] withdrawal.prod.blast.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] worldchain-mainnet.bridge.alchemy.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] worldchain-mainnet.bridge.alchemy.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] worldchain-mainnet.eu.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] worldchain-mainnet.eu.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] worldchain-mainnet.us-west.canary-gateway.tenderly.co:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] worldchain-mainnet.us-west.canary-gateway.tenderly.co:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] worldchain-sepolia.bridge.alchemy.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] worldchain-sepolia.bridge.alchemy.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] worldsim.nousresearch.com:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] worldsim.nousresearch.com:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] wrkr.gains.trade:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] wrkr.gains.trade:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-api.binance.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-auth-aws.vip.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-auth-aws.vip.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-auth.internal.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-auth.internal.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-api.binance.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-auth.vip.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-auth.vip.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-equities-auth.internal.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-equities-auth.internal.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ws-equities-auth.vip.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ws-equities-auth.vip.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[kubernetes-metrics] [http] [low] https://worldchain-mainnet.bridge.alchemy.com/metrics
+[mongodb-exporter-metrics] [http] [medium] https://worldchain-mainnet.bridge.alchemy.com/metrics
+[postgres-exporter-metrics] [http] [low] https://worldchain-mainnet.bridge.alchemy.com/metrics
+[kubernetes-metrics] [http] [low] https://worldchain-sepolia.bridge.alchemy.com/metrics
+[mongodb-exporter-metrics] [http] [medium] https://worldchain-sepolia.bridge.alchemy.com/metrics
+[self-signed-ssl] [ssl] [low] work.staging.firecrawl.dev:443
+[kubernetes-fake-certificate] [ssl] [low] world-mobile-devnet.explorer.alchemy.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] world-mobile-devnet.explorer.alchemy.com:443
+[kubernetes-fake-certificate] [ssl] [low] world3-devnet.explorer.alchemy.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] world3-devnet.explorer.alchemy.com:443
+[kubernetes-fake-certificate] [ssl] [low] worldmobile-devnet.explorer.alchemy.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] worldmobile-devnet.explorer.alchemy.com:443
+[kubernetes-fake-certificate] [ssl] [low] worldmobilechain-mainnet.explorer.alchemy.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] worldmobilechain-mainnet.explorer.alchemy.com:443
+[kubernetes-fake-certificate] [ssl] [low] worldmobile-testnet.explorer.alchemy.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] worldmobile-testnet.explorer.alchemy.com:443
+[expired-ssl] [ssl] [low] ws-auth-aws.vip.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] ws-auth.internal.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] ws-auth.vip.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] ws-equities-auth.internal.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]
+[expired-ssl] [ssl] [low] ws-equities-auth.vip.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]

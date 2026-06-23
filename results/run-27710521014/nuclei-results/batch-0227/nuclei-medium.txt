@@ -1,0 +1,2 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://xai-mainnet.rpc.quicknode.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://xai-testnet.rpc.quicknode.com

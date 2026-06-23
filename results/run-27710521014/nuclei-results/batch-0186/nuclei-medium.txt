@@ -1,0 +1,5 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress-eu.mainnet.zircuit.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress-us.garfield-testnet.zircuit.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress.us-east-2.garfield-testnet.zircuit.com
+[blockchain-rpc-debug-exposure] [http] [medium] https://proxyd-ingress.eu-north-1.mainnet.zircuit.com
+[node-express-dev-env] [http] [medium] https://proxy.zerion.io

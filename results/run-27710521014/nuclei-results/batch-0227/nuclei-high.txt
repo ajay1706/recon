@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://xai-mainnet.rpc.quicknode.com
+[blockchain-rpc-txpool-exposed] [http] [high] https://xai-testnet.rpc.quicknode.com

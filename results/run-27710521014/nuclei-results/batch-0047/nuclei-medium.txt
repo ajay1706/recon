@@ -1,0 +1,2 @@
+[prometheus-metrics] [http] [medium] https://beta.api.hub.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://beta.api.smith.langchain.com/metrics

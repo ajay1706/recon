@@ -1,0 +1,3 @@
+[node-express-dev-env] [http] [medium] https://exporter.firecrawl.dev
+[prometheus-metrics] [http] [medium] https://fantom.rpc.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://fantom-testnet.rpc.thirdweb.com/metrics

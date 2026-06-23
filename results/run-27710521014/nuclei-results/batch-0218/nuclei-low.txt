@@ -1,0 +1,2 @@
+[expired-ssl] [ssl] [low] vmselect.alpha.fal.ai:443 ["2026-05-17 14:40:54 +0000 UTC"]
+[expired-ssl] [ssl] [low] vmselect-m2m.alpha.fal.ai:443 ["2026-05-17 14:40:55 +0000 UTC"]

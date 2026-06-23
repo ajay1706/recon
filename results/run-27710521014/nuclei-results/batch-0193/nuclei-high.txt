@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://rpc.berachain.com
+[blockchain-rpc-txpool-exposed] [http] [high] https://rpc.karak.network

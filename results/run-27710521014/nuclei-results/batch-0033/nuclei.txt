@@ -1,0 +1,24 @@
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-aws.vip.uat.lobster.kraken.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-aws.vip.uat.lobster.kraken.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-apse1.together.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-apse1.together.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-backend-frontend.n.anthropic.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-claim.berachain.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-backend-frontend.n.anthropic.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-claim.berachain.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-aws.together.ai:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-aws.together.ai:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-demo.bybit.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-dexscreener-v3.balancer.fi:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-devnet-kori.scroll.io:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-dexscreener-v3.balancer.fi:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[debug-vars] [http] [low] https://ap1.multiregion.thirdweb.com/debug/vars
+[python-metrics] [http] [low] https://apac.api.hub.langchain.com/metrics
+[python-metrics] [http] [low] https://apac.api.smith.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://ap1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.api.hub.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.api.smith.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.sandbox.langchain.com/metrics
+[kubernetes-fake-certificate] [ssl] [low] anthropic-k8s.codeium.com:443 ["Issuer: Kubernetes Ingress Controller Fake Certificate"]
+[self-signed-ssl] [ssl] [low] anthropic-k8s.codeium.com:443
+[expired-ssl] [ssl] [low] api-aws.vip.uat.lobster.kraken.com:443 ["2020-10-14 23:59:59 +0000 UTC"]

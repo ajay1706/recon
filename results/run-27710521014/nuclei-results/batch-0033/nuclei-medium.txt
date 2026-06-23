@@ -1,0 +1,4 @@
+[prometheus-metrics] [http] [medium] https://ap1.multiregion.thirdweb.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.api.hub.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.api.smith.langchain.com/metrics
+[prometheus-metrics] [http] [medium] https://apac.sandbox.langchain.com/metrics

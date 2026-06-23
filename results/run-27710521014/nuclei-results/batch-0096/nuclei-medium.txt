@@ -1,0 +1,2 @@
+[prometheus-metrics] [http] [medium] https://index-api.sequencer.testnet.fuel.network/metrics
+[prometheus-metrics] [http] [medium] https://index-api.sequencer.mainnet.fuel.network/metrics

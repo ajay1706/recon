@@ -1,0 +1,1 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://zksync-os-mainnet-dawn.zksync.io

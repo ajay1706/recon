@@ -1,0 +1,2 @@
+[blockchain-rpc-txpool-exposed] [http] [high] https://opbnb-mainnet-rpc.bnbchain.org
+[blockchain-rpc-txpool-exposed] [http] [high] https://opbnb-testnet-rpc.bnbchain.org

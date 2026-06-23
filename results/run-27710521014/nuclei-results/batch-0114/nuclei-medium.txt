@@ -1,0 +1,5 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://opbnb-mainnet-rpc.bnbchain.org
+[blockchain-rpc-debug-exposure] [http] [medium] https://opbnb-testnet-rpc.bnbchain.org
+[ldap-anonymous-login-detect] [javascript] [medium] ord-idm.cloud.together.ai
+[mongodb-exporter-metrics] [http] [medium] https://opbnb-testnet-bridge.bnbchain.org/metrics
+[mongodb-exporter-metrics] [http] [medium] https://opbnb-bridge.bnbchain.org/metrics

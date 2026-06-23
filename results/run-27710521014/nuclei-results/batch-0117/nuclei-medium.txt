@@ -1,0 +1,1 @@
+[blockchain-rpc-debug-exposure] [http] [medium] https://polygon-mainnet-backend.phantom.app
